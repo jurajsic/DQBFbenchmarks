@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE benchmark PUBLIC "+//IDN sosy-lab.org//DTD BenchExec benchmark 1.18//EN" "https://www.sosy-lab.org/benchexec/benchmark-1.18.dtd">
+<benchmark tool="mytoolinfos.hqspre"
+           timelimit="10min"
+           memlimit="1000 MB"
+           cpuCores="1">
+
+  <rundefinition/>
+           
+  <!-- <tasks> defines a set of tasks
+       (here two group of files from SV-COMP15 declared in a separate file). -->
+  <tasks name="test">
+    <include>test*.dqdimacs</include>
+  </tasks>
+
+</benchmark>

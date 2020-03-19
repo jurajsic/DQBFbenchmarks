@@ -1,0 +1,11 @@
+testing - some test benchmarks to see if benchexec works
+
+dqbf18 - benchmarks used for DQBF track of QBF Evaluation 2018 competition (http://www.qbflib.org/event_page.php?year=2018)
+dqbf19 - benchmarks used for DQBF track of QBF Evaluation 2019 competition (http://www.qbflib.org/event_page.php?year=2019)
+
+These are from https://abs.informatik.uni-freiburg.de/src/projects_view.php?projectID=21
+Finkenbeier - DQBFs  resulting  from  equivalence  checking  of  incomplete  circuits  
+Scholl - DQBFs  resulting  from  equivalence  checking  of  incomplete  circuits  
+Biere - DQBFs  resulting  from  equivalence  checking  of  incomplete  circuits  
+Balabanov - instances obtained from converting SATinstances into DQBFs that depend only on a logarithmic number of variables 
+Bloem - DQBFs  resulting  from  controller synthesis problems
