@@ -7,10 +7,9 @@
     
   <rundefinition/>
            
-  <!-- <tasks> defines a set of tasks
-       (here two group of files from SV-COMP15 declared in a separate file). -->
-  <tasks name="sat18benchmarks">
-    <include>test*.dqdimacs</include>
+           
+  <tasks name="testing">
+    <include>benchmarks/testing/*.dqdimacs</include>
   </tasks>
   
   
