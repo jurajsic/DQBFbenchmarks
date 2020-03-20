@@ -57,6 +57,6 @@ class Tool(benchexec.tools.template.BaseTool):
     def get_value_from_output(self, lines, identifier):
         # to check if problem was solved by preprocessor - we ignore identifier, there should be only one defined column for benchexec with name like "solved by preprocessor" or something
         for line in lines:
-            if line == identifier:
+            if identifier in line:
                 return True
         return False
