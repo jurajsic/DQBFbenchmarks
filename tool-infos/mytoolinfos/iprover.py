@@ -41,10 +41,9 @@ class Tool(benchexec.tools.template.BaseTool):
             for line in output:
                 if 'SZS status Satisfiable' in line:
                     return result.RESULT_SAT
-                elif 'SZS status Unsatisfiable' in line:
+                if 'SZS status Unsatisfiable' in line:
                     return result.RESULT_UNSAT
-                else:
-                    return result.RESULT_UNKNOWN
+            return result.RESULT_UNKNOWN
         elif ((returnsignal == 9) or (returnsignal == 15)) and isTimeout:
             return "TIMEOUT"
         elif returnsignal == 9:
