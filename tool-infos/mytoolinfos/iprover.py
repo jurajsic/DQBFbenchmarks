@@ -38,12 +38,13 @@ class Tool(benchexec.tools.template.BaseTool):
     
     def determine_result(self, returncode, returnsignal, output, isTimeout):
         if ((returnsignal == 0) and (returncode == 0)):
-            if 'SZS status Satisfiable' in output:
-                return result.RESULT_SAT
-            elif 'SZS status Unsatisfiable' in output:
-                return result.RESULT_UNSAT
-            else:
-                return result.RESULT_UNKNOWN
+            for line in output:
+                if 'SZS status Satisfiable' in line:
+                    return result.RESULT_SAT
+                elif 'SZS status Unsatisfiable' in line:
+                    return result.RESULT_UNSAT
+                else:
+                    return result.RESULT_UNKNOWN
         elif ((returnsignal == 9) or (returnsignal == 15)) and isTimeout:
             return "TIMEOUT"
         elif returnsignal == 9:
