@@ -16,7 +16,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# hqs tool definition by Juraj Síč
+# iprover tool definition by Juraj Síč
 
 import benchexec.result as result
 import benchexec.util as util
@@ -24,26 +24,29 @@ import benchexec.tools.template
 
 class Tool(benchexec.tools.template.BaseTool):
     """
-    Tool info for HQS
+    Tool info for iProver
     """
-
+    
     def executable(self):
-        return util.find_executable('HQSnp')
+        return util.find_executable('iproveropt_v3.1_static')
 
     def name(self):
-        return 'HQS'
+        return 'iProver'
 
-    def version(self, executable):
-        return self._version_from_tool(executable, arg='--help').split('This is ',1)[1].split(',',1)[0]
-
+    def version(self, executable, arg='--help'):
+        return self._version_from_tool(executable).split('- ',1)[1].split(' ',1)[0]
+    
+    def cmdline(self, executable, options, tasks, propertyfile=None, rlimits={}):
+        return [executable] + options + '--qbf_mode true' + tasks
+    
     def determine_result(self, returncode, returnsignal, output, isTimeout):
-        if returnsignal == 0:
-            if returncode == 10:
+        if ((returnsignal == 0) and (returncode == 0)):
+            if 'SZS status Satisfiable' in output:
                 return result.RESULT_SAT
-            elif returncode == 20:
+            elif 'SZS status Unsatisfiable' in output:
                 return result.RESULT_UNSAT
             else:
-                return "ERROR"
+                return result.RESULT_UNKNOWN
         elif ((returnsignal == 9) or (returnsignal == 15)) and isTimeout:
             return "TIMEOUT"
         elif returnsignal == 9:
@@ -54,11 +57,3 @@ class Tool(benchexec.tools.template.BaseTool):
             return "KILLED"
         else:
             return "ERROR ({0})".format(returncode)
-
-
-    def get_value_from_output(self, lines, identifier):
-        # to check if problem was solved by preprocessor - we ignore identifier, there should be only one defined column for benchexec with name like "solved by preprocessor" or something
-        for line in lines:
-            if identifier in line:
-                return True
-        return False

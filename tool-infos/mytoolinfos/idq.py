@@ -16,7 +16,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# hqs tool definition by Juraj Síč
+# idq tool definition by Juraj Síč
 
 import benchexec.result as result
 import benchexec.util as util
@@ -24,18 +24,18 @@ import benchexec.tools.template
 
 class Tool(benchexec.tools.template.BaseTool):
     """
-    Tool info for HQS
+    Tool info for iDQ
     """
-
+    
     def executable(self):
-        return util.find_executable('HQSnp')
+        return util.find_executable('idq')
 
     def name(self):
-        return 'HQS'
+        return 'iDQ'
 
     def version(self, executable):
-        return self._version_from_tool(executable, arg='--help').split('This is ',1)[1].split(',',1)[0]
-
+        return self._version_from_tool(executable)
+        
     def determine_result(self, returncode, returnsignal, output, isTimeout):
         if returnsignal == 0:
             if returncode == 10:
@@ -43,7 +43,7 @@ class Tool(benchexec.tools.template.BaseTool):
             elif returncode == 20:
                 return result.RESULT_UNSAT
             else:
-                return "ERROR"
+                return result.RESULT_UNKNOWN
         elif ((returnsignal == 9) or (returnsignal == 15)) and isTimeout:
             return "TIMEOUT"
         elif returnsignal == 9:
@@ -54,11 +54,3 @@ class Tool(benchexec.tools.template.BaseTool):
             return "KILLED"
         else:
             return "ERROR ({0})".format(returncode)
-
-
-    def get_value_from_output(self, lines, identifier):
-        # to check if problem was solved by preprocessor - we ignore identifier, there should be only one defined column for benchexec with name like "solved by preprocessor" or something
-        for line in lines:
-            if identifier in line:
-                return True
-        return False
