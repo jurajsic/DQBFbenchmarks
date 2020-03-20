@@ -9,7 +9,7 @@
            
            
   <tasks name="testing">
-    <include>benchmarks/testing/*.dqdimacs</include>
+    <include>../benchmarks/testing/*.dqdimacs</include>
   </tasks>
   
   
