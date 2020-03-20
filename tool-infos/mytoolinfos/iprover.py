@@ -34,10 +34,10 @@ class Tool(benchexec.tools.template.BaseTool):
         return 'iProver'
 
     def version(self, executable, arg='--help'):
-        return self._version_from_tool(executable).split('- ',1)[1].split(' ',1)[0]
+        return self._version_from_tool(executable).split('- ',1)[1].split(' -',1)[0]
     
     def cmdline(self, executable, options, tasks, propertyfile=None, rlimits={}):
-        return [executable] + options + '--qbf_mode true' + tasks
+        return [executable] + options + ' --qbf_mode true ' + tasks
     
     def determine_result(self, returncode, returnsignal, output, isTimeout):
         if ((returnsignal == 0) and (returncode == 0)):
