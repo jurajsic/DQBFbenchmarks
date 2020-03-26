@@ -50,4 +50,4 @@ class Tool(benchexec.tools.template.BaseTool):
         elif returnsignal == 15:
             return "KILLED"
         else:
-            return "ERROR ({0})".format(returncode)
+            return "ERROR ({0},{1})".format(returnsignal,returncode)

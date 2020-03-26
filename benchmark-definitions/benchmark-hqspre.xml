@@ -9,7 +9,7 @@
   <rundefinition/>
            
   <tasks name="test">
-    <include>../benchmarks/testing/test*.dqdimacs</include>
+    <include>../benchmarks/testing/*</include>
   </tasks>
 
   <tasks name="dqbf19">
