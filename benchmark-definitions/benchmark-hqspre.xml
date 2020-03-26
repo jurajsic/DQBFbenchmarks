@@ -2,7 +2,7 @@
 <!DOCTYPE benchmark PUBLIC "+//IDN sosy-lab.org//DTD BenchExec benchmark 1.18//EN" "https://www.sosy-lab.org/benchexec/benchmark-1.18.dtd">
 <benchmark tool="mytoolinfos.hqspre"
            timelimit="15min"
-           memlimit="32000 MB"
+           memlimit="4000 MB"
            cpuCores="1"
            threads="12">
 
