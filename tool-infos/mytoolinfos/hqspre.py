@@ -28,7 +28,7 @@ class Tool(benchexec.tools.template.BaseTool):
     """
     
     def executable(self):
-        return util.find_executable('HQSpre')
+        return util.find_executable('HQSpresimple')
 
     def name(self):
         return 'HQSpre'
