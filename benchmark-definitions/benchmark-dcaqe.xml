@@ -15,28 +15,26 @@
 
   <!-- benchmarks from QBFeval18 -->
   <tasks name="dqbf18">
-    <include>../benchmarks/afterhqspre/dqbf19/*</include>
+    <include>../benchmarks/afterhqspre/dqbf18/*.dqdimacs</include>
   </tasks>
   
   <!-- benchmarks from QBFeval19 -->
   <tasks name="dqbf19">
-    <include>../benchmarks/afterhqspre/dqbf19/*</include>
+    <include>../benchmarks/afterhqspre/dqbf19/*.dqdimacs</include>
   </tasks>
   
   <!-- benchmarks from equivalence  checking  of  incomplete  circuits -->
   <tasks name="PEC">
-    <include>../benchmarks/afterhqspre/Finkbeiner/*</include>
-    <include>../benchmarks/afterhqspre/Scholl/*</include>
-    <include>../benchmarks/afterhqspre/Biere/*</include>
+    <include>../benchmarks/afterhqspre/PEC/*.dqdimacs</include>
   </tasks>
   
   <!-- benchmarks from converting SATinstances into DQBFs -->
   <tasks name="SAT">
-    <include>../benchmarks/afterhqspre/Balabanov/*</include>
+    <include>../benchmarks/afterhqspre/SAT/*.dqdimacs</include>
   </tasks>
   
   <!-- benchmarks from controller synthesis problems -->
   <tasks name="CSP">
-    <include>../benchmarks/afterhqspre/Bloem/*</include>
+    <include>../benchmarks/afterhqspre/CSP/*.dqdimacs</include>
   </tasks>
 </benchmark>

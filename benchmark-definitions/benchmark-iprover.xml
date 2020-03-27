@@ -1,16 +1,43 @@
 <?xml version="1.0"?>
 <!DOCTYPE benchmark PUBLIC "+//IDN sosy-lab.org//DTD BenchExec benchmark 1.18//EN" "https://www.sosy-lab.org/benchexec/benchmark-1.18.dtd">
 <benchmark tool="mytoolinfos.iprover"
-           timelimit="10min"
-           memlimit="1000 MB">
-    <!--        cpuCores="1"> -->
+           timelimit="15min"
+           memlimit="4000 MB"
+           cpuCores="1"
+           threads="12">
     
   <rundefinition name="qbf-mode">
     <option name="--qbf_mode">true</option>
   </rundefinition>
-           
-           
+  
+  
+  <!-- test benchmarks -->  
   <tasks name="testing">
     <include>../benchmarks/testing/test*.dqdimacs</include>
+  </tasks>
+
+  <!-- benchmarks from QBFeval18 -->
+  <tasks name="dqbf18">
+    <include>../benchmarks/afterhqspre/dqbf18/*.dqdimacs</include>
+  </tasks>
+  
+  <!-- benchmarks from QBFeval19 -->
+  <tasks name="dqbf19">
+    <include>../benchmarks/afterhqspre/dqbf19/*.dqdimacs</include>
+  </tasks>
+  
+  <!-- benchmarks from equivalence  checking  of  incomplete  circuits -->
+  <tasks name="PEC">
+    <include>../benchmarks/afterhqspre/PEC/*.dqdimacs</include>
+  </tasks>
+  
+  <!-- benchmarks from converting SATinstances into DQBFs -->
+  <tasks name="SAT">
+    <include>../benchmarks/afterhqspre/SAT/*.dqdimacs</include>
+  </tasks>
+  
+  <!-- benchmarks from controller synthesis problems -->
+  <tasks name="CSP">
+    <include>../benchmarks/afterhqspre/CSP/*.dqdimacs</include>
   </tasks>
 </benchmark>
