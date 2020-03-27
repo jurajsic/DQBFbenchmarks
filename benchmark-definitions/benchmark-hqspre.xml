@@ -7,13 +7,37 @@
            threads="12">
 
   <rundefinition/>
-           
+  
+  <!-- test benchmarks -->
   <tasks name="test">
     <include>../benchmarks/testing/*</include>
   </tasks>
 
+  <!-- benchmarks from QBFeval18 -->
+  <tasks name="dqbf18">
+    <include>../benchmarks/original/dqbf19/*</include>
+  </tasks>
+  
+  <!-- benchmarks from QBFeval19 -->
   <tasks name="dqbf19">
-    <include>../benchmarks/dqbf19/*</include>
+    <include>../benchmarks/original/dqbf19/*</include>
+  </tasks>
+  
+  <!-- benchmarks from equivalence  checking  of  incomplete  circuits -->
+  <tasks name="PEC">
+    <include>../benchmarks/original/Finkbeiner/*</include>
+    <include>../benchmarks/original/Scholl/*</include>
+    <include>../benchmarks/original/Biere/*</include>
+  </tasks>
+  
+  <!-- benchmarks from converting SATinstances into DQBFs -->
+  <tasks name="SAT">
+    <include>../benchmarks/original/Balabanov/*</include>
+  </tasks>
+  
+  <!-- benchmarks from controller synthesis problems -->
+  <tasks name="CSP">
+    <include>../benchmarks/original/Bloem/*</include>
   </tasks>
   
 </benchmark>
