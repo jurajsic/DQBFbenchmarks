@@ -1,0 +1,380 @@
+   BENCHMARK INFORMATION
+benchmark definition:    benchmark-definitions/benchmark-hqspre.xml
+name:                    benchmark-hqspre
+run sets:                dqbf19
+date:                    Thu, 2020-03-26 18:42:28 CET
+tool:                    HQSpre
+tool executable:         /home/xsic/DQBFbenchmarks/solvers/HQSpre
+options:                 
+parallel runs:           12
+resource limits:
+- memory:                4000.0 MB
+- time:                  900 s
+- cpu cores:             1
+hardware requirements:
+- cpu cores:             1
+- memory:                4000.0 MB
+------------------------------------------------------------
+
+   SYSTEM INFORMATION
+host:                    islay
+os:                      Linux-3.16.0-4-amd64-x86_64-with-debian-8.5
+cpu:                     Intel Xeon CPU E5-2620 v2 @ 2.10GHz
+- cores:                 24
+- max frequency:         2600.0 MHz
+- turbo boost enabled:   False
+ram:                     135450.984448 MB
+------------------------------------------------------------
+
+
+
+dqbf19
+Run set 1 of 1 with options '' and propertyfile 'None'
+
+inputfile                                                           status                    cpu time   wall time        host
+------------------------------------------------------------------------------------------------------------------------------
+battleship-10-10-unsat.cnf.dqdimacs                                 unsat                        11.38       11.43        None
+battleship-10-17-sat.cnf.dqdimacs                                   TIMEOUT                     901.67      901.08        None
+battleship-10-19-sat.cnf.dqdimacs                                   sat                          11.73       11.76        None
+battleship-11-11-unsat.cnf.dqdimacs                                 TIMEOUT                     901.67      901.05        None
+battleship-11-21-sat.cnf.dqdimacs                                   sat                         113.77      113.76        None
+battleship-12-12-unsat.cnf.dqdimacs                                 TIMEOUT                     901.68      901.05        None
+battleship-13-13-unsat.cnf.dqdimacs                                 TIMEOUT                     901.24      901.09        None
+battleship-5-8-unsat.cnf.dqdimacs                                   unsat                         0.82        0.85        None
+battleship-6-9-unsat.cnf.dqdimacs                                   unsat                         1.00        1.13        None
+battleship-7-12-unsat.cnf.dqdimacs                                  TIMEOUT                     901.66      901.06        None
+bloem_add10n.dqdimacs                                               ERROR (30)                    0.29        0.33        None
+bloem_add10y.dqdimacs                                               ERROR (30)                    0.30        0.33        None
+bloem_add16n.dqdimacs                                               ERROR (30)                    0.71        0.99        None
+bloem_add20n.dqdimacs                                               ERROR (30)                    1.26        1.30        None
+bloem_add2y.dqdimacs                                                sat                           0.00        0.05        None
+bloem_add4n.dqdimacs                                                sat                           0.01        0.06        None
+bloem_add4y.dqdimacs                                                sat                           0.02        0.06        None
+bloem_add6n.dqdimacs                                                ERROR (30)                    0.07        0.43        None
+bloem_add6y.dqdimacs                                                sat                           0.03        0.06        None
+bloem_add8y.dqdimacs                                                ERROR (30)                    0.15        0.18        None
+bloem_amba10b4unrealy.dqdimacs                                      ERROR (30)                    1.31        1.34        None
+bloem_amba2f8unrealy.dqdimacs                                       ERROR (30)                    0.15        0.21        None
+bloem_amba3b4unrealy.dqdimacs                                       ERROR (30)                    0.23        0.40        None
+bloem_amba3c5n.dqdimacs                                             ERROR (30)                    0.29        0.33        None
+bloem_amba4b9n.dqdimacs                                             ERROR (30)                    0.32        0.37        None
+bloem_amba4c7n.dqdimacs                                             ERROR (30)                    0.30        0.59        None
+bloem_amba5b4unrealy.dqdimacs                                       ERROR (30)                    0.38        0.59        None
+bloem_amba6c5n.dqdimacs                                             ERROR (30)                    0.40        0.57        None
+bloem_amba7b4unrealy.dqdimacs                                       ERROR (30)                    0.52        0.58        None
+bloem_amba8c6unrealn.dqdimacs                                       ERROR (30)                    0.46        0.64        None
+bloem_amba8c7y.dqdimacs                                             ERROR (30)                    0.58        0.66        None
+bloem_amba8f56unrealy.dqdimacs                                      ERROR (30)                    0.80        0.86        None
+bloem_amba8f57n.dqdimacs                                            ERROR (30)                    0.67        0.71        None
+bloem_amba9b5y.dqdimacs                                             ERROR (30)                    1.09        1.12        None
+bloem_amba9c5n.dqdimacs                                             ERROR (30)                    0.73        0.78        None
+bloem_bs128y.dqdimacs                                               ERROR (30)                  107.72      107.71        None
+bloem_bs16n.dqdimacs                                                ERROR (30)                    0.39        0.44        None
+bloem_bs16y.dqdimacs                                                ERROR (30)                    0.38        0.49        None
+bloem_bs64n.dqdimacs                                                ERROR (30)                   11.30       11.40        None
+bloem_bs8y.dqdimacs                                                 ERROR (30)                    0.06        0.12        None
+bloem_cnt11n.dqdimacs                                               ERROR (30)                    0.04        0.08        None
+bloem_cnt11y.dqdimacs                                               ERROR (30)                    0.04        0.11        None
+bloem_cnt2n.dqdimacs                                                sat                           0.01        0.21        None
+bloem_cnt2unrealy.dqdimacs                                          unsat                         0.00        0.06        None
+bloem_cnt3n.dqdimacs                                                sat                           0.01        0.05        None
+bloem_cnt3y.dqdimacs                                                sat                           0.01        0.07        None
+bloem_cnt4n.dqdimacs                                                ERROR (30)                    0.01        0.05        None
+bloem_cnt6n.dqdimacs                                                ERROR (30)                    0.02        0.06        None
+bloem_cnt6y.dqdimacs                                                ERROR (30)                    0.02        0.05        None
+bloem_cnt7y.dqdimacs                                                ERROR (30)                    0.02        0.08        None
+bloem_cnt9n.dqdimacs                                                ERROR (30)                    0.04        0.07        None
+bloem_ex2.dqdimacs                                                  sat                           0.00        0.06        None
+bloem_genbuf10b4y.dqdimacs                                          ERROR (30)                    0.54        0.91        None
+bloem_genbuf10c3n.dqdimacs                                          ERROR (30)                    0.41        0.49        None
+bloem_genbuf11b3unrealn.dqdimacs                                    ERROR (30)                    0.55        0.60        None
+bloem_genbuf11c2unrealn.dqdimacs                                    ERROR (30)                    0.42        0.47        None
+bloem_genbuf11c2unrealy.dqdimacs                                    ERROR (30)                    0.42        0.61        None
+bloem_genbuf11f11n.dqdimacs                                         ERROR (30)                    0.47        0.59        None
+bloem_genbuf11f11y.dqdimacs                                         ERROR (30)                    0.55        0.60        None
+bloem_genbuf12b4y.dqdimacs                                          ERROR (30)                    0.55        0.97        None
+bloem_genbuf12f12n.dqdimacs                                         ERROR (30)                    0.55        0.60        None
+bloem_genbuf12f12y.dqdimacs                                         ERROR (30)                    0.53        0.58        None
+bloem_genbuf13b4n.dqdimacs                                          ERROR (30)                    0.66        0.74        None
+bloem_genbuf13f13y.dqdimacs                                         ERROR (30)                    0.65        0.86        None
+bloem_genbuf14b3unrealn.dqdimacs                                    ERROR (30)                    0.72        0.86        None
+bloem_genbuf14c2unrealn.dqdimacs                                    ERROR (30)                    0.54        0.59        None
+bloem_genbuf15b4y.dqdimacs                                          ERROR (30)                    1.03        1.10        None
+bloem_genbuf15c3y.dqdimacs                                          ERROR (30)                    0.77        0.83        None
+bloem_genbuf15f14unrealy.dqdimacs                                   ERROR (30)                    0.77        0.83        None
+bloem_genbuf15f15n.dqdimacs                                         ERROR (30)                    0.82        0.86        None
+bloem_genbuf16c2unrealn.dqdimacs                                    ERROR (30)                    0.66        0.73        None
+bloem_genbuf16c3y.dqdimacs                                          ERROR (30)                    0.64        0.75        None
+bloem_genbuf1b4n.dqdimacs                                           ERROR (30)                    0.11        0.15        None
+bloem_genbuf1f3unrealn.dqdimacs                                     ERROR (30)                    0.11        0.14        None
+bloem_genbuf2b4n.dqdimacs                                           ERROR (30)                    0.14        0.20        None
+bloem_genbuf3f4y.dqdimacs                                           ERROR (30)                    0.13        0.19        None
+bloem_genbuf4c3n.dqdimacs                                           ERROR (30)                    0.20        0.44        None
+bloem_genbuf5f4unrealn.dqdimacs                                     ERROR (30)                    0.20        0.44        None
+bloem_genbuf5f4unrealy.dqdimacs                                     ERROR (30)                    0.20        0.42        None
+bloem_genbuf6b4y.dqdimacs                                           ERROR (30)                    0.35        0.51        None
+bloem_genbuf7c2unrealn.dqdimacs                                     ERROR (30)                    0.27        0.44        None
+bloem_genbuf7f7y.dqdimacs                                           ERROR (30)                    0.32        0.48        None
+bloem_genbuf8b3unrealn.dqdimacs                                     ERROR (30)                    0.39        0.48        None
+bloem_genbuf8b4y.dqdimacs                                           ERROR (30)                    0.37        0.42        None
+bloem_genbuf8c2unrealn.dqdimacs                                     ERROR (30)                    0.38        0.53        None
+bloem_genbuf9b4n.dqdimacs                                           ERROR (30)                    0.35        0.44        None
+bloem_genbuf9c2unrealy.dqdimacs                                     ERROR (30)                    0.46        0.51        None
+bloem_genbuf9c3n.dqdimacs                                           ERROR (30)                    0.38        0.46        None
+bloem_genbuf9f8unrealy.dqdimacs                                     ERROR (30)                    0.43        0.48        None
+bloem_ifm_amba15n.dqdimacs                                          ERROR (30)                    1.87        2.03        None
+bloem_mult11.dqdimacs                                               sat                           0.02        0.07        None
+bloem_mult2.dqdimacs                                                sat                           0.00        0.07        None
+bloem_mult4.dqdimacs                                                sat                           0.00        0.07        None
+bloem_mult6.dqdimacs                                                sat                           0.01        0.07        None
+bloem_mult9.dqdimacs                                                sat                           0.01        0.04        None
+bloem_mv11n.dqdimacs                                                ERROR (30)                    0.13        0.50        None
+bloem_mv20n.dqdimacs                                                ERROR (30)                    0.40        0.50        None
+bloem_mv20y.dqdimacs                                                ERROR (30)                    0.38        0.52        None
+bloem_mv4n.dqdimacs                                                 ERROR (30)                    0.02        0.06        None
+bloem_mv9y.dqdimacs                                                 ERROR (30)                    0.08        0.12        None
+bloem_mvs24n.dqdimacs                                               ERROR (30)                    0.29        0.54        None
+bloem_mvs2y.dqdimacs                                                sat                           0.00        0.05        None
+bloem_mvs4n.dqdimacs                                                ERROR (30)                    0.01        0.07        None
+bloem_stay12y.dqdimacs                                              ERROR (30)                    0.34        0.42        None
+bloem_stay18n.dqdimacs                                              ERROR (30)                    1.66        1.92        None
+bloem_stay2n.dqdimacs                                               sat                           0.01        0.07        None
+bloem_stay4n.dqdimacs                                               ERROR (30)                    0.03        0.06        None
+bloem_stay4y.dqdimacs                                               ERROR (30)                    0.03        0.09        None
+bloem_stay6n.dqdimacs                                               ERROR (30)                    0.11        0.15        None
+bloem_unrealizable.dqdimacs                                         unsat                         0.00        0.06        None
+crn_11_100_s.cnf.dqdimacs                                           sat                         230.50      230.46        None
+crn_11_99_u.cnf.dqdimacs                                            unsat                         8.12        8.16        None
+eulcbip-7-UNSAT.shuffled-as.sat05-3936.cnf.dqdimacs                 TIMEOUT                     901.68      901.07        None
+f600.shuffled.cnf.dqdimacs                                          TIMEOUT                     901.67      901.06        None
+hwb-n28-01-S136611085.shuffled-as.sat03-1627.cnf.dqdimacs           TIMEOUT                     901.68      901.08        None
+lksat-n900-m3357-k3-l5-s950595579.used-as.sat04-938.cnf.dqdimacs    sat                           6.96        7.02        None
+marg3x3add8.shuffled-as.sat03-1449.cnf.dqdimacs                     unsat                         1.51        1.58        None
+marg3x3add8ch.shuffled-as.sat03-1448.cnf.dqdimacs                   unsat                         7.73        7.79        None
+mm-2x2-6-6-s.1.shuffled-as.sat03-1499.cnf.dqdimacs                  unsat                       230.08      229.98        None
+mod2-rand3bip-sat-270-1.shuffled-as.sat05-2248.cnf.dqdimacs         TIMEOUT                     901.68      901.06        None
+php-010-008.shuffled-as.sat05-1171.cnf.dqdimacs                     unsat                         0.79        0.86        None
+scholl_C432.blif_0.10_0.10_2_0_henkin.dqdimacs                      ERROR (30)                    0.12        0.18        None
+scholl_C432.blif_0.10_1.00_0_2_henkin.dqdimacs                      ERROR (30)                    0.11        0.15        None
+scholl_C432.blif_0.10_1.00_2_0_henkin.dqdimacs                      ERROR (30)                    0.06        0.13        None
+scholl_C432.blif_0.10_1.00_7_2_henkin.dqdimacs                      ERROR (30)                    0.12        0.19        None
+scholl_C432.blif_0.10_1.00_7_3_henkin.dqdimacs                      ERROR (30)                    0.10        0.15        None
+scholl_C432.blif_0.20_0.50_2_0_henkin.dqdimacs                      ERROR (30)                    0.15        0.19        None
+scholl_C432.blif_0.20_0.50_2_1_henkin.dqdimacs                      ERROR (30)                    0.15        0.23        None
+scholl_C432.blif_0.20_1.00_0_0_henkin.dqdimacs                      ERROR (30)                    0.05        0.09        None
+scholl_C432.blif_0.20_1.00_2_2_henkin.dqdimacs                      unsat                         0.03        0.07        None
+scholl_C432.blif_0.20_1.00_7_1_henkin.dqdimacs                      ERROR (30)                    0.10        0.15        None
+scholl_C432.blif_0.20_1.00_8_2_henkin.dqdimacs                      ERROR (30)                    0.11        0.16        None
+scholl_C432.blif_0.30_1.00_2_1_henkin.dqdimacs                      unsat                         0.03        0.07        None
+scholl_C432.blif_0.40_1.00_1_2_henkin.dqdimacs                      ERROR (30)                    0.17        0.22        None
+scholl_C432.blif_0.50_1.00_3_3_henkin.dqdimacs                      ERROR (30)                    0.13        0.19        None
+scholl_C432.blif_0.50_1.00_6_3_henkin.dqdimacs                      ERROR (30)                    0.24        0.29        None
+scholl_C432.blif_0.50_1.00_8_1_henkin.dqdimacs                      ERROR (30)                    0.13        0.17        None
+scholl_C499.blif_0.10_1.00_0_1_henkin.dqdimacs                      unsat                         0.12        0.18        None
+scholl_C499.blif_0.10_1.00_2_1_henkin.dqdimacs                      unsat                         0.12        0.18        None
+scholl_C499.blif_0.10_1.00_3_0_henkin.dqdimacs                      ERROR (30)                    0.27        0.31        None
+scholl_C499.blif_0.10_1.00_4_2_henkin.dqdimacs                      ERROR (30)                    0.28        0.37        None
+scholl_C499.blif_0.10_1.00_7_2_henkin.dqdimacs                      ERROR (30)                    0.18        0.24        None
+scholl_C499.blif_0.10_1.00_9_2_henkin.dqdimacs                      ERROR (30)                    0.28        0.33        None
+scholl_C499.blif_0.20_1.00_1_1_henkin.dqdimacs                      unsat                         0.15        0.18        None
+scholl_C499.blif_0.20_1.00_2_0_henkin.dqdimacs                      ERROR (30)                    0.19        0.25        None
+scholl_C499.blif_0.50_1.00_8_1_henkin.dqdimacs                      ERROR (30)                    0.19        0.23        None
+scholl_C499.blif_0.60_1.00_0_3_henkin.dqdimacs                      unsat                         0.12        0.19        None
+scholl_comp.blif_0.10_0.10_0_0_henkin.dqdimacs                      ERROR (30)                    0.10        0.15        None
+scholl_comp.blif_0.10_0.10_0_2_henkin.dqdimacs                      ERROR (30)                    0.06        0.09        None
+scholl_comp.blif_0.10_0.10_0_3_henkin.dqdimacs                      ERROR (30)                    0.08        0.15        None
+scholl_comp.blif_0.10_0.10_1_3_henkin.dqdimacs                      ERROR (30)                    0.09        0.14        None
+scholl_comp.blif_0.10_0.20_0_0_henkin.dqdimacs                      ERROR (30)                    0.07        0.12        None
+scholl_comp.blif_0.10_0.20_1_3_henkin.dqdimacs                      ERROR (30)                    0.85        0.91        None
+scholl_comp.blif_0.10_0.20_2_1_henkin.dqdimacs                      ERROR (30)                    0.07        0.12        None
+scholl_comp.blif_0.10_0.50_0_3_henkin.dqdimacs                      ERROR (30)                    0.07        0.10        None
+scholl_comp.blif_0.10_0.50_1_3_henkin.dqdimacs                      ERROR (30)                    0.85        0.92        None
+scholl_comp.blif_0.10_1.00_0_0_henkin.dqdimacs                      ERROR (30)                    0.05        0.11        None
+scholl_comp.blif_0.10_1.00_0_1_henkin.dqdimacs                      ERROR (30)                    0.11        0.19        None
+scholl_comp.blif_0.10_1.00_2_0_henkin.dqdimacs                      ERROR (30)                    0.08        0.15        None
+scholl_comp.blif_0.10_1.00_2_1_henkin.dqdimacs                      ERROR (30)                    0.05        0.11        None
+scholl_comp.blif_0.10_1.00_2_3_henkin.dqdimacs                      ERROR (30)                    0.07        0.13        None
+scholl_comp.blif_0.10_1.00_4_2_henkin.dqdimacs                      ERROR (30)                    0.14        0.17        None
+scholl_comp.blif_0.10_1.00_5_2_henkin.dqdimacs                      ERROR (30)                    0.76        0.81        None
+scholl_comp.blif_0.10_1.00_9_3_henkin.dqdimacs                      ERROR (30)                    0.11        0.19        None
+scholl_comp.blif_0.20_0.10_0_2_henkin.dqdimacs                      ERROR (30)                    0.09        0.16        None
+scholl_comp.blif_0.20_0.10_1_1_henkin.dqdimacs                      ERROR (30)                    0.17        0.22        None
+scholl_comp.blif_0.20_0.20_0_3_henkin.dqdimacs                      ERROR (30)                    0.09        0.14        None
+scholl_comp.blif_0.20_0.20_2_2_henkin.dqdimacs                      ERROR (30)                    0.09        0.16        None
+scholl_comp.blif_0.20_1.00_4_0_henkin.dqdimacs                      ERROR (30)                    0.12        0.20        None
+scholl_comp.blif_0.20_1.00_5_1_henkin.dqdimacs                      ERROR (30)                    0.07        0.13        None
+scholl_comp.blif_0.20_1.00_9_3_henkin.dqdimacs                      ERROR (30)                    0.08        0.15        None
+scholl_comp.blif_0.30_0.50_2_1_henkin.dqdimacs                      ERROR (30)                    0.10        0.19        None
+scholl_comp.blif_0.50_1.00_2_2_henkin.dqdimacs                      ERROR (30)                    0.05        0.08        None
+scholl_comp.blif_0.50_1.00_4_0_henkin.dqdimacs                      ERROR (30)                    0.03        0.10        None
+scholl_comp.blif_0.50_1.00_5_1_henkin.dqdimacs                      ERROR (30)                    0.11        0.15        None
+scholl_comp.blif_0.50_1.00_9_1_henkin.dqdimacs                      ERROR (30)                    0.03        0.09        None
+scholl_comp.blif_0.50_1.00_9_2_henkin.dqdimacs                      ERROR (30)                    0.03        0.08        None
+scholl_comp.blif_0.60_1.00_4_0_henkin.dqdimacs                      ERROR (30)                    0.03        0.09        None
+scholl_comp.blif_0.60_1.00_5_0_henkin.dqdimacs                      ERROR (30)                    0.11        0.22        None
+scholl_comp.blif_0.60_1.00_9_2_henkin.dqdimacs                      ERROR (30)                    0.04        0.09        None
+scholl_term1.blif_0.10_1.00_5_1_henkin.dqdimacs                     ERROR (30)                   28.16       28.21        None
+scholl_term1.blif_0.10_1.00_5_2_henkin.dqdimacs                     ERROR (30)                   18.41       18.45        None
+scholl_term1.blif_0.20_1.00_3_1_henkin.dqdimacs                     ERROR (30)                    0.24        0.33        None
+scholl_term1.blif_0.20_1.00_3_2_henkin.dqdimacs                     ERROR (30)                    0.19        0.25        None
+scholl_term1.blif_0.20_1.00_5_2_henkin.dqdimacs                     ERROR (30)                   18.42       18.49        None
+scholl_term1.blif_0.20_1.00_9_0_henkin.dqdimacs                     ERROR (30)                    0.21        0.30        None
+scholl_term1.blif_0.50_1.00_3_0_henkin.dqdimacs                     ERROR (30)                    0.23        0.30        None
+scholl_term1.blif_0.50_1.00_3_1_henkin.dqdimacs                     ERROR (30)                    0.22        0.30        None
+scholl_term1.blif_0.50_1.00_5_0_henkin.dqdimacs                     ERROR (30)                   27.45       27.52        None
+scholl_term1.blif_0.50_1.00_5_3_henkin.dqdimacs                     ERROR (30)                   48.53       48.58        None
+scholl_term1.blif_0.50_1.00_9_2_henkin.dqdimacs                     unsat                         0.08        0.13        None
+scholl_term1.blif_0.60_1.00_3_1_henkin.dqdimacs                     ERROR (30)                    0.23        0.28        None
+scholl_term1.blif_0.60_1.00_3_3_henkin.dqdimacs                     ERROR (30)                    0.23        0.31        None
+scholl_term1.blif_0.60_1.00_5_1_henkin.dqdimacs                     ERROR (30)                   28.55       28.81        None
+scholl_term1.blif_0.60_1.00_9_0_henkin.dqdimacs                     ERROR (30)                    0.21        0.30        None
+scholl_term1.blif_0.60_1.00_9_1_henkin.dqdimacs                     unsat                         0.08        0.17        None
+scholl_z4ml.blif_0.10_0.10_0_3_henkin.dqdimacs                      unsat                         0.01        0.09        None
+scholl_z4ml.blif_0.10_0.10_1_2_henkin.dqdimacs                      unsat                         0.01        0.07        None
+scholl_z4ml.blif_0.10_0.10_2_3_henkin.dqdimacs                      ERROR (30)                    0.02        0.06        None
+scholl_z4ml.blif_0.10_0.20_0_3_henkin.dqdimacs                      unsat                         0.01        0.09        None
+scholl_z4ml.blif_0.10_0.20_1_2_henkin.dqdimacs                      unsat                         0.00        0.05        None
+scholl_z4ml.blif_0.10_0.20_2_0_henkin.dqdimacs                      ERROR (30)                    0.02        0.08        None
+scholl_z4ml.blif_0.10_0.50_0_1_henkin.dqdimacs                      ERROR (30)                    0.02        0.07        None
+scholl_z4ml.blif_0.10_0.50_2_3_henkin.dqdimacs                      ERROR (30)                    0.02        0.06        None
+scholl_z4ml.blif_0.10_1.00_0_3_henkin.dqdimacs                      unsat                         0.01        0.06        None
+scholl_z4ml.blif_0.10_1.00_1_3_henkin.dqdimacs                      unsat                         0.00        0.07        None
+scholl_z4ml.blif_0.10_1.00_2_0_henkin.dqdimacs                      ERROR (30)                    0.03        0.09        None
+scholl_z4ml.blif_0.10_1.00_2_1_henkin.dqdimacs                      unsat                         0.01        0.09        None
+scholl_z4ml.blif_0.20_0.50_2_0_henkin.dqdimacs                      sat                           0.05        0.10        None
+scholl_z4ml.blif_0.20_1.00_1_0_henkin.dqdimacs                      ERROR (30)                    0.02        0.07        None
+scholl_z4ml.blif_0.20_1.00_2_1_henkin.dqdimacs                      unsat                         0.00        0.09        None
+scholl_z4ml.blif_0.20_1.00_7_0_henkin.dqdimacs                      ERROR (30)                    0.04        0.12        None
+scholl_z4ml.blif_0.20_1.00_7_1_henkin.dqdimacs                      unsat                         0.00        0.06        None
+scholl_z4ml.blif_0.30_0.10_1_2_henkin.dqdimacs                      ERROR (30)                    0.01        0.08        None
+scholl_z4ml.blif_0.30_0.10_2_1_henkin.dqdimacs                      ERROR (30)                    0.02        0.07        None
+scholl_z4ml.blif_0.50_0.50_1_0_henkin.dqdimacs                      sat                           0.11        0.14        None
+scholl_z4ml.blif_0.50_1.00_0_1_henkin.dqdimacs                      unsat                         0.01        0.20        None
+scholl_z4ml.blif_0.50_1.00_7_0_henkin.dqdimacs                      sat                           0.05        0.12        None
+scholl_z4ml.blif_0.50_1.00_7_3_henkin.dqdimacs                      unsat                         0.05        0.10        None
+scholl_z4ml.blif_0.50_1.00_9_3_henkin.dqdimacs                      unsat                         0.01        0.07        None
+scholl_z4ml.blif_0.60_1.00_7_2_henkin.dqdimacs                      unsat                         0.01        0.08        None
+sgen3-n120-s12930489-sat.cnf.dqdimacs                               sat                          75.53       75.55        None
+sgen3-n140-s18527668-sat.cnf.dqdimacs                               TIMEOUT                     901.67      901.28        None
+sgen3-n160-s40283905-sat.cnf.dqdimacs                               TIMEOUT                     901.68      901.09        None
+sgen3-n180-s34713902-sat.cnf.dqdimacs                               TIMEOUT                     901.56      901.05        None
+sgen3-n200-s39840374-sat.cnf.dqdimacs                               TIMEOUT                     901.67      901.08        None
+sgen3-n220-s24359701-sat.cnf.dqdimacs                               TIMEOUT                     901.67      901.07        None
+sgen3-n240-s78945233-sat.cnf.dqdimacs                               TIMEOUT                     901.67      901.07        None
+sgen3-n260-s62321009-sat.cnf.dqdimacs                               TIMEOUT                     901.67      901.06        None
+sgen3-n280-s93756482-sat.cnf.dqdimacs                               TIMEOUT                     901.23      901.07        None
+sgen3-n300-s12830984-sat.cnf.dqdimacs                               TIMEOUT                     901.68      901.05        None
+tentrup_amba_case_study_system_1.dqdimacs                           unsat                        99.40       99.39        None
+tentrup_amba_case_study_unreal2_system_1.dqdimacs                   unsat                       181.30      181.24        None
+tentrup_amba_decomposed_arbiter_system_8.dqdimacs                   sat                         166.34      166.31        None
+tentrup_amba_decomposed_decode_environment_16.dqdimacs              ERROR (30)                    0.01        0.11        None
+tentrup_amba_decomposed_lock_environment_2.dqdimacs                 unsat                         0.05        0.11        None
+tentrup_amba_decomposed_tburst4_system_1.dqdimacs                   unsat                         0.04        0.13        None
+tentrup_amba_decomposed_tburst4_system_16.dqdimacs                  ERROR (30)                    0.14        0.22        None
+tentrup_detector_unreal_environment_16.dqdimacs                     sat                           0.02        0.06        None
+tentrup_full_arbiter_environment_4.dqdimacs                         unsat                        42.78       42.82        None
+tentrup_full_arbiter_unreal1_environment_1.dqdimacs                 sat                           8.79        8.86        None
+tentrup_full_arbiter_unreal1_system_1.dqdimacs                      unsat                         0.01        0.06        None
+tentrup_full_arbiter_unreal3_environment_2.dqdimacs                 unsat                        10.60       10.67        None
+tentrup_genbuf2_system_4.dqdimacs                                   unsat                         5.88        5.95        None
+tentrup_genbuf3_system_16.dqdimacs                                  ERROR (30)                   16.18       16.23        None
+tentrup_generalized_buffer_unreal2_system_1.dqdimacs                unsat                         0.18        0.26        None
+tentrup_lilydemo01_environment_8.dqdimacs                           sat                           0.01        0.11        None
+tentrup_lilydemo02_system_4.dqdimacs                                unsat                         0.01        0.09        None
+tentrup_lilydemo04_environment_8.dqdimacs                           sat                           8.31        8.37        None
+tentrup_lilydemo07_system_16.dqdimacs                               ERROR (30)                    0.05        0.11        None
+tentrup_lilydemo12_environment_8.dqdimacs                           unsat                         0.69        0.76        None
+tentrup_lilydemo19_environment_4.dqdimacs                           unsat                         7.21        7.26        None
+tentrup_load_balancer_environment_8.dqdimacs                        sat                           4.78        4.86        None
+tentrup_load_balancer_system_4.dqdimacs                             unsat                         1.15        1.21        None
+tentrup_load_balancer_unreal1_system_2.dqdimacs                     unsat                         0.69        0.74        None
+tentrup_load_balancer_unreal2_system_4.dqdimacs                     sat                           1.46        1.52        None
+tentrup_loadcomp2_environment_4.dqdimacs                            sat                           0.01        0.07        None
+tentrup_loadcomp3_environment_1.dqdimacs                            sat                           0.01        0.11        None
+tentrup_ltl2dba05_environment_2.dqdimacs                            unsat                         0.02        0.06        None
+tentrup_ltl2dba13_environment_8.dqdimacs                            unsat                       122.51      122.48        None
+tentrup_ltl2dba_U1_environment_4.dqdimacs                           unsat                         0.03        0.14        None
+tentrup_ltl2dba_U1_system_1.dqdimacs                                unsat                         0.01        0.06        None
+tentrup_ltl2dba_U1_system_16.dqdimacs                               ERROR (30)                    0.05        0.19        None
+tentrup_ltl2dba_alpha_environment_8.dqdimacs                        unsat                       492.67      492.36        None
+tentrup_ltl2dba_beta_environment_1.dqdimacs                         unsat                         0.03        0.08        None
+tentrup_ltl2dba_theta_environment_1.dqdimacs                        sat                           0.02        0.07        None
+tentrup_pec_adder_n_bit_1_19.dqdimacs                               ERROR (30)                    0.57        0.63        None
+tentrup_pec_adder_n_bit_1_3.dqdimacs                                ERROR (30)                    0.45        0.52        None
+tentrup_pec_adder_n_bit_3_1.dqdimacs                                ERROR (30)                    0.35        0.41        None
+tentrup_pec_adder_n_bit_3_18.dqdimacs                               ERROR (30)                    0.44        0.52        None
+tentrup_pec_adder_n_bit_4_11.dqdimacs                               ERROR (30)                    0.33        0.40        None
+tentrup_pec_adder_n_bit_4_5.dqdimacs                                ERROR (30)                    0.54        0.60        None
+tentrup_pec_adder_n_bit_5_11.dqdimacs                               ERROR (30)                    0.36        0.41        None
+tentrup_pec_adder_n_bit_5_18.dqdimacs                               ERROR (30)                    0.30        0.37        None
+tentrup_pec_adder_n_bit_8_1.dqdimacs                                ERROR (30)                    0.49        0.55        None
+tentrup_pec_adder_n_bit_8_7.dqdimacs                                ERROR (30)                    0.33        0.40        None
+tentrup_pec_adder_n_bit_9_11.dqdimacs                               ERROR (30)                    0.51        0.55        None
+tentrup_pec_adder_n_bit_9_17.dqdimacs                               ERROR (30)                    0.42        0.49        None
+tentrup_pec_adder_n_bit_9_20.dqdimacs                               ERROR (30)                    0.50        0.55        None
+tentrup_pec_adder_n_bit_9_22.dqdimacs                               ERROR (30)                    0.62        0.68        None
+tentrup_pec_adder_n_bit_9_6.dqdimacs                                ERROR (30)                    0.55        0.60        None
+tentrup_pec_full_adder_2_1.dqdimacs                                 sat                           0.00        0.09        None
+tentrup_pec_full_adder_2_4.dqdimacs                                 unsat                         0.00        0.07        None
+tentrup_pec_look_ahead_arbiter_1_0.dqdimacs                         ERROR (30)                    0.47        0.53        None
+tentrup_pec_look_ahead_arbiter_1_11.dqdimacs                        ERROR (30)                    0.27        0.31        None
+tentrup_pec_look_ahead_arbiter_1_14.dqdimacs                        ERROR (30)                    0.20        0.27        None
+tentrup_pec_look_ahead_arbiter_1_2.dqdimacs                         ERROR (30)                    0.25        0.30        None
+tentrup_pec_look_ahead_arbiter_2_4.dqdimacs                         ERROR (30)                    2.11        2.20        None
+tentrup_pec_look_ahead_arbiter_3_12.dqdimacs                        ERROR (30)                    0.19        0.25        None
+tentrup_pec_look_ahead_arbiter_3_15.dqdimacs                        ERROR (30)                    0.21        0.27        None
+tentrup_pec_look_ahead_arbiter_3_3.dqdimacs                         ERROR (30)                    0.20        0.27        None
+tentrup_pec_look_ahead_arbiter_5_1.dqdimacs                         ERROR (30)                    0.18        0.48        None
+tentrup_pec_look_ahead_arbiter_5_10.dqdimacs                        ERROR (30)                    0.15        0.20        None
+tentrup_pec_look_ahead_arbiter_5_12.dqdimacs                        ERROR (30)                    0.35        0.41        None
+tentrup_pec_look_ahead_arbiter_5_2.dqdimacs                         ERROR (30)                    0.18        0.26        None
+tentrup_pec_look_ahead_arbiter_5_3.dqdimacs                         ERROR (30)                    0.16        0.21        None
+tentrup_pec_look_ahead_arbiter_6_12.dqdimacs                        ERROR (30)                    0.21        0.26        None
+tentrup_pec_look_ahead_arbiter_6_2.dqdimacs                         ERROR (30)                    0.24        0.38        None
+tentrup_pec_look_ahead_arbiter_7_2.dqdimacs                         ERROR (30)                    0.34        0.38        None
+tentrup_pec_look_ahead_arbiter_7_22.dqdimacs                        ERROR (30)                    0.36        0.43        None
+tentrup_pec_look_ahead_arbiter_7_5.dqdimacs                         ERROR (30)                    0.21        0.25        None
+tentrup_pec_look_ahead_arbiter_7_9.dqdimacs                         ERROR (30)                    0.23        0.28        None
+tentrup_pec_look_ahead_arbiter_8_4.dqdimacs                         ERROR (30)                    0.25        0.31        None
+tentrup_pec_multiplexer_1_11.dqdimacs                               ERROR (30)                    0.11        0.16        None
+tentrup_pec_multiplexer_1_2.dqdimacs                                ERROR (30)                    0.12        0.35        None
+tentrup_pec_multiplexer_1_26.dqdimacs                               ERROR (30)                    0.12        0.50        None
+tentrup_pec_multiplexer_1_4.dqdimacs                                ERROR (30)                    0.29        0.33        None
+tentrup_pec_multiplexer_1_8.dqdimacs                                ERROR (30)                    0.18        0.22        None
+tentrup_pec_multiplexer_2_2.dqdimacs                                ERROR (30)                    0.36        0.51        None
+tentrup_pec_multiplexer_3_2.dqdimacs                                ERROR (30)                    0.15        0.23        None
+tentrup_pec_multiplexer_3_30.dqdimacs                               ERROR (30)                    0.15        0.20        None
+tentrup_pec_multiplexer_3_6.dqdimacs                                ERROR (30)                    0.11        0.15        None
+tentrup_pec_multiplexer_3_7.dqdimacs                                ERROR (30)                    0.10        0.16        None
+tentrup_pec_multiplexer_5_11.dqdimacs                               ERROR (30)                    0.12        0.17        None
+tentrup_pec_multiplexer_5_12.dqdimacs                               ERROR (30)                    0.13        0.17        None
+tentrup_pec_multiplexer_5_17.dqdimacs                               ERROR (30)                    0.13        0.17        None
+tentrup_pec_multiplexer_5_2.dqdimacs                                ERROR (30)                    0.15        0.19        None
+tentrup_pec_multiplier_1_0.dqdimacs                                 ERROR (30)                    0.20        0.48        None
+tentrup_pec_multiplier_1_10.dqdimacs                                ERROR (30)                    0.29        0.33        None
+tentrup_pec_multiplier_1_11.dqdimacs                                ERROR (30)                    0.25        0.52        None
+tentrup_pec_multiplier_1_20.dqdimacs                                ERROR (30)                    0.27        0.32        None
+tentrup_pec_multiplier_1_30.dqdimacs                                ERROR (30)                    0.22        0.29        None
+tentrup_pec_multiplier_1_9.dqdimacs                                 ERROR (30)                    0.22        0.45        None
+tentrup_pec_multiplier_3_2.dqdimacs                                 ERROR (30)                    0.14        0.19        None
+tentrup_pec_multiplier_3_3.dqdimacs                                 ERROR (30)                    1.76        1.83        None
+tentrup_pec_multiplier_3_4.dqdimacs                                 ERROR (30)                    0.11        0.15        None
+tentrup_prioritized_arbiter_environment_4.dqdimacs                  unsat                         2.35        2.40        None
+tentrup_round_robin_arbiter_environment_2.dqdimacs                  unsat                         0.03        0.07        None
+tentrup_round_robin_arbiter_system_1.dqdimacs                       unsat                         0.23        0.31        None
+tentrup_simple_arbiter_environment_2.dqdimacs                       unsat                         0.19        0.23        None
+tentrup_simple_arbiter_system_2.dqdimacs                            unsat                         0.01        0.07        None
+urquhart3_25bis.shuffled.cnf.dqdimacs                               unsat                         4.83        4.87        None
+x1_40.shuffled.cnf.dqdimacs                                         unsat                        82.24       82.23        None
+x1_80.shuffled.cnf.dqdimacs                                         TIMEOUT                     901.69      901.05        None
+------------------------------------------------------------------------------------------------------------------------------
+Run set 1                                                           done                      19453.09     2159.91           -
+
+Statistics:            334 Files
+  correct:               0
+    correct true:        0
+    correct false:       0
+  incorrect:             0
+    incorrect true:      0
+    incorrect false:     0
+  unknown:             241
