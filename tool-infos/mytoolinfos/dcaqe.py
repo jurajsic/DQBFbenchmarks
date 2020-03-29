@@ -34,7 +34,7 @@ class Tool(benchexec.tools.template.BaseTool):
         return 'dCAQE'
 
     def version(self, executable):
-        return self._version_from_tool(executable)
+        return self._version_from_tool(executable).split('dCAQE ',1)[1]
         
     def determine_result(self, returncode, returnsignal, output, isTimeout):
         if returnsignal == 0:

@@ -34,7 +34,7 @@ class Tool(benchexec.tools.template.BaseTool):
         return 'iProver'
 
     def version(self, executable, arg='--help'):
-        return self._version_from_tool(executable, arg='--help').split('- ',1)[1].split(' -',1)[0]
+        return self._version_from_tool(executable, arg='--help').split('iProver ',1)[1].split(' -',1)[0]
     
     def determine_result(self, returncode, returnsignal, output, isTimeout):
         if ((returnsignal == 0) and (returncode == 0)):

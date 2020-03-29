@@ -34,7 +34,7 @@ class Tool(benchexec.tools.template.BaseTool):
         return 'HQS'
 
     def version(self, executable):
-        return self._version_from_tool(executable, arg='--help').split('This is ',1)[1].split(',',1)[0]
+        return self._version_from_tool(executable, arg='--help').split('HQS version ',1)[1].split(',',1)[0]
 
     def determine_result(self, returncode, returnsignal, output, isTimeout):
         if returnsignal == 0:
