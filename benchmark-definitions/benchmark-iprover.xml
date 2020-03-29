@@ -4,7 +4,7 @@
            timelimit="15min"
            memlimit="4000 MB"
            cpuCores="1"
-           threads="12">
+           threads="6">
     
   <rundefinition name="qbf-mode">
     <option name="--qbf_mode">true</option>
