@@ -6,7 +6,9 @@
            cpuCores="1"
            threads="6">
 
-  <rundefinition/>
+  <rundefinition name="pipe">
+    <option name="--pipe"/>
+  </rundefinition>
   
   <!-- test benchmarks -->
   <tasks name="test">
