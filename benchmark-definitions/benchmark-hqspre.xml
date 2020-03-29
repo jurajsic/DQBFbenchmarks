@@ -4,14 +4,14 @@
            timelimit="15min"
            memlimit="4000 MB"
            cpuCores="1"
-           threads="12">
+           threads="6">
 
   <rundefinition/>
   
   <!-- test benchmarks -->
   <tasks name="test">
     <include>../benchmarks/testing/*.dqdimacs</include>
-    <include>../benchmarks/testing/same/*.dqdimacs</include>
+  <!--   <include>../benchmarks/testing/same/*.dqdimacs</include> -->
   </tasks>
 
   <!-- benchmarks from QBFeval18 -->
