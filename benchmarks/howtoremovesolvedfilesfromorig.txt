@@ -1,4 +1,4 @@
 in benchmarks/:
 comm -23 <(cd originalhqspreunsolved/dqbf19/; ls) <(cd afterhqspre/dqbf19/; ls) > difference
 in benchmarks/afterhqspre/dqbf19/:
-xargs rm < difference
+xargs rm < ../../difference
