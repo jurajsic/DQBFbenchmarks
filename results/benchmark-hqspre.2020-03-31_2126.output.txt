@@ -1,0 +1,126 @@
+2020-03-31 21:26:46,712 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+2020-03-31 21:26:46,722 - WARNING - No propertyfile specified. Score computation will ignore the results.
+2020-03-31 21:26:46,742 - INFO - Unable to find pqos_wrapper, please install it for cache allocation and monitoring if your CPU supports Intel RDT (cf. https://gitlab.com/sosy-lab/software/pqos-wrapper).
+
+executing run set 'pipe.SAT'     (34 files)
+2020-03-31 21:26:46,763 - INFO - LXCFS is not available, some host information like the uptime leaks into the container.
+21:26:46   starting   battleship-10-10-unsat.cnf.dqdimacs                                 
+2020-03-31 21:26:46,767 - INFO - LXCFS is not available, some host information like the uptime leaks into the container.
+21:26:46   starting   battleship-10-17-sat.cnf.dqdimacs                                   
+2020-03-31 21:26:46,775 - INFO - LXCFS is not available, some host information like the uptime leaks into the container.
+21:26:46   starting   battleship-10-19-sat.cnf.dqdimacs                                   
+2020-03-31 21:26:46,791 - INFO - LXCFS is not available, some host information like the uptime leaks into the container.
+21:26:46   starting   battleship-11-11-unsat.cnf.dqdimacs                                 
+2020-03-31 21:26:46,909 - INFO - LXCFS is not available, some host information like the uptime leaks into the container.
+21:26:46   starting   battleship-11-21-sat.cnf.dqdimacs                                   
+2020-03-31 21:26:46,957 - INFO - LXCFS is not available, some host information like the uptime leaks into the container.
+21:26:46   starting   battleship-12-12-unsat.cnf.dqdimacs                                 
+2020-03-31 21:26:47,061 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+2020-03-31 21:26:47,073 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+2020-03-31 21:26:47,237 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+2020-03-31 21:26:47,241 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+2020-03-31 21:26:47,301 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+2020-03-31 21:26:47,333 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+21:26:59              battleship-10-10-unsat.cnf.dqdimacs                                 unsat                    11.73   11.78
+21:26:59   starting   battleship-13-13-unsat.cnf.dqdimacs                                 
+21:26:59              battleship-10-19-sat.cnf.dqdimacs                                   sat                      11.75   11.80
+21:26:59   starting   battleship-5-8-unsat.cnf.dqdimacs                                   
+2020-03-31 21:26:59,773 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+2020-03-31 21:27:00,229 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+21:27:01              battleship-5-8-unsat.cnf.dqdimacs                                   unsat                     0.83    0.88
+21:27:01   starting   battleship-6-9-unsat.cnf.dqdimacs                                   
+2020-03-31 21:27:02,005 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+21:27:03              battleship-6-9-unsat.cnf.dqdimacs                                   unsat                     1.04    1.10
+21:27:03   starting   battleship-7-12-unsat.cnf.dqdimacs                                  
+2020-03-31 21:27:04,025 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+21:28:10              battleship-11-11-unsat.cnf.dqdimacs                                 unknown                  82.87   82.86
+21:28:10   starting   crn_11_100_s.cnf.dqdimacs                                           
+21:28:10              battleship-10-17-sat.cnf.dqdimacs                                   unknown                  83.31   83.28
+21:28:10   starting   crn_11_99_u.cnf.dqdimacs                                            
+2020-03-31 21:28:10,966 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+21:28:11              battleship-12-12-unsat.cnf.dqdimacs                                 unknown                  83.22   83.31
+21:28:11   starting   eulcbip-7-UNSAT.shuffled-as.sat05-3936.cnf.dqdimacs                 
+2020-03-31 21:28:11,349 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+2020-03-31 21:28:11,861 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+21:28:12              battleship-11-21-sat.cnf.dqdimacs                                   unknown                  85.28   85.26
+21:28:12   starting   f600.shuffled.cnf.dqdimacs                                          
+2020-03-31 21:28:13,541 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+21:28:19              crn_11_99_u.cnf.dqdimacs                                            unsat                     8.07    8.11
+21:28:19   starting   hwb-n28-01-S136611085.shuffled-as.sat03-1627.cnf.dqdimacs           
+2020-03-31 21:28:20,469 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+21:28:24              battleship-13-13-unsat.cnf.dqdimacs                                 unknown                  83.84   83.85
+21:28:24   starting   lksat-n900-m3357-k3-l5-s950595579.used-as.sat04-938.cnf.dqdimacs    
+2020-03-31 21:28:25,729 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+21:28:25              battleship-7-12-unsat.cnf.dqdimacs                                  unknown                  81.72   81.72
+21:28:25   starting   marg3x3add8.shuffled-as.sat03-1449.cnf.dqdimacs                     
+2020-03-31 21:28:26,661 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+21:28:28              marg3x3add8.shuffled-as.sat03-1449.cnf.dqdimacs                     unsat                     1.65    1.71
+21:28:28   starting   marg3x3add8ch.shuffled-as.sat03-1448.cnf.dqdimacs                   
+2020-03-31 21:28:29,205 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+21:28:31              lksat-n900-m3357-k3-l5-s950595579.used-as.sat04-938.cnf.dqdimacs    sat                       5.81    5.87
+21:28:31   starting   mm-2x2-6-6-s.1.shuffled-as.sat03-1499.cnf.dqdimacs                  
+2020-03-31 21:28:32,441 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+21:28:37              marg3x3add8ch.shuffled-as.sat03-1448.cnf.dqdimacs                   unsat                     7.90    7.94
+21:28:37   starting   mod2-rand3bip-sat-270-1.shuffled-as.sat05-2248.cnf.dqdimacs         
+2020-03-31 21:28:38,113 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+21:28:39              crn_11_100_s.cnf.dqdimacs                                           sat                      27.71   27.75
+21:28:39   starting   php-010-008.shuffled-as.sat05-1171.cnf.dqdimacs                     
+2020-03-31 21:28:39,765 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+21:28:40              php-010-008.shuffled-as.sat05-1171.cnf.dqdimacs                     unsat                     0.83    0.91
+21:28:40   starting   sgen3-n120-s12930489-sat.cnf.dqdimacs                               
+2020-03-31 21:28:41,641 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+21:29:04              sgen3-n120-s12930489-sat.cnf.dqdimacs                               sat                      22.08   22.11
+21:29:04   starting   sgen3-n140-s18527668-sat.cnf.dqdimacs                               
+2020-03-31 21:29:04,693 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+21:29:37              f600.shuffled.cnf.dqdimacs                                          unknown                  83.85   83.83
+21:29:37   starting   sgen3-n160-s40283905-sat.cnf.dqdimacs                               
+2020-03-31 21:29:38,245 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+21:29:40              mod2-rand3bip-sat-270-1.shuffled-as.sat05-2248.cnf.dqdimacs         unknown                  62.50   62.50
+21:29:40   starting   sgen3-n180-s34713902-sat.cnf.dqdimacs                               
+2020-03-31 21:29:41,505 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+21:29:54              eulcbip-7-UNSAT.shuffled-as.sat05-3936.cnf.dqdimacs                 unknown                 102.56  102.54
+21:29:54   starting   sgen3-n200-s39840374-sat.cnf.dqdimacs                               
+2020-03-31 21:29:55,369 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+21:29:58              mm-2x2-6-6-s.1.shuffled-as.sat03-1499.cnf.dqdimacs                  unknown                  85.34   85.32
+21:29:58   starting   sgen3-n220-s24359701-sat.cnf.dqdimacs                               
+2020-03-31 21:30:00,105 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+21:30:03              hwb-n28-01-S136611085.shuffled-as.sat03-1627.cnf.dqdimacs           unknown                 102.58  102.57
+21:30:03   starting   sgen3-n240-s78945233-sat.cnf.dqdimacs                               
+2020-03-31 21:30:03,977 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+21:30:25              sgen3-n140-s18527668-sat.cnf.dqdimacs                               unknown                  80.68   80.67
+21:30:25   starting   sgen3-n260-s62321009-sat.cnf.dqdimacs                               
+2020-03-31 21:30:26,261 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+21:30:59              sgen3-n160-s40283905-sat.cnf.dqdimacs                               unknown                  80.93   80.92
+21:30:59   starting   sgen3-n280-s93756482-sat.cnf.dqdimacs                               
+2020-03-31 21:31:00,217 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+21:31:02              sgen3-n180-s34713902-sat.cnf.dqdimacs                               unknown                  80.99   80.98
+21:31:02   starting   sgen3-n300-s12830984-sat.cnf.dqdimacs                               
+2020-03-31 21:31:03,337 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+21:31:16              sgen3-n200-s39840374-sat.cnf.dqdimacs                               unknown                  81.12   81.11
+21:31:16   starting   urquhart3_25bis.shuffled.cnf.dqdimacs                               
+2020-03-31 21:31:17,477 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+21:31:21              sgen3-n220-s24359701-sat.cnf.dqdimacs                               unknown                  81.26   81.27
+21:31:21   starting   x1_40.shuffled.cnf.dqdimacs                                         
+2020-03-31 21:31:22,245 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+21:31:22              urquhart3_25bis.shuffled.cnf.dqdimacs                               unsat                     4.71    4.75
+21:31:22   starting   x1_80.shuffled.cnf.dqdimacs                                         
+2020-03-31 21:31:23,141 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+21:31:25              sgen3-n240-s78945233-sat.cnf.dqdimacs                               unknown                  81.42   81.40
+21:31:48              sgen3-n260-s62321009-sat.cnf.dqdimacs                               unknown                  81.65   81.63
+21:32:22              sgen3-n280-s93756482-sat.cnf.dqdimacs                               unknown                  81.76   81.75
+21:32:24              x1_80.shuffled.cnf.dqdimacs                                         unknown                  61.55   61.55
+21:32:25              sgen3-n300-s12830984-sat.cnf.dqdimacs                               unknown                  81.96   81.94
+21:32:43              x1_40.shuffled.cnf.dqdimacs                                         unknown                  80.75   80.73
+
+Statistics:             34 Files
+  correct:               0
+    correct true:        0
+    correct false:       0
+  incorrect:             0
+    incorrect true:      0
+    incorrect false:     0
+  unknown:              22
+
+In order to get HTML and CSV tables, run
+table-generator 'results/benchmark-hqspre.2020-03-31_2126.results.pipe.SAT.xml.bz2'
+Committing results files to git repository in /home/xsic/DQBFbenchmarks
