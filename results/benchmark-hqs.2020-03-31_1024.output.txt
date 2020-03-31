@@ -1,0 +1,762 @@
+2020-03-31 10:24:04,025 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+2020-03-31 10:24:04,035 - WARNING - No propertyfile specified. Score computation will ignore the results.
+2020-03-31 10:24:04,097 - INFO - Unable to find pqos_wrapper, please install it for cache allocation and monitoring if your CPU supports Intel RDT (cf. https://gitlab.com/sosy-lab/software/pqos-wrapper).
+
+executing run set 'dqbf19'     (246 files)
+2020-03-31 10:24:04,143 - INFO - LXCFS is not available, some host information like the uptime leaks into the container.
+10:24:04   starting   battleship-10-17-sat.cnf.dqdimacs                              
+2020-03-31 10:24:04,146 - INFO - LXCFS is not available, some host information like the uptime leaks into the container.
+10:24:04   starting   battleship-11-11-unsat.cnf.dqdimacs                            
+2020-03-31 10:24:04,152 - INFO - LXCFS is not available, some host information like the uptime leaks into the container.
+10:24:04   starting   battleship-11-21-sat.cnf.dqdimacs                              
+2020-03-31 10:24:04,169 - INFO - LXCFS is not available, some host information like the uptime leaks into the container.
+10:24:04   starting   battleship-12-12-unsat.cnf.dqdimacs                            
+2020-03-31 10:24:04,298 - INFO - LXCFS is not available, some host information like the uptime leaks into the container.
+10:24:04   starting   battleship-13-13-unsat.cnf.dqdimacs                            
+2020-03-31 10:24:04,312 - INFO - LXCFS is not available, some host information like the uptime leaks into the container.
+10:24:04   starting   battleship-7-12-unsat.cnf.dqdimacs                             
+2020-03-31 10:24:04,454 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+2020-03-31 10:24:04,454 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+2020-03-31 10:24:04,565 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+2020-03-31 10:24:04,581 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+2020-03-31 10:24:04,725 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+2020-03-31 10:24:04,773 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:25:33              battleship-11-21-sat.cnf.dqdimacs                              sat                      88.48   88.44
+10:25:33   starting   bloem_add10n.dqdimacs                                          
+2020-03-31 10:25:33,905 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:25:34              bloem_add10n.dqdimacs                                          sat                       0.55    0.58
+10:25:34   starting   bloem_add10y.dqdimacs                                          
+2020-03-31 10:25:35,333 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:25:36              bloem_add10y.dqdimacs                                          sat                       0.56    0.61
+10:25:36   starting   bloem_add16n.dqdimacs                                          
+2020-03-31 10:25:36,837 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:25:38              bloem_add16n.dqdimacs                                          sat                       1.24    1.29
+10:25:38   starting   bloem_add20n.dqdimacs                                          
+2020-03-31 10:25:38,981 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:25:41              bloem_add20n.dqdimacs                                          sat                       1.88    1.92
+10:25:41   starting   bloem_add6n.dqdimacs                                           
+2020-03-31 10:25:42,021 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:25:42              bloem_add6n.dqdimacs                                           sat                       0.21    0.27
+10:25:42   starting   bloem_add8y.dqdimacs                                           
+2020-03-31 10:25:43,124 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:25:43              battleship-10-17-sat.cnf.dqdimacs                              sat                      98.20   98.34
+10:25:43   starting   bloem_amba10b4unrealy.dqdimacs                                 
+2020-03-31 10:25:43,649 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:25:43              bloem_add8y.dqdimacs                                           sat                       0.33    0.40
+10:25:43   starting   bloem_amba2f8unrealy.dqdimacs                                  
+2020-03-31 10:25:44,361 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:25:44              bloem_amba2f8unrealy.dqdimacs                                  ABORTED                   0.19    0.26
+10:25:44   starting   bloem_amba3b4unrealy.dqdimacs                                  
+10:25:45              bloem_amba10b4unrealy.dqdimacs                                 ABORTED                   1.51    1.53
+10:25:45   starting   bloem_amba3c5n.dqdimacs                                        
+2020-03-31 10:25:45,513 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+2020-03-31 10:25:46,101 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:25:46              bloem_amba3b4unrealy.dqdimacs                                  ABORTED                   0.28    0.32
+10:25:46   starting   bloem_amba4b9n.dqdimacs                                        
+2020-03-31 10:25:46,805 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:25:46              bloem_amba3c5n.dqdimacs                                        ABORTED                   0.33    0.43
+10:25:46   starting   bloem_amba4c7n.dqdimacs                                        
+2020-03-31 10:25:47,413 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:25:47              bloem_amba4b9n.dqdimacs                                        ABORTED                   0.39    0.44
+10:25:47   starting   bloem_amba5b4unrealy.dqdimacs                                  
+10:25:48              bloem_amba4c7n.dqdimacs                                        ABORTED                   0.36    0.41
+10:25:48   starting   bloem_amba6c5n.dqdimacs                                        
+2020-03-31 10:25:48,133 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+2020-03-31 10:25:48,645 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:25:49              bloem_amba5b4unrealy.dqdimacs                                  ABORTED                   0.45    0.51
+10:25:49   starting   bloem_amba7b4unrealy.dqdimacs                                  
+10:25:49              bloem_amba6c5n.dqdimacs                                        ABORTED                   0.49    0.70
+10:25:49   starting   bloem_amba8c6unrealn.dqdimacs                                  
+2020-03-31 10:25:49,662 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+2020-03-31 10:25:50,229 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:25:50              bloem_amba7b4unrealy.dqdimacs                                  ABORTED                   0.64    0.67
+10:25:50   starting   bloem_amba8c7y.dqdimacs                                        
+10:25:51              bloem_amba8c6unrealn.dqdimacs                                  ABORTED                   0.57    0.60
+10:25:51   starting   bloem_amba8f56unrealy.dqdimacs                                 
+2020-03-31 10:25:51,412 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+2020-03-31 10:25:51,973 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:25:52              bloem_amba8c7y.dqdimacs                                        ABORTED                   0.70    0.76
+10:25:52   starting   bloem_amba8f57n.dqdimacs                                       
+2020-03-31 10:25:53,189 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:25:53              bloem_amba8f56unrealy.dqdimacs                                 ABORTED                   0.96    1.00
+10:25:53   starting   bloem_amba9b5y.dqdimacs                                        
+2020-03-31 10:25:53,845 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:25:54              bloem_amba8f57n.dqdimacs                                       ABORTED                   0.82    0.86
+10:25:54   starting   bloem_amba9c5n.dqdimacs                                        
+2020-03-31 10:25:54,901 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:25:55              bloem_amba9b5y.dqdimacs                                        ABORTED                   1.26    1.34
+10:25:55   starting   bloem_bs128y.dqdimacs                                          
+2020-03-31 10:25:56,018 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:25:56              bloem_amba9c5n.dqdimacs                                        ABORTED                   0.86    0.91
+10:25:56   starting   bloem_bs16n.dqdimacs                                           
+2020-03-31 10:25:56,673 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:27:43              bloem_bs128y.dqdimacs                                          ABORTED                 107.32  107.29
+10:27:43   starting   bloem_bs16y.dqdimacs                                           
+2020-03-31 10:27:44,213 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:29:10              battleship-7-12-unsat.cnf.dqdimacs                             unsat                   305.33  305.15
+10:29:10   starting   bloem_bs64n.dqdimacs                                           
+2020-03-31 10:29:10,885 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:29:22              bloem_bs64n.dqdimacs                                           ABORTED                  11.54   11.61
+10:29:22   starting   bloem_bs8y.dqdimacs                                            
+2020-03-31 10:29:23,461 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:29:25              bloem_bs8y.dqdimacs                                            sat                       1.56    1.61
+10:29:25   starting   bloem_cnt11n.dqdimacs                                          
+2020-03-31 10:29:26,037 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:30:50              bloem_cnt11n.dqdimacs                                          sat                      83.75   83.72
+10:30:50   starting   bloem_cnt11y.dqdimacs                                          
+2020-03-31 10:30:50,806 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:32:15              bloem_cnt11y.dqdimacs                                          sat                      84.11   84.11
+10:32:15   starting   bloem_cnt4n.dqdimacs                                           
+2020-03-31 10:32:15,877 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:32:16              bloem_cnt4n.dqdimacs                                           sat                       0.16    0.20
+10:32:16   starting   bloem_cnt6n.dqdimacs                                           
+2020-03-31 10:32:17,045 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:32:17              bloem_cnt6n.dqdimacs                                           sat                       0.40    0.47
+10:32:17   starting   bloem_cnt6y.dqdimacs                                           
+2020-03-31 10:32:18,566 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:32:19              bloem_cnt6y.dqdimacs                                           sat                       0.37    0.39
+10:32:19   starting   bloem_cnt7y.dqdimacs                                           
+2020-03-31 10:32:19,942 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:32:21              bloem_cnt7y.dqdimacs                                           sat                       0.76    0.83
+10:32:21   starting   bloem_cnt9n.dqdimacs                                           
+2020-03-31 10:32:21,733 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:32:28              bloem_cnt9n.dqdimacs                                           sat                       6.16    6.20
+10:32:28   starting   bloem_genbuf10b4y.dqdimacs                                     
+2020-03-31 10:32:28,933 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:32:29              bloem_genbuf10b4y.dqdimacs                                     ABORTED                   0.64    0.70
+10:32:29   starting   bloem_genbuf10c3n.dqdimacs                                     
+2020-03-31 10:32:30,614 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:32:31              bloem_genbuf10c3n.dqdimacs                                     ABORTED                   0.51    0.55
+10:32:31   starting   bloem_genbuf11b3unrealn.dqdimacs                               
+2020-03-31 10:32:32,150 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:32:33              bloem_genbuf11b3unrealn.dqdimacs                               ABORTED                   0.68    0.72
+10:32:33   starting   bloem_genbuf11c2unrealn.dqdimacs                               
+2020-03-31 10:32:33,894 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:32:34              bloem_genbuf11c2unrealn.dqdimacs                               ABORTED                   0.53    0.57
+10:32:34   starting   bloem_genbuf11c2unrealy.dqdimacs                               
+2020-03-31 10:32:35,477 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:32:36              bloem_genbuf11c2unrealy.dqdimacs                               ABORTED                   0.53    0.57
+10:32:36   starting   bloem_genbuf11f11n.dqdimacs                                    
+2020-03-31 10:32:37,045 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:32:37              bloem_genbuf11f11n.dqdimacs                                    ABORTED                   0.59    0.62
+10:32:37   starting   bloem_genbuf11f11y.dqdimacs                                    
+2020-03-31 10:32:38,645 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:32:39              bloem_genbuf11f11y.dqdimacs                                    ABORTED                   0.68    0.73
+10:32:39   starting   bloem_genbuf12b4y.dqdimacs                                     
+2020-03-31 10:32:40,341 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:32:41              bloem_genbuf12b4y.dqdimacs                                     ABORTED                   0.70    0.76
+10:32:41   starting   bloem_genbuf12f12n.dqdimacs                                    
+2020-03-31 10:32:42,086 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:32:43              bloem_genbuf12f12n.dqdimacs                                    ABORTED                   0.69    0.72
+10:32:43   starting   bloem_genbuf12f12y.dqdimacs                                    
+2020-03-31 10:32:43,750 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:32:44              bloem_genbuf12f12y.dqdimacs                                    ABORTED                   0.67    0.73
+10:32:44   starting   bloem_genbuf13b4n.dqdimacs                                     
+2020-03-31 10:32:45,462 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:32:46              bloem_genbuf13b4n.dqdimacs                                     ABORTED                   0.83    0.87
+10:32:46   starting   bloem_genbuf13f13y.dqdimacs                                    
+2020-03-31 10:32:47,301 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:32:48              bloem_genbuf13f13y.dqdimacs                                    ABORTED                   0.80    0.84
+10:32:48   starting   bloem_genbuf14b3unrealn.dqdimacs                               
+2020-03-31 10:32:49,109 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:32:50              bloem_genbuf14b3unrealn.dqdimacs                               ABORTED                   0.91    0.94
+10:32:50   starting   bloem_genbuf14c2unrealn.dqdimacs                               
+2020-03-31 10:32:50,997 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:32:52              bloem_genbuf14c2unrealn.dqdimacs                               ABORTED                   0.69    0.73
+10:32:52   starting   bloem_genbuf15b4y.dqdimacs                                     
+2020-03-31 10:32:52,725 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:32:54              bloem_genbuf15b4y.dqdimacs                                     ABORTED                   1.22    1.27
+10:32:54   starting   bloem_genbuf15c3y.dqdimacs                                     
+2020-03-31 10:32:54,981 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:32:56              bloem_genbuf15c3y.dqdimacs                                     ABORTED                   0.93    0.99
+10:32:56   starting   bloem_genbuf15f14unrealy.dqdimacs                              
+2020-03-31 10:32:56,949 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:32:58              bloem_genbuf15f14unrealy.dqdimacs                              ABORTED                   0.97    1.02
+10:32:58   starting   bloem_genbuf15f15n.dqdimacs                                    
+2020-03-31 10:32:58,966 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:33:00              bloem_genbuf15f15n.dqdimacs                                    ABORTED                   1.04    1.07
+10:33:00   starting   bloem_genbuf16c2unrealn.dqdimacs                               
+2020-03-31 10:33:01,061 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:33:02              bloem_genbuf16c2unrealn.dqdimacs                               ABORTED                   0.84    0.89
+10:33:02   starting   bloem_genbuf16c3y.dqdimacs                                     
+2020-03-31 10:33:02,933 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:33:04              bloem_genbuf16c3y.dqdimacs                                     ABORTED                   0.81    0.86
+10:33:04   starting   bloem_genbuf1b4n.dqdimacs                                      
+2020-03-31 10:33:04,757 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:39:05              battleship-11-11-unsat.cnf.dqdimacs                            TIMEOUT                 901.68  901.05
+10:39:05   starting   bloem_genbuf1f3unrealn.dqdimacs                                
+10:39:06              battleship-12-12-unsat.cnf.dqdimacs                            TIMEOUT                 901.68  901.05
+10:39:06   starting   bloem_genbuf2b4n.dqdimacs                                      
+10:39:06              battleship-13-13-unsat.cnf.dqdimacs                            TIMEOUT                 901.68  901.05
+10:39:06   starting   bloem_genbuf3f4y.dqdimacs                                      
+2020-03-31 10:39:06,469 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+2020-03-31 10:39:06,501 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+2020-03-31 10:39:06,997 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:39:07              bloem_genbuf3f4y.dqdimacs                                      ABORTED                   0.17    0.20
+10:39:07   starting   bloem_genbuf4c3n.dqdimacs                                      
+2020-03-31 10:39:08,205 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:39:08              bloem_genbuf4c3n.dqdimacs                                      ABORTED                   0.24    0.29
+10:39:08   starting   bloem_genbuf5f4unrealn.dqdimacs                                
+2020-03-31 10:39:09,305 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:39:09              bloem_genbuf5f4unrealn.dqdimacs                                ABORTED                   0.26    0.30
+10:39:09   starting   bloem_genbuf5f4unrealy.dqdimacs                                
+2020-03-31 10:39:10,470 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:39:11              bloem_genbuf5f4unrealy.dqdimacs                                ABORTED                   0.25    0.33
+10:39:11   starting   bloem_genbuf6b4y.dqdimacs                                      
+2020-03-31 10:39:11,646 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:39:12              bloem_genbuf6b4y.dqdimacs                                      ABORTED                   0.42    0.48
+10:39:12   starting   bloem_genbuf7c2unrealn.dqdimacs                                
+2020-03-31 10:39:13,093 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:39:13              bloem_genbuf7c2unrealn.dqdimacs                                ABORTED                   0.34    0.39
+10:39:13   starting   bloem_genbuf7f7y.dqdimacs                                      
+2020-03-31 10:39:14,381 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:39:15              bloem_genbuf7f7y.dqdimacs                                      ABORTED                   0.40    0.45
+10:39:15   starting   bloem_genbuf8b3unrealn.dqdimacs                                
+2020-03-31 10:39:15,782 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:39:16              bloem_genbuf8b3unrealn.dqdimacs                                ABORTED                   0.48    0.54
+10:39:16   starting   bloem_genbuf8b4y.dqdimacs                                      
+2020-03-31 10:39:17,162 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:39:17              bloem_genbuf8b4y.dqdimacs                                      ABORTED                   0.46    0.52
+10:39:17   starting   bloem_genbuf8c2unrealn.dqdimacs                                
+2020-03-31 10:39:18,546 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:39:19              bloem_genbuf8c2unrealn.dqdimacs                                ABORTED                   0.46    0.49
+10:39:19   starting   bloem_genbuf9b4n.dqdimacs                                      
+2020-03-31 10:39:19,970 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:39:20              bloem_genbuf9b4n.dqdimacs                                      ABORTED                   0.45    0.51
+10:39:20   starting   bloem_genbuf9c2unrealy.dqdimacs                                
+2020-03-31 10:39:21,342 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:39:22              bloem_genbuf9c2unrealy.dqdimacs                                ABORTED                   0.55    0.59
+10:39:22   starting   bloem_genbuf9c3n.dqdimacs                                      
+2020-03-31 10:39:22,869 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:39:23              bloem_genbuf9c3n.dqdimacs                                      ABORTED                   0.47    0.54
+10:39:23   starting   bloem_genbuf9f8unrealy.dqdimacs                                
+2020-03-31 10:39:24,230 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:39:25              bloem_genbuf9f8unrealy.dqdimacs                                ABORTED                   0.54    0.59
+10:39:25   starting   bloem_ifm_amba15n.dqdimacs                                     
+2020-03-31 10:39:25,730 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:39:28              bloem_ifm_amba15n.dqdimacs                                     ABORTED                   2.16    2.21
+10:39:28   starting   bloem_mv11n.dqdimacs                                           
+2020-03-31 10:39:28,834 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:40:58              bloem_bs16n.dqdimacs                                           TIMEOUT                 901.70  901.07
+10:40:58   starting   bloem_mv20n.dqdimacs                                           
+2020-03-31 10:40:58,549 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:42:45              bloem_bs16y.dqdimacs                                           TIMEOUT                 901.59  901.07
+10:42:45   starting   bloem_mv20y.dqdimacs                                           
+2020-03-31 10:42:46,181 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:48:06              bloem_genbuf1b4n.dqdimacs                                      TIMEOUT                 901.70  901.09
+10:48:06   starting   bloem_mv4n.dqdimacs                                            
+2020-03-31 10:48:06,870 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:48:07              bloem_mv4n.dqdimacs                                            sat                       0.30    0.36
+10:48:07   starting   bloem_mv9y.dqdimacs                                            
+2020-03-31 10:48:08,210 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:54:08              bloem_genbuf1f3unrealn.dqdimacs                                TIMEOUT                 901.70  901.08
+10:54:08   starting   bloem_mvs24n.dqdimacs                                          
+10:54:08              bloem_genbuf2b4n.dqdimacs                                      TIMEOUT                 901.68  901.08
+10:54:08   starting   bloem_mvs4n.dqdimacs                                           
+2020-03-31 10:54:08,646 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+2020-03-31 10:54:08,652 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:54:09              bloem_mvs4n.dqdimacs                                           sat                       0.29    0.34
+10:54:09   starting   bloem_stay12y.dqdimacs                                         
+2020-03-31 10:54:09,974 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:54:30              bloem_mv11n.dqdimacs                                           TIMEOUT                 901.69  901.07
+10:54:30   starting   bloem_stay18n.dqdimacs                                         
+2020-03-31 10:54:30,757 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:55:59              bloem_mv20n.dqdimacs                                           TIMEOUT                 901.70  901.08
+10:55:59   starting   bloem_stay4n.dqdimacs                                          
+2020-03-31 10:56:00,509 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:56:01              bloem_stay4n.dqdimacs                                          sat                       0.49    0.56
+10:56:01   starting   bloem_stay4y.dqdimacs                                          
+2020-03-31 10:56:01,909 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:56:02              bloem_stay4y.dqdimacs                                          sat                       0.59    0.65
+10:56:02   starting   bloem_stay6n.dqdimacs                                          
+2020-03-31 10:56:03,462 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:57:17              bloem_stay6n.dqdimacs                                          sat                      74.17   74.17
+10:57:17   starting   eulcbip-7-UNSAT.shuffled-as.sat05-3936.cnf.dqdimacs            
+2020-03-31 10:57:18,474 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+10:57:47              bloem_mv20y.dqdimacs                                           TIMEOUT                 901.59  901.05
+10:57:47   starting   f600.shuffled.cnf.dqdimacs                                     
+2020-03-31 10:57:48,133 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:03:09              bloem_mv9y.dqdimacs                                            TIMEOUT                 901.68  901.07
+11:03:09   starting   hwb-n28-01-S136611085.shuffled-as.sat03-1627.cnf.dqdimacs      
+2020-03-31 11:03:10,214 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:09:10              bloem_mvs24n.dqdimacs                                          TIMEOUT                 901.70  901.08
+11:09:10   starting   mm-2x2-6-6-s.1.shuffled-as.sat03-1499.cnf.dqdimacs             
+2020-03-31 11:09:10,758 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:09:11              bloem_stay12y.dqdimacs                                         TIMEOUT                 901.70  901.08
+11:09:11   starting   mod2-rand3bip-sat-270-1.shuffled-as.sat05-2248.cnf.dqdimacs    
+2020-03-31 11:09:12,006 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:09:32              bloem_stay18n.dqdimacs                                         TIMEOUT                 901.70  901.08
+11:09:32   starting   scholl_C432.blif_0.10_0.10_2_0_henkin.dqdimacs                 
+2020-03-31 11:09:32,709 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:12:19              eulcbip-7-UNSAT.shuffled-as.sat05-3936.cnf.dqdimacs            TIMEOUT                 901.68  901.05
+11:12:19   starting   scholl_C432.blif_0.10_1.00_0_2_henkin.dqdimacs                 
+2020-03-31 11:12:20,410 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:12:49              f600.shuffled.cnf.dqdimacs                                     TIMEOUT                 901.57  901.07
+11:12:49   starting   scholl_C432.blif_0.10_1.00_2_0_henkin.dqdimacs                 
+2020-03-31 11:12:50,085 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:12:50              scholl_C432.blif_0.10_1.00_2_0_henkin.dqdimacs                 sat                       0.19    0.25
+11:12:50   starting   scholl_C432.blif_0.10_1.00_7_2_henkin.dqdimacs                 
+2020-03-31 11:12:51,381 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:18:11              hwb-n28-01-S136611085.shuffled-as.sat03-1627.cnf.dqdimacs      TIMEOUT                 901.67  901.07
+11:18:11   starting   scholl_C432.blif_0.10_1.00_7_3_henkin.dqdimacs                 
+2020-03-31 11:18:12,262 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:18:12              scholl_C432.blif_0.10_1.00_7_3_henkin.dqdimacs                 unsat                     0.12    0.17
+11:18:12   starting   scholl_C432.blif_0.20_0.50_2_0_henkin.dqdimacs                 
+2020-03-31 11:18:13,429 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:24:12              mm-2x2-6-6-s.1.shuffled-as.sat03-1499.cnf.dqdimacs             TIMEOUT                 901.69  901.05
+11:24:12   starting   scholl_C432.blif_0.20_0.50_2_1_henkin.dqdimacs                 
+2020-03-31 11:24:12,773 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:24:13              mod2-rand3bip-sat-270-1.shuffled-as.sat05-2248.cnf.dqdimacs    TIMEOUT                 901.68  901.03
+11:24:13   starting   scholl_C432.blif_0.20_1.00_0_0_henkin.dqdimacs                 
+2020-03-31 11:24:13,989 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:24:34              scholl_C432.blif_0.10_0.10_2_0_henkin.dqdimacs                 TIMEOUT                 901.70  901.08
+11:24:34   starting   scholl_C432.blif_0.20_1.00_7_1_henkin.dqdimacs                 
+2020-03-31 11:24:34,773 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:27:21              scholl_C432.blif_0.10_1.00_0_2_henkin.dqdimacs                 TIMEOUT                 901.69  901.09
+11:27:21   starting   scholl_C432.blif_0.20_1.00_8_2_henkin.dqdimacs                 
+2020-03-31 11:27:22,421 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:27:52              scholl_C432.blif_0.10_1.00_7_2_henkin.dqdimacs                 TIMEOUT                 901.59  901.06
+11:27:52   starting   scholl_C432.blif_0.40_1.00_1_2_henkin.dqdimacs                 
+2020-03-31 11:27:53,365 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:27:53              scholl_C432.blif_0.40_1.00_1_2_henkin.dqdimacs                 unsat                     0.18    0.23
+11:27:53   starting   scholl_C432.blif_0.50_1.00_3_3_henkin.dqdimacs                 
+2020-03-31 11:27:54,445 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:27:54              scholl_C432.blif_0.50_1.00_3_3_henkin.dqdimacs                 unsat                     0.15    0.20
+11:27:54   starting   scholl_C432.blif_0.50_1.00_6_3_henkin.dqdimacs                 
+2020-03-31 11:27:55,557 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:27:56              scholl_C432.blif_0.50_1.00_6_3_henkin.dqdimacs                 ABORTED                   0.28    0.31
+11:27:56   starting   scholl_C432.blif_0.50_1.00_8_1_henkin.dqdimacs                 
+2020-03-31 11:27:56,741 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:33:14              scholl_C432.blif_0.20_0.50_2_0_henkin.dqdimacs                 TIMEOUT                 901.69  901.08
+11:33:14   starting   scholl_C499.blif_0.10_1.00_3_0_henkin.dqdimacs                 
+2020-03-31 11:33:15,510 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:39:14              scholl_C432.blif_0.20_0.50_2_1_henkin.dqdimacs                 TIMEOUT                 901.68  901.08
+11:39:14   starting   scholl_C499.blif_0.10_1.00_4_2_henkin.dqdimacs                 
+2020-03-31 11:39:14,854 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:39:15              scholl_C432.blif_0.20_1.00_0_0_henkin.dqdimacs                 TIMEOUT                 901.68  901.07
+11:39:15   starting   scholl_C499.blif_0.10_1.00_7_2_henkin.dqdimacs                 
+2020-03-31 11:39:16,182 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:39:21              scholl_C499.blif_0.10_1.00_7_2_henkin.dqdimacs                 unsat                     4.77    4.83
+11:39:21   starting   scholl_C499.blif_0.10_1.00_9_2_henkin.dqdimacs                 
+2020-03-31 11:39:22,050 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:39:36              scholl_C432.blif_0.20_1.00_7_1_henkin.dqdimacs                 TIMEOUT                 901.69  901.08
+11:39:36   starting   scholl_C499.blif_0.20_1.00_2_0_henkin.dqdimacs                 
+2020-03-31 11:39:36,810 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:40:49              scholl_C499.blif_0.20_1.00_2_0_henkin.dqdimacs                 sat                      72.56   72.57
+11:40:49   starting   scholl_C499.blif_0.50_1.00_8_1_henkin.dqdimacs                 
+2020-03-31 11:40:50,181 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:42:23              scholl_C432.blif_0.20_1.00_8_2_henkin.dqdimacs                 TIMEOUT                 901.69  901.05
+11:42:23   starting   scholl_comp.blif_0.10_0.10_0_0_henkin.dqdimacs                 
+2020-03-31 11:42:24,405 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:42:25              scholl_comp.blif_0.10_0.10_0_0_henkin.dqdimacs                 ERROR (0)                 1.05    1.08
+11:42:25   starting   scholl_comp.blif_0.10_0.10_0_2_henkin.dqdimacs                 
+2020-03-31 11:42:26,373 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:42:27              scholl_comp.blif_0.10_0.10_0_2_henkin.dqdimacs                 unsat                     0.45    0.51
+11:42:27   starting   scholl_comp.blif_0.10_0.10_0_3_henkin.dqdimacs                 
+2020-03-31 11:42:27,717 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:42:28              scholl_comp.blif_0.10_0.10_0_3_henkin.dqdimacs                 unsat                     0.51    0.55
+11:42:28   starting   scholl_comp.blif_0.10_0.10_1_3_henkin.dqdimacs                 
+2020-03-31 11:42:29,133 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:42:58              scholl_C432.blif_0.50_1.00_8_1_henkin.dqdimacs                 TIMEOUT                 901.60  901.08
+11:42:58   starting   scholl_comp.blif_0.10_0.20_0_0_henkin.dqdimacs                 
+2020-03-31 11:42:58,709 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:43:21              scholl_comp.blif_0.10_0.10_1_3_henkin.dqdimacs                 unsat                    51.58   51.58
+11:43:21   starting   scholl_comp.blif_0.10_0.20_1_3_henkin.dqdimacs                 
+2020-03-31 11:43:21,601 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:43:23              scholl_comp.blif_0.10_0.20_1_3_henkin.dqdimacs                 unsat                     1.27    1.33
+11:43:23   starting   scholl_comp.blif_0.10_0.20_2_1_henkin.dqdimacs                 
+2020-03-31 11:43:23,829 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:48:16              scholl_C499.blif_0.10_1.00_3_0_henkin.dqdimacs                 TIMEOUT                 901.70  901.08
+11:48:16   starting   scholl_comp.blif_0.10_0.50_0_3_henkin.dqdimacs                 
+2020-03-31 11:48:17,670 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:48:18              scholl_comp.blif_0.10_0.50_0_3_henkin.dqdimacs                 unsat                     0.30    0.35
+11:48:18   starting   scholl_comp.blif_0.10_0.50_1_3_henkin.dqdimacs                 
+2020-03-31 11:48:19,030 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:48:21              scholl_comp.blif_0.10_0.50_1_3_henkin.dqdimacs                 unsat                     1.65    1.69
+11:48:21   starting   scholl_comp.blif_0.10_1.00_0_0_henkin.dqdimacs                 
+2020-03-31 11:48:21,734 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:48:22              scholl_comp.blif_0.10_1.00_0_0_henkin.dqdimacs                 sat                       0.09    0.13
+11:48:22   starting   scholl_comp.blif_0.10_1.00_0_1_henkin.dqdimacs                 
+2020-03-31 11:48:22,822 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:48:23              scholl_comp.blif_0.10_1.00_0_1_henkin.dqdimacs                 unsat                     0.16    0.21
+11:48:23   starting   scholl_comp.blif_0.10_1.00_2_0_henkin.dqdimacs                 
+2020-03-31 11:48:24,038 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:48:24              scholl_comp.blif_0.10_1.00_2_0_henkin.dqdimacs                 sat                       0.13    0.18
+11:48:24   starting   scholl_comp.blif_0.10_1.00_2_1_henkin.dqdimacs                 
+2020-03-31 11:48:25,214 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:48:25              scholl_comp.blif_0.10_1.00_2_1_henkin.dqdimacs                 unsat                     0.10    0.16
+11:48:25   starting   scholl_comp.blif_0.10_1.00_2_3_henkin.dqdimacs                 
+2020-03-31 11:48:26,390 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:48:26              scholl_comp.blif_0.10_1.00_2_3_henkin.dqdimacs                 unsat                     0.19    0.25
+11:48:26   starting   scholl_comp.blif_0.10_1.00_4_2_henkin.dqdimacs                 
+2020-03-31 11:48:27,598 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:48:28              scholl_comp.blif_0.10_1.00_4_2_henkin.dqdimacs                 unsat                     0.24    0.31
+11:48:28   starting   scholl_comp.blif_0.10_1.00_5_2_henkin.dqdimacs                 
+2020-03-31 11:48:28,918 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:48:30              scholl_comp.blif_0.10_1.00_5_2_henkin.dqdimacs                 unsat                     1.06    1.10
+11:48:30   starting   scholl_comp.blif_0.10_1.00_9_3_henkin.dqdimacs                 
+2020-03-31 11:48:30,950 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:48:32              scholl_comp.blif_0.10_1.00_9_3_henkin.dqdimacs                 unsat                     0.69    0.75
+11:48:32   starting   scholl_comp.blif_0.20_0.10_0_2_henkin.dqdimacs                 
+2020-03-31 11:48:32,694 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:48:37              scholl_comp.blif_0.20_0.10_0_2_henkin.dqdimacs                 unsat                     4.81    4.86
+11:48:37   starting   scholl_comp.blif_0.20_0.10_1_1_henkin.dqdimacs                 
+2020-03-31 11:48:38,534 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:48:40              scholl_comp.blif_0.20_0.10_1_1_henkin.dqdimacs                 unsat                     1.97    2.03
+11:48:40   starting   scholl_comp.blif_0.20_0.20_0_3_henkin.dqdimacs                 
+2020-03-31 11:48:41,558 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:48:45              scholl_comp.blif_0.20_0.20_0_3_henkin.dqdimacs                 unsat                     4.00    4.07
+11:48:45   starting   scholl_comp.blif_0.20_0.20_2_2_henkin.dqdimacs                 
+2020-03-31 11:48:46,710 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:48:47              scholl_comp.blif_0.20_0.20_2_2_henkin.dqdimacs                 unsat                     0.37    0.43
+11:48:47   starting   scholl_comp.blif_0.20_1.00_4_0_henkin.dqdimacs                 
+2020-03-31 11:48:48,090 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:48:48              scholl_comp.blif_0.20_1.00_4_0_henkin.dqdimacs                 sat                       0.25    0.29
+11:48:48   starting   scholl_comp.blif_0.20_1.00_5_1_henkin.dqdimacs                 
+2020-03-31 11:48:49,346 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:48:51              scholl_comp.blif_0.20_1.00_5_1_henkin.dqdimacs                 unsat                     1.33    1.38
+11:48:51   starting   scholl_comp.blif_0.20_1.00_9_3_henkin.dqdimacs                 
+2020-03-31 11:48:51,718 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:48:52              scholl_comp.blif_0.20_1.00_9_3_henkin.dqdimacs                 sat                       0.13    0.18
+11:48:52   starting   scholl_comp.blif_0.30_0.50_2_1_henkin.dqdimacs                 
+2020-03-31 11:48:52,986 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:48:54              scholl_comp.blif_0.30_0.50_2_1_henkin.dqdimacs                 unsat                     0.77    0.82
+11:48:54   starting   scholl_comp.blif_0.50_1.00_2_2_henkin.dqdimacs                 
+2020-03-31 11:48:54,790 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:48:55              scholl_comp.blif_0.50_1.00_2_2_henkin.dqdimacs                 unsat                     0.06    0.11
+11:48:55   starting   scholl_comp.blif_0.50_1.00_4_0_henkin.dqdimacs                 
+2020-03-31 11:48:55,878 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:48:57              scholl_comp.blif_0.50_1.00_4_0_henkin.dqdimacs                 sat                       1.45    1.50
+11:48:57   starting   scholl_comp.blif_0.50_1.00_5_1_henkin.dqdimacs                 
+2020-03-31 11:48:58,406 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:49:14              scholl_comp.blif_0.10_0.20_2_1_henkin.dqdimacs                 unsat                   350.63  350.44
+11:49:14   starting   scholl_comp.blif_0.50_1.00_9_1_henkin.dqdimacs                 
+2020-03-31 11:49:15,150 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:49:15              scholl_comp.blif_0.50_1.00_9_1_henkin.dqdimacs                 unsat                     0.34    0.37
+11:49:15   starting   scholl_comp.blif_0.50_1.00_9_2_henkin.dqdimacs                 
+2020-03-31 11:49:16,358 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:52:46              scholl_comp.blif_0.10_0.20_0_0_henkin.dqdimacs                 sat                     587.47  587.16
+11:52:46   starting   scholl_comp.blif_0.60_1.00_4_0_henkin.dqdimacs                 
+2020-03-31 11:52:46,820 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:52:48              scholl_comp.blif_0.60_1.00_4_0_henkin.dqdimacs                 sat                       1.44    1.48
+11:52:48   starting   scholl_comp.blif_0.60_1.00_5_0_henkin.dqdimacs                 
+2020-03-31 11:52:49,205 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:53:40              scholl_comp.blif_0.60_1.00_5_0_henkin.dqdimacs                 sat                      50.57   50.62
+11:53:40   starting   scholl_comp.blif_0.60_1.00_9_2_henkin.dqdimacs                 
+2020-03-31 11:53:40,805 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:53:44              scholl_comp.blif_0.60_1.00_9_2_henkin.dqdimacs                 unsat                     2.54    2.60
+11:53:44   starting   scholl_term1.blif_0.10_1.00_5_1_henkin.dqdimacs                
+2020-03-31 11:53:44,869 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:54:13              scholl_term1.blif_0.10_1.00_5_1_henkin.dqdimacs                unsat                    28.67   28.68
+11:54:13   starting   scholl_term1.blif_0.10_1.00_5_2_henkin.dqdimacs                
+2020-03-31 11:54:14,453 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:54:16              scholl_C499.blif_0.10_1.00_4_2_henkin.dqdimacs                 TIMEOUT                 901.68  901.07
+11:54:16   starting   scholl_term1.blif_0.20_1.00_3_1_henkin.dqdimacs                
+2020-03-31 11:54:16,790 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:54:17              scholl_term1.blif_0.20_1.00_3_1_henkin.dqdimacs                unsat                     0.40    0.44
+11:54:17   starting   scholl_term1.blif_0.20_1.00_3_2_henkin.dqdimacs                
+2020-03-31 11:54:18,230 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:54:19              scholl_term1.blif_0.20_1.00_3_2_henkin.dqdimacs                unsat                     0.75    0.77
+11:54:19   starting   scholl_term1.blif_0.20_1.00_5_2_henkin.dqdimacs                
+2020-03-31 11:54:19,998 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:54:23              scholl_C499.blif_0.10_1.00_9_2_henkin.dqdimacs                 TIMEOUT                 901.68  901.05
+11:54:23   starting   scholl_term1.blif_0.20_1.00_9_0_henkin.dqdimacs                
+2020-03-31 11:54:24,022 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:54:24              scholl_term1.blif_0.20_1.00_9_0_henkin.dqdimacs                sat                       0.31    0.36
+11:54:24   starting   scholl_term1.blif_0.50_1.00_3_0_henkin.dqdimacs                
+2020-03-31 11:54:25,270 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:54:25              scholl_comp.blif_0.50_1.00_9_2_henkin.dqdimacs                 sat                     308.88  308.70
+11:54:25   starting   scholl_term1.blif_0.50_1.00_3_1_henkin.dqdimacs                
+2020-03-31 11:54:25,973 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:54:26              scholl_term1.blif_0.50_1.00_3_1_henkin.dqdimacs                unsat                     0.37    0.42
+11:54:26   starting   scholl_term1.blif_0.50_1.00_5_0_henkin.dqdimacs                
+11:54:26              scholl_term1.blif_0.50_1.00_3_0_henkin.dqdimacs                sat                       1.18    1.23
+11:54:26   starting   scholl_term1.blif_0.50_1.00_5_3_henkin.dqdimacs                
+2020-03-31 11:54:27,217 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+2020-03-31 11:54:27,733 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:54:33              scholl_term1.blif_0.10_1.00_5_2_henkin.dqdimacs                unsat                    18.66   18.70
+11:54:33   starting   scholl_term1.blif_0.60_1.00_3_1_henkin.dqdimacs                
+2020-03-31 11:54:34,217 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:54:34              scholl_term1.blif_0.60_1.00_3_1_henkin.dqdimacs                unsat                     0.37    0.40
+11:54:34   starting   scholl_term1.blif_0.60_1.00_3_3_henkin.dqdimacs                
+2020-03-31 11:54:35,861 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:54:37              scholl_term1.blif_0.60_1.00_3_3_henkin.dqdimacs                unsat                     1.04    1.10
+11:54:37   starting   scholl_term1.blif_0.60_1.00_5_1_henkin.dqdimacs                
+2020-03-31 11:54:38,005 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:54:38              scholl_term1.blif_0.20_1.00_5_2_henkin.dqdimacs                unsat                    18.57   18.59
+11:54:38   starting   scholl_term1.blif_0.60_1.00_9_0_henkin.dqdimacs                
+2020-03-31 11:54:39,450 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:54:40              scholl_term1.blif_0.60_1.00_9_0_henkin.dqdimacs                sat                       0.32    0.37
+11:54:40   starting   scholl_z4ml.blif_0.10_0.10_2_3_henkin.dqdimacs                 
+2020-03-31 11:54:40,742 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:54:41              scholl_z4ml.blif_0.10_0.10_2_3_henkin.dqdimacs                 unsat                     0.05    0.09
+11:54:41   starting   scholl_z4ml.blif_0.10_0.20_2_0_henkin.dqdimacs                 
+2020-03-31 11:54:41,766 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:54:42              scholl_z4ml.blif_0.10_0.20_2_0_henkin.dqdimacs                 sat                       0.30    0.36
+11:54:42   starting   scholl_z4ml.blif_0.10_0.50_0_1_henkin.dqdimacs                 
+2020-03-31 11:54:43,030 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:54:43              scholl_z4ml.blif_0.10_0.50_0_1_henkin.dqdimacs                 unsat                     0.04    0.11
+11:54:43   starting   scholl_z4ml.blif_0.10_0.50_2_3_henkin.dqdimacs                 
+2020-03-31 11:54:44,054 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:54:44              scholl_z4ml.blif_0.10_0.50_2_3_henkin.dqdimacs                 unsat                     0.05    0.11
+11:54:44   starting   scholl_z4ml.blif_0.10_1.00_2_0_henkin.dqdimacs                 
+2020-03-31 11:54:45,046 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:54:45              scholl_z4ml.blif_0.10_1.00_2_0_henkin.dqdimacs                 sat                       0.05    0.09
+11:54:45   starting   scholl_z4ml.blif_0.20_1.00_1_0_henkin.dqdimacs                 
+2020-03-31 11:54:46,054 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:54:46              scholl_z4ml.blif_0.20_1.00_1_0_henkin.dqdimacs                 sat                       0.05    0.11
+11:54:46   starting   scholl_z4ml.blif_0.20_1.00_7_0_henkin.dqdimacs                 
+2020-03-31 11:54:47,130 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:54:47              scholl_z4ml.blif_0.20_1.00_7_0_henkin.dqdimacs                 sat                       0.06    0.13
+11:54:47   starting   scholl_z4ml.blif_0.30_0.10_1_2_henkin.dqdimacs                 
+2020-03-31 11:54:48,186 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:54:48              scholl_z4ml.blif_0.30_0.10_1_2_henkin.dqdimacs                 unsat                     0.06    0.12
+11:54:48   starting   scholl_z4ml.blif_0.30_0.10_2_1_henkin.dqdimacs                 
+2020-03-31 11:54:49,254 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:54:49              scholl_z4ml.blif_0.30_0.10_2_1_henkin.dqdimacs                 unsat                     0.31    0.36
+11:54:49   starting   sgen3-n140-s18527668-sat.cnf.dqdimacs                          
+2020-03-31 11:54:50,550 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:54:55              scholl_term1.blif_0.50_1.00_5_0_henkin.dqdimacs                sat                      28.12   28.17
+11:54:55   starting   sgen3-n160-s40283905-sat.cnf.dqdimacs                          
+2020-03-31 11:54:56,461 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:55:06              scholl_term1.blif_0.60_1.00_5_1_henkin.dqdimacs                unsat                    28.46   28.49
+11:55:06   starting   sgen3-n180-s34713902-sat.cnf.dqdimacs                          
+2020-03-31 11:55:07,957 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:55:16              scholl_term1.blif_0.50_1.00_5_3_henkin.dqdimacs                unsat                    48.95   48.97
+11:55:17   starting   sgen3-n200-s39840374-sat.cnf.dqdimacs                          
+2020-03-31 11:55:17,638 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+11:55:51              scholl_C499.blif_0.50_1.00_8_1_henkin.dqdimacs                 TIMEOUT                 901.70  901.08
+11:55:51   starting   sgen3-n220-s24359701-sat.cnf.dqdimacs                          
+2020-03-31 11:55:52,165 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:02:08              sgen3-n140-s18527668-sat.cnf.dqdimacs                          sat                     438.21  437.93
+12:02:08   starting   sgen3-n240-s78945233-sat.cnf.dqdimacs                          
+2020-03-31 12:02:09,462 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:03:59              scholl_comp.blif_0.50_1.00_5_1_henkin.dqdimacs                 TIMEOUT                 901.70  901.08
+12:03:59   starting   sgen3-n260-s62321009-sat.cnf.dqdimacs                          
+2020-03-31 12:04:00,453 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:07:22              sgen3-n160-s40283905-sat.cnf.dqdimacs                          sat                     746.76  746.23
+12:07:23   starting   sgen3-n280-s93756482-sat.cnf.dqdimacs                          
+2020-03-31 12:07:23,589 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:08:54              sgen3-n200-s39840374-sat.cnf.dqdimacs                          sat                     816.62  816.06
+12:08:54   starting   sgen3-n300-s12830984-sat.cnf.dqdimacs                          
+2020-03-31 12:08:54,677 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:10:09              sgen3-n180-s34713902-sat.cnf.dqdimacs                          TIMEOUT                 901.58  901.05
+12:10:09   starting   tentrup_amba_decomposed_decode_environment_16.dqdimacs         
+2020-03-31 12:10:09,893 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:10:10              tentrup_amba_decomposed_decode_environment_16.dqdimacs         unsat                     0.50    0.55
+12:10:10   starting   tentrup_amba_decomposed_tburst4_system_16.dqdimacs             
+2020-03-31 12:10:11,341 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:10:53              sgen3-n220-s24359701-sat.cnf.dqdimacs                          TIMEOUT                 901.69  901.06
+12:10:53   starting   tentrup_genbuf3_system_16.dqdimacs                             
+2020-03-31 12:10:54,057 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:14:56              tentrup_amba_decomposed_tburst4_system_16.dqdimacs             sat                     285.28  285.15
+12:14:56   starting   tentrup_lilydemo07_system_16.dqdimacs                          
+2020-03-31 12:14:58,005 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:15:38              tentrup_lilydemo07_system_16.dqdimacs                          sat                      39.62   39.63
+12:15:38   starting   tentrup_ltl2dba13_environment_8.dqdimacs                       
+2020-03-31 12:15:38,757 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:17:10              sgen3-n240-s78945233-sat.cnf.dqdimacs                          TIMEOUT                 901.69  901.05
+12:17:10   starting   tentrup_ltl2dba_U1_system_16.dqdimacs                          
+2020-03-31 12:17:11,477 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:17:28              tentrup_ltl2dba13_environment_8.dqdimacs                       unsat                   109.75  109.72
+12:17:28   starting   tentrup_ltl2dba_alpha_environment_8.dqdimacs                   
+2020-03-31 12:17:29,337 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:19:01              sgen3-n260-s62321009-sat.cnf.dqdimacs                          TIMEOUT                 901.68  901.07
+12:19:01   starting   tentrup_pec_adder_n_bit_1_19.dqdimacs                          
+2020-03-31 12:19:02,505 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:19:48              tentrup_ltl2dba_U1_system_16.dqdimacs                          sat                     157.10  157.02
+12:19:48   starting   tentrup_pec_adder_n_bit_1_3.dqdimacs                           
+2020-03-31 12:19:49,397 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:20:21              tentrup_pec_adder_n_bit_1_19.dqdimacs                          sat                      78.38   78.36
+12:20:21   starting   tentrup_pec_adder_n_bit_3_1.dqdimacs                           
+2020-03-31 12:20:21,813 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:22:00              tentrup_pec_adder_n_bit_3_1.dqdimacs                           unsat                    97.92   97.88
+12:22:00   starting   tentrup_pec_adder_n_bit_3_18.dqdimacs                          
+2020-03-31 12:22:00,629 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:22:24              sgen3-n280-s93756482-sat.cnf.dqdimacs                          TIMEOUT                 901.68  901.05
+12:22:24   starting   tentrup_pec_adder_n_bit_4_11.dqdimacs                          
+2020-03-31 12:22:25,541 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:22:33              tentrup_pec_adder_n_bit_4_11.dqdimacs                          unsat                     7.34    7.39
+12:22:33   starting   tentrup_pec_adder_n_bit_4_5.dqdimacs                           
+2020-03-31 12:22:33,877 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:22:55              tentrup_pec_adder_n_bit_3_18.dqdimacs                          unsat                    54.09   54.12
+12:22:55   starting   tentrup_pec_adder_n_bit_5_11.dqdimacs                          
+2020-03-31 12:22:55,718 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:23:56              sgen3-n300-s12830984-sat.cnf.dqdimacs                          TIMEOUT                 901.68  901.07
+12:23:56   starting   tentrup_pec_adder_n_bit_5_18.dqdimacs                          
+2020-03-31 12:23:56,678 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:24:44              tentrup_ltl2dba_alpha_environment_8.dqdimacs                   unsat                   435.47  435.25
+12:24:44   starting   tentrup_pec_adder_n_bit_8_1.dqdimacs                           
+2020-03-31 12:24:45,493 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:25:55              tentrup_genbuf3_system_16.dqdimacs                             TIMEOUT                 901.69  901.08
+12:25:55   starting   tentrup_pec_adder_n_bit_8_7.dqdimacs                           
+2020-03-31 12:25:56,693 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:34:50              tentrup_pec_adder_n_bit_1_3.dqdimacs                           TIMEOUT                 901.71  901.10
+12:34:50   starting   tentrup_pec_adder_n_bit_9_11.dqdimacs                          
+2020-03-31 12:34:51,494 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:37:35              tentrup_pec_adder_n_bit_4_5.dqdimacs                           TIMEOUT                 901.69  901.05
+12:37:35   starting   tentrup_pec_adder_n_bit_9_17.dqdimacs                          
+2020-03-31 12:37:35,829 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:37:57              tentrup_pec_adder_n_bit_5_11.dqdimacs                          TIMEOUT                 901.70  901.08
+12:37:57   starting   tentrup_pec_adder_n_bit_9_20.dqdimacs                          
+2020-03-31 12:37:57,781 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:38:58              tentrup_pec_adder_n_bit_5_18.dqdimacs                          TIMEOUT                 901.69  901.08
+12:38:58   starting   tentrup_pec_adder_n_bit_9_22.dqdimacs                          
+2020-03-31 12:38:58,773 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:39:46              tentrup_pec_adder_n_bit_8_1.dqdimacs                           TIMEOUT                 901.61  901.08
+12:39:46   starting   tentrup_pec_adder_n_bit_9_6.dqdimacs                           
+2020-03-31 12:39:48,346 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:40:58              tentrup_pec_adder_n_bit_8_7.dqdimacs                           TIMEOUT                 901.70  901.08
+12:40:58   starting   tentrup_pec_look_ahead_arbiter_1_0.dqdimacs                    
+2020-03-31 12:40:58,662 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:41:02              tentrup_pec_look_ahead_arbiter_1_0.dqdimacs                    sat                       3.65    3.68
+12:41:02   starting   tentrup_pec_look_ahead_arbiter_1_11.dqdimacs                   
+2020-03-31 12:41:03,173 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:41:10              tentrup_pec_look_ahead_arbiter_1_11.dqdimacs                   unsat                     7.14    7.18
+12:41:10   starting   tentrup_pec_look_ahead_arbiter_1_14.dqdimacs                   
+2020-03-31 12:41:11,221 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:41:16              tentrup_pec_look_ahead_arbiter_1_14.dqdimacs                   unsat                     4.79    4.83
+12:41:16   starting   tentrup_pec_look_ahead_arbiter_1_2.dqdimacs                    
+2020-03-31 12:41:17,269 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:41:20              tentrup_pec_look_ahead_arbiter_1_2.dqdimacs                    unsat                     2.84    2.89
+12:41:20   starting   tentrup_pec_look_ahead_arbiter_2_4.dqdimacs                    
+2020-03-31 12:41:21,061 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:41:28              tentrup_pec_look_ahead_arbiter_2_4.dqdimacs                    unsat                     6.61    6.67
+12:41:28   starting   tentrup_pec_look_ahead_arbiter_3_12.dqdimacs                   
+2020-03-31 12:41:28,565 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:41:36              tentrup_pec_look_ahead_arbiter_3_12.dqdimacs                   unsat                     7.42    7.48
+12:41:36   starting   tentrup_pec_look_ahead_arbiter_3_15.dqdimacs                   
+2020-03-31 12:41:36,898 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:41:42              tentrup_pec_look_ahead_arbiter_3_15.dqdimacs                   unsat                     5.51    5.56
+12:41:42   starting   tentrup_pec_look_ahead_arbiter_3_3.dqdimacs                    
+2020-03-31 12:41:43,333 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:41:47              tentrup_pec_look_ahead_arbiter_3_3.dqdimacs                    unsat                     3.89    3.95
+12:41:47   starting   tentrup_pec_look_ahead_arbiter_5_1.dqdimacs                    
+2020-03-31 12:41:48,693 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:42:48              tentrup_pec_look_ahead_arbiter_5_1.dqdimacs                    unsat                    59.78   59.79
+12:42:48   starting   tentrup_pec_look_ahead_arbiter_5_10.dqdimacs                   
+2020-03-31 12:42:49,621 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:42:58              tentrup_pec_look_ahead_arbiter_5_10.dqdimacs                   unsat                     8.23    8.30
+12:42:58   starting   tentrup_pec_look_ahead_arbiter_5_12.dqdimacs                   
+2020-03-31 12:42:58,877 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:43:12              tentrup_pec_look_ahead_arbiter_5_12.dqdimacs                   unsat                    13.38   13.43
+12:43:12   starting   tentrup_pec_look_ahead_arbiter_5_2.dqdimacs                    
+2020-03-31 12:43:13,253 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:43:38              tentrup_pec_look_ahead_arbiter_5_2.dqdimacs                    unsat                    24.74   24.79
+12:43:38   starting   tentrup_pec_look_ahead_arbiter_5_3.dqdimacs                    
+2020-03-31 12:43:38,933 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:43:47              tentrup_pec_look_ahead_arbiter_5_3.dqdimacs                    unsat                     8.38    8.43
+12:43:47   starting   tentrup_pec_look_ahead_arbiter_6_12.dqdimacs                   
+2020-03-31 12:43:48,265 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:43:55              tentrup_pec_look_ahead_arbiter_6_12.dqdimacs                   unsat                     7.29    7.33
+12:43:55   starting   tentrup_pec_look_ahead_arbiter_6_2.dqdimacs                    
+2020-03-31 12:43:56,565 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:44:05              tentrup_pec_look_ahead_arbiter_6_2.dqdimacs                    unsat                     8.46    8.51
+12:44:05   starting   tentrup_pec_look_ahead_arbiter_7_2.dqdimacs                    
+2020-03-31 12:44:05,997 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:44:25              tentrup_pec_look_ahead_arbiter_7_2.dqdimacs                    unsat                    18.68   18.72
+12:44:25   starting   tentrup_pec_look_ahead_arbiter_7_22.dqdimacs                   
+2020-03-31 12:44:25,605 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:44:33              tentrup_pec_look_ahead_arbiter_7_22.dqdimacs                   unsat                     8.07    8.12
+12:44:33   starting   tentrup_pec_look_ahead_arbiter_7_5.dqdimacs                    
+2020-03-31 12:44:34,537 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:45:22              tentrup_pec_look_ahead_arbiter_7_5.dqdimacs                    unsat                    47.64   47.66
+12:45:22   starting   tentrup_pec_look_ahead_arbiter_7_9.dqdimacs                    
+2020-03-31 12:45:23,109 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:45:40              tentrup_pec_look_ahead_arbiter_7_9.dqdimacs                    unsat                    16.68   16.73
+12:45:40   starting   tentrup_pec_look_ahead_arbiter_8_4.dqdimacs                    
+2020-03-31 12:45:40,697 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:48:13              tentrup_pec_look_ahead_arbiter_8_4.dqdimacs                    unsat                   152.94  152.88
+12:48:13   starting   tentrup_pec_multiplexer_1_11.dqdimacs                          
+2020-03-31 12:48:14,525 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:48:15              tentrup_pec_multiplexer_1_11.dqdimacs                          unsat                     0.63    0.69
+12:48:15   starting   tentrup_pec_multiplexer_1_2.dqdimacs                           
+2020-03-31 12:48:16,397 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:48:18              tentrup_pec_multiplexer_1_2.dqdimacs                           unsat                     1.60    1.63
+12:48:18   starting   tentrup_pec_multiplexer_1_26.dqdimacs                          
+2020-03-31 12:48:18,989 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:48:20              tentrup_pec_multiplexer_1_26.dqdimacs                          unsat                     1.15    1.20
+12:48:20   starting   tentrup_pec_multiplexer_1_4.dqdimacs                           
+2020-03-31 12:48:21,133 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:48:22              tentrup_pec_multiplexer_1_4.dqdimacs                           unsat                     1.25    1.29
+12:48:22   starting   tentrup_pec_multiplexer_1_8.dqdimacs                           
+2020-03-31 12:48:23,345 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:48:24              tentrup_pec_multiplexer_1_8.dqdimacs                           unsat                     1.29    1.34
+12:48:24   starting   tentrup_pec_multiplexer_2_2.dqdimacs                           
+2020-03-31 12:48:25,541 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:48:27              tentrup_pec_multiplexer_2_2.dqdimacs                           unsat                     1.88    1.93
+12:48:27   starting   tentrup_pec_multiplexer_3_2.dqdimacs                           
+2020-03-31 12:48:28,361 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:48:30              tentrup_pec_multiplexer_3_2.dqdimacs                           sat                       1.97    2.02
+12:48:30   starting   tentrup_pec_multiplexer_3_30.dqdimacs                          
+2020-03-31 12:48:31,305 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:48:34              tentrup_pec_multiplexer_3_30.dqdimacs                          unsat                     2.36    2.40
+12:48:34   starting   tentrup_pec_multiplexer_3_6.dqdimacs                           
+2020-03-31 12:48:34,678 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:48:36              tentrup_pec_multiplexer_3_6.dqdimacs                           unsat                     1.76    1.82
+12:48:36   starting   tentrup_pec_multiplexer_3_7.dqdimacs                           
+2020-03-31 12:48:37,445 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:48:41              tentrup_pec_multiplexer_3_7.dqdimacs                           sat                       3.47    3.51
+12:48:41   starting   tentrup_pec_multiplexer_5_11.dqdimacs                          
+2020-03-31 12:48:41,990 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:48:44              tentrup_pec_multiplexer_5_11.dqdimacs                          unsat                     2.01    2.06
+12:48:44   starting   tentrup_pec_multiplexer_5_12.dqdimacs                          
+2020-03-31 12:48:44,997 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:48:50              tentrup_pec_multiplexer_5_12.dqdimacs                          unsat                     4.69    4.73
+12:48:50   starting   tentrup_pec_multiplexer_5_17.dqdimacs                          
+2020-03-31 12:48:50,725 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:48:56              tentrup_pec_multiplexer_5_17.dqdimacs                          unsat                     5.55    5.58
+12:48:56   starting   tentrup_pec_multiplexer_5_2.dqdimacs                           
+2020-03-31 12:48:57,301 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:49:00              tentrup_pec_multiplexer_5_2.dqdimacs                           unsat                     2.74    2.78
+12:49:00   starting   tentrup_pec_multiplier_1_0.dqdimacs                            
+2020-03-31 12:49:01,001 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:49:20              tentrup_pec_multiplier_1_0.dqdimacs                            sat                      19.44   19.48
+12:49:20   starting   tentrup_pec_multiplier_1_10.dqdimacs                           
+2020-03-31 12:49:21,429 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:49:29              tentrup_pec_multiplier_1_10.dqdimacs                           unsat                     7.38    7.42
+12:49:29   starting   tentrup_pec_multiplier_1_11.dqdimacs                           
+2020-03-31 12:49:29,789 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:49:52              tentrup_pec_adder_n_bit_9_11.dqdimacs                          TIMEOUT                 901.69  901.08
+12:49:52   starting   tentrup_pec_multiplier_1_20.dqdimacs                           
+2020-03-31 12:49:53,506 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:50:00              tentrup_pec_multiplier_1_20.dqdimacs                           unsat                     7.11    7.15
+12:50:00   starting   tentrup_pec_multiplier_1_30.dqdimacs                           
+2020-03-31 12:50:01,593 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:50:11              tentrup_pec_multiplier_1_11.dqdimacs                           unsat                    41.46   41.48
+12:50:11   starting   tentrup_pec_multiplier_1_9.dqdimacs                            
+2020-03-31 12:50:12,213 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:50:16              tentrup_pec_multiplier_1_30.dqdimacs                           unsat                    14.73   14.76
+12:50:16   starting   tentrup_pec_multiplier_3_2.dqdimacs                            
+2020-03-31 12:50:17,334 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:50:19              tentrup_pec_multiplier_1_9.dqdimacs                            unsat                     6.53    6.57
+12:50:19   starting   tentrup_pec_multiplier_3_3.dqdimacs                            
+2020-03-31 12:50:19,677 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:50:25              tentrup_pec_multiplier_3_3.dqdimacs                            unsat                     5.65    5.69
+12:50:25   starting   tentrup_pec_multiplier_3_4.dqdimacs                            
+2020-03-31 12:50:26,213 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:50:36              tentrup_pec_multiplier_3_2.dqdimacs                            unsat                    19.10   19.13
+12:50:36   starting   x1_40.shuffled.cnf.dqdimacs                                    
+2020-03-31 12:50:37,398 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:50:58              tentrup_pec_multiplier_3_4.dqdimacs                            unsat                    32.19   32.22
+12:50:58   starting   x1_80.shuffled.cnf.dqdimacs                                    
+2020-03-31 12:50:59,413 - WARNING - Could not load libseccomp2, please install it for improved container isolation (libseccomp.so.2: cannot open shared object file: No such file or directory).
+12:52:37              tentrup_pec_adder_n_bit_9_17.dqdimacs                          TIMEOUT                 901.70  901.07
+12:52:59              tentrup_pec_adder_n_bit_9_20.dqdimacs                          TIMEOUT                 901.69  901.07
+12:54:00              tentrup_pec_adder_n_bit_9_22.dqdimacs                          TIMEOUT                 901.69  901.07
+12:54:49              tentrup_pec_adder_n_bit_9_6.dqdimacs                           TIMEOUT                 901.59  901.07
+12:59:44              x1_40.shuffled.cnf.dqdimacs                                    unsat                   547.14  546.76
+13:06:00              x1_80.shuffled.cnf.dqdimacs                                    TIMEOUT                 901.69  901.03
+
+Statistics:            246 Files
+  correct:               0
+    correct true:        0
+    correct false:       0
+  incorrect:             0
+    incorrect true:      0
+    incorrect false:     0
+  unknown:             107
+
+In order to get HTML and CSV tables, run
+table-generator 'results/benchmark-hqs.2020-03-31_1024.results.dqbf19.xml.bz2'
+Committing results files to git repository in /home/xsic/DQBFbenchmarks
