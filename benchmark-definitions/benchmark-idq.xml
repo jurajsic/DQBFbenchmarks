@@ -10,10 +10,10 @@
 
   <!-- test benchmarks -->  
   <tasks name="testing">
-    <include>../benchmarks/testing/test*.dqdimacs</include>
+    <include>../benchmarks/testing/testsat.dqdimacs</include>
   </tasks>
   <tasks name="testing2">
-    <include>../benchmarks/testing/test*.dqdimacs</include>
+    <include>../benchmarks/testing/testunsat.dqdimacs</include>
   </tasks>
 
   <!-- benchmarks from QBFeval18 -->
