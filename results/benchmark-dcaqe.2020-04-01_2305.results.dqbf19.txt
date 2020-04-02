@@ -1,0 +1,292 @@
+   BENCHMARK INFORMATION
+benchmark definition:    benchmark-definitions/benchmark-dcaqe.xml
+name:                    benchmark-dcaqe
+run sets:                dqbf19
+date:                    Wed, 2020-04-01 23:05:06 CEST
+tool:                    dCAQE 4.0.1
+tool executable:         /home/xsic/DQBFbenchmarks/solvers/dcaqe
+options:                 
+parallel runs:           6
+resource limits:
+- memory:                4000.0 MB
+- time:                  900 s
+- cpu cores:             1
+hardware requirements:
+- cpu cores:             1
+- memory:                4000.0 MB
+------------------------------------------------------------
+
+   SYSTEM INFORMATION
+host:                    islay
+os:                      Linux-3.16.0-4-amd64-x86_64-with-debian-8.5
+cpu:                     Intel Xeon CPU E5-2620 v2 @ 2.10GHz
+- cores:                 24
+- max frequency:         2600.0 MHz
+- turbo boost enabled:   False
+ram:                     135450.984448 MB
+------------------------------------------------------------
+
+
+
+dqbf19
+Run set 1 of 1 with options '' and propertyfile 'None'
+
+inputfile                                                      status                    cpu time   wall time        host
+-------------------------------------------------------------------------------------------------------------------------
+battleship-10-17-sat.cnf.dqdimacs                              sat                           1.20        1.26        None
+battleship-11-11-unsat.cnf.dqdimacs                            unsat                       335.40      335.21        None
+battleship-11-21-sat.cnf.dqdimacs                              sat                          52.57       52.59        None
+battleship-12-12-unsat.cnf.dqdimacs                            unsat                        62.30       62.30        None
+battleship-13-13-unsat.cnf.dqdimacs                            TIMEOUT                     901.67      901.04        None
+battleship-7-12-unsat.cnf.dqdimacs                             TIMEOUT                     901.66      901.05        None
+bloem_add10n.dqdimacs                                          sat                         182.82      182.74        None
+bloem_add10y.dqdimacs                                          sat                           8.87        8.92        None
+bloem_add16n.dqdimacs                                          TIMEOUT                     901.69      901.09        None
+bloem_add20n.dqdimacs                                          TIMEOUT                     901.71      901.10        None
+bloem_add6n.dqdimacs                                           sat                           0.05        0.11        None
+bloem_add8y.dqdimacs                                           sat                           1.17        1.22        None
+bloem_amba10b4unrealy.dqdimacs                                 TIMEOUT                     901.67      901.15        None
+bloem_amba2f8unrealy.dqdimacs                                  TIMEOUT                     901.69      901.08        None
+bloem_amba3b4unrealy.dqdimacs                                  TIMEOUT                     901.70      901.08        None
+bloem_amba3c5n.dqdimacs                                        TIMEOUT                     901.69      901.10        None
+bloem_amba4b9n.dqdimacs                                        TIMEOUT                     901.70      901.07        None
+bloem_amba4c7n.dqdimacs                                        TIMEOUT                     901.81      901.19        None
+bloem_amba5b4unrealy.dqdimacs                                  TIMEOUT                     901.61      901.09        None
+bloem_amba6c5n.dqdimacs                                        TIMEOUT                     901.70      901.09        None
+bloem_amba7b4unrealy.dqdimacs                                  TIMEOUT                     901.71      901.11        None
+bloem_amba8c6unrealn.dqdimacs                                  TIMEOUT                     901.71      901.11        None
+bloem_amba8c7y.dqdimacs                                        TIMEOUT                     901.70      901.08        None
+bloem_amba8f56unrealy.dqdimacs                                 TIMEOUT                     901.75      901.11        None
+bloem_amba8f57n.dqdimacs                                       TIMEOUT                     901.60      901.10        None
+bloem_amba9b5y.dqdimacs                                        TIMEOUT                     901.73      901.11        None
+bloem_amba9c5n.dqdimacs                                        TIMEOUT                     901.71      901.08        None
+bloem_bs128y.dqdimacs                                          TIMEOUT                     901.76      901.24        None
+bloem_bs16n.dqdimacs                                           TIMEOUT                     901.69      901.08        None
+bloem_bs16y.dqdimacs                                           TIMEOUT                     901.83      901.22        None
+bloem_bs64n.dqdimacs                                           TIMEOUT                     901.64      901.13        None
+bloem_bs8y.dqdimacs                                            sat                           1.27        1.32        None
+bloem_cnt11n.dqdimacs                                          sat                           0.02        0.06        None
+bloem_cnt11y.dqdimacs                                          sat                           5.32        5.37        None
+bloem_cnt4n.dqdimacs                                           sat                           0.01        0.04        None
+bloem_cnt6n.dqdimacs                                           sat                           0.01        0.06        None
+bloem_cnt6y.dqdimacs                                           sat                           0.01        0.07        None
+bloem_cnt7y.dqdimacs                                           sat                           0.05        0.11        None
+bloem_cnt9n.dqdimacs                                           sat                           0.07        0.11        None
+bloem_genbuf10b4y.dqdimacs                                     TIMEOUT                     901.71      901.10        None
+bloem_genbuf10c3n.dqdimacs                                     TIMEOUT                     901.73      901.12        None
+bloem_genbuf11b3unrealn.dqdimacs                               TIMEOUT                     901.82      901.23        None
+bloem_genbuf11c2unrealn.dqdimacs                               TIMEOUT                     901.71      901.14        None
+bloem_genbuf11c2unrealy.dqdimacs                               TIMEOUT                     901.94      901.30        None
+bloem_genbuf11f11n.dqdimacs                                    TIMEOUT                     901.67      901.16        None
+bloem_genbuf11f11y.dqdimacs                                    TIMEOUT                     901.75      901.15        None
+bloem_genbuf12b4y.dqdimacs                                     TIMEOUT                     901.79      901.17        None
+bloem_genbuf12f12n.dqdimacs                                    TIMEOUT                     901.78      901.23        None
+bloem_genbuf12f12y.dqdimacs                                    TIMEOUT                     901.76      901.14        None
+bloem_genbuf13b4n.dqdimacs                                     TIMEOUT                     901.98      901.37        None
+bloem_genbuf13f13y.dqdimacs                                    TIMEOUT                     901.68      901.18        None
+bloem_genbuf14b3unrealn.dqdimacs                               TIMEOUT                     901.77      901.16        None
+bloem_genbuf14c2unrealn.dqdimacs                               TIMEOUT                     901.75      901.14        None
+bloem_genbuf15b4y.dqdimacs                                     TIMEOUT                     901.87      901.29        None
+bloem_genbuf15c3y.dqdimacs                                     TIMEOUT                     901.73      901.12        None
+bloem_genbuf15f14unrealy.dqdimacs                              TIMEOUT                     901.81      901.20        None
+bloem_genbuf15f15n.dqdimacs                                    TIMEOUT                     901.68      901.18        None
+bloem_genbuf16c2unrealn.dqdimacs                               TIMEOUT                     901.76      901.15        None
+bloem_genbuf16c3y.dqdimacs                                     TIMEOUT                     901.77      901.19        None
+bloem_genbuf1b4n.dqdimacs                                      TIMEOUT                     901.70      901.10        None
+bloem_genbuf1f3unrealn.dqdimacs                                TIMEOUT                     901.71      901.09        None
+bloem_genbuf2b4n.dqdimacs                                      TIMEOUT                     901.77      901.15        None
+bloem_genbuf3f4y.dqdimacs                                      TIMEOUT                     901.60      901.11        None
+bloem_genbuf4c3n.dqdimacs                                      TIMEOUT                     901.69      901.08        None
+bloem_genbuf5f4unrealn.dqdimacs                                TIMEOUT                     901.71      901.09        None
+bloem_genbuf5f4unrealy.dqdimacs                                TIMEOUT                     901.70      901.10        None
+bloem_genbuf6b4y.dqdimacs                                      TIMEOUT                     901.70      901.10        None
+bloem_genbuf7c2unrealn.dqdimacs                                TIMEOUT                     901.72      901.09        None
+bloem_genbuf7f7y.dqdimacs                                      TIMEOUT                     901.61      901.11        None
+bloem_genbuf8b3unrealn.dqdimacs                                TIMEOUT                     901.71      901.13        None
+bloem_genbuf8b4y.dqdimacs                                      TIMEOUT                     901.74      901.11        None
+bloem_genbuf8c2unrealn.dqdimacs                                TIMEOUT                     901.71      901.07        None
+bloem_genbuf9b4n.dqdimacs                                      TIMEOUT                     901.71      901.08        None
+bloem_genbuf9c2unrealy.dqdimacs                                TIMEOUT                     901.72      901.10        None
+bloem_genbuf9c3n.dqdimacs                                      TIMEOUT                     901.62      901.11        None
+bloem_genbuf9f8unrealy.dqdimacs                                TIMEOUT                     901.70      901.10        None
+bloem_ifm_amba15n.dqdimacs                                     TIMEOUT                     901.79      901.20        None
+bloem_mv11n.dqdimacs                                           TIMEOUT                     901.70      901.10        None
+bloem_mv20n.dqdimacs                                           TIMEOUT                     901.70      901.08        None
+bloem_mv20y.dqdimacs                                           TIMEOUT                     901.75      901.13        None
+bloem_mv4n.dqdimacs                                            sat                           0.13        0.19        None
+bloem_mv9y.dqdimacs                                            TIMEOUT                     901.59      901.09        None
+bloem_mvs24n.dqdimacs                                          TIMEOUT                     901.69      901.07        None
+bloem_mvs4n.dqdimacs                                           sat                           0.01        0.08        None
+bloem_stay12y.dqdimacs                                         TIMEOUT                     901.67      901.07        None
+bloem_stay18n.dqdimacs                                         TIMEOUT                     901.75      901.25        None
+bloem_stay4n.dqdimacs                                          sat                           0.03        0.06        None
+bloem_stay4y.dqdimacs                                          sat                           0.02        0.07        None
+bloem_stay6n.dqdimacs                                          sat                           0.43        0.48        None
+eulcbip-7-UNSAT.shuffled-as.sat05-3936.cnf.dqdimacs            TIMEOUT                     901.67      901.05        None
+f600.shuffled.cnf.dqdimacs                                     TIMEOUT                     901.67      901.05        None
+hwb-n28-01-S136611085.shuffled-as.sat03-1627.cnf.dqdimacs      TIMEOUT                     901.57      901.04        None
+mm-2x2-6-6-s.1.shuffled-as.sat03-1499.cnf.dqdimacs             unsat                       331.29      331.15        None
+mod2-rand3bip-sat-270-1.shuffled-as.sat05-2248.cnf.dqdimacs    TIMEOUT                     901.67      901.07        None
+scholl_C432.blif_0.10_0.10_2_0_henkin.dqdimacs                 TIMEOUT                     901.67      901.04        None
+scholl_C432.blif_0.10_1.00_0_2_henkin.dqdimacs                 TIMEOUT                     901.71      901.19        None
+scholl_C432.blif_0.10_1.00_2_0_henkin.dqdimacs                 TIMEOUT                     901.68      901.08        None
+scholl_C432.blif_0.10_1.00_7_2_henkin.dqdimacs                 TIMEOUT                     901.92      901.29        None
+scholl_C432.blif_0.10_1.00_7_3_henkin.dqdimacs                 unsat                         0.01        0.09        None
+scholl_C432.blif_0.20_0.50_2_0_henkin.dqdimacs                 TIMEOUT                     901.58      901.07        None
+scholl_C432.blif_0.20_0.50_2_1_henkin.dqdimacs                 TIMEOUT                     901.67      901.07        None
+scholl_C432.blif_0.20_1.00_0_0_henkin.dqdimacs                 TIMEOUT                     901.71      901.12        None
+scholl_C432.blif_0.20_1.00_7_1_henkin.dqdimacs                 TIMEOUT                     901.69      901.08        None
+scholl_C432.blif_0.20_1.00_8_2_henkin.dqdimacs                 TIMEOUT                     901.68      901.08        None
+scholl_C432.blif_0.40_1.00_1_2_henkin.dqdimacs                 unsat                         0.64        0.69        None
+scholl_C432.blif_0.50_1.00_3_3_henkin.dqdimacs                 unsat                         0.02        0.06        None
+scholl_C432.blif_0.50_1.00_6_3_henkin.dqdimacs                 TIMEOUT                     901.69      901.10        None
+scholl_C432.blif_0.50_1.00_8_1_henkin.dqdimacs                 TIMEOUT                     901.58      901.07        None
+scholl_C499.blif_0.10_1.00_3_0_henkin.dqdimacs                 TIMEOUT                     901.69      901.08        None
+scholl_C499.blif_0.10_1.00_4_2_henkin.dqdimacs                 TIMEOUT                     901.67      901.07        None
+scholl_C499.blif_0.10_1.00_7_2_henkin.dqdimacs                 unsat                         0.62        0.68        None
+scholl_C499.blif_0.10_1.00_9_2_henkin.dqdimacs                 TIMEOUT                     901.70      901.07        None
+scholl_C499.blif_0.20_1.00_2_0_henkin.dqdimacs                 TIMEOUT                     901.68      901.05        None
+scholl_C499.blif_0.50_1.00_8_1_henkin.dqdimacs                 unsat                         0.02        0.07        None
+scholl_comp.blif_0.10_0.10_0_0_henkin.dqdimacs                 TIMEOUT                     901.68      901.05        None
+scholl_comp.blif_0.10_0.10_0_2_henkin.dqdimacs                 TIMEOUT                     901.59      901.08        None
+scholl_comp.blif_0.10_0.10_0_3_henkin.dqdimacs                 unsat                       195.24      195.16        None
+scholl_comp.blif_0.10_0.10_1_3_henkin.dqdimacs                 TIMEOUT                     901.68      901.05        None
+scholl_comp.blif_0.10_0.20_0_0_henkin.dqdimacs                 TIMEOUT                     901.69      901.08        None
+scholl_comp.blif_0.10_0.20_1_3_henkin.dqdimacs                 TIMEOUT                     901.69      901.08        None
+scholl_comp.blif_0.10_0.20_2_1_henkin.dqdimacs                 unsat                        12.66       12.68        None
+scholl_comp.blif_0.10_0.50_0_3_henkin.dqdimacs                 TIMEOUT                     901.68      901.07        None
+scholl_comp.blif_0.10_0.50_1_3_henkin.dqdimacs                 TIMEOUT                     901.69      901.07        None
+scholl_comp.blif_0.10_1.00_0_0_henkin.dqdimacs                 sat                           0.24        0.28        None
+scholl_comp.blif_0.10_1.00_0_1_henkin.dqdimacs                 unsat                         0.04        0.11        None
+scholl_comp.blif_0.10_1.00_2_0_henkin.dqdimacs                 sat                           0.39        0.44        None
+scholl_comp.blif_0.10_1.00_2_1_henkin.dqdimacs                 unsat                         0.05        0.11        None
+scholl_comp.blif_0.10_1.00_2_3_henkin.dqdimacs                 unsat                         0.35        0.40        None
+scholl_comp.blif_0.10_1.00_4_2_henkin.dqdimacs                 unsat                       155.25      155.19        None
+scholl_comp.blif_0.10_1.00_5_2_henkin.dqdimacs                 TIMEOUT                     901.58      901.07        None
+scholl_comp.blif_0.10_1.00_9_3_henkin.dqdimacs                 TIMEOUT                     901.67      901.05        None
+scholl_comp.blif_0.20_0.10_0_2_henkin.dqdimacs                 TIMEOUT                     901.69      901.08        None
+scholl_comp.blif_0.20_0.10_1_1_henkin.dqdimacs                 TIMEOUT                     901.68      901.07        None
+scholl_comp.blif_0.20_0.20_0_3_henkin.dqdimacs                 TIMEOUT                     901.68      901.05        None
+scholl_comp.blif_0.20_0.20_2_2_henkin.dqdimacs                 TIMEOUT                     901.69      901.06        None
+scholl_comp.blif_0.20_1.00_4_0_henkin.dqdimacs                 sat                           8.57        8.62        None
+scholl_comp.blif_0.20_1.00_5_1_henkin.dqdimacs                 unsat                       238.82      238.71        None
+scholl_comp.blif_0.20_1.00_9_3_henkin.dqdimacs                 sat                          34.32       34.36        None
+scholl_comp.blif_0.30_0.50_2_1_henkin.dqdimacs                 unsat                         0.01        0.06        None
+scholl_comp.blif_0.50_1.00_2_2_henkin.dqdimacs                 unsat                         0.01        0.08        None
+scholl_comp.blif_0.50_1.00_4_0_henkin.dqdimacs                 sat                           0.09        0.13        None
+scholl_comp.blif_0.50_1.00_5_1_henkin.dqdimacs                 TIMEOUT                     901.59      901.05        None
+scholl_comp.blif_0.50_1.00_9_1_henkin.dqdimacs                 unsat                         0.02        0.04        None
+scholl_comp.blif_0.50_1.00_9_2_henkin.dqdimacs                 sat                           0.12        0.15        None
+scholl_comp.blif_0.60_1.00_4_0_henkin.dqdimacs                 sat                           0.19        0.23        None
+scholl_comp.blif_0.60_1.00_5_0_henkin.dqdimacs                 TIMEOUT                     901.68      901.05        None
+scholl_comp.blif_0.60_1.00_9_2_henkin.dqdimacs                 unsat                         0.03        0.09        None
+scholl_term1.blif_0.10_1.00_5_1_henkin.dqdimacs                TIMEOUT                     901.69      901.08        None
+scholl_term1.blif_0.10_1.00_5_2_henkin.dqdimacs                unsat                         2.48        2.54        None
+scholl_term1.blif_0.20_1.00_3_1_henkin.dqdimacs                TIMEOUT                     901.68      901.08        None
+scholl_term1.blif_0.20_1.00_3_2_henkin.dqdimacs                TIMEOUT                     901.67      901.06        None
+scholl_term1.blif_0.20_1.00_5_2_henkin.dqdimacs                unsat                         2.44        2.51        None
+scholl_term1.blif_0.20_1.00_9_0_henkin.dqdimacs                sat                           1.33        1.40        None
+scholl_term1.blif_0.50_1.00_3_0_henkin.dqdimacs                TIMEOUT                     901.68      901.05        None
+scholl_term1.blif_0.50_1.00_3_1_henkin.dqdimacs                unsat                         0.01        0.09        None
+scholl_term1.blif_0.50_1.00_5_0_henkin.dqdimacs                TIMEOUT                     901.60      901.09        None
+scholl_term1.blif_0.50_1.00_5_3_henkin.dqdimacs                TIMEOUT                     901.72      901.10        None
+scholl_term1.blif_0.60_1.00_3_1_henkin.dqdimacs                unsat                         0.01        0.06        None
+scholl_term1.blif_0.60_1.00_3_3_henkin.dqdimacs                TIMEOUT                     901.67      901.05        None
+scholl_term1.blif_0.60_1.00_5_1_henkin.dqdimacs                TIMEOUT                     901.71      901.09        None
+scholl_term1.blif_0.60_1.00_9_0_henkin.dqdimacs                sat                           1.34        1.39        None
+scholl_z4ml.blif_0.10_0.10_2_3_henkin.dqdimacs                 unsat                         0.05        0.10        None
+scholl_z4ml.blif_0.10_0.20_2_0_henkin.dqdimacs                 sat                         237.38      237.24        None
+scholl_z4ml.blif_0.10_0.50_0_1_henkin.dqdimacs                 unsat                         0.01        0.04        None
+scholl_z4ml.blif_0.10_0.50_2_3_henkin.dqdimacs                 unsat                         0.05        0.11        None
+scholl_z4ml.blif_0.10_1.00_2_0_henkin.dqdimacs                 sat                           0.02        0.05        None
+scholl_z4ml.blif_0.20_1.00_1_0_henkin.dqdimacs                 sat                           0.01        0.05        None
+scholl_z4ml.blif_0.20_1.00_7_0_henkin.dqdimacs                 sat                           0.04        0.12        None
+scholl_z4ml.blif_0.30_0.10_1_2_henkin.dqdimacs                 unsat                         0.11        0.17        None
+scholl_z4ml.blif_0.30_0.10_2_1_henkin.dqdimacs                 unsat                         0.03        0.09        None
+sgen3-n140-s18527668-sat.cnf.dqdimacs                          sat                         799.94      799.41        None
+sgen3-n160-s40283905-sat.cnf.dqdimacs                          TIMEOUT                     901.67      901.05        None
+sgen3-n180-s34713902-sat.cnf.dqdimacs                          TIMEOUT                     901.58      901.05        None
+sgen3-n200-s39840374-sat.cnf.dqdimacs                          TIMEOUT                     901.69      901.04        None
+sgen3-n220-s24359701-sat.cnf.dqdimacs                          TIMEOUT                     901.68      901.03        None
+sgen3-n240-s78945233-sat.cnf.dqdimacs                          TIMEOUT                     901.67      901.03        None
+sgen3-n260-s62321009-sat.cnf.dqdimacs                          TIMEOUT                     901.68      901.03        None
+sgen3-n280-s93756482-sat.cnf.dqdimacs                          TIMEOUT                     901.67      901.05        None
+sgen3-n300-s12830984-sat.cnf.dqdimacs                          TIMEOUT                     901.57      901.07        None
+tentrup_amba_decomposed_decode_environment_16.dqdimacs         sat                           0.32        0.38        None
+tentrup_amba_decomposed_tburst4_system_16.dqdimacs             TIMEOUT                     901.72      901.13        None
+tentrup_genbuf3_system_16.dqdimacs                             TIMEOUT                     901.78      901.18        None
+tentrup_lilydemo07_system_16.dqdimacs                          sat                           0.02        0.06        None
+tentrup_ltl2dba13_environment_8.dqdimacs                       unsat                        46.85       46.86        None
+tentrup_ltl2dba_U1_system_16.dqdimacs                          sat                         277.78      277.62        None
+tentrup_ltl2dba_alpha_environment_8.dqdimacs                   unsat                        50.31       50.31        None
+tentrup_pec_adder_n_bit_1_19.dqdimacs                          TIMEOUT                     901.75      901.15        None
+tentrup_pec_adder_n_bit_1_3.dqdimacs                           unsat                         0.12        0.16        None
+tentrup_pec_adder_n_bit_3_1.dqdimacs                           unsat                         1.32        1.37        None
+tentrup_pec_adder_n_bit_3_18.dqdimacs                          TIMEOUT                     901.75      901.13        None
+tentrup_pec_adder_n_bit_4_11.dqdimacs                          unsat                         0.89        0.95        None
+tentrup_pec_adder_n_bit_4_5.dqdimacs                           unsat                        42.05       42.07        None
+tentrup_pec_adder_n_bit_5_11.dqdimacs                          unsat                        34.89       34.92        None
+tentrup_pec_adder_n_bit_5_18.dqdimacs                          unsat                        45.60       45.60        None
+tentrup_pec_adder_n_bit_8_1.dqdimacs                           TIMEOUT                     901.71      901.08        None
+tentrup_pec_adder_n_bit_8_7.dqdimacs                           TIMEOUT                     901.63      901.11        None
+tentrup_pec_adder_n_bit_9_11.dqdimacs                          TIMEOUT                     901.77      901.16        None
+tentrup_pec_adder_n_bit_9_17.dqdimacs                          TIMEOUT                     901.76      901.13        None
+tentrup_pec_adder_n_bit_9_20.dqdimacs                          unsat                       169.58      169.51        None
+tentrup_pec_adder_n_bit_9_22.dqdimacs                          TIMEOUT                     901.73      901.11        None
+tentrup_pec_adder_n_bit_9_6.dqdimacs                           TIMEOUT                     901.76      901.12        None
+tentrup_pec_look_ahead_arbiter_1_0.dqdimacs                    sat                           0.26        0.31        None
+tentrup_pec_look_ahead_arbiter_1_11.dqdimacs                   unsat                         0.18        0.23        None
+tentrup_pec_look_ahead_arbiter_1_14.dqdimacs                   unsat                         0.03        0.09        None
+tentrup_pec_look_ahead_arbiter_1_2.dqdimacs                    unsat                         0.12        0.17        None
+tentrup_pec_look_ahead_arbiter_2_4.dqdimacs                    unsat                         1.13        1.16        None
+tentrup_pec_look_ahead_arbiter_3_12.dqdimacs                   unsat                         0.35        0.41        None
+tentrup_pec_look_ahead_arbiter_3_15.dqdimacs                   unsat                         0.22        0.27        None
+tentrup_pec_look_ahead_arbiter_3_3.dqdimacs                    unsat                         0.10        0.15        None
+tentrup_pec_look_ahead_arbiter_5_1.dqdimacs                    unsat                         0.37        0.41        None
+tentrup_pec_look_ahead_arbiter_5_10.dqdimacs                   unsat                         0.37        0.41        None
+tentrup_pec_look_ahead_arbiter_5_12.dqdimacs                   unsat                         0.11        0.16        None
+tentrup_pec_look_ahead_arbiter_5_2.dqdimacs                    unsat                         0.22        0.28        None
+tentrup_pec_look_ahead_arbiter_5_3.dqdimacs                    unsat                         0.04        0.09        None
+tentrup_pec_look_ahead_arbiter_6_12.dqdimacs                   unsat                         0.07        0.12        None
+tentrup_pec_look_ahead_arbiter_6_2.dqdimacs                    unsat                         0.03        0.11        None
+tentrup_pec_look_ahead_arbiter_7_2.dqdimacs                    unsat                         0.08        0.14        None
+tentrup_pec_look_ahead_arbiter_7_22.dqdimacs                   unsat                         0.10        0.16        None
+tentrup_pec_look_ahead_arbiter_7_5.dqdimacs                    unsat                         0.26        0.29        None
+tentrup_pec_look_ahead_arbiter_7_9.dqdimacs                    unsat                         0.15        0.19        None
+tentrup_pec_look_ahead_arbiter_8_4.dqdimacs                    unsat                         0.10        0.16        None
+tentrup_pec_multiplexer_1_11.dqdimacs                          unsat                         4.45        4.50        None
+tentrup_pec_multiplexer_1_2.dqdimacs                           unsat                         0.85        0.89        None
+tentrup_pec_multiplexer_1_26.dqdimacs                          unsat                         0.11        0.17        None
+tentrup_pec_multiplexer_1_4.dqdimacs                           unsat                         3.38        3.43        None
+tentrup_pec_multiplexer_1_8.dqdimacs                           unsat                         1.35        1.40        None
+tentrup_pec_multiplexer_2_2.dqdimacs                           unsat                         0.37        0.41        None
+tentrup_pec_multiplexer_3_2.dqdimacs                           TIMEOUT                     901.68      901.06        None
+tentrup_pec_multiplexer_3_30.dqdimacs                          unsat                         0.04        0.09        None
+tentrup_pec_multiplexer_3_6.dqdimacs                           unsat                        10.62       10.66        None
+tentrup_pec_multiplexer_3_7.dqdimacs                           TIMEOUT                     901.58      901.08        None
+tentrup_pec_multiplexer_5_11.dqdimacs                          unsat                         0.90        0.97        None
+tentrup_pec_multiplexer_5_12.dqdimacs                          TIMEOUT                     901.67      901.07        None
+tentrup_pec_multiplexer_5_17.dqdimacs                          TIMEOUT                     901.70      901.08        None
+tentrup_pec_multiplexer_5_2.dqdimacs                           TIMEOUT                     901.68      901.06        None
+tentrup_pec_multiplier_1_0.dqdimacs                            TIMEOUT                     901.69      901.06        None
+tentrup_pec_multiplier_1_10.dqdimacs                           unsat                         0.36        0.39        None
+tentrup_pec_multiplier_1_11.dqdimacs                           unsat                         0.18        0.25        None
+tentrup_pec_multiplier_1_20.dqdimacs                           unsat                         0.19        0.24        None
+tentrup_pec_multiplier_1_30.dqdimacs                           unsat                         0.35        0.39        None
+tentrup_pec_multiplier_1_9.dqdimacs                            unsat                         0.37        0.42        None
+tentrup_pec_multiplier_3_2.dqdimacs                            unsat                         0.15        0.19        None
+tentrup_pec_multiplier_3_3.dqdimacs                            unsat                         1.87        1.93        None
+tentrup_pec_multiplier_3_4.dqdimacs                            unsat                         0.11        0.15        None
+x1_40.shuffled.cnf.dqdimacs                                    unsat                        20.20       20.27        None
+x1_80.shuffled.cnf.dqdimacs                                    TIMEOUT                     901.68      901.04        None
+-------------------------------------------------------------------------------------------------------------------------
+Run set 1                                                      done                     125130.78    21262.01           -
+
+Statistics:            246 Files
+  correct:               0
+    correct true:        0
+    correct false:       0
+  incorrect:             0
+    incorrect true:      0
+    incorrect false:     0
+  unknown:             135
