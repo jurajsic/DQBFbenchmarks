@@ -1,0 +1,8 @@
+Benchmarks created by running HQSpre on original benchmarks. Each benchmark was created by unzipping the corresponding .zip file of benchexec log files and then running the script ./cleanresults.sh on the directory.
+
+dqbf19 - benchmarks used for DQBF track of QBF Evaluation 2019 competition
+PEC - DQBFs  resulting  from  equivalence  checking  of  incomplete  circuits (Scholl, Biere, Finkbeiner benchmarks from original)
+SAT - instances obtained from converting SATinstances into DQBFs that depend only on a logarithmic number of variables (Balabanov benchmarks from original)
+CSP - DQBFs  resulting  from  controller synthesis problems (Bloem benchmarks from original)
+
+See explanation.txt in 'original/' for more info about the original benchmarks
