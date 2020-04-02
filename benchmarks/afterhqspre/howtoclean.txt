@@ -1,7 +1,0 @@
-After copying log files from the benchmarks with HQSpre to some directory, run inside it these commands to get dqdimacs files:
-
-rename 's/.{4}$//' *						removes '.log' from the end of the name of files
-rename 's/^.{5}//' *						removes 'pipe.' from the beginning of the name of files
-sed -i '1,6d' *							deletes first 6 lines which were added by benchexec from each file
-find -type f -empty -delete					deletes empty files (effectively those which were TIMEOUT)
-find -type f -exec fgrep -q  'p cnf 0' '{}' ';' -delete		delete those files which contain 'p cnf 0' (effectively those which were solved by HQSpre)
