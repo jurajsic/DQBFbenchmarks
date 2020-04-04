@@ -2,6 +2,7 @@ dqbf18/tentrup_pec_look_ahead_arbiter_1_11.dqdimacs
 	- ends up as QBF after preprocess
 dqbf18/balabanov_urquhart3_25bis.shuffled.cnf.dqdimacs
 	- newer HQSpre solves it, older (1.4) does not (ends up as QBF)
+	- HQSpre says UNSAT, dcaqe says SAT
 dqbf18/bloem_amba3c4unrealy.dqdimacs
 	- newer HQSpre aborts
 dqbf18/balabanov_x1_80.shuffled.cnf.dqdimacs
