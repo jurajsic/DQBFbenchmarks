@@ -43,7 +43,7 @@ class Tool(benchexec.tools.template.BaseTool):
             elif returncode == 20:
                 return result.RESULT_UNSAT
             else:
-                return result.UNKNOWN
+                return result.RESULT_UNKNOWN
         elif ((returnsignal == 9) or (returnsignal == 15)) and isTimeout:
             return "TIMEOUT"
         elif returnsignal == 9:
