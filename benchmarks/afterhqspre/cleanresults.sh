@@ -3,7 +3,7 @@
 # Cleanser of the log files from benchexec run on HQSpre to make them normal DQDIMACS files
 # Run as
 #    ./cleanresults.sh DIR
-# where DIR is the direcotry with the log files to clean.
+# where DIR is the directory with the log files to clean.
 
 if [[ $# -ne 1 ]]; then
     printf 'Wrong number of arguments, run "./cleanresults.sh --help" for help\n'
@@ -14,7 +14,7 @@ if [[ $1 = '--help' || $1 = '-h' ]]; then
     printf 'Cleanser of the log files from benchexec run on HQSpre to make them normal DQDIMACS files
 Run as
     ./cleanresults.sh DIR
-where DIR is the direcotry with the log files to clean.
+where DIR is the directory with the log files to clean.
 '
     exit 0
 fi

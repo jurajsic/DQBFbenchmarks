@@ -1,0 +1,8 @@
+Original benchmarks that were not solved by HQSpre. Each benchmark was created by copying files from ../original to the corresponding directory (for example files in PEC/ are from ../original/Finkbeiner/*/*.dqdimacs, ../original/Scholl/*/*.dqdimacs and ../original/Biere/*/*.dqdimacs) and then running the script ./removesolvedbyhqspre.sh on the directory to find the unsolved instances in ../afterhqspre
+
+dqbf19 - benchmarks used for DQBF track of QBF Evaluation 2019 competition
+PEC - DQBFs resulting from equivalence checking of incomplete circuits (Scholl, Biere, Finkbeiner benchmarks from original)
+SAT - instances obtained from converting SATinstances into DQBFs that depend only on a logarithmic number of variables (Balabanov benchmarks from original)
+CSP - DQBFs resulting from controller synthesis problems (Bloem benchmarks from original)
+
+See explanation.txt in 'original/' for more info about the original benchmarks
