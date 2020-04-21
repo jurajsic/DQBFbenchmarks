@@ -1,0 +1,7 @@
+Solvers:
+hqspre - DQBF preprocessor, see https://abs.informatik.uni-freiburg.de/src/projects_view.php?projectID=21 or https://projects.informatik.uni-freiburg.de/projects/dqbf/files (GNU LGPL v3)
+HQSnp - HQS solver with quantifier localisation, see https://abs.informatik.uni-freiburg.de/src/projects_view.php?projectID=21 (GNU LGPL v3)
+iproveropt_v3.1_static - see http://www.cs.man.ac.uk/~korovink/iprover/ (GNU GPL)
+idq - idq v1.0, see http://fmv.jku.at/idq/ (GNU LGPL v3)
+dcaqe - see https://github.com/ltentrup/caqe
+DQBDD - see https://github.com/jurajsic/DQBDD (GNU LGPL v3)
