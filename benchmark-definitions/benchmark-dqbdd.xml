@@ -7,79 +7,82 @@
            threads="6">
     
   <rundefinition name="simple-atbeginning">
-    <option name="--preprocess"></option>
+    <option name="--preprocess">1</option>
+    <option name="--localise">0</option>
     <option name="--uvar-choice">0</option>
   </rundefinition>
   
   <rundefinition name="simple-continuous">
-    <option name="--preprocess"></option>
+    <option name="--preprocess">1</option>
+    <option name="--localise">0</option>
     <option name="--uvar-choice">1</option>
   </rundefinition>
   
   <rundefinition name="simple-varsinconjuncts">
-    <option name="--preprocess"></option>
+    <option name="--preprocess">1</option>
+    <option name="--localise">0</option>
     <option name="--uvar-choice">2</option>
   </rundefinition>
     
   <rundefinition name="tree-noelimination-atbeginning">
-    <option name="--preprocess"></option>
-    <option name="--localise"></option>
+    <option name="--preprocess">1</option>
+    <option name="--localise">1</option>
     <option name="--elimination-choice">0</option>
     <option name="--uvar-choice">0</option>
   </rundefinition>
   
   <rundefinition name="tree-noelimination-continuous">
-    <option name="--preprocess"></option>
-    <option name="--localise"></option>
+    <option name="--preprocess">1</option>
+    <option name="--localise">1</option>
     <option name="--elimination-choice">0</option>
     <option name="--uvar-choice">1</option>
   </rundefinition>
   
   <rundefinition name="tree-noelimination-varsinconjuncts">
-    <option name="--preprocess"></option>
-    <option name="--localise"></option>
+    <option name="--preprocess">1</option>
+    <option name="--localise">1</option>
     <option name="--elimination-choice">0</option>
     <option name="--uvar-choice">2</option>
   </rundefinition>
   
   <rundefinition name="tree-simpleelimination-atbeginning">
-    <option name="--preprocess"></option>
-    <option name="--localise"></option>
+    <option name="--preprocess">1</option>
+    <option name="--localise">1</option>
     <option name="--elimination-choice">1</option>
     <option name="--uvar-choice">0</option>
   </rundefinition>
   
   <rundefinition name="tree-simpleelimination-continuous">
-    <option name="--preprocess"></option>
-    <option name="--localise"></option>
+    <option name="--preprocess">1</option>
+    <option name="--localise">1</option>
     <option name="--elimination-choice">1</option>
     <option name="--uvar-choice">1</option>
   </rundefinition>
   
   <rundefinition name="tree-simpleelimination-varsinconjuncts">
-    <option name="--preprocess"></option>
-    <option name="--localise"></option>
+    <option name="--preprocess">1</option>
+    <option name="--localise">1</option>
     <option name="--elimination-choice">1</option>
     <option name="--uvar-choice">2</option>
   </rundefinition>
   
   <rundefinition name="tree-fullelimination-atbeginning">
-    <option name="--preprocess"></option>
-    <option name="--localise"></option>
+    <option name="--preprocess">1</option>
+    <option name="--localise">1</option>
     <option name="--elimination-choice">2</option>
     <option name="--uvar-choice">0</option>
   </rundefinition>
   
   <rundefinition name="tree-fullelimination-continuous">
-    <option name="--preprocess"></option>
-    <option name="--localise"></option>
+    <option name="--preprocess">1</option>
+    <option name="--localise">1</option>
     <option name="--elimination-choice">2</option>
     <option name="--uvar-choice">1</option>
   </rundefinition>
 
   <rundefinition name="tree-fullelimination-varsinconjuncts">
-    <option name="--preprocess"></option>
-    <option name="--localise"></option>
+    <option name="--preprocess">1</option>
+    <option name="--localise">1</option>
     <option name="--elimination-choice">2</option>
     <option name="--uvar-choice">2</option>
   </rundefinition>
