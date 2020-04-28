@@ -74,6 +74,30 @@
     <option name="--elimination-choice">1</option>
     <option name="--uvar-choice">2</option>
   </rundefinition>
+
+  <rundefinition name="nodynreorder-tree-simpleelimination-atbeginning">
+    <option name="--preprocess">1</option>
+    <option name="--dyn-reordering">0</option>
+    <option name="--localise">1</option>
+    <option name="--elimination-choice">1</option>
+    <option name="--uvar-choice">0</option>
+  </rundefinition>
+
+  <rundefinition name="nodynreorder-tree-simpleelimination-continuous">
+    <option name="--preprocess">1</option>
+    <option name="--dyn-reordering">0</option>
+    <option name="--localise">1</option>
+    <option name="--elimination-choice">1</option>
+    <option name="--uvar-choice">1</option>
+  </rundefinition>
+
+  <rundefinition name="nodynreorder-tree-simpleelimination-varsinconjuncts">
+    <option name="--preprocess">1</option>
+    <option name="--dyn-reordering">0</option>
+    <option name="--localise">1</option>
+    <option name="--elimination-choice">1</option>
+    <option name="--uvar-choice">2</option>
+  </rundefinition>
   
   <rundefinition name="tree-fullelimination-atbeginning">
     <option name="--preprocess">1</option>
