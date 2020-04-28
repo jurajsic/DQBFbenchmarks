@@ -1,0 +1,850 @@
+   BENCHMARK INFORMATION
+benchmark definition:    benchmark-definitions/benchmark-dqbdd.xml
+name:                    benchmark-dqbdd
+run sets:                nodynreorder-tree-simpleelimination-atbeginning.dqbf19, nodynreorder-tree-simpleelimination-continuous.dqbf19, nodynreorder-tree-simpleelimination-varsinconjuncts.dqbf19
+date:                    Tue, 2020-04-28 09:30:12 CEST
+tool:                    DQBDD 1.1
+tool executable:         /home/xsic/DQBFbenchmarks/solvers/DQBDD
+options:                 
+parallel runs:           6
+resource limits:
+- memory:                4000.0 MB
+- time:                  900 s
+- cpu cores:             1
+hardware requirements:
+- cpu cores:             1
+- memory:                4000.0 MB
+------------------------------------------------------------
+
+   SYSTEM INFORMATION
+host:                    islay
+os:                      Linux-3.16.0-4-amd64-x86_64-with-debian-8.5
+cpu:                     Intel Xeon CPU E5-2620 v2 @ 2.10GHz
+- cores:                 24
+- max frequency:         2600.0 MHz
+- turbo boost enabled:   False
+ram:                     135450.984448 MB
+------------------------------------------------------------
+
+
+
+simple-atbeginning.dqbf19
+Run set 1 of 15: skipped 
+
+
+simple-continuous.dqbf19
+Run set 2 of 15: skipped 
+
+
+simple-varsinconjuncts.dqbf19
+Run set 3 of 15: skipped 
+
+
+tree-noelimination-atbeginning.dqbf19
+Run set 4 of 15: skipped 
+
+
+tree-noelimination-continuous.dqbf19
+Run set 5 of 15: skipped 
+
+
+tree-noelimination-varsinconjuncts.dqbf19
+Run set 6 of 15: skipped 
+
+
+tree-simpleelimination-atbeginning.dqbf19
+Run set 7 of 15: skipped 
+
+
+tree-simpleelimination-continuous.dqbf19
+Run set 8 of 15: skipped 
+
+
+tree-simpleelimination-varsinconjuncts.dqbf19
+Run set 9 of 15: skipped 
+
+
+nodynreorder-tree-simpleelimination-atbeginning.dqbf19
+Run set 10 of 15 with options '--preprocess 1 --dyn-reordering 0 --localise 1 --elimination-choice 1 --uvar-choice 0' and propertyfile 'None'
+
+inputfile                                                      status                    cpu time   wall time        host  Preprocessor solved
+----------------------------------------------------------------------------------------------------------------------------------------------
+battleship-10-17-sat.cnf.dqdimacs                              TIMEOUT                     901.65      901.16        None                False
+battleship-11-11-unsat.cnf.dqdimacs                            TIMEOUT                     901.77      901.23        None                False
+battleship-11-21-sat.cnf.dqdimacs                              TIMEOUT                     901.73      901.13        None                False
+battleship-12-12-unsat.cnf.dqdimacs                            TIMEOUT                     901.82      901.21        None                False
+battleship-13-13-unsat.cnf.dqdimacs                            TIMEOUT                     901.78      901.13        None                False
+battleship-7-12-unsat.cnf.dqdimacs                             OUT OF MEMORY               617.26      616.89        None                False
+bloem_add10n.dqdimacs                                          sat                           2.23        2.26        None                False
+bloem_add10y.dqdimacs                                          sat                           0.53        0.56        None                False
+bloem_add16n.dqdimacs                                          OUT OF MEMORY                30.80       30.81        None                False
+bloem_add20n.dqdimacs                                          OUT OF MEMORY                29.34       29.33        None                False
+bloem_add6n.dqdimacs                                           sat                           0.15        0.20        None                False
+bloem_add8y.dqdimacs                                           sat                           0.22        0.26        None                False
+bloem_amba10b4unrealy.dqdimacs                                 OUT OF MEMORY               247.79      247.66        None                False
+bloem_amba2f8unrealy.dqdimacs                                  OUT OF MEMORY               273.45      273.33        None                False
+bloem_amba3b4unrealy.dqdimacs                                  OUT OF MEMORY               258.90      258.79        None                False
+bloem_amba3c5n.dqdimacs                                        OUT OF MEMORY               269.83      269.71        None                False
+bloem_amba4b9n.dqdimacs                                        OUT OF MEMORY               249.55      249.40        None                False
+bloem_amba4c7n.dqdimacs                                        OUT OF MEMORY               252.66      252.52        None                False
+bloem_amba5b4unrealy.dqdimacs                                  OUT OF MEMORY               244.99      244.87        None                False
+bloem_amba6c5n.dqdimacs                                        OUT OF MEMORY               247.03      246.89        None                False
+bloem_amba7b4unrealy.dqdimacs                                  OUT OF MEMORY               269.71      269.58        None                False
+bloem_amba8c6unrealn.dqdimacs                                  OUT OF MEMORY               270.64      270.50        None                False
+bloem_amba8c7y.dqdimacs                                        OUT OF MEMORY               271.30      271.15        None                False
+bloem_amba8f56unrealy.dqdimacs                                 OUT OF MEMORY               270.27      270.15        None                False
+bloem_amba8f57n.dqdimacs                                       OUT OF MEMORY               267.72      267.58        None                False
+bloem_amba9b5y.dqdimacs                                        OUT OF MEMORY               259.21      259.07        None                False
+bloem_amba9c5n.dqdimacs                                        OUT OF MEMORY               268.23      268.08        None                False
+bloem_bs128y.dqdimacs                                          OUT OF MEMORY               130.42      130.35        None                False
+bloem_bs16n.dqdimacs                                           OUT OF MEMORY               177.67      177.58        None                False
+bloem_bs16y.dqdimacs                                           OUT OF MEMORY               177.45      177.42        None                False
+bloem_bs64n.dqdimacs                                           OUT OF MEMORY               238.45      238.34        None                False
+bloem_bs8y.dqdimacs                                            sat                           0.15        0.21        None                False
+bloem_cnt11n.dqdimacs                                          sat                          36.76       36.79        None                False
+bloem_cnt11y.dqdimacs                                          sat                          36.39       36.41        None                False
+bloem_cnt4n.dqdimacs                                           sat                           0.03        0.07        None                False
+bloem_cnt6n.dqdimacs                                           sat                           0.04        0.09        None                False
+bloem_cnt6y.dqdimacs                                           sat                           0.04        0.09        None                False
+bloem_cnt7y.dqdimacs                                           sat                           0.06        0.31        None                False
+bloem_cnt9n.dqdimacs                                           sat                           0.37        0.44        None                False
+bloem_genbuf10b4y.dqdimacs                                     OUT OF MEMORY               270.46      270.30        None                False
+bloem_genbuf10c3n.dqdimacs                                     OUT OF MEMORY               251.63      251.52        None                False
+bloem_genbuf11b3unrealn.dqdimacs                               OUT OF MEMORY               267.22      267.08        None                False
+bloem_genbuf11c2unrealn.dqdimacs                               OUT OF MEMORY               245.29      245.15        None                False
+bloem_genbuf11c2unrealy.dqdimacs                               OUT OF MEMORY               243.89      243.76        None                False
+bloem_genbuf11f11n.dqdimacs                                    OUT OF MEMORY               266.89      266.73        None                False
+bloem_genbuf11f11y.dqdimacs                                    OUT OF MEMORY               269.81      269.69        None                False
+bloem_genbuf12b4y.dqdimacs                                     OUT OF MEMORY               267.55      267.40        None                False
+bloem_genbuf12f12n.dqdimacs                                    OUT OF MEMORY               269.30      269.16        None                False
+bloem_genbuf12f12y.dqdimacs                                    OUT OF MEMORY               267.11      267.13        None                False
+bloem_genbuf13b4n.dqdimacs                                     OUT OF MEMORY               264.23      264.09        None                False
+bloem_genbuf13f13y.dqdimacs                                    OUT OF MEMORY               264.62      264.48        None                False
+bloem_genbuf14b3unrealn.dqdimacs                               OUT OF MEMORY               266.39      266.30        None                False
+bloem_genbuf14c2unrealn.dqdimacs                               OUT OF MEMORY               271.19      271.05        None                False
+bloem_genbuf15b4y.dqdimacs                                     OUT OF MEMORY               254.39      254.24        None                False
+bloem_genbuf15c3y.dqdimacs                                     OUT OF MEMORY               268.61      268.44        None                False
+bloem_genbuf15f14unrealy.dqdimacs                              OUT OF MEMORY               250.21      250.07        None                False
+bloem_genbuf15f15n.dqdimacs                                    OUT OF MEMORY               251.24      251.10        None                False
+bloem_genbuf16c2unrealn.dqdimacs                               OUT OF MEMORY               271.23      271.11        None                False
+bloem_genbuf16c3y.dqdimacs                                     OUT OF MEMORY               269.54      269.40        None                False
+bloem_genbuf1b4n.dqdimacs                                      OUT OF MEMORY               178.93      178.85        None                False
+bloem_genbuf1f3unrealn.dqdimacs                                OUT OF MEMORY               122.92      122.91        None                False
+bloem_genbuf2b4n.dqdimacs                                      OUT OF MEMORY               268.54      268.39        None                False
+bloem_genbuf3f4y.dqdimacs                                      OUT OF MEMORY               271.66      271.51        None                False
+bloem_genbuf4c3n.dqdimacs                                      OUT OF MEMORY               272.45      272.29        None                False
+bloem_genbuf5f4unrealn.dqdimacs                                OUT OF MEMORY               255.67      255.53        None                False
+bloem_genbuf5f4unrealy.dqdimacs                                OUT OF MEMORY               257.54      257.44        None                False
+bloem_genbuf6b4y.dqdimacs                                      OUT OF MEMORY               251.66      251.51        None                False
+bloem_genbuf7c2unrealn.dqdimacs                                OUT OF MEMORY               254.45      254.31        None                False
+bloem_genbuf7f7y.dqdimacs                                      OUT OF MEMORY               248.25      248.12        None                False
+bloem_genbuf8b3unrealn.dqdimacs                                OUT OF MEMORY               247.61      247.48        None                False
+bloem_genbuf8b4y.dqdimacs                                      OUT OF MEMORY               249.44      249.31        None                False
+bloem_genbuf8c2unrealn.dqdimacs                                OUT OF MEMORY               252.24      252.12        None                False
+bloem_genbuf9b4n.dqdimacs                                      OUT OF MEMORY               268.73      268.65        None                False
+bloem_genbuf9c2unrealy.dqdimacs                                OUT OF MEMORY               248.68      248.55        None                False
+bloem_genbuf9c3n.dqdimacs                                      OUT OF MEMORY               249.03      248.87        None                False
+bloem_genbuf9f8unrealy.dqdimacs                                OUT OF MEMORY               269.86      269.71        None                False
+bloem_ifm_amba15n.dqdimacs                                     OUT OF MEMORY               255.36      255.23        None                False
+bloem_mv11n.dqdimacs                                           sat                         382.68      382.51        None                False
+bloem_mv20n.dqdimacs                                           OUT OF MEMORY                31.51       31.54        None                False
+bloem_mv20y.dqdimacs                                           OUT OF MEMORY                33.94       33.97        None                False
+bloem_mv4n.dqdimacs                                            sat                           0.04        0.09        None                False
+bloem_mv9y.dqdimacs                                            sat                          16.04       16.07        None                False
+bloem_mvs24n.dqdimacs                                          OUT OF MEMORY                30.82       30.85        None                False
+bloem_mvs4n.dqdimacs                                           sat                           0.03        0.09        None                False
+bloem_stay12y.dqdimacs                                         OUT OF MEMORY                32.86       32.89        None                False
+bloem_stay18n.dqdimacs                                         OUT OF MEMORY                31.93       31.96        None                False
+bloem_stay4n.dqdimacs                                          sat                           0.11        0.15        None                False
+bloem_stay4y.dqdimacs                                          sat                           0.11        0.17        None                False
+bloem_stay6n.dqdimacs                                          sat                          14.98       15.01        None                False
+eulcbip-7-UNSAT.shuffled-as.sat05-3936.cnf.dqdimacs            TIMEOUT                     901.81      901.19        None                False
+f600.shuffled.cnf.dqdimacs                                     TIMEOUT                     901.74      901.11        None                False
+hwb-n28-01-S136611085.shuffled-as.sat03-1627.cnf.dqdimacs      TIMEOUT                     901.77      901.15        None                False
+mm-2x2-6-6-s.1.shuffled-as.sat03-1499.cnf.dqdimacs             OUT OF MEMORY               758.89      758.39        None                False
+mod2-rand3bip-sat-270-1.shuffled-as.sat05-2248.cnf.dqdimacs    OUT OF MEMORY               101.17      101.15        None                False
+scholl_C432.blif_0.10_0.10_2_0_henkin.dqdimacs                 OUT OF MEMORY               648.13      647.71        None                False
+scholl_C432.blif_0.10_1.00_0_2_henkin.dqdimacs                 OUT OF MEMORY               296.04      295.91        None                False
+scholl_C432.blif_0.10_1.00_2_0_henkin.dqdimacs                 sat                          19.16       19.20        None                False
+scholl_C432.blif_0.10_1.00_7_2_henkin.dqdimacs                 unsat                       318.95      318.79        None                False
+scholl_C432.blif_0.10_1.00_7_3_henkin.dqdimacs                 unsat                         0.13        0.19        None                 True
+scholl_C432.blif_0.20_0.50_2_0_henkin.dqdimacs                 TIMEOUT                     901.83      901.19        None                False
+scholl_C432.blif_0.20_0.50_2_1_henkin.dqdimacs                 TIMEOUT                     901.92      901.29        None                False
+scholl_C432.blif_0.20_1.00_0_0_henkin.dqdimacs                 OUT OF MEMORY               349.64      349.42        None                False
+scholl_C432.blif_0.20_1.00_7_1_henkin.dqdimacs                 unsat                       269.40      269.23        None                False
+scholl_C432.blif_0.20_1.00_8_2_henkin.dqdimacs                 unsat                       237.50      237.35        None                False
+scholl_C432.blif_0.40_1.00_1_2_henkin.dqdimacs                 unsat                         0.19        0.25        None                 True
+scholl_C432.blif_0.50_1.00_3_3_henkin.dqdimacs                 unsat                         0.16        0.22        None                 True
+scholl_C432.blif_0.50_1.00_6_3_henkin.dqdimacs                 OUT OF MEMORY               283.28      283.16        None                False
+scholl_C432.blif_0.50_1.00_8_1_henkin.dqdimacs                 unsat                       203.42      203.35        None                False
+scholl_C499.blif_0.10_1.00_3_0_henkin.dqdimacs                 OUT OF MEMORY                18.03       18.09        None                False
+scholl_C499.blif_0.10_1.00_4_2_henkin.dqdimacs                 OUT OF MEMORY                18.03       18.07        None                False
+scholl_C499.blif_0.10_1.00_7_2_henkin.dqdimacs                 OUT OF MEMORY                19.73       19.76        None                False
+scholl_C499.blif_0.10_1.00_9_2_henkin.dqdimacs                 OUT OF MEMORY                16.83       16.88        None                False
+scholl_C499.blif_0.20_1.00_2_0_henkin.dqdimacs                 OUT OF MEMORY                19.09       19.12        None                False
+scholl_C499.blif_0.50_1.00_8_1_henkin.dqdimacs                 OUT OF MEMORY                18.59       18.63        None                False
+scholl_comp.blif_0.10_0.10_0_0_henkin.dqdimacs                 sat                          13.36       13.39        None                False
+scholl_comp.blif_0.10_0.10_0_2_henkin.dqdimacs                 unsat                        17.51       17.53        None                False
+scholl_comp.blif_0.10_0.10_0_3_henkin.dqdimacs                 unsat                         9.91        9.97        None                False
+scholl_comp.blif_0.10_0.10_1_3_henkin.dqdimacs                 unsat                         6.25        6.31        None                False
+scholl_comp.blif_0.10_0.20_0_0_henkin.dqdimacs                 sat                          16.84       16.92        None                False
+scholl_comp.blif_0.10_0.20_1_3_henkin.dqdimacs                 unsat                         3.43        3.48        None                False
+scholl_comp.blif_0.10_0.20_2_1_henkin.dqdimacs                 OUT OF MEMORY               122.16      122.12        None                False
+scholl_comp.blif_0.10_0.50_0_3_henkin.dqdimacs                 unsat                         5.12        5.15        None                False
+scholl_comp.blif_0.10_0.50_1_3_henkin.dqdimacs                 unsat                         3.40        3.45        None                False
+scholl_comp.blif_0.10_1.00_0_0_henkin.dqdimacs                 sat                           1.04        1.28        None                False
+scholl_comp.blif_0.10_1.00_0_1_henkin.dqdimacs                 unsat                         1.32        1.36        None                False
+scholl_comp.blif_0.10_1.00_2_0_henkin.dqdimacs                 sat                           1.16        1.20        None                False
+scholl_comp.blif_0.10_1.00_2_1_henkin.dqdimacs                 unsat                         1.50        1.53        None                False
+scholl_comp.blif_0.10_1.00_2_3_henkin.dqdimacs                 unsat                         1.09        1.14        None                False
+scholl_comp.blif_0.10_1.00_4_2_henkin.dqdimacs                 unsat                         2.25        2.28        None                False
+scholl_comp.blif_0.10_1.00_5_2_henkin.dqdimacs                 unsat                         2.50        2.55        None                False
+scholl_comp.blif_0.10_1.00_9_3_henkin.dqdimacs                 unsat                         1.76        1.80        None                False
+scholl_comp.blif_0.20_0.10_0_2_henkin.dqdimacs                 OUT OF MEMORY               249.50      249.41        None                False
+scholl_comp.blif_0.20_0.10_1_1_henkin.dqdimacs                 unsat                        73.22       73.19        None                False
+scholl_comp.blif_0.20_0.20_0_3_henkin.dqdimacs                 OUT OF MEMORY               251.30      251.15        None                False
+scholl_comp.blif_0.20_0.20_2_2_henkin.dqdimacs                 unsat                       167.47      167.39        None                False
+scholl_comp.blif_0.20_1.00_4_0_henkin.dqdimacs                 sat                           1.75        1.80        None                False
+scholl_comp.blif_0.20_1.00_5_1_henkin.dqdimacs                 unsat                         8.57        8.63        None                False
+scholl_comp.blif_0.20_1.00_9_3_henkin.dqdimacs                 sat                           1.73        1.78        None                False
+scholl_comp.blif_0.30_0.50_2_1_henkin.dqdimacs                 unsat                       483.18      482.85        None                False
+scholl_comp.blif_0.50_1.00_2_2_henkin.dqdimacs                 unsat                         0.07        0.12        None                 True
+scholl_comp.blif_0.50_1.00_4_0_henkin.dqdimacs                 sat                         573.11      572.73        None                False
+scholl_comp.blif_0.50_1.00_5_1_henkin.dqdimacs                 TIMEOUT                     901.73      901.24        None                False
+scholl_comp.blif_0.50_1.00_9_1_henkin.dqdimacs                 TIMEOUT                     901.85      901.23        None                False
+scholl_comp.blif_0.50_1.00_9_2_henkin.dqdimacs                 sat                         576.24      575.87        None                False
+scholl_comp.blif_0.60_1.00_4_0_henkin.dqdimacs                 TIMEOUT                     901.91      901.29        None                False
+scholl_comp.blif_0.60_1.00_5_0_henkin.dqdimacs                 TIMEOUT                     901.78      901.16        None                False
+scholl_comp.blif_0.60_1.00_9_2_henkin.dqdimacs                 TIMEOUT                     901.89      901.26        None                False
+scholl_term1.blif_0.10_1.00_5_1_henkin.dqdimacs                unsat                        29.18       29.21        None                False
+scholl_term1.blif_0.10_1.00_5_2_henkin.dqdimacs                unsat                        19.28       19.29        None                False
+scholl_term1.blif_0.20_1.00_3_1_henkin.dqdimacs                unsat                         4.57        4.62        None                False
+scholl_term1.blif_0.20_1.00_3_2_henkin.dqdimacs                unsat                         2.75        2.79        None                False
+scholl_term1.blif_0.20_1.00_5_2_henkin.dqdimacs                unsat                        19.68       19.72        None                False
+scholl_term1.blif_0.20_1.00_9_0_henkin.dqdimacs                sat                           1.01        1.07        None                False
+scholl_term1.blif_0.50_1.00_3_0_henkin.dqdimacs                sat                           2.20        2.27        None                False
+scholl_term1.blif_0.50_1.00_3_1_henkin.dqdimacs                unsat                         4.98        5.03        None                False
+scholl_term1.blif_0.50_1.00_5_0_henkin.dqdimacs                sat                          29.44       29.48        None                False
+scholl_term1.blif_0.50_1.00_5_3_henkin.dqdimacs                unsat                        50.22       50.23        None                False
+scholl_term1.blif_0.60_1.00_3_1_henkin.dqdimacs                unsat                         4.86        4.90        None                False
+scholl_term1.blif_0.60_1.00_3_3_henkin.dqdimacs                unsat                         3.75        3.79        None                False
+scholl_term1.blif_0.60_1.00_5_1_henkin.dqdimacs                unsat                        29.07       29.09        None                False
+scholl_term1.blif_0.60_1.00_9_0_henkin.dqdimacs                sat                           1.01        1.08        None                False
+scholl_z4ml.blif_0.10_0.10_2_3_henkin.dqdimacs                 unsat                         0.05        0.11        None                False
+scholl_z4ml.blif_0.10_0.20_2_0_henkin.dqdimacs                 sat                           0.06        0.12        None                False
+scholl_z4ml.blif_0.10_0.50_0_1_henkin.dqdimacs                 unsat                         0.05        0.11        None                False
+scholl_z4ml.blif_0.10_0.50_2_3_henkin.dqdimacs                 unsat                         0.06        0.10        None                False
+scholl_z4ml.blif_0.10_1.00_2_0_henkin.dqdimacs                 sat                           0.06        0.12        None                False
+scholl_z4ml.blif_0.20_1.00_1_0_henkin.dqdimacs                 sat                           0.06        0.11        None                False
+scholl_z4ml.blif_0.20_1.00_7_0_henkin.dqdimacs                 sat                           0.07        0.11        None                False
+scholl_z4ml.blif_0.30_0.10_1_2_henkin.dqdimacs                 unsat                         0.06        0.12        None                False
+scholl_z4ml.blif_0.30_0.10_2_1_henkin.dqdimacs                 unsat                         0.07        0.10        None                False
+sgen3-n140-s18527668-sat.cnf.dqdimacs                          TIMEOUT                     901.77      901.26        None                False
+sgen3-n160-s40283905-sat.cnf.dqdimacs                          TIMEOUT                     901.85      901.23        None                False
+sgen3-n180-s34713902-sat.cnf.dqdimacs                          TIMEOUT                     901.83      901.21        None                False
+sgen3-n200-s39840374-sat.cnf.dqdimacs                          TIMEOUT                     901.84      901.22        None                False
+sgen3-n220-s24359701-sat.cnf.dqdimacs                          OUT OF MEMORY               772.91      772.38        None                False
+sgen3-n240-s78945233-sat.cnf.dqdimacs                          TIMEOUT                     901.77      901.16        None                False
+sgen3-n260-s62321009-sat.cnf.dqdimacs                          TIMEOUT                     901.82      901.31        None                False
+sgen3-n280-s93756482-sat.cnf.dqdimacs                          TIMEOUT                     901.87      901.23        None                False
+sgen3-n300-s12830984-sat.cnf.dqdimacs                          TIMEOUT                     901.83      901.23        None                False
+tentrup_amba_decomposed_decode_environment_16.dqdimacs         OUT OF MEMORY               215.52      215.42        None                False
+tentrup_amba_decomposed_tburst4_system_16.dqdimacs             OUT OF MEMORY               266.01      265.85        None                False
+tentrup_genbuf3_system_16.dqdimacs                             TIMEOUT                     901.79      901.19        None                False
+tentrup_lilydemo07_system_16.dqdimacs                          TIMEOUT                     901.75      901.15        None                False
+tentrup_ltl2dba13_environment_8.dqdimacs                       TIMEOUT                     901.78      901.18        None                False
+tentrup_ltl2dba_U1_system_16.dqdimacs                          TIMEOUT                     901.60      901.10        None                False
+tentrup_ltl2dba_alpha_environment_8.dqdimacs                   OUT OF MEMORY               469.38      469.08        None                False
+tentrup_pec_adder_n_bit_1_19.dqdimacs                          TIMEOUT                     901.73      901.10        None                False
+tentrup_pec_adder_n_bit_1_3.dqdimacs                           TIMEOUT                     901.74      901.11        None                False
+tentrup_pec_adder_n_bit_3_1.dqdimacs                           TIMEOUT                     901.88      901.24        None                False
+tentrup_pec_adder_n_bit_3_18.dqdimacs                          TIMEOUT                     901.75      901.13        None                False
+tentrup_pec_adder_n_bit_4_11.dqdimacs                          TIMEOUT                     901.80      901.19        None                False
+tentrup_pec_adder_n_bit_4_5.dqdimacs                           TIMEOUT                     901.65      901.13        None                False
+tentrup_pec_adder_n_bit_5_11.dqdimacs                          TIMEOUT                     901.76      901.15        None                False
+tentrup_pec_adder_n_bit_5_18.dqdimacs                          TIMEOUT                     901.85      901.23        None                False
+tentrup_pec_adder_n_bit_8_1.dqdimacs                           TIMEOUT                     901.76      901.14        None                False
+tentrup_pec_adder_n_bit_8_7.dqdimacs                           TIMEOUT                     901.73      901.11        None                False
+tentrup_pec_adder_n_bit_9_11.dqdimacs                          TIMEOUT                     901.74      901.11        None                False
+tentrup_pec_adder_n_bit_9_17.dqdimacs                          TIMEOUT                     901.65      901.13        None                False
+tentrup_pec_adder_n_bit_9_20.dqdimacs                          TIMEOUT                     901.85      901.24        None                False
+tentrup_pec_adder_n_bit_9_22.dqdimacs                          TIMEOUT                     901.75      901.13        None                False
+tentrup_pec_adder_n_bit_9_6.dqdimacs                           TIMEOUT                     901.80      901.17        None                False
+tentrup_pec_look_ahead_arbiter_1_0.dqdimacs                    TIMEOUT                     901.78      901.13        None                False
+tentrup_pec_look_ahead_arbiter_1_11.dqdimacs                   TIMEOUT                     901.78      901.15        None                False
+tentrup_pec_look_ahead_arbiter_1_14.dqdimacs                   TIMEOUT                     901.70      901.18        None                False
+tentrup_pec_look_ahead_arbiter_1_2.dqdimacs                    TIMEOUT                     901.79      901.18        None                False
+tentrup_pec_look_ahead_arbiter_2_4.dqdimacs                    TIMEOUT                     901.79      901.18        None                False
+tentrup_pec_look_ahead_arbiter_3_12.dqdimacs                   TIMEOUT                     901.80      901.18        None                False
+tentrup_pec_look_ahead_arbiter_3_15.dqdimacs                   TIMEOUT                     901.80      901.19        None                False
+tentrup_pec_look_ahead_arbiter_3_3.dqdimacs                    TIMEOUT                     901.79      901.16        None                False
+tentrup_pec_look_ahead_arbiter_5_1.dqdimacs                    TIMEOUT                     901.70      901.16        None                False
+tentrup_pec_look_ahead_arbiter_5_10.dqdimacs                   TIMEOUT                     901.78      901.16        None                False
+tentrup_pec_look_ahead_arbiter_5_12.dqdimacs                   TIMEOUT                     901.78      901.16        None                False
+tentrup_pec_look_ahead_arbiter_5_2.dqdimacs                    TIMEOUT                     901.82      901.21        None                False
+tentrup_pec_look_ahead_arbiter_5_3.dqdimacs                    TIMEOUT                     901.80      901.17        None                False
+tentrup_pec_look_ahead_arbiter_6_12.dqdimacs                   TIMEOUT                     901.79      901.16        None                False
+tentrup_pec_look_ahead_arbiter_6_2.dqdimacs                    TIMEOUT                     901.67      901.16        None                False
+tentrup_pec_look_ahead_arbiter_7_2.dqdimacs                    TIMEOUT                     901.81      901.19        None                False
+tentrup_pec_look_ahead_arbiter_7_22.dqdimacs                   TIMEOUT                     901.87      901.24        None                False
+tentrup_pec_look_ahead_arbiter_7_5.dqdimacs                    TIMEOUT                     901.90      901.27        None                False
+tentrup_pec_look_ahead_arbiter_7_9.dqdimacs                    TIMEOUT                     901.78      901.14        None                False
+tentrup_pec_look_ahead_arbiter_8_4.dqdimacs                    TIMEOUT                     901.76      901.15        None                False
+tentrup_pec_multiplexer_1_11.dqdimacs                          OUT OF MEMORY               104.60      104.57        None                False
+tentrup_pec_multiplexer_1_2.dqdimacs                           OUT OF MEMORY               117.44      117.39        None                False
+tentrup_pec_multiplexer_1_26.dqdimacs                          OUT OF MEMORY               107.09      107.08        None                False
+tentrup_pec_multiplexer_1_4.dqdimacs                           OUT OF MEMORY                92.99       92.95        None                False
+tentrup_pec_multiplexer_1_8.dqdimacs                           OUT OF MEMORY               107.33      107.32        None                False
+tentrup_pec_multiplexer_2_2.dqdimacs                           OUT OF MEMORY               123.07      123.05        None                False
+tentrup_pec_multiplexer_3_2.dqdimacs                           OUT OF MEMORY               172.37      172.30        None                False
+tentrup_pec_multiplexer_3_30.dqdimacs                          OUT OF MEMORY               169.71      169.64        None                False
+tentrup_pec_multiplexer_3_6.dqdimacs                           OUT OF MEMORY               167.24      167.18        None                False
+tentrup_pec_multiplexer_3_7.dqdimacs                           OUT OF MEMORY               498.95      498.62        None                False
+tentrup_pec_multiplexer_5_11.dqdimacs                          OUT OF MEMORY                91.83       91.81        None                False
+tentrup_pec_multiplexer_5_12.dqdimacs                          OUT OF MEMORY               359.26      359.08        None                False
+tentrup_pec_multiplexer_5_17.dqdimacs                          OUT OF MEMORY               248.13      248.01        None                False
+tentrup_pec_multiplexer_5_2.dqdimacs                           OUT OF MEMORY               386.49      386.25        None                False
+tentrup_pec_multiplier_1_0.dqdimacs                            sat                           8.51        8.54        None                False
+tentrup_pec_multiplier_1_10.dqdimacs                           unsat                        19.29       19.31        None                False
+tentrup_pec_multiplier_1_11.dqdimacs                           unsat                        14.13       14.18        None                False
+tentrup_pec_multiplier_1_20.dqdimacs                           unsat                        10.04       10.10        None                False
+tentrup_pec_multiplier_1_30.dqdimacs                           unsat                        19.96       20.01        None                False
+tentrup_pec_multiplier_1_9.dqdimacs                            unsat                         9.52        9.56        None                False
+tentrup_pec_multiplier_3_2.dqdimacs                            unsat                        42.02       42.03        None                False
+tentrup_pec_multiplier_3_3.dqdimacs                            unsat                       114.36      114.33        None                False
+tentrup_pec_multiplier_3_4.dqdimacs                            unsat                        63.09       63.08        None                False
+x1_40.shuffled.cnf.dqdimacs                                    OUT OF MEMORY               121.81      121.77        None                False
+x1_80.shuffled.cnf.dqdimacs                                    OUT OF MEMORY               101.19      101.16        None                False
+----------------------------------------------------------------------------------------------------------------------------------------------
+Run set 10                                                     done                      82954.42    13946.96           -
+
+
+nodynreorder-tree-simpleelimination-continuous.dqbf19
+Run set 11 of 15 with options '--preprocess 1 --dyn-reordering 0 --localise 1 --elimination-choice 1 --uvar-choice 1' and propertyfile 'None'
+
+inputfile                                                      status                    cpu time   wall time        host  Preprocessor solved
+----------------------------------------------------------------------------------------------------------------------------------------------
+battleship-10-17-sat.cnf.dqdimacs                              TIMEOUT                     901.65      901.11        None                False
+battleship-11-11-unsat.cnf.dqdimacs                            TIMEOUT                     901.77      901.18        None                False
+battleship-11-21-sat.cnf.dqdimacs                              TIMEOUT                     901.74      901.17        None                False
+battleship-12-12-unsat.cnf.dqdimacs                            TIMEOUT                     901.81      901.21        None                False
+battleship-13-13-unsat.cnf.dqdimacs                            TIMEOUT                     901.76      901.13        None                False
+battleship-7-12-unsat.cnf.dqdimacs                             OUT OF MEMORY               616.29      615.90        None                False
+bloem_add10n.dqdimacs                                          sat                           2.23        2.27        None                False
+bloem_add10y.dqdimacs                                          sat                           0.53        0.57        None                False
+bloem_add16n.dqdimacs                                          OUT OF MEMORY                30.78       30.79        None                False
+bloem_add20n.dqdimacs                                          OUT OF MEMORY                29.28       29.30        None                False
+bloem_add6n.dqdimacs                                           sat                           0.15        0.19        None                False
+bloem_add8y.dqdimacs                                           sat                           0.23        0.28        None                False
+bloem_amba10b4unrealy.dqdimacs                                 OUT OF MEMORY               247.07      246.94        None                False
+bloem_amba2f8unrealy.dqdimacs                                  OUT OF MEMORY               273.43      273.31        None                False
+bloem_amba3b4unrealy.dqdimacs                                  OUT OF MEMORY               258.45      258.30        None                False
+bloem_amba3c5n.dqdimacs                                        OUT OF MEMORY               269.02      268.89        None                False
+bloem_amba4b9n.dqdimacs                                        OUT OF MEMORY               249.63      249.51        None                False
+bloem_amba4c7n.dqdimacs                                        OUT OF MEMORY               253.74      253.61        None                False
+bloem_amba5b4unrealy.dqdimacs                                  OUT OF MEMORY               244.96      244.81        None                False
+bloem_amba6c5n.dqdimacs                                        OUT OF MEMORY               248.13      247.99        None                False
+bloem_amba7b4unrealy.dqdimacs                                  OUT OF MEMORY               268.77      268.63        None                False
+bloem_amba8c6unrealn.dqdimacs                                  OUT OF MEMORY               270.51      270.35        None                False
+bloem_amba8c7y.dqdimacs                                        OUT OF MEMORY               271.33      271.16        None                False
+bloem_amba8f56unrealy.dqdimacs                                 OUT OF MEMORY               270.85      270.78        None                False
+bloem_amba8f57n.dqdimacs                                       OUT OF MEMORY               268.12      267.98        None                False
+bloem_amba9b5y.dqdimacs                                        OUT OF MEMORY               260.01      259.87        None                False
+bloem_amba9c5n.dqdimacs                                        OUT OF MEMORY               270.67      270.53        None                False
+bloem_bs128y.dqdimacs                                          OUT OF MEMORY               130.73      130.68        None                False
+bloem_bs16n.dqdimacs                                           OUT OF MEMORY               164.87      164.79        None                False
+bloem_bs16y.dqdimacs                                           OUT OF MEMORY               165.82      165.75        None                False
+bloem_bs64n.dqdimacs                                           OUT OF MEMORY               240.07      239.92        None                False
+bloem_bs8y.dqdimacs                                            OUT OF MEMORY               138.15      138.10        None                False
+bloem_cnt11n.dqdimacs                                          TIMEOUT                     901.84      901.21        None                False
+bloem_cnt11y.dqdimacs                                          TIMEOUT                     901.77      901.23        None                False
+bloem_cnt4n.dqdimacs                                           sat                           0.03        0.07        None                False
+bloem_cnt6n.dqdimacs                                           TIMEOUT                     901.86      901.27        None                False
+bloem_cnt6y.dqdimacs                                           TIMEOUT                     901.83      901.21        None                False
+bloem_cnt7y.dqdimacs                                           TIMEOUT                     901.86      901.23        None                False
+bloem_cnt9n.dqdimacs                                           TIMEOUT                     901.85      901.21        None                False
+bloem_genbuf10b4y.dqdimacs                                     OUT OF MEMORY               265.90      265.74        None                False
+bloem_genbuf10c3n.dqdimacs                                     OUT OF MEMORY               248.23      248.15        None                False
+bloem_genbuf11b3unrealn.dqdimacs                               OUT OF MEMORY               267.10      266.95        None                False
+bloem_genbuf11c2unrealn.dqdimacs                               OUT OF MEMORY               244.01      243.87        None                False
+bloem_genbuf11c2unrealy.dqdimacs                               OUT OF MEMORY               245.28      245.15        None                False
+bloem_genbuf11f11n.dqdimacs                                    OUT OF MEMORY               268.98      268.83        None                False
+bloem_genbuf11f11y.dqdimacs                                    OUT OF MEMORY               269.00      268.87        None                False
+bloem_genbuf12b4y.dqdimacs                                     OUT OF MEMORY               267.64      267.50        None                False
+bloem_genbuf12f12n.dqdimacs                                    OUT OF MEMORY               267.83      267.70        None                False
+bloem_genbuf12f12y.dqdimacs                                    OUT OF MEMORY               265.72      265.61        None                False
+bloem_genbuf13b4n.dqdimacs                                     OUT OF MEMORY               264.44      264.29        None                False
+bloem_genbuf13f13y.dqdimacs                                    OUT OF MEMORY               265.44      265.30        None                False
+bloem_genbuf14b3unrealn.dqdimacs                               OUT OF MEMORY               265.86      265.74        None                False
+bloem_genbuf14c2unrealn.dqdimacs                               OUT OF MEMORY               270.16      270.03        None                False
+bloem_genbuf15b4y.dqdimacs                                     OUT OF MEMORY               253.30      253.16        None                False
+bloem_genbuf15c3y.dqdimacs                                     OUT OF MEMORY               269.43      269.29        None                False
+bloem_genbuf15f14unrealy.dqdimacs                              OUT OF MEMORY               250.16      250.04        None                False
+bloem_genbuf15f15n.dqdimacs                                    OUT OF MEMORY               251.87      251.72        None                False
+bloem_genbuf16c2unrealn.dqdimacs                               OUT OF MEMORY               269.05      268.94        None                False
+bloem_genbuf16c3y.dqdimacs                                     OUT OF MEMORY               270.51      270.37        None                False
+bloem_genbuf1b4n.dqdimacs                                      OUT OF MEMORY               177.77      177.69        None                False
+bloem_genbuf1f3unrealn.dqdimacs                                OUT OF MEMORY               122.39      122.35        None                False
+bloem_genbuf2b4n.dqdimacs                                      OUT OF MEMORY               269.74      269.59        None                False
+bloem_genbuf3f4y.dqdimacs                                      OUT OF MEMORY               272.42      272.27        None                False
+bloem_genbuf4c3n.dqdimacs                                      OUT OF MEMORY               271.21      271.05        None                False
+bloem_genbuf5f4unrealn.dqdimacs                                OUT OF MEMORY               254.58      254.43        None                False
+bloem_genbuf5f4unrealy.dqdimacs                                OUT OF MEMORY               255.88      255.78        None                False
+bloem_genbuf6b4y.dqdimacs                                      OUT OF MEMORY               251.79      251.64        None                False
+bloem_genbuf7c2unrealn.dqdimacs                                OUT OF MEMORY               255.67      255.54        None                False
+bloem_genbuf7f7y.dqdimacs                                      OUT OF MEMORY               249.04      248.91        None                False
+bloem_genbuf8b3unrealn.dqdimacs                                OUT OF MEMORY               248.06      247.93        None                False
+bloem_genbuf8b4y.dqdimacs                                      OUT OF MEMORY               249.28      249.14        None                False
+bloem_genbuf8c2unrealn.dqdimacs                                OUT OF MEMORY               251.76      251.65        None                False
+bloem_genbuf9b4n.dqdimacs                                      OUT OF MEMORY               270.02      269.87        None                False
+bloem_genbuf9c2unrealy.dqdimacs                                OUT OF MEMORY               249.70      249.56        None                False
+bloem_genbuf9c3n.dqdimacs                                      OUT OF MEMORY               249.77      249.64        None                False
+bloem_genbuf9f8unrealy.dqdimacs                                OUT OF MEMORY               268.75      268.61        None                False
+bloem_ifm_amba15n.dqdimacs                                     OUT OF MEMORY               254.08      253.93        None                False
+bloem_mv11n.dqdimacs                                           TIMEOUT                     901.67      901.16        None                False
+bloem_mv20n.dqdimacs                                           OUT OF MEMORY                31.55       31.57        None                False
+bloem_mv20y.dqdimacs                                           OUT OF MEMORY                34.18       34.19        None                False
+bloem_mv4n.dqdimacs                                            sat                           0.06        0.10        None                False
+bloem_mv9y.dqdimacs                                            TIMEOUT                     901.70      901.07        None                False
+bloem_mvs24n.dqdimacs                                          OUT OF MEMORY                30.83       30.89        None                False
+bloem_mvs4n.dqdimacs                                           sat                           0.06        0.12        None                False
+bloem_stay12y.dqdimacs                                         OUT OF MEMORY                32.99       33.02        None                False
+bloem_stay18n.dqdimacs                                         OUT OF MEMORY                31.79       31.82        None                False
+bloem_stay4n.dqdimacs                                          sat                           0.45        0.49        None                False
+bloem_stay4y.dqdimacs                                          sat                           0.45        0.49        None                False
+bloem_stay6n.dqdimacs                                          OUT OF MEMORY               769.74      769.21        None                False
+eulcbip-7-UNSAT.shuffled-as.sat05-3936.cnf.dqdimacs            TIMEOUT                     901.83      901.23        None                False
+f600.shuffled.cnf.dqdimacs                                     TIMEOUT                     901.76      901.13        None                False
+hwb-n28-01-S136611085.shuffled-as.sat03-1627.cnf.dqdimacs      TIMEOUT                     901.77      901.16        None                False
+mm-2x2-6-6-s.1.shuffled-as.sat03-1499.cnf.dqdimacs             OUT OF MEMORY               757.67      757.27        None                False
+mod2-rand3bip-sat-270-1.shuffled-as.sat05-2248.cnf.dqdimacs    OUT OF MEMORY               101.17      101.13        None                False
+scholl_C432.blif_0.10_0.10_2_0_henkin.dqdimacs                 OUT OF MEMORY               643.93      643.51        None                False
+scholl_C432.blif_0.10_1.00_0_2_henkin.dqdimacs                 OUT OF MEMORY               301.03      300.84        None                False
+scholl_C432.blif_0.10_1.00_2_0_henkin.dqdimacs                 sat                          19.19       19.21        None                False
+scholl_C432.blif_0.10_1.00_7_2_henkin.dqdimacs                 unsat                       318.15      317.98        None                False
+scholl_C432.blif_0.10_1.00_7_3_henkin.dqdimacs                 unsat                         0.13        0.18        None                 True
+scholl_C432.blif_0.20_0.50_2_0_henkin.dqdimacs                 TIMEOUT                     901.83      901.21        None                False
+scholl_C432.blif_0.20_0.50_2_1_henkin.dqdimacs                 TIMEOUT                     901.93      901.31        None                False
+scholl_C432.blif_0.20_1.00_0_0_henkin.dqdimacs                 OUT OF MEMORY               352.16      351.94        None                False
+scholl_C432.blif_0.20_1.00_7_1_henkin.dqdimacs                 unsat                       268.58      268.42        None                False
+scholl_C432.blif_0.20_1.00_8_2_henkin.dqdimacs                 unsat                       237.76      237.63        None                False
+scholl_C432.blif_0.40_1.00_1_2_henkin.dqdimacs                 unsat                         0.19        0.23        None                 True
+scholl_C432.blif_0.50_1.00_3_3_henkin.dqdimacs                 unsat                         0.16        0.19        None                 True
+scholl_C432.blif_0.50_1.00_6_3_henkin.dqdimacs                 OUT OF MEMORY               281.65      281.53        None                False
+scholl_C432.blif_0.50_1.00_8_1_henkin.dqdimacs                 unsat                       204.85      204.76        None                False
+scholl_C499.blif_0.10_1.00_3_0_henkin.dqdimacs                 OUT OF MEMORY                18.17       18.20        None                False
+scholl_C499.blif_0.10_1.00_4_2_henkin.dqdimacs                 OUT OF MEMORY                18.09       18.12        None                False
+scholl_C499.blif_0.10_1.00_7_2_henkin.dqdimacs                 OUT OF MEMORY                19.72       19.75        None                False
+scholl_C499.blif_0.10_1.00_9_2_henkin.dqdimacs                 OUT OF MEMORY                16.82       16.85        None                False
+scholl_C499.blif_0.20_1.00_2_0_henkin.dqdimacs                 OUT OF MEMORY                19.13       19.18        None                False
+scholl_C499.blif_0.50_1.00_8_1_henkin.dqdimacs                 OUT OF MEMORY                18.40       18.44        None                False
+scholl_comp.blif_0.10_0.10_0_0_henkin.dqdimacs                 sat                          13.60       13.64        None                False
+scholl_comp.blif_0.10_0.10_0_2_henkin.dqdimacs                 unsat                        17.65       17.69        None                False
+scholl_comp.blif_0.10_0.10_0_3_henkin.dqdimacs                 unsat                         9.87        9.90        None                False
+scholl_comp.blif_0.10_0.10_1_3_henkin.dqdimacs                 unsat                         6.26        6.31        None                False
+scholl_comp.blif_0.10_0.20_0_0_henkin.dqdimacs                 sat                          16.87       16.91        None                False
+scholl_comp.blif_0.10_0.20_1_3_henkin.dqdimacs                 unsat                         3.44        3.50        None                False
+scholl_comp.blif_0.10_0.20_2_1_henkin.dqdimacs                 OUT OF MEMORY               238.72      238.60        None                False
+scholl_comp.blif_0.10_0.50_0_3_henkin.dqdimacs                 unsat                         5.19        5.24        None                False
+scholl_comp.blif_0.10_0.50_1_3_henkin.dqdimacs                 unsat                         3.49        3.53        None                False
+scholl_comp.blif_0.10_1.00_0_0_henkin.dqdimacs                 sat                           1.06        1.10        None                False
+scholl_comp.blif_0.10_1.00_0_1_henkin.dqdimacs                 unsat                         1.23        1.29        None                False
+scholl_comp.blif_0.10_1.00_2_0_henkin.dqdimacs                 sat                           1.10        1.15        None                False
+scholl_comp.blif_0.10_1.00_2_1_henkin.dqdimacs                 unsat                         1.48        1.51        None                False
+scholl_comp.blif_0.10_1.00_2_3_henkin.dqdimacs                 unsat                         1.09        1.29        None                False
+scholl_comp.blif_0.10_1.00_4_2_henkin.dqdimacs                 unsat                         2.13        2.21        None                False
+scholl_comp.blif_0.10_1.00_5_2_henkin.dqdimacs                 unsat                         2.48        2.53        None                False
+scholl_comp.blif_0.10_1.00_9_3_henkin.dqdimacs                 unsat                         1.69        1.74        None                False
+scholl_comp.blif_0.20_0.10_0_2_henkin.dqdimacs                 OUT OF MEMORY               257.12      257.02        None                False
+scholl_comp.blif_0.20_0.10_1_1_henkin.dqdimacs                 OUT OF MEMORY               156.70      156.63        None                False
+scholl_comp.blif_0.20_0.20_0_3_henkin.dqdimacs                 TIMEOUT                     901.74      901.24        None                False
+scholl_comp.blif_0.20_0.20_2_2_henkin.dqdimacs                 unsat                       169.57      169.48        None                False
+scholl_comp.blif_0.20_1.00_4_0_henkin.dqdimacs                 sat                           1.80        1.83        None                False
+scholl_comp.blif_0.20_1.00_5_1_henkin.dqdimacs                 unsat                         8.59        8.63        None                False
+scholl_comp.blif_0.20_1.00_9_3_henkin.dqdimacs                 sat                           1.71        1.79        None                False
+scholl_comp.blif_0.30_0.50_2_1_henkin.dqdimacs                 unsat                       483.21      482.89        None                False
+scholl_comp.blif_0.50_1.00_2_2_henkin.dqdimacs                 unsat                         0.07        0.11        None                 True
+scholl_comp.blif_0.50_1.00_4_0_henkin.dqdimacs                 sat                         578.20      577.85        None                False
+scholl_comp.blif_0.50_1.00_5_1_henkin.dqdimacs                 TIMEOUT                     901.85      901.23        None                False
+scholl_comp.blif_0.50_1.00_9_1_henkin.dqdimacs                 TIMEOUT                     901.86      901.26        None                False
+scholl_comp.blif_0.50_1.00_9_2_henkin.dqdimacs                 sat                         574.40      574.01        None                False
+scholl_comp.blif_0.60_1.00_4_0_henkin.dqdimacs                 TIMEOUT                     901.92      901.31        None                False
+scholl_comp.blif_0.60_1.00_5_0_henkin.dqdimacs                 TIMEOUT                     901.76      901.15        None                False
+scholl_comp.blif_0.60_1.00_9_2_henkin.dqdimacs                 TIMEOUT                     901.92      901.31        None                False
+scholl_term1.blif_0.10_1.00_5_1_henkin.dqdimacs                unsat                        29.17       29.21        None                False
+scholl_term1.blif_0.10_1.00_5_2_henkin.dqdimacs                unsat                        19.50       19.55        None                False
+scholl_term1.blif_0.20_1.00_3_1_henkin.dqdimacs                unsat                         4.58        4.61        None                False
+scholl_term1.blif_0.20_1.00_3_2_henkin.dqdimacs                unsat                         2.76        2.80        None                False
+scholl_term1.blif_0.20_1.00_5_2_henkin.dqdimacs                unsat                        19.27       19.29        None                False
+scholl_term1.blif_0.20_1.00_9_0_henkin.dqdimacs                sat                           1.01        1.05        None                False
+scholl_term1.blif_0.50_1.00_3_0_henkin.dqdimacs                sat                           2.19        2.22        None                False
+scholl_term1.blif_0.50_1.00_3_1_henkin.dqdimacs                unsat                         4.99        5.03        None                False
+scholl_term1.blif_0.50_1.00_5_0_henkin.dqdimacs                sat                          29.28       29.32        None                False
+scholl_term1.blif_0.50_1.00_5_3_henkin.dqdimacs                unsat                        50.50       50.50        None                False
+scholl_term1.blif_0.60_1.00_3_1_henkin.dqdimacs                unsat                         4.80        4.83        None                False
+scholl_term1.blif_0.60_1.00_3_3_henkin.dqdimacs                unsat                         3.74        3.80        None                False
+scholl_term1.blif_0.60_1.00_5_1_henkin.dqdimacs                unsat                        29.17       29.18        None                False
+scholl_term1.blif_0.60_1.00_9_0_henkin.dqdimacs                sat                           1.01        1.05        None                False
+scholl_z4ml.blif_0.10_0.10_2_3_henkin.dqdimacs                 unsat                         0.06        0.11        None                False
+scholl_z4ml.blif_0.10_0.20_2_0_henkin.dqdimacs                 sat                           0.06        0.12        None                False
+scholl_z4ml.blif_0.10_0.50_0_1_henkin.dqdimacs                 unsat                         0.05        0.11        None                False
+scholl_z4ml.blif_0.10_0.50_2_3_henkin.dqdimacs                 unsat                         0.05        0.11        None                False
+scholl_z4ml.blif_0.10_1.00_2_0_henkin.dqdimacs                 sat                           0.06        0.11        None                False
+scholl_z4ml.blif_0.20_1.00_1_0_henkin.dqdimacs                 sat                           0.06        0.11        None                False
+scholl_z4ml.blif_0.20_1.00_7_0_henkin.dqdimacs                 sat                           0.07        0.11        None                False
+scholl_z4ml.blif_0.30_0.10_1_2_henkin.dqdimacs                 unsat                         0.06        0.12        None                False
+scholl_z4ml.blif_0.30_0.10_2_1_henkin.dqdimacs                 unsat                         0.07        0.12        None                False
+sgen3-n140-s18527668-sat.cnf.dqdimacs                          TIMEOUT                     901.78      901.29        None                False
+sgen3-n160-s40283905-sat.cnf.dqdimacs                          TIMEOUT                     901.82      901.20        None                False
+sgen3-n180-s34713902-sat.cnf.dqdimacs                          TIMEOUT                     901.85      901.20        None                False
+sgen3-n200-s39840374-sat.cnf.dqdimacs                          TIMEOUT                     901.84      901.21        None                False
+sgen3-n220-s24359701-sat.cnf.dqdimacs                          OUT OF MEMORY               792.16      791.63        None                False
+sgen3-n240-s78945233-sat.cnf.dqdimacs                          TIMEOUT                     901.80      901.19        None                False
+sgen3-n260-s62321009-sat.cnf.dqdimacs                          TIMEOUT                     901.80      901.26        None                False
+sgen3-n280-s93756482-sat.cnf.dqdimacs                          TIMEOUT                     901.94      901.32        None                False
+sgen3-n300-s12830984-sat.cnf.dqdimacs                          TIMEOUT                     901.87      901.24        None                False
+tentrup_amba_decomposed_decode_environment_16.dqdimacs         TIMEOUT                     901.72      901.11        None                False
+tentrup_amba_decomposed_tburst4_system_16.dqdimacs             OUT OF MEMORY               264.36      264.22        None                False
+tentrup_genbuf3_system_16.dqdimacs                             TIMEOUT                     901.79      901.17        None                False
+tentrup_lilydemo07_system_16.dqdimacs                          TIMEOUT                     901.75      901.13        None                False
+tentrup_ltl2dba13_environment_8.dqdimacs                       TIMEOUT                     901.71      901.16        None                False
+tentrup_ltl2dba_U1_system_16.dqdimacs                          TIMEOUT                     901.70      901.08        None                False
+tentrup_ltl2dba_alpha_environment_8.dqdimacs                   OUT OF MEMORY               867.20      866.59        None                False
+tentrup_pec_adder_n_bit_1_19.dqdimacs                          TIMEOUT                     901.73      901.13        None                False
+tentrup_pec_adder_n_bit_1_3.dqdimacs                           TIMEOUT                     901.76      901.13        None                False
+tentrup_pec_adder_n_bit_3_1.dqdimacs                           TIMEOUT                     901.86      901.24        None                False
+tentrup_pec_adder_n_bit_3_18.dqdimacs                          TIMEOUT                     901.74      901.13        None                False
+tentrup_pec_adder_n_bit_4_11.dqdimacs                          TIMEOUT                     901.71      901.19        None                False
+tentrup_pec_adder_n_bit_4_5.dqdimacs                           TIMEOUT                     901.78      901.15        None                False
+tentrup_pec_adder_n_bit_5_11.dqdimacs                          TIMEOUT                     901.76      901.13        None                False
+tentrup_pec_adder_n_bit_5_18.dqdimacs                          TIMEOUT                     901.90      901.27        None                False
+tentrup_pec_adder_n_bit_8_1.dqdimacs                           TIMEOUT                     901.75      901.14        None                False
+tentrup_pec_adder_n_bit_8_7.dqdimacs                           TIMEOUT                     901.72      901.09        None                False
+tentrup_pec_adder_n_bit_9_11.dqdimacs                          TIMEOUT                     901.67      901.15        None                False
+tentrup_pec_adder_n_bit_9_17.dqdimacs                          TIMEOUT                     901.73      901.11        None                False
+tentrup_pec_adder_n_bit_9_20.dqdimacs                          TIMEOUT                     901.85      901.24        None                False
+tentrup_pec_adder_n_bit_9_22.dqdimacs                          TIMEOUT                     901.77      901.16        None                False
+tentrup_pec_adder_n_bit_9_6.dqdimacs                           TIMEOUT                     901.78      901.17        None                False
+tentrup_pec_look_ahead_arbiter_1_0.dqdimacs                    TIMEOUT                     901.78      901.16        None                False
+tentrup_pec_look_ahead_arbiter_1_11.dqdimacs                   TIMEOUT                     901.68      901.15        None                False
+tentrup_pec_look_ahead_arbiter_1_14.dqdimacs                   TIMEOUT                     901.82      901.19        None                False
+tentrup_pec_look_ahead_arbiter_1_2.dqdimacs                    TIMEOUT                     901.79      901.16        None                False
+tentrup_pec_look_ahead_arbiter_2_4.dqdimacs                    TIMEOUT                     901.82      901.21        None                False
+tentrup_pec_look_ahead_arbiter_3_12.dqdimacs                   TIMEOUT                     901.80      901.16        None                False
+tentrup_pec_look_ahead_arbiter_3_15.dqdimacs                   TIMEOUT                     901.79      901.18        None                False
+tentrup_pec_look_ahead_arbiter_3_3.dqdimacs                    TIMEOUT                     901.71      901.19        None                False
+tentrup_pec_look_ahead_arbiter_5_1.dqdimacs                    TIMEOUT                     901.78      901.16        None                False
+tentrup_pec_look_ahead_arbiter_5_10.dqdimacs                   TIMEOUT                     901.77      901.15        None                False
+tentrup_pec_look_ahead_arbiter_5_12.dqdimacs                   TIMEOUT                     901.79      901.16        None                False
+tentrup_pec_look_ahead_arbiter_5_2.dqdimacs                    TIMEOUT                     901.80      901.18        None                False
+tentrup_pec_look_ahead_arbiter_5_3.dqdimacs                    TIMEOUT                     901.81      901.19        None                False
+tentrup_pec_look_ahead_arbiter_6_12.dqdimacs                   TIMEOUT                     901.71      901.18        None                False
+tentrup_pec_look_ahead_arbiter_6_2.dqdimacs                    TIMEOUT                     901.77      901.23        None                False
+tentrup_pec_look_ahead_arbiter_7_2.dqdimacs                    TIMEOUT                     901.82      901.20        None                False
+tentrup_pec_look_ahead_arbiter_7_22.dqdimacs                   TIMEOUT                     901.88      901.27        None                False
+tentrup_pec_look_ahead_arbiter_7_5.dqdimacs                    TIMEOUT                     901.88      901.26        None                False
+tentrup_pec_look_ahead_arbiter_7_9.dqdimacs                    TIMEOUT                     901.79      901.17        None                False
+tentrup_pec_look_ahead_arbiter_8_4.dqdimacs                    TIMEOUT                     901.67      901.16        None                False
+tentrup_pec_multiplexer_1_11.dqdimacs                          OUT OF MEMORY               104.17      104.12        None                False
+tentrup_pec_multiplexer_1_2.dqdimacs                           OUT OF MEMORY               117.60      117.56        None                False
+tentrup_pec_multiplexer_1_26.dqdimacs                          OUT OF MEMORY               105.62      105.59        None                False
+tentrup_pec_multiplexer_1_4.dqdimacs                           OUT OF MEMORY                93.42       93.38        None                False
+tentrup_pec_multiplexer_1_8.dqdimacs                           OUT OF MEMORY               106.85      106.81        None                False
+tentrup_pec_multiplexer_2_2.dqdimacs                           OUT OF MEMORY               124.60      124.56        None                False
+tentrup_pec_multiplexer_3_2.dqdimacs                           OUT OF MEMORY               171.50      171.40        None                False
+tentrup_pec_multiplexer_3_30.dqdimacs                          OUT OF MEMORY               170.83      170.75        None                False
+tentrup_pec_multiplexer_3_6.dqdimacs                           OUT OF MEMORY               166.01      165.94        None                False
+tentrup_pec_multiplexer_3_7.dqdimacs                           OUT OF MEMORY               501.32      500.99        None                False
+tentrup_pec_multiplexer_5_11.dqdimacs                          OUT OF MEMORY                92.28       92.27        None                False
+tentrup_pec_multiplexer_5_12.dqdimacs                          OUT OF MEMORY               356.41      356.19        None                False
+tentrup_pec_multiplexer_5_17.dqdimacs                          OUT OF MEMORY               249.48      249.34        None                False
+tentrup_pec_multiplexer_5_2.dqdimacs                           OUT OF MEMORY               391.34      391.08        None                False
+tentrup_pec_multiplier_1_0.dqdimacs                            sat                           8.46        8.49        None                False
+tentrup_pec_multiplier_1_10.dqdimacs                           unsat                        19.12       19.16        None                False
+tentrup_pec_multiplier_1_11.dqdimacs                           unsat                        14.24       14.27        None                False
+tentrup_pec_multiplier_1_20.dqdimacs                           unsat                        10.11       10.17        None                False
+tentrup_pec_multiplier_1_30.dqdimacs                           unsat                        19.93       19.96        None                False
+tentrup_pec_multiplier_1_9.dqdimacs                            unsat                         9.47        9.54        None                False
+tentrup_pec_multiplier_3_2.dqdimacs                            unsat                        42.13       42.13        None                False
+tentrup_pec_multiplier_3_3.dqdimacs                            unsat                       115.17      115.15        None                False
+tentrup_pec_multiplier_3_4.dqdimacs                            unsat                        63.32       63.32        None                False
+x1_40.shuffled.cnf.dqdimacs                                    OUT OF MEMORY               120.99      120.94        None                False
+x1_80.shuffled.cnf.dqdimacs                                    OUT OF MEMORY               101.00      100.97        None                False
+----------------------------------------------------------------------------------------------------------------------------------------------
+Run set 11                                                     done                      92529.34    15505.85           -
+
+
+nodynreorder-tree-simpleelimination-varsinconjuncts.dqbf19
+Run set 12 of 15 with options '--preprocess 1 --dyn-reordering 0 --localise 1 --elimination-choice 1 --uvar-choice 2' and propertyfile 'None'
+
+inputfile                                                      status                    cpu time   wall time        host  Preprocessor solved
+----------------------------------------------------------------------------------------------------------------------------------------------
+battleship-10-17-sat.cnf.dqdimacs                              TIMEOUT                     901.65      901.16        None                False
+battleship-11-11-unsat.cnf.dqdimacs                            TIMEOUT                     901.76      901.17        None                False
+battleship-11-21-sat.cnf.dqdimacs                              TIMEOUT                     901.73      901.11        None                False
+battleship-12-12-unsat.cnf.dqdimacs                            TIMEOUT                     901.80      901.19        None                False
+battleship-13-13-unsat.cnf.dqdimacs                            TIMEOUT                     901.76      901.15        None                False
+battleship-7-12-unsat.cnf.dqdimacs                             OUT OF MEMORY               615.92      615.53        None                False
+bloem_add10n.dqdimacs                                          sat                           2.54        2.59        None                False
+bloem_add10y.dqdimacs                                          sat                           0.84        0.87        None                False
+bloem_add16n.dqdimacs                                          OUT OF MEMORY                30.80       30.83        None                False
+bloem_add20n.dqdimacs                                          OUT OF MEMORY                29.31       29.35        None                False
+bloem_add6n.dqdimacs                                           sat                           0.16        0.20        None                False
+bloem_add8y.dqdimacs                                           sat                           0.28        0.33        None                False
+bloem_amba10b4unrealy.dqdimacs                                 OUT OF MEMORY               246.67      246.54        None                False
+bloem_amba2f8unrealy.dqdimacs                                  OUT OF MEMORY               273.48      273.35        None                False
+bloem_amba3b4unrealy.dqdimacs                                  OUT OF MEMORY               258.19      258.03        None                False
+bloem_amba3c5n.dqdimacs                                        OUT OF MEMORY               269.25      269.09        None                False
+bloem_amba4b9n.dqdimacs                                        OUT OF MEMORY               249.15      249.01        None                False
+bloem_amba4c7n.dqdimacs                                        OUT OF MEMORY               254.71      254.58        None                False
+bloem_amba5b4unrealy.dqdimacs                                  OUT OF MEMORY               244.76      244.62        None                False
+bloem_amba6c5n.dqdimacs                                        OUT OF MEMORY               245.20      245.07        None                False
+bloem_amba7b4unrealy.dqdimacs                                  OUT OF MEMORY               270.17      270.01        None                False
+bloem_amba8c6unrealn.dqdimacs                                  OUT OF MEMORY               270.74      270.59        None                False
+bloem_amba8c7y.dqdimacs                                        OUT OF MEMORY               271.57      271.40        None                False
+bloem_amba8f56unrealy.dqdimacs                                 OUT OF MEMORY               271.38      271.26        None                False
+bloem_amba8f57n.dqdimacs                                       OUT OF MEMORY               268.02      267.87        None                False
+bloem_amba9b5y.dqdimacs                                        OUT OF MEMORY               254.75      254.61        None                False
+bloem_amba9c5n.dqdimacs                                        OUT OF MEMORY               281.69      281.51        None                False
+bloem_bs128y.dqdimacs                                          OUT OF MEMORY               130.69      130.65        None                False
+bloem_bs16n.dqdimacs                                           TIMEOUT                     901.93      901.31        None                False
+bloem_bs16y.dqdimacs                                           TIMEOUT                     901.91      901.30        None                False
+bloem_bs64n.dqdimacs                                           OUT OF MEMORY               241.44      241.35        None                False
+bloem_bs8y.dqdimacs                                            OUT OF MEMORY               274.96      274.82        None                False
+bloem_cnt11n.dqdimacs                                          OUT OF MEMORY               210.22      210.11        None                False
+bloem_cnt11y.dqdimacs                                          OUT OF MEMORY               210.96      210.89        None                False
+bloem_cnt4n.dqdimacs                                           sat                           0.03        0.09        None                False
+bloem_cnt6n.dqdimacs                                           OUT OF MEMORY               122.50      122.47        None                False
+bloem_cnt6y.dqdimacs                                           OUT OF MEMORY               121.69      121.66        None                False
+bloem_cnt7y.dqdimacs                                           OUT OF MEMORY               143.78      143.72        None                False
+bloem_cnt9n.dqdimacs                                           OUT OF MEMORY               169.55      169.48        None                False
+bloem_genbuf10b4y.dqdimacs                                     OUT OF MEMORY               272.43      272.33        None                False
+bloem_genbuf10c3n.dqdimacs                                     OUT OF MEMORY               265.79      265.65        None                False
+bloem_genbuf11b3unrealn.dqdimacs                               OUT OF MEMORY               266.95      266.83        None                False
+bloem_genbuf11c2unrealn.dqdimacs                               OUT OF MEMORY               246.18      246.05        None                False
+bloem_genbuf11c2unrealy.dqdimacs                               OUT OF MEMORY               246.98      246.89        None                False
+bloem_genbuf11f11n.dqdimacs                                    OUT OF MEMORY               283.18      283.02        None                False
+bloem_genbuf11f11y.dqdimacs                                    OUT OF MEMORY               267.70      267.56        None                False
+bloem_genbuf12b4y.dqdimacs                                     OUT OF MEMORY               265.79      265.67        None                False
+bloem_genbuf12f12n.dqdimacs                                    OUT OF MEMORY               269.10      268.94        None                False
+bloem_genbuf12f12y.dqdimacs                                    OUT OF MEMORY               266.74      266.60        None                False
+bloem_genbuf13b4n.dqdimacs                                     OUT OF MEMORY               266.55      266.44        None                False
+bloem_genbuf13f13y.dqdimacs                                    OUT OF MEMORY               265.97      265.83        None                False
+bloem_genbuf14b3unrealn.dqdimacs                               OUT OF MEMORY               264.28      264.12        None                False
+bloem_genbuf14c2unrealn.dqdimacs                               OUT OF MEMORY               269.00      268.87        None                False
+bloem_genbuf15b4y.dqdimacs                                     OUT OF MEMORY               255.21      255.08        None                False
+bloem_genbuf15c3y.dqdimacs                                     OUT OF MEMORY               268.67      268.52        None                False
+bloem_genbuf15f14unrealy.dqdimacs                              OUT OF MEMORY               253.83      253.70        None                False
+bloem_genbuf15f15n.dqdimacs                                    OUT OF MEMORY               251.28      251.15        None                False
+bloem_genbuf16c2unrealn.dqdimacs                               OUT OF MEMORY               268.18      268.04        None                False
+bloem_genbuf16c3y.dqdimacs                                     OUT OF MEMORY               267.48      267.35        None                False
+bloem_genbuf1b4n.dqdimacs                                      OUT OF MEMORY               178.69      178.60        None                False
+bloem_genbuf1f3unrealn.dqdimacs                                OUT OF MEMORY               122.52      122.48        None                False
+bloem_genbuf2b4n.dqdimacs                                      OUT OF MEMORY               270.70      270.59        None                False
+bloem_genbuf3f4y.dqdimacs                                      OUT OF MEMORY               271.15      271.02        None                False
+bloem_genbuf4c3n.dqdimacs                                      OUT OF MEMORY               272.97      272.81        None                False
+bloem_genbuf5f4unrealn.dqdimacs                                OUT OF MEMORY               256.35      256.20        None                False
+bloem_genbuf5f4unrealy.dqdimacs                                OUT OF MEMORY               254.60      254.45        None                False
+bloem_genbuf6b4y.dqdimacs                                      OUT OF MEMORY               249.65      249.51        None                False
+bloem_genbuf7c2unrealn.dqdimacs                                OUT OF MEMORY               256.96      256.85        None                False
+bloem_genbuf7f7y.dqdimacs                                      OUT OF MEMORY               248.70      248.55        None                False
+bloem_genbuf8b3unrealn.dqdimacs                                OUT OF MEMORY               247.21      247.08        None                False
+bloem_genbuf8b4y.dqdimacs                                      OUT OF MEMORY               249.39      249.24        None                False
+bloem_genbuf8c2unrealn.dqdimacs                                OUT OF MEMORY               250.27      250.14        None                False
+bloem_genbuf9b4n.dqdimacs                                      OUT OF MEMORY               268.78      268.63        None                False
+bloem_genbuf9c2unrealy.dqdimacs                                OUT OF MEMORY               257.05      256.95        None                False
+bloem_genbuf9c3n.dqdimacs                                      OUT OF MEMORY               248.97      248.83        None                False
+bloem_genbuf9f8unrealy.dqdimacs                                OUT OF MEMORY               268.69      268.53        None                False
+bloem_ifm_amba15n.dqdimacs                                     OUT OF MEMORY               256.05      255.90        None                False
+bloem_mv11n.dqdimacs                                           TIMEOUT                     901.81      901.19        None                False
+bloem_mv20n.dqdimacs                                           OUT OF MEMORY                31.94       31.96        None                False
+bloem_mv20y.dqdimacs                                           OUT OF MEMORY                34.16       34.18        None                False
+bloem_mv4n.dqdimacs                                            sat                           0.09        0.15        None                False
+bloem_mv9y.dqdimacs                                            TIMEOUT                     901.73      901.12        None                False
+bloem_mvs24n.dqdimacs                                          OUT OF MEMORY                31.15       31.19        None                False
+bloem_mvs4n.dqdimacs                                           sat                           0.09        0.14        None                False
+bloem_stay12y.dqdimacs                                         OUT OF MEMORY                33.74       33.78        None                False
+bloem_stay18n.dqdimacs                                         OUT OF MEMORY                31.60       31.61        None                False
+bloem_stay4n.dqdimacs                                          sat                           0.75        0.79        None                False
+bloem_stay4y.dqdimacs                                          sat                           0.75        0.78        None                False
+bloem_stay6n.dqdimacs                                          OUT OF MEMORY               760.72      760.28        None                False
+eulcbip-7-UNSAT.shuffled-as.sat05-3936.cnf.dqdimacs            TIMEOUT                     901.81      901.19        None                False
+f600.shuffled.cnf.dqdimacs                                     TIMEOUT                     901.74      901.11        None                False
+hwb-n28-01-S136611085.shuffled-as.sat03-1627.cnf.dqdimacs      TIMEOUT                     901.77      901.15        None                False
+mm-2x2-6-6-s.1.shuffled-as.sat03-1499.cnf.dqdimacs             OUT OF MEMORY               753.89      753.38        None                False
+mod2-rand3bip-sat-270-1.shuffled-as.sat05-2248.cnf.dqdimacs    OUT OF MEMORY               101.22      101.22        None                False
+scholl_C432.blif_0.10_0.10_2_0_henkin.dqdimacs                 TIMEOUT                     901.93      901.37        None                False
+scholl_C432.blif_0.10_1.00_0_2_henkin.dqdimacs                 OUT OF MEMORY               296.79      296.68        None                False
+scholl_C432.blif_0.10_1.00_2_0_henkin.dqdimacs                 sat                          19.31       19.35        None                False
+scholl_C432.blif_0.10_1.00_7_2_henkin.dqdimacs                 unsat                       320.27      320.09        None                False
+scholl_C432.blif_0.10_1.00_7_3_henkin.dqdimacs                 unsat                         0.13        0.19        None                 True
+scholl_C432.blif_0.20_0.50_2_0_henkin.dqdimacs                 TIMEOUT                     901.81      901.18        None                False
+scholl_C432.blif_0.20_0.50_2_1_henkin.dqdimacs                 TIMEOUT                     901.92      901.31        None                False
+scholl_C432.blif_0.20_1.00_0_0_henkin.dqdimacs                 OUT OF MEMORY               352.28      352.13        None                False
+scholl_C432.blif_0.20_1.00_7_1_henkin.dqdimacs                 unsat                       269.25      269.11        None                False
+scholl_C432.blif_0.20_1.00_8_2_henkin.dqdimacs                 unsat                       241.14      241.02        None                False
+scholl_C432.blif_0.40_1.00_1_2_henkin.dqdimacs                 unsat                         0.19        0.23        None                 True
+scholl_C432.blif_0.50_1.00_3_3_henkin.dqdimacs                 unsat                         0.16        0.20        None                 True
+scholl_C432.blif_0.50_1.00_6_3_henkin.dqdimacs                 OUT OF MEMORY               281.45      281.31        None                False
+scholl_C432.blif_0.50_1.00_8_1_henkin.dqdimacs                 unsat                       207.84      207.77        None                False
+scholl_C499.blif_0.10_1.00_3_0_henkin.dqdimacs                 OUT OF MEMORY                18.37       18.39        None                False
+scholl_C499.blif_0.10_1.00_4_2_henkin.dqdimacs                 OUT OF MEMORY                18.25       18.27        None                False
+scholl_C499.blif_0.10_1.00_7_2_henkin.dqdimacs                 OUT OF MEMORY                19.91       19.96        None                False
+scholl_C499.blif_0.10_1.00_9_2_henkin.dqdimacs                 OUT OF MEMORY                16.97       17.00        None                False
+scholl_C499.blif_0.20_1.00_2_0_henkin.dqdimacs                 OUT OF MEMORY                19.44       19.48        None                False
+scholl_C499.blif_0.50_1.00_8_1_henkin.dqdimacs                 OUT OF MEMORY                18.81       18.83        None                False
+scholl_comp.blif_0.10_0.10_0_0_henkin.dqdimacs                 sat                          38.69       38.71        None                False
+scholl_comp.blif_0.10_0.10_0_2_henkin.dqdimacs                 unsat                        38.17       38.20        None                False
+scholl_comp.blif_0.10_0.10_0_3_henkin.dqdimacs                 unsat                        22.35       22.40        None                False
+scholl_comp.blif_0.10_0.10_1_3_henkin.dqdimacs                 unsat                        26.93       26.96        None                False
+scholl_comp.blif_0.10_0.20_0_0_henkin.dqdimacs                 sat                          84.02       84.02        None                False
+scholl_comp.blif_0.10_0.20_1_3_henkin.dqdimacs                 unsat                        11.82       11.88        None                False
+scholl_comp.blif_0.10_0.20_2_1_henkin.dqdimacs                 unsat                        19.13       19.23        None                False
+scholl_comp.blif_0.10_0.50_0_3_henkin.dqdimacs                 unsat                        13.76       13.80        None                False
+scholl_comp.blif_0.10_0.50_1_3_henkin.dqdimacs                 unsat                        11.12       11.17        None                False
+scholl_comp.blif_0.10_1.00_0_0_henkin.dqdimacs                 sat                           5.00        5.04        None                False
+scholl_comp.blif_0.10_1.00_0_1_henkin.dqdimacs                 unsat                         4.98        5.04        None                False
+scholl_comp.blif_0.10_1.00_2_0_henkin.dqdimacs                 sat                           6.43        6.48        None                False
+scholl_comp.blif_0.10_1.00_2_1_henkin.dqdimacs                 unsat                         7.63        7.66        None                False
+scholl_comp.blif_0.10_1.00_2_3_henkin.dqdimacs                 unsat                         6.31        6.35        None                False
+scholl_comp.blif_0.10_1.00_4_2_henkin.dqdimacs                 unsat                         8.99        9.06        None                False
+scholl_comp.blif_0.10_1.00_5_2_henkin.dqdimacs                 unsat                         9.23        9.27        None                False
+scholl_comp.blif_0.10_1.00_9_3_henkin.dqdimacs                 unsat                         8.34        8.36        None                False
+scholl_comp.blif_0.20_0.10_0_2_henkin.dqdimacs                 unsat                       602.61      602.22        None                False
+scholl_comp.blif_0.20_0.10_1_1_henkin.dqdimacs                 TIMEOUT                     901.64      901.13        None                False
+scholl_comp.blif_0.20_0.20_0_3_henkin.dqdimacs                 unsat                       626.99      626.55        None                False
+scholl_comp.blif_0.20_0.20_2_2_henkin.dqdimacs                 unsat                       668.26      667.82        None                False
+scholl_comp.blif_0.20_1.00_4_0_henkin.dqdimacs                 sat                           7.95        7.98        None                False
+scholl_comp.blif_0.20_1.00_5_1_henkin.dqdimacs                 unsat                        15.55       15.60        None                False
+scholl_comp.blif_0.20_1.00_9_3_henkin.dqdimacs                 sat                           7.79        7.83        None                False
+scholl_comp.blif_0.30_0.50_2_1_henkin.dqdimacs                 TIMEOUT                     901.73      901.10        None                False
+scholl_comp.blif_0.50_1.00_2_2_henkin.dqdimacs                 unsat                         0.07        0.12        None                 True
+scholl_comp.blif_0.50_1.00_4_0_henkin.dqdimacs                 TIMEOUT                     901.72      901.11        None                False
+scholl_comp.blif_0.50_1.00_5_1_henkin.dqdimacs                 TIMEOUT                     901.82      901.19        None                False
+scholl_comp.blif_0.50_1.00_9_1_henkin.dqdimacs                 TIMEOUT                     901.76      901.14        None                False
+scholl_comp.blif_0.50_1.00_9_2_henkin.dqdimacs                 TIMEOUT                     901.72      901.10        None                False
+scholl_comp.blif_0.60_1.00_4_0_henkin.dqdimacs                 TIMEOUT                     901.81      901.31        None                False
+scholl_comp.blif_0.60_1.00_5_0_henkin.dqdimacs                 TIMEOUT                     901.75      901.15        None                False
+scholl_comp.blif_0.60_1.00_9_2_henkin.dqdimacs                 TIMEOUT                     901.91      901.29        None                False
+scholl_term1.blif_0.10_1.00_5_1_henkin.dqdimacs                unsat                        29.36       29.39        None                False
+scholl_term1.blif_0.10_1.00_5_2_henkin.dqdimacs                unsat                        19.32       19.35        None                False
+scholl_term1.blif_0.20_1.00_3_1_henkin.dqdimacs                unsat                         4.60        4.65        None                False
+scholl_term1.blif_0.20_1.00_3_2_henkin.dqdimacs                unsat                         2.77        2.80        None                False
+scholl_term1.blif_0.20_1.00_5_2_henkin.dqdimacs                unsat                        19.32       19.36        None                False
+scholl_term1.blif_0.20_1.00_9_0_henkin.dqdimacs                sat                           1.02        1.07        None                False
+scholl_term1.blif_0.50_1.00_3_0_henkin.dqdimacs                sat                           2.20        2.22        None                False
+scholl_term1.blif_0.50_1.00_3_1_henkin.dqdimacs                unsat                         4.98        5.03        None                False
+scholl_term1.blif_0.50_1.00_5_0_henkin.dqdimacs                sat                          29.34       29.38        None                False
+scholl_term1.blif_0.50_1.00_5_3_henkin.dqdimacs                unsat                        50.68       50.76        None                False
+scholl_term1.blif_0.60_1.00_3_1_henkin.dqdimacs                unsat                         4.84        4.89        None                False
+scholl_term1.blif_0.60_1.00_3_3_henkin.dqdimacs                unsat                         3.74        3.77        None                False
+scholl_term1.blif_0.60_1.00_5_1_henkin.dqdimacs                unsat                        29.10       29.11        None                False
+scholl_term1.blif_0.60_1.00_9_0_henkin.dqdimacs                sat                           1.01        1.07        None                False
+scholl_z4ml.blif_0.10_0.10_2_3_henkin.dqdimacs                 unsat                         0.06        0.14        None                False
+scholl_z4ml.blif_0.10_0.20_2_0_henkin.dqdimacs                 sat                           0.07        0.12        None                False
+scholl_z4ml.blif_0.10_0.50_0_1_henkin.dqdimacs                 unsat                         0.06        0.11        None                False
+scholl_z4ml.blif_0.10_0.50_2_3_henkin.dqdimacs                 unsat                         0.06        0.12        None                False
+scholl_z4ml.blif_0.10_1.00_2_0_henkin.dqdimacs                 sat                           0.06        0.11        None                False
+scholl_z4ml.blif_0.20_1.00_1_0_henkin.dqdimacs                 sat                           0.06        0.12        None                False
+scholl_z4ml.blif_0.20_1.00_7_0_henkin.dqdimacs                 sat                           0.07        0.14        None                False
+scholl_z4ml.blif_0.30_0.10_1_2_henkin.dqdimacs                 unsat                         0.08        0.15        None                False
+scholl_z4ml.blif_0.30_0.10_2_1_henkin.dqdimacs                 unsat                         0.09        0.13        None                False
+sgen3-n140-s18527668-sat.cnf.dqdimacs                          TIMEOUT                     901.89      901.26        None                False
+sgen3-n160-s40283905-sat.cnf.dqdimacs                          TIMEOUT                     901.82      901.21        None                False
+sgen3-n180-s34713902-sat.cnf.dqdimacs                          TIMEOUT                     901.83      901.21        None                False
+sgen3-n200-s39840374-sat.cnf.dqdimacs                          TIMEOUT                     901.75      901.26        None                False
+sgen3-n220-s24359701-sat.cnf.dqdimacs                          OUT OF MEMORY               777.80      777.27        None                False
+sgen3-n240-s78945233-sat.cnf.dqdimacs                          TIMEOUT                     901.77      901.14        None                False
+sgen3-n260-s62321009-sat.cnf.dqdimacs                          TIMEOUT                     901.91      901.29        None                False
+sgen3-n280-s93756482-sat.cnf.dqdimacs                          TIMEOUT                     901.83      901.22        None                False
+sgen3-n300-s12830984-sat.cnf.dqdimacs                          TIMEOUT                     902.01      901.37        None                False
+tentrup_amba_decomposed_decode_environment_16.dqdimacs         TIMEOUT                     901.72      901.11        None                False
+tentrup_amba_decomposed_tburst4_system_16.dqdimacs             OUT OF MEMORY               268.52      268.40        None                False
+tentrup_genbuf3_system_16.dqdimacs                             TIMEOUT                     901.78      901.17        None                False
+tentrup_lilydemo07_system_16.dqdimacs                          TIMEOUT                     901.61      901.09        None                False
+tentrup_ltl2dba13_environment_8.dqdimacs                       TIMEOUT                     901.81      901.19        None                False
+tentrup_ltl2dba_U1_system_16.dqdimacs                          TIMEOUT                     901.69      901.07        None                False
+tentrup_ltl2dba_alpha_environment_8.dqdimacs                   OUT OF MEMORY               875.01      874.39        None                False
+tentrup_pec_adder_n_bit_1_19.dqdimacs                          TIMEOUT                     901.72      901.13        None                False
+tentrup_pec_adder_n_bit_1_3.dqdimacs                           TIMEOUT                     901.76      901.15        None                False
+tentrup_pec_adder_n_bit_3_1.dqdimacs                           TIMEOUT                     901.77      901.26        None                False
+tentrup_pec_adder_n_bit_3_18.dqdimacs                          TIMEOUT                     901.73      901.12        None                False
+tentrup_pec_adder_n_bit_4_11.dqdimacs                          TIMEOUT                     901.80      901.19        None                False
+tentrup_pec_adder_n_bit_4_5.dqdimacs                           TIMEOUT                     901.74      901.11        None                False
+tentrup_pec_adder_n_bit_5_11.dqdimacs                          TIMEOUT                     901.75      901.13        None                False
+tentrup_pec_adder_n_bit_5_18.dqdimacs                          TIMEOUT                     901.86      901.24        None                False
+tentrup_pec_adder_n_bit_8_1.dqdimacs                           TIMEOUT                     901.65      901.15        None                False
+tentrup_pec_adder_n_bit_8_7.dqdimacs                           TIMEOUT                     901.72      901.08        None                False
+tentrup_pec_adder_n_bit_9_11.dqdimacs                          TIMEOUT                     901.76      901.15        None                False
+tentrup_pec_adder_n_bit_9_17.dqdimacs                          TIMEOUT                     901.73      901.13        None                False
+tentrup_pec_adder_n_bit_9_20.dqdimacs                          TIMEOUT                     901.83      901.23        None                False
+tentrup_pec_adder_n_bit_9_22.dqdimacs                          TIMEOUT                     901.75      901.16        None                False
+tentrup_pec_adder_n_bit_9_6.dqdimacs                           TIMEOUT                     901.70      901.17        None                False
+tentrup_pec_look_ahead_arbiter_1_0.dqdimacs                    TIMEOUT                     901.77      901.13        None                False
+tentrup_pec_look_ahead_arbiter_1_11.dqdimacs                   TIMEOUT                     901.79      901.17        None                False
+tentrup_pec_look_ahead_arbiter_1_14.dqdimacs                   TIMEOUT                     901.78      901.15        None                False
+tentrup_pec_look_ahead_arbiter_1_2.dqdimacs                    TIMEOUT                     901.78      901.18        None                False
+tentrup_pec_look_ahead_arbiter_2_4.dqdimacs                    TIMEOUT                     901.81      901.19        None                False
+tentrup_pec_look_ahead_arbiter_3_12.dqdimacs                   TIMEOUT                     901.70      901.16        None                False
+tentrup_pec_look_ahead_arbiter_3_15.dqdimacs                   TIMEOUT                     901.78      901.19        None                False
+tentrup_pec_look_ahead_arbiter_3_3.dqdimacs                    TIMEOUT                     901.81      901.19        None                False
+tentrup_pec_look_ahead_arbiter_5_1.dqdimacs                    TIMEOUT                     901.78      901.18        None                False
+tentrup_pec_look_ahead_arbiter_5_10.dqdimacs                   TIMEOUT                     901.77      901.15        None                False
+tentrup_pec_look_ahead_arbiter_5_12.dqdimacs                   TIMEOUT                     901.79      901.17        None                False
+tentrup_pec_look_ahead_arbiter_5_2.dqdimacs                    TIMEOUT                     901.70      901.19        None                False
+tentrup_pec_look_ahead_arbiter_5_3.dqdimacs                    TIMEOUT                     901.78      901.16        None                False
+tentrup_pec_look_ahead_arbiter_6_12.dqdimacs                   TIMEOUT                     901.81      901.17        None                False
+tentrup_pec_look_ahead_arbiter_6_2.dqdimacs                    TIMEOUT                     901.76      901.13        None                False
+tentrup_pec_look_ahead_arbiter_7_2.dqdimacs                    TIMEOUT                     901.80      901.19        None                False
+tentrup_pec_look_ahead_arbiter_7_22.dqdimacs                   TIMEOUT                     901.87      901.26        None                False
+tentrup_pec_look_ahead_arbiter_7_5.dqdimacs                    TIMEOUT                     901.78      901.29        None                False
+tentrup_pec_look_ahead_arbiter_7_9.dqdimacs                    TIMEOUT                     901.78      901.18        None                False
+tentrup_pec_look_ahead_arbiter_8_4.dqdimacs                    TIMEOUT                     901.79      901.16        None                False
+tentrup_pec_multiplexer_1_11.dqdimacs                          OUT OF MEMORY               104.13      104.09        None                False
+tentrup_pec_multiplexer_1_2.dqdimacs                           OUT OF MEMORY               117.14      117.11        None                False
+tentrup_pec_multiplexer_1_26.dqdimacs                          OUT OF MEMORY               106.54      106.51        None                False
+tentrup_pec_multiplexer_1_4.dqdimacs                           OUT OF MEMORY                94.13       94.09        None                False
+tentrup_pec_multiplexer_1_8.dqdimacs                           OUT OF MEMORY               105.97      105.93        None                False
+tentrup_pec_multiplexer_2_2.dqdimacs                           OUT OF MEMORY               123.66      123.63        None                False
+tentrup_pec_multiplexer_3_2.dqdimacs                           OUT OF MEMORY               171.67      171.59        None                False
+tentrup_pec_multiplexer_3_30.dqdimacs                          OUT OF MEMORY               170.97      170.89        None                False
+tentrup_pec_multiplexer_3_6.dqdimacs                           OUT OF MEMORY               166.06      166.00        None                False
+tentrup_pec_multiplexer_3_7.dqdimacs                           OUT OF MEMORY               509.99      509.76        None                False
+tentrup_pec_multiplexer_5_11.dqdimacs                          OUT OF MEMORY                92.21       92.20        None                False
+tentrup_pec_multiplexer_5_12.dqdimacs                          OUT OF MEMORY               357.03      356.81        None                False
+tentrup_pec_multiplexer_5_17.dqdimacs                          OUT OF MEMORY               247.69      247.56        None                False
+tentrup_pec_multiplexer_5_2.dqdimacs                           OUT OF MEMORY               397.37      397.13        None                False
+tentrup_pec_multiplier_1_0.dqdimacs                            sat                           8.86        8.92        None                False
+tentrup_pec_multiplier_1_10.dqdimacs                           unsat                        20.08       20.12        None                False
+tentrup_pec_multiplier_1_11.dqdimacs                           unsat                        14.66       14.69        None                False
+tentrup_pec_multiplier_1_20.dqdimacs                           unsat                        10.80       10.83        None                False
+tentrup_pec_multiplier_1_30.dqdimacs                           unsat                        20.54       20.59        None                False
+tentrup_pec_multiplier_1_9.dqdimacs                            unsat                        10.15       10.19        None                False
+tentrup_pec_multiplier_3_2.dqdimacs                            unsat                        44.04       44.06        None                False
+tentrup_pec_multiplier_3_3.dqdimacs                            unsat                       114.11      114.07        None                False
+tentrup_pec_multiplier_3_4.dqdimacs                            unsat                        64.87       64.87        None                False
+x1_40.shuffled.cnf.dqdimacs                                    OUT OF MEMORY               119.86      119.82        None                False
+x1_80.shuffled.cnf.dqdimacs                                    OUT OF MEMORY               100.43      100.39        None                False
+----------------------------------------------------------------------------------------------------------------------------------------------
+Run set 12                                                     done                      92429.44    15473.37           -
+
+
+tree-fullelimination-atbeginning.dqbf19
+Run set 13 of 15: skipped 
+
+
+tree-fullelimination-continuous.dqbf19
+Run set 14 of 15: skipped 
+
+
+tree-fullelimination-varsinconjuncts.dqbf19
+Run set 15 of 15: skipped 
+
+Statistics:            738 Files
+  correct:               0
+    correct true:        0
+    correct false:       0
+  incorrect:             0
+    incorrect true:      0
+    incorrect false:     0
+  unknown:             508
