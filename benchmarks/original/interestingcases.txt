@@ -6,5 +6,5 @@ dqbf18/balabanov_urquhart3_25bis.shuffled.cnf.dqdimacs
 	- turning it to QBF using 'HQSpre --to_qbf=var --max_loops=1' and then running caqe returns UNSAT
 dqbf18/bloem_amba3c4unrealy.dqdimacs
 	- HQS aborts
-dqbf18/balabanov_x1_80.shuffled.cnf.dqdimacs
-	- simplesolver gets USNAT right after parsing, not sure if preprocessor solved (does not solve for hqs) or if BDD simplified it during the creation
+Scholl/z4/z4ml.blif_0.50_0.10_2_2_henkin.dqdimacs
+	- DQBDD (even without preprocessing) says UNSAT, dCAQE (with preprocessing) says SAT
