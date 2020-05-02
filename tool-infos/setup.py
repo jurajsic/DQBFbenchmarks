@@ -2,9 +2,9 @@
 
 from distutils.core import setup
 
-setup(name='MyToolInfos',
+setup(name='DQBFToolInfos',
       version='1.0',
-      description='My tool-info files for tools for benchexec',
+      description='Tool-infos for DQBF solvers for benchexec',
       author='Juraj Sic',
-      packages=['mytoolinfos'],
+      packages=['dqbftoolinfos'],
      )
