@@ -3,7 +3,7 @@ dqbf18/tentrup_pec_look_ahead_arbiter_1_11.dqdimacs
 dqbf18/balabanov_urquhart3_25bis.shuffled.cnf.dqdimacs
 	- newer HQSpre solves it, older (1.4) does not (ends up as QBF)
 	- HQSpre says UNSAT, dcaqe says SAT
-	- turning it to QBF using 'HQSpre --to_qbf=var --max_loops=1' and then running caqe returns UNSAT
+	- turning it to QBF using 'hqspre --pipe --to_qbf=var --max_loops=1' and then running caqe/dcaqe returns UNSAT
 dqbf18/bloem_amba3c4unrealy.dqdimacs
 	- HQS aborts
 Scholl/z4/z4ml.blif_0.50_0.10_2_2_henkin.dqdimacs
