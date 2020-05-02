@@ -6,8 +6,10 @@
            cpuCores="1"
            threads="6">
     
-  <rundefinition name="qbf-mode">
+  <rundefinition name="qbf-mode-noproofreconstruction">
     <option name="--qbf_mode">true</option>
+    <option name="--inst_out_proof">false</option>
+    <option name="--res_out_proof">false</option>
   </rundefinition>
   
   
