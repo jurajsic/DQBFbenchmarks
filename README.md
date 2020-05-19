@@ -25,12 +25,12 @@ contains Benchexec run definition files for all solvers.
 ```
 tool-infos/
 ```
-contains the python package defining tool-infos for all solvers.
+contains the python package defining [tool-infos](https://github.com/sosy-lab/benchexec/blob/master/doc/tool-integration.md) for all solvers.
 
 ## Running the Benchmarks
 How to run with benchexec:
 
-Install the package `dqbftoolinfos` of tool-info modules:
+Install the package `dqbftoolinfos` of [tool-info](https://github.com/sosy-lab/benchexec/blob/master/doc/tool-integration.md) modules:
 ```
 pip3 install tool-infos/
 ```
