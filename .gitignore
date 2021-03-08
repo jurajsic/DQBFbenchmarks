@@ -5,3 +5,4 @@ runbenchmark
 nohup.out
 results/*.html
 results/*.csv
+QBFbenchmarks/
