@@ -26,6 +26,11 @@
     <include>../benchmarks/afterhqspre/dqbf19/*.dqdimacs</include>
   </tasks>
   
+  <!-- benchmarks from QBFeval20 -->
+  <tasks name="dqbf20">
+    <include>../benchmarks/afterhqspre/dqbf20/*.dqdimacs</include>
+  </tasks>
+  
   <!-- benchmarks from equivalence  checking  of  incomplete  circuits -->
   <tasks name="PEC">
     <include>../benchmarks/afterhqspre/PEC/*.dqdimacs</include>
