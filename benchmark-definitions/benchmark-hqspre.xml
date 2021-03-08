@@ -27,7 +27,7 @@
   </tasks>
 
   <!-- benchmarks from QBFeval20 -->
-  <tasks name="dqbf19">
+  <tasks name="dqbf20">
     <include>../benchmarks/original/dqbf20/*.dqdimacs</include>
   </tasks>
   
