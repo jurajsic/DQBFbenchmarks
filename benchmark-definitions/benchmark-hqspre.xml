@@ -48,4 +48,9 @@
     <include>../benchmarks/original/Bloem/*.dqdimacs</include>
   </tasks>
   
+  <!-- QBF in PCNF benchmarks from QBFeval20 -->
+  <tasks name="QBFdqbf20PCNF">
+    <include>../QBFbenchmarks/original/dqbf20/PCNF/*.qdimacs</include>
+  </tasks>
+  
 </benchmark>

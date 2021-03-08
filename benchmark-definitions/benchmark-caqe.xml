@@ -6,17 +6,19 @@
            cpuCores="1"
            threads="6">
     
-  <rundefinition name="hqspre">
+  <rundefinition/>
+    
+ <!-- <rundefinition name="hqspre">
     <option name="--preprocessor">hqspre</option>
-  </rundefinition>
+  </rundefinition> -->
 
   <!-- test benchmarks -->  
   <tasks name="testing">
     <include>../benchmarks/testing/test*.qdimacs</include>
   </tasks>
 
-  <!-- benchmarks from QBFeval18 -->
-  <tasks name="dqbf20">
+  <!-- QBF in PCNF benchmarks from QBFeval20 -->
+  <tasks name="QBFdqbf20PCNF">
     <include>../QBFbenchmarks/afterhqspre/dqbf20/PCNF/*.qdimacs</include>
   </tasks>
  
