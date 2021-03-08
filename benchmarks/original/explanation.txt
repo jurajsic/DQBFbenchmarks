@@ -1,5 +1,6 @@
 dqbf18 - benchmarks used for DQBF track of QBF Evaluation 2018 competition [4]
 dqbf19 - benchmarks used for DQBF track of QBF Evaluation 2019 competition [5]
+dqbf20 - benchmarks used for DQBF track of QBF Evaluation 2020 competition [9]
 
 These are from https://abs.informatik.uni-freiburg.de/src/projects_view.php?projectID=21
 Finkbeiner - DQBFs resulting from equivalence checking of incomplete circuits from [2] can be also found on https://www.react.uni-saarland.de/tools/bunsat/
@@ -15,4 +16,5 @@ Bloem - DQBFs resulting from controller synthesis problems from [7]
 [5] http://www.qbflib.org/event_page.php?year=2019
 [6] C. Scholl and B. Becker, "Checking equivalence for partial implementations," Proceedings of the 38th Design Automation Conference (IEEE Cat. No.01CH37232), Las Vegas, NV, USA, 2001, pp. 238-243.
 [7] Bloem R., Könighofer R., Seidl M. (2014) SAT-Based Synthesis Methods for Safety Specs. In: McMillan K.L., Rival X. (eds) Verification, Model Checking, and Abstract Interpretation. VMCAI 2014. Lecture Notes in Computer Science, vol 8318. Springer, Berlin, Heidelberg
-[8] Valeriy Balabanov and Jie-Hong Roland Jiang. Reducing satisfiability and reachability to DQBF, September 2015. Talk at the Int’l Workshop on Quantified Boolean Formulas (QBF).
+[8] Valeriy Balabanov and Jie-Hong Roland Jiang. Reducing satisfiability and reachability to DQBF, September 2015. Talk at the Int’l Workshop on Quantified Boolean Formulas (QBF)
+[9] http://www.qbflib.org/event_page.php?year=2020.
