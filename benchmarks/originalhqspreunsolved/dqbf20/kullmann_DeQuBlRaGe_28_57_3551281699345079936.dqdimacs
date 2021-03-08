@@ -1,0 +1,107 @@
+c Output_time 07.06.2020 20:09:26_+0100 1591556966805690065
+c ** Program information **
+c program_name                          "DQBRG"
+c version                               "0.3.0"
+c date                                  "29.3.2020"
+c gid_id                                "11f285002dd0387f0ebb216c4fcabf3f1c732df2"
+c author                                "Oliver Kullmann"
+c url                                   "https://github.com/OKullmann/oklibrary/blob/master/Satisfiability/Transformers/Generators/Random/DQBRG.cpp"
+c ** Machine information **
+c machine_name                          "csverify"
+c bogomips                              7182.86
+c ** Compilation information **
+c compiler_version                      "g++ 8.3.0"
+c compilation_date                      "Apr_21_2020 23:53:44"
+c compilation_options                   "--std=c++17 -pedantic -Ofast -DNDEBUG -march=native -fwhole-program -static -fno-finite-math-only"
+c NDEBUG                                1
+c OPTIMIZE                              1
+c ** Parameters **
+c command-line                          "./DQBRG" "a14 14" "42" "57*1,2|2-2,3" "" "1959747134094409559,0,1591534565250670091,1,102" ""
+c output                                "DeQuBlRaGe_28_57_3551281699345079936.dqdimacs"
+c options                               "filtered,renamed"
+c num_quantifier_blocks                 2
+c  quantifier_blocks                    1:a1-14 2:e15-28
+c  total_na                             14
+c  total_ne                             14
+c dependency_option                     ignore_given
+c   total_possible_dependencies         196
+c   given_prefix_dependencies           196
+c   change_value                        42
+c   actual_dependencies                 42
+c num_clause-blocks                     1
+c  clause-blocks                        57 * {1-14,2,1/2} | {15-28,3,1/2}
+c num_e-seeds                           25+5=30
+c  e-seeds                              2 0 1 0 0 42 3 28 2 14 0 14 1 57 2 1 1 2 1 2 2 2 3 1 2 1959747134094409559 0 1591534565250670091 1 102
+p cnf 28 57
+a 1 2 3 4 5 6 7 8 9 10 11 12 13 14 0
+d 15 6 0
+d 16 10 0
+d 17 3 0
+d 18 4 7 13 0
+d 19 1 2 4 13 0
+d 20 3 5 6 10 13 0
+d 21 1 6 7 9 0
+d 22 1 2 8 10 11 0
+d 23 6 10 13 0
+d 24 2 4 14 0
+d 25 2 5 7 0
+d 26 2 3 6 9 13 0
+d 27 4 12 0
+d 28 10 11 0
+-2 13 -16 -18 19 0
+3 -13 -15 16 -20 0
+3 -4 17 -18 -20 0
+-7 10 -15 16 -21 0
+-1 -13 -16 -18 -21 0
+-8 -11 15 21 -22 0
+-1 -11 17 -19 22 0
+-10 -13 -18 20 23 0
+-3 8 17 22 23 0
+3 -14 -17 -18 -24 0
+-5 8 20 22 -24 0
+11 -13 22 -23 -24 0
+-4 13 -15 -18 24 0
+2 -4 17 -18 24 0
+10 -13 -18 -20 24 0
+-10 13 18 22 24 0
+-9 11 21 22 24 0
+2 13 -16 -19 -25 0
+-5 13 20 -22 -25 0
+2 -13 -17 23 -25 0
+-3 -5 20 24 -25 0
+2 5 -18 -21 25 0
+-1 7 21 22 25 0
+4 -7 -20 -24 25 0
+9 -10 -16 -18 -26 0
+1 7 16 21 -26 0
+-1 -2 17 22 -26 0
+-4 -10 -16 24 -26 0
+-6 -7 18 -25 -26 0
+-5 -13 -18 -20 26 0
+6 9 15 21 26 0
+-8 -13 -15 -22 26 0
+-9 10 21 -23 26 0
+4 -14 20 24 26 0
+1 -6 -15 -19 -27 0
+1 4 17 -21 -27 0
+5 12 20 -25 -27 0
+-5 -12 -20 -26 -27 0
+9 -10 23 -26 -27 0
+10 -11 22 -23 27 0
+-4 7 -24 25 27 0
+-12 -13 24 -26 27 0
+-2 -9 -16 26 27 0
+-4 -9 -20 26 27 0
+4 -10 -18 -25 -28 0
+11 13 20 -25 -28 0
+1 9 -22 -26 -28 0
+-1 2 -21 26 -28 0
+-12 -14 24 -27 -28 0
+-9 11 -18 21 28 0
+4 6 -18 23 28 0
+7 13 18 25 28 0
+1 -9 22 -26 28 0
+2 8 -22 26 28 0
+-4 10 -21 -27 28 0
+4 10 20 27 28 0
+-11 14 -24 27 28 0
