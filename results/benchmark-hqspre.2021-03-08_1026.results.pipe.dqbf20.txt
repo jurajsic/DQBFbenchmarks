@@ -1,0 +1,400 @@
+   BENCHMARK INFORMATION
+benchmark definition:    benchmark-definitions/benchmark-hqspre.xml
+name:                    benchmark-hqspre
+run sets:                pipe.dqbf20
+date:                    Mon, 2021-03-08 10:26:49 CET
+tool:                    HQSpre
+tool executable:         /home/xsic/DQBFbenchmarks/solvers/hqspre
+options:                 
+parallel runs:           6
+resource limits:
+- memory:                4000.0 MB
+- time:                  900 s
+- cpu cores:             1
+hardware requirements:
+- cpu cores:             1
+- memory:                4000.0 MB
+------------------------------------------------------------
+
+   SYSTEM INFORMATION
+host:                    islay
+os:                      Linux-3.16.0-4-amd64-x86_64-with-debian-8.5
+cpu:                     Intel Xeon CPU E5-2620 v2 @ 2.10GHz
+- cores:                 24
+- max frequency:         2600.0 MHz
+- turbo boost enabled:   False
+ram:                     135450.984448 MB
+------------------------------------------------------------
+
+
+
+pipe.dqbf20
+Run set 1 of 1 with options '--pipe' and propertyfile 'None'
+
+inputfile                                                           status                    cpu time   wall time        host
+------------------------------------------------------------------------------------------------------------------------------
+battleship-10-10-unsat.cnf.dqdimacs                                 unsat                        11.73       11.78        None
+battleship-10-17-sat.cnf.dqdimacs                                   unknown                      83.29       83.49        None
+battleship-10-19-sat.cnf.dqdimacs                                   sat                          11.76       11.79        None
+battleship-11-11-unsat.cnf.dqdimacs                                 unknown                      82.86       82.84        None
+battleship-11-21-sat.cnf.dqdimacs                                   unknown                      85.28       85.26        None
+battleship-12-12-unsat.cnf.dqdimacs                                 unknown                      83.29       83.32        None
+battleship-13-13-unsat.cnf.dqdimacs                                 unknown                      83.89       83.85        None
+battleship-5-8-unsat.cnf.dqdimacs                                   unsat                         0.84        0.87        None
+battleship-6-9-unsat.cnf.dqdimacs                                   unsat                         1.04        1.09        None
+battleship-7-12-unsat.cnf.dqdimacs                                  unknown                      81.67       81.67        None
+bloem_add10n.dqdimacs                                               unknown                       0.31        0.34        None
+bloem_add10y.dqdimacs                                               unknown                       0.33        0.54        None
+bloem_add16n.dqdimacs                                               unknown                       0.77        0.82        None
+bloem_add20n.dqdimacs                                               unknown                       1.35        1.39        None
+bloem_add4n.dqdimacs                                                sat                           0.02        0.04        None
+bloem_add6n.dqdimacs                                                unknown                       0.07        0.12        None
+bloem_add8y.dqdimacs                                                unknown                       0.15        0.19        None
+bloem_amba10b4unrealy.dqdimacs                                      unknown                       1.32        1.38        None
+bloem_amba2f8unrealy.dqdimacs                                       unknown                       0.15        0.22        None
+bloem_amba3b4unrealy.dqdimacs                                       unknown                       0.24        0.40        None
+bloem_amba3c5n.dqdimacs                                             unknown                       0.29        0.39        None
+bloem_amba4b9n.dqdimacs                                             unknown                       0.33        0.58        None
+bloem_amba4c7n.dqdimacs                                             unknown                       0.30        0.51        None
+bloem_amba5b4unrealy.dqdimacs                                       unknown                       0.37        0.50        None
+bloem_amba6b5n.dqdimacs                                             unknown                       0.69        0.72        None
+bloem_amba6c5n.dqdimacs                                             unknown                       0.40        0.44        None
+bloem_amba7b4unrealy.dqdimacs                                       unknown                       0.52        0.56        None
+bloem_amba8c6unrealn.dqdimacs                                       unknown                       0.45        0.52        None
+bloem_amba8c7y.dqdimacs                                             unknown                       0.57        0.59        None
+bloem_amba8f56unrealy.dqdimacs                                      unknown                       0.80        0.85        None
+bloem_amba8f57n.dqdimacs                                            unknown                       0.68        0.95        None
+bloem_amba9b5y.dqdimacs                                             unknown                       1.09        1.15        None
+bloem_amba9c5n.dqdimacs                                             unknown                       0.71        0.76        None
+bloem_bs128y.dqdimacs                                               unknown                     106.14      106.11        None
+bloem_bs16n.dqdimacs                                                unknown                       0.39        0.44        None
+bloem_bs16y.dqdimacs                                                unknown                       0.39        0.57        None
+bloem_bs64n.dqdimacs                                                unknown                      11.62       11.73        None
+bloem_bs8y.dqdimacs                                                 unknown                       0.06        0.12        None
+bloem_cnt10n.dqdimacs                                               unknown                       0.03        0.24        None
+bloem_cnt10y.dqdimacs                                               unknown                       0.04        0.23        None
+bloem_cnt11n.dqdimacs                                               unknown                       0.04        0.41        None
+bloem_cnt11y.dqdimacs                                               unknown                       0.04        0.07        None
+bloem_cnt6n.dqdimacs                                                unknown                       0.02        0.16        None
+bloem_cnt6y.dqdimacs                                                unknown                       0.03        0.07        None
+bloem_cnt7y.dqdimacs                                                unknown                       0.02        0.07        None
+bloem_cnt9n.dqdimacs                                                unknown                       0.04        0.07        None
+bloem_cnt9y.dqdimacs                                                unknown                       0.04        0.05        None
+bloem_ex2.dqdimacs                                                  sat                           0.01        0.05        None
+bloem_genbuf11b3unrealn.dqdimacs                                    unknown                       0.55        0.81        None
+bloem_genbuf11c2unrealn.dqdimacs                                    unknown                       0.42        0.48        None
+bloem_genbuf11c2unrealy.dqdimacs                                    unknown                       0.42        0.56        None
+bloem_genbuf11f11n.dqdimacs                                         unknown                       0.46        0.63        None
+bloem_genbuf11f11y.dqdimacs                                         unknown                       0.55        0.58        None
+bloem_genbuf12b4y.dqdimacs                                          unknown                       0.55        0.60        None
+bloem_genbuf12f12n.dqdimacs                                         unknown                       0.54        0.85        None
+bloem_genbuf12f12y.dqdimacs                                         unknown                       0.53        0.59        None
+bloem_genbuf13b4n.dqdimacs                                          unknown                       0.67        0.70        None
+bloem_genbuf13f13y.dqdimacs                                         unknown                       0.65        0.69        None
+bloem_genbuf14b3unrealn.dqdimacs                                    unknown                       0.72        0.76        None
+bloem_genbuf14c2unrealn.dqdimacs                                    unknown                       0.54        0.60        None
+bloem_genbuf14c3y.dqdimacs                                          unknown                       0.82        0.85        None
+bloem_genbuf15b4y.dqdimacs                                          unknown                       1.03        1.12        None
+bloem_genbuf15c3y.dqdimacs                                          unknown                       0.77        0.81        None
+bloem_genbuf15f14unrealy.dqdimacs                                   unknown                       0.78        0.90        None
+bloem_genbuf15f15n.dqdimacs                                         unknown                       0.82        0.97        None
+bloem_genbuf16c2unrealn.dqdimacs                                    unknown                       0.65        0.87        None
+bloem_genbuf16c3y.dqdimacs                                          unknown                       0.64        0.88        None
+bloem_genbuf5f4unrealn.dqdimacs                                     unknown                       0.21        0.24        None
+bloem_genbuf5f4unrealy.dqdimacs                                     unknown                       0.19        0.44        None
+bloem_genbuf6b4y.dqdimacs                                           unknown                       0.35        0.44        None
+bloem_genbuf7c2unrealn.dqdimacs                                     unknown                       0.27        0.42        None
+bloem_genbuf7f7y.dqdimacs                                           unknown                       0.32        0.43        None
+bloem_genbuf8b3unrealn.dqdimacs                                     unknown                       0.38        0.43        None
+bloem_genbuf8b4y.dqdimacs                                           unknown                       0.37        0.41        None
+bloem_genbuf8c2unrealn.dqdimacs                                     unknown                       0.38        0.48        None
+bloem_genbuf9b4n.dqdimacs                                           unknown                       0.35        0.39        None
+bloem_genbuf9c2unrealy.dqdimacs                                     unknown                       0.46        0.49        None
+bloem_genbuf9c3n.dqdimacs                                           unknown                       0.37        0.41        None
+bloem_genbuf9f8unrealy.dqdimacs                                     unknown                       0.43        0.48        None
+bloem_ifm_amba15n.dqdimacs                                          unknown                       1.90        1.93        None
+bloem_mult11.dqdimacs                                               sat                           0.02        0.40        None
+bloem_mult2.dqdimacs                                                sat                           0.01        0.04        None
+bloem_mult4.dqdimacs                                                sat                           0.01        0.19        None
+bloem_mult6.dqdimacs                                                sat                           0.01        0.05        None
+bloem_mult9.dqdimacs                                                sat                           0.01        0.11        None
+bloem_mv11n.dqdimacs                                                unknown                       0.13        0.19        None
+bloem_mv20n.dqdimacs                                                unknown                       0.41        0.49        None
+bloem_mv20y.dqdimacs                                                unknown                       0.38        0.49        None
+bloem_mv4n.dqdimacs                                                 unknown                       0.02        0.06        None
+bloem_mv9y.dqdimacs                                                 unknown                       0.09        0.21        None
+bloem_mvs4n.dqdimacs                                                unknown                       0.02        0.38        None
+bloem_mvs8n.dqdimacs                                                unknown                       0.05        0.08        None
+bloem_mvs8y.dqdimacs                                                unknown                       0.03        0.07        None
+bloem_sh_u_o.dqdimacs                                               unsat                         0.01        0.04        None
+bloem_stay12y.dqdimacs                                              unknown                       0.35        0.40        None
+bloem_stay4n.dqdimacs                                               unknown                       0.04        0.08        None
+bloem_stay4y.dqdimacs                                               unknown                       0.03        0.08        None
+bloem_stay6n.dqdimacs                                               unknown                       0.11        0.22        None
+bloem_stay6y.dqdimacs                                               unknown                       0.12        0.22        None
+bloem_unrealizable.dqdimacs                                         unsat                         0.00        0.04        None
+crn_11_100_s.cnf.dqdimacs                                           sat                          27.68       27.72        None
+crn_11_99_u.cnf.dqdimacs                                            unsat                         8.08        8.12        None
+eulcbip-7-UNSAT.shuffled-as.sat05-3936.cnf.dqdimacs                 unknown                     102.57      102.54        None
+f600.shuffled.cnf.dqdimacs                                          unknown                      83.87       83.87        None
+hwb-n28-01-S136611085.shuffled-as.sat03-1627.cnf.dqdimacs           unknown                     102.58      102.57        None
+kullmann_DeQuBlRaGe_28_57_3551281699345079841.dqdimacs              unknown                       0.00        0.04        None
+kullmann_DeQuBlRaGe_28_57_3551281699345079858.dqdimacs              unknown                       0.00        0.07        None
+kullmann_DeQuBlRaGe_28_57_3551281699345079867.dqdimacs              unknown                       0.00        0.06        None
+kullmann_DeQuBlRaGe_28_57_3551281699345079868.dqdimacs              unknown                       0.00        0.06        None
+kullmann_DeQuBlRaGe_28_57_3551281699345079870.dqdimacs              unknown                       0.00        0.06        None
+kullmann_DeQuBlRaGe_28_57_3551281699345079872.dqdimacs              unknown                       0.00        0.05        None
+kullmann_DeQuBlRaGe_28_57_3551281699345079876.dqdimacs              unknown                       0.00        0.06        None
+kullmann_DeQuBlRaGe_28_57_3551281699345079892.dqdimacs              unknown                       0.00        0.03        None
+kullmann_DeQuBlRaGe_28_57_3551281699345079906.dqdimacs              unknown                       0.00        0.05        None
+kullmann_DeQuBlRaGe_28_57_3551281699345079926.dqdimacs              unknown                       0.00        0.04        None
+kullmann_DeQuBlRaGe_28_57_3551281699345079936.dqdimacs              unknown                       0.00        0.05        None
+kullmann_DeQuBlRaGe_28_57_3551281699345079939.dqdimacs              unknown                       0.00        0.06        None
+kullmann_DeQuBlRaGe_28_57_3551281699345079952.dqdimacs              unknown                       0.00        0.03        None
+kullmann_DeQuBlRaGe_28_57_3551281699345079954.dqdimacs              unknown                       0.00        0.06        None
+kullmann_DeQuBlRaGe_28_57_3551281699345079959.dqdimacs              unknown                       0.00        0.07        None
+kullmann_DeQuBlRaGe_28_57_3551281699345079963.dqdimacs              unknown                       0.00        0.04        None
+kullmann_DeQuBlRaGe_28_57_3551281699345079974.dqdimacs              unknown                       0.00        0.05        None
+kullmann_DeQuBlRaGe_28_57_3551281699345079997.dqdimacs              sat                           0.01        0.03        None
+kullmann_DeQuBlRaGe_28_57_3551281699345080002.dqdimacs              unknown                       0.00        0.03        None
+kullmann_DeQuBlRaGe_28_57_3551281699345080028.dqdimacs              unknown                       0.00        0.04        None
+kullmann_DeQuBlRaGe_400_700_3545989440129287368.dqdimacs            sat                           0.09        0.15        None
+kullmann_DeQuBlRaGe_400_700_3545989440129288256.dqdimacs            sat                           0.07        0.11        None
+kullmann_DeQuBlRaGe_400_700_3545989440129333271.dqdimacs            sat                           0.07        0.12        None
+kullmann_DeQuBlRaGe_400_700_3545989440129361523.dqdimacs            sat                           0.05        0.25        None
+kullmann_DeQuBlRaGe_400_700_3545989440129390151.dqdimacs            sat                           0.04        0.08        None
+kullmann_DeQuBlRaGe_400_700_3545989440129428353.dqdimacs            sat                           0.03        0.19        None
+kullmann_DeQuBlRaGe_400_700_3545989440129444764.dqdimacs            sat                           0.03        0.23        None
+kullmann_DeQuBlRaGe_400_700_3545989440129490335.dqdimacs            sat                           0.03        0.16        None
+kullmann_DeQuBlRaGe_400_700_3545989440129545215.dqdimacs            sat                           0.04        0.16        None
+kullmann_DeQuBlRaGe_400_700_3545989440129581167.dqdimacs            sat                           0.16        0.19        None
+kullmann_DeQuBlRaGe_400_700_3545989440129626897.dqdimacs            sat                           0.06        0.10        None
+kullmann_DeQuBlRaGe_400_700_3545989440129641106.dqdimacs            sat                           0.08        0.27        None
+kullmann_DeQuBlRaGe_400_700_3545989440129645006.dqdimacs            sat                           0.07        0.10        None
+kullmann_DeQuBlRaGe_400_700_3545989440129698820.dqdimacs            sat                           0.05        0.23        None
+kullmann_DeQuBlRaGe_400_700_3545989440129699164.dqdimacs            sat                           0.05        0.09        None
+kullmann_DeQuBlRaGe_400_700_3545989440129704812.dqdimacs            sat                           0.03        0.22        None
+kullmann_DeQuBlRaGe_400_700_3545989440129712723.dqdimacs            sat                           0.10        0.23        None
+kullmann_DeQuBlRaGe_400_700_3545989440129740410.dqdimacs            sat                           0.04        0.08        None
+kullmann_DeQuBlRaGe_400_700_3545989440129766070.dqdimacs            sat                           0.04        0.21        None
+kullmann_DeQuBlRaGe_400_700_3545989440129788791.dqdimacs            sat                           0.05        0.09        None
+kullmann_DeQuBlRaGe_800_1500_3545957297944809435.dqdimacs           sat                          22.27       22.27        None
+kullmann_DeQuBlRaGe_800_1500_3545957297944809593.dqdimacs           sat                          13.16       13.21        None
+kullmann_DeQuBlRaGe_800_1500_3545957297944809611.dqdimacs           sat                          42.05       42.07        None
+kullmann_DeQuBlRaGe_800_1500_3545957297944809688.dqdimacs           sat                          31.46       31.47        None
+kullmann_DeQuBlRaGe_800_1500_3545957297944810239.dqdimacs           sat                          24.62       24.65        None
+kullmann_DeQuBlRaGe_800_1500_3545957297944810507.dqdimacs           sat                          25.88       25.93        None
+kullmann_DeQuBlRaGe_800_1500_3545957297944810994.dqdimacs           sat                          14.91       14.95        None
+kullmann_DeQuBlRaGe_800_1500_3545957297944811007.dqdimacs           sat                          49.75       49.75        None
+kullmann_DeQuBlRaGe_800_1500_3545957297944811252.dqdimacs           sat                          16.33       16.53        None
+kullmann_DeQuBlRaGe_800_1500_3545957297944811337.dqdimacs           unknown                      93.21       93.21        None
+lksat-n900-m3357-k3-l5-s950595579.used-as.sat04-938.cnf.dqdimacs    sat                           5.81        5.87        None
+marg3x3add8.shuffled-as.sat03-1449.cnf.dqdimacs                     unsat                         1.65        1.71        None
+marg3x3add8ch.shuffled-as.sat03-1448.cnf.dqdimacs                   unsat                         7.89        7.91        None
+mm-2x2-6-6-s.1.shuffled-as.sat03-1499.cnf.dqdimacs                  unknown                      85.29       85.26        None
+mod2-rand3bip-sat-270-1.shuffled-as.sat05-2248.cnf.dqdimacs         unknown                      62.40       62.41        None
+php-010-008.shuffled-as.sat05-1171.cnf.dqdimacs                     unsat                         0.83        0.90        None
+scholl_C432.blif_0.10_0.10_1_0_henkin.dqdimacs                      unknown                       0.11        0.15        None
+scholl_C432.blif_0.10_1.00_2_0_henkin.dqdimacs                      unknown                       0.06        0.09        None
+scholl_C432.blif_0.10_1.00_7_3_henkin.dqdimacs                      unknown                       0.10        0.23        None
+scholl_C432.blif_0.20_0.50_1_3_henkin.dqdimacs                      unknown                       0.24        0.29        None
+scholl_C432.blif_0.40_0.10_0_0_henkin.dqdimacs                      unknown                       0.60        0.64        None
+scholl_C432.blif_0.40_0.20_1_2_henkin.dqdimacs                      unknown                       0.53        0.57        None
+scholl_C432.blif_0.40_1.00_1_2_henkin.dqdimacs                      unknown                       0.17        0.21        None
+scholl_C432.blif_0.50_0.50_1_3_henkin.dqdimacs                      unknown                       0.20        0.43        None
+scholl_C432.blif_0.50_1.00_3_3_henkin.dqdimacs                      unknown                       0.13        0.19        None
+scholl_C499.blif_0.10_1.00_4_2_henkin.dqdimacs                      unknown                       0.27        0.34        None
+scholl_C499.blif_0.10_1.00_7_1_henkin.dqdimacs                      unsat                         0.12        0.16        None
+scholl_C499.blif_0.10_1.00_7_2_henkin.dqdimacs                      unknown                       0.18        0.22        None
+scholl_C499.blif_0.10_1.00_9_2_henkin.dqdimacs                      unknown                       0.28        0.38        None
+scholl_C499.blif_0.20_1.00_3_3_henkin.dqdimacs                      unknown                       0.26        0.30        None
+scholl_C499.blif_0.20_1.00_7_2_henkin.dqdimacs                      unknown                       0.17        0.32        None
+scholl_C499.blif_0.50_1.00_8_1_henkin.dqdimacs                      unknown                       0.19        0.24        None
+scholl_C499.blif_0.60_1.00_1_2_henkin.dqdimacs                      unknown                       0.32        0.38        None
+scholl_comp.blif_0.10_0.10_0_0_henkin.dqdimacs                      unknown                       0.11        0.23        None
+scholl_comp.blif_0.10_0.10_0_2_henkin.dqdimacs                      unknown                       0.06        0.18        None
+scholl_comp.blif_0.10_0.10_0_3_henkin.dqdimacs                      unknown                       0.08        0.12        None
+scholl_comp.blif_0.10_0.20_0_0_henkin.dqdimacs                      unknown                       0.07        0.27        None
+scholl_comp.blif_0.10_0.20_1_0_henkin.dqdimacs                      unknown                       0.54        0.56        None
+scholl_comp.blif_0.10_0.20_1_3_henkin.dqdimacs                      unknown                       0.94        0.97        None
+scholl_comp.blif_0.10_0.20_2_0_henkin.dqdimacs                      unknown                       0.09        0.14        None
+scholl_comp.blif_0.10_0.20_2_1_henkin.dqdimacs                      unknown                       0.07        0.12        None
+scholl_comp.blif_0.10_0.50_0_3_henkin.dqdimacs                      unknown                       0.07        0.11        None
+scholl_comp.blif_0.10_0.50_1_3_henkin.dqdimacs                      unknown                       0.94        0.97        None
+scholl_comp.blif_0.10_1.00_0_0_henkin.dqdimacs                      unknown                       0.05        0.09        None
+scholl_comp.blif_0.10_1.00_0_1_henkin.dqdimacs                      unknown                       0.12        0.17        None
+scholl_comp.blif_0.10_1.00_2_0_henkin.dqdimacs                      unknown                       0.08        0.12        None
+scholl_comp.blif_0.10_1.00_2_1_henkin.dqdimacs                      unknown                       0.05        0.44        None
+scholl_comp.blif_0.10_1.00_2_3_henkin.dqdimacs                      unknown                       0.06        0.18        None
+scholl_comp.blif_0.10_1.00_4_1_henkin.dqdimacs                      unknown                       0.20        0.24        None
+scholl_comp.blif_0.10_1.00_4_2_henkin.dqdimacs                      unknown                       0.16        0.38        None
+scholl_comp.blif_0.10_1.00_5_2_henkin.dqdimacs                      unknown                       0.84        1.03        None
+scholl_comp.blif_0.10_1.00_9_3_henkin.dqdimacs                      unknown                       0.11        0.17        None
+scholl_comp.blif_0.20_0.20_0_3_henkin.dqdimacs                      unknown                       0.09        0.12        None
+scholl_comp.blif_0.20_0.20_2_2_henkin.dqdimacs                      unknown                       0.09        0.33        None
+scholl_comp.blif_0.20_0.50_2_3_henkin.dqdimacs                      unknown                       0.08        0.18        None
+scholl_comp.blif_0.20_1.00_4_0_henkin.dqdimacs                      unknown                       0.13        0.18        None
+scholl_comp.blif_0.20_1.00_5_1_henkin.dqdimacs                      unknown                       0.07        0.11        None
+scholl_comp.blif_0.20_1.00_9_3_henkin.dqdimacs                      unknown                       0.08        0.12        None
+scholl_comp.blif_0.30_0.50_0_1_henkin.dqdimacs                      unknown                       0.18        0.43        None
+scholl_comp.blif_0.30_0.50_0_2_henkin.dqdimacs                      unknown                       0.15        0.19        None
+scholl_comp.blif_0.30_0.50_2_1_henkin.dqdimacs                      unknown                       0.10        0.38        None
+scholl_comp.blif_0.50_1.00_2_2_henkin.dqdimacs                      unknown                       0.06        0.09        None
+scholl_comp.blif_0.50_1.00_4_0_henkin.dqdimacs                      unknown                       0.03        0.41        None
+scholl_comp.blif_0.50_1.00_5_1_henkin.dqdimacs                      unknown                       0.11        0.12        None
+scholl_comp.blif_0.50_1.00_9_1_henkin.dqdimacs                      unknown                       0.03        0.07        None
+scholl_comp.blif_0.60_1.00_4_0_henkin.dqdimacs                      unknown                       0.04        0.07        None
+scholl_comp.blif_0.60_1.00_4_1_henkin.dqdimacs                      unknown                       0.05        0.09        None
+scholl_comp.blif_0.60_1.00_5_0_henkin.dqdimacs                      unknown                       0.11        0.39        None
+scholl_comp.blif_0.60_1.00_9_2_henkin.dqdimacs                      unknown                       0.04        0.09        None
+scholl_term1.blif_0.10_1.00_5_1_henkin.dqdimacs                     unknown                      28.15       28.16        None
+scholl_term1.blif_0.10_1.00_5_2_henkin.dqdimacs                     unknown                      18.33       18.35        None
+scholl_term1.blif_0.10_1.00_5_3_henkin.dqdimacs                     unknown                      48.28       48.30        None
+scholl_term1.blif_0.20_1.00_3_1_henkin.dqdimacs                     unknown                       0.23        0.28        None
+scholl_term1.blif_0.20_1.00_3_2_henkin.dqdimacs                     unknown                       0.19        0.24        None
+scholl_term1.blif_0.20_1.00_5_2_henkin.dqdimacs                     unknown                      18.27       18.31        None
+scholl_term1.blif_0.20_1.00_5_3_henkin.dqdimacs                     unknown                      48.49       48.49        None
+scholl_term1.blif_0.20_1.00_9_0_henkin.dqdimacs                     unknown                       0.22        0.27        None
+scholl_term1.blif_0.50_1.00_3_0_henkin.dqdimacs                     unknown                       0.22        0.27        None
+scholl_term1.blif_0.50_1.00_3_1_henkin.dqdimacs                     unknown                       0.22        0.27        None
+scholl_term1.blif_0.50_1.00_5_0_henkin.dqdimacs                     unknown                      28.13       28.15        None
+scholl_term1.blif_0.50_1.00_5_3_henkin.dqdimacs                     unknown                      48.29       48.31        None
+scholl_term1.blif_0.50_1.00_9_2_henkin.dqdimacs                     unsat                         0.08        0.12        None
+scholl_term1.blif_0.60_1.00_3_0_henkin.dqdimacs                     unknown                       0.23        0.27        None
+scholl_term1.blif_0.60_1.00_3_1_henkin.dqdimacs                     unknown                       0.22        0.45        None
+scholl_term1.blif_0.60_1.00_3_3_henkin.dqdimacs                     unknown                       0.23        0.28        None
+scholl_term1.blif_0.60_1.00_5_1_henkin.dqdimacs                     unknown                      28.30       28.33        None
+scholl_term1.blif_0.60_1.00_9_0_henkin.dqdimacs                     unknown                       0.22        0.27        None
+scholl_term1.blif_0.60_1.00_9_1_henkin.dqdimacs                     unsat                         0.08        0.12        None
+scholl_z4ml.blif_0.10_0.10_2_3_henkin.dqdimacs                      unknown                       0.02        0.06        None
+scholl_z4ml.blif_0.10_0.20_1_2_henkin.dqdimacs                      unsat                         0.01        0.04        None
+scholl_z4ml.blif_0.10_0.20_2_0_henkin.dqdimacs                      unknown                       0.02        0.05        None
+scholl_z4ml.blif_0.10_0.50_2_3_henkin.dqdimacs                      unknown                       0.02        0.06        None
+scholl_z4ml.blif_0.10_1.00_1_3_henkin.dqdimacs                      unsat                         0.01        0.08        None
+scholl_z4ml.blif_0.20_0.20_2_2_henkin.dqdimacs                      unknown                       0.02        0.08        None
+scholl_z4ml.blif_0.20_0.50_2_0_henkin.dqdimacs                      sat                           0.05        0.10        None
+scholl_z4ml.blif_0.20_1.00_0_3_henkin.dqdimacs                      unsat                         0.02        0.06        None
+scholl_z4ml.blif_0.30_0.10_1_2_henkin.dqdimacs                      unknown                       0.02        0.05        None
+scholl_z4ml.blif_0.30_0.10_2_1_henkin.dqdimacs                      unknown                       0.02        0.06        None
+scholl_z4ml.blif_0.30_0.50_1_0_henkin.dqdimacs                      sat                           0.06        0.12        None
+scholl_z4ml.blif_0.30_1.00_1_3_henkin.dqdimacs                      unsat                         0.01        0.04        None
+scholl_z4ml.blif_0.50_0.10_2_0_henkin.dqdimacs                      unknown                       0.03        0.08        None
+scholl_z4ml.blif_0.50_0.10_2_2_henkin.dqdimacs                      unknown                       0.03        0.08        None
+scholl_z4ml.blif_0.50_0.10_2_3_henkin.dqdimacs                      unknown                       0.03        0.07        None
+scholl_z4ml.blif_0.50_0.50_1_0_henkin.dqdimacs                      sat                           0.11        0.15        None
+scholl_z4ml.blif_0.50_1.00_7_0_henkin.dqdimacs                      sat                           0.07        0.14        None
+scholl_z4ml.blif_0.50_1.00_7_3_henkin.dqdimacs                      unsat                         0.07        0.12        None
+sgen3-n120-s12930489-sat.cnf.dqdimacs                               sat                          22.05       22.05        None
+sgen3-n140-s18527668-sat.cnf.dqdimacs                               unknown                      80.66       80.65        None
+sgen3-n160-s40283905-sat.cnf.dqdimacs                               unknown                      80.96       80.92        None
+sgen3-n180-s34713902-sat.cnf.dqdimacs                               unknown                      81.08       81.07        None
+sgen3-n200-s39840374-sat.cnf.dqdimacs                               unknown                      81.18       81.16        None
+sgen3-n220-s24359701-sat.cnf.dqdimacs                               unknown                      81.29       81.27        None
+sgen3-n240-s78945233-sat.cnf.dqdimacs                               unknown                      81.43       81.41        None
+sgen3-n260-s62321009-sat.cnf.dqdimacs                               unknown                      81.66       81.64        None
+sgen3-n280-s93756482-sat.cnf.dqdimacs                               unknown                      81.90       81.88        None
+sgen3-n300-s12830984-sat.cnf.dqdimacs                               unknown                      82.12       82.12        None
+tentrup_amba_case_study_system_1.dqdimacs                           unsat                        76.96       76.95        None
+tentrup_amba_case_study_unreal2_system_1.dqdimacs                   unsat                       142.08      142.19        None
+tentrup_amba_decomposed_arbiter_system_8.dqdimacs                   sat                         157.23      157.15        None
+tentrup_amba_decomposed_decode_environment_16.dqdimacs              unknown                       0.01        0.06        None
+tentrup_amba_decomposed_tburst4_system_16.dqdimacs                  unknown                       0.13        0.17        None
+tentrup_full_arbiter_environment_4.dqdimacs                         unsat                       101.18      101.15        None
+tentrup_full_arbiter_unreal1_environment_1.dqdimacs                 sat                           8.45        8.50        None
+tentrup_full_arbiter_unreal3_environment_2.dqdimacs                 unsat                        10.38       10.43        None
+tentrup_genbuf2_system_4.dqdimacs                                   unsat                         5.90        5.96        None
+tentrup_lilydemo04_environment_8.dqdimacs                           sat                           7.95        7.97        None
+tentrup_lilydemo07_system_16.dqdimacs                               unknown                       0.05        0.09        None
+tentrup_lilydemo19_environment_4.dqdimacs                           unsat                         6.82        6.86        None
+tentrup_load_balancer_environment_8.dqdimacs                        sat                           4.60        4.65        None
+tentrup_load_balancer_system_4.dqdimacs                             unsat                         1.15        1.18        None
+tentrup_load_balancer_unreal2_system_4.dqdimacs                     sat                           1.40        1.45        None
+tentrup_ltl2dba13_environment_8.dqdimacs                            unknown                     101.02      100.98        None
+tentrup_ltl2dba_U1_system_16.dqdimacs                               unknown                       0.05        0.09        None
+tentrup_ltl2dba_alpha_environment_8.dqdimacs                        unknown                     201.45      201.34        None
+tentrup_pec_adder_n_bit_10_32.dqdimacs                              unknown                       0.55        0.60        None
+tentrup_pec_adder_n_bit_1_19.dqdimacs                               unknown                       0.58        0.62        None
+tentrup_pec_adder_n_bit_1_35.dqdimacs                               unknown                       0.42        0.49        None
+tentrup_pec_adder_n_bit_2_10.dqdimacs                               unknown                       2.25        2.30        None
+tentrup_pec_adder_n_bit_3_1.dqdimacs                                unknown                       0.34        0.39        None
+tentrup_pec_adder_n_bit_3_38.dqdimacs                               unknown                       0.53        0.57        None
+tentrup_pec_adder_n_bit_4_11.dqdimacs                               unknown                       0.31        0.35        None
+tentrup_pec_adder_n_bit_4_4.dqdimacs                                unknown                       0.38        0.41        None
+tentrup_pec_adder_n_bit_5_90.dqdimacs                               unknown                       0.31        0.36        None
+tentrup_pec_adder_n_bit_7_26.dqdimacs                               unknown                       0.33        0.38        None
+tentrup_pec_look_ahead_arbiter_10_2.dqdimacs                        unknown                       0.22        0.25        None
+tentrup_pec_look_ahead_arbiter_1_0.dqdimacs                         unknown                       0.52        0.57        None
+tentrup_pec_look_ahead_arbiter_1_11.dqdimacs                        unknown                       0.29        0.33        None
+tentrup_pec_look_ahead_arbiter_1_14.dqdimacs                        unknown                       0.21        0.27        None
+tentrup_pec_look_ahead_arbiter_1_2.dqdimacs                         unknown                       0.25        0.30        None
+tentrup_pec_look_ahead_arbiter_1_35.dqdimacs                        unknown                       0.35        0.38        None
+tentrup_pec_look_ahead_arbiter_2_24.dqdimacs                        unknown                       1.73        1.79        None
+tentrup_pec_look_ahead_arbiter_2_4.dqdimacs                         unknown                       2.33        2.38        None
+tentrup_pec_look_ahead_arbiter_3_12.dqdimacs                        unknown                       0.18        0.22        None
+tentrup_pec_look_ahead_arbiter_3_15.dqdimacs                        unknown                       0.20        0.24        None
+tentrup_pec_look_ahead_arbiter_3_3.dqdimacs                         unknown                       0.19        0.25        None
+tentrup_pec_look_ahead_arbiter_5_1.dqdimacs                         unknown                       0.17        0.20        None
+tentrup_pec_look_ahead_arbiter_5_10.dqdimacs                        unknown                       0.14        0.17        None
+tentrup_pec_look_ahead_arbiter_5_12.dqdimacs                        unknown                       0.33        0.38        None
+tentrup_pec_look_ahead_arbiter_5_2.dqdimacs                         unknown                       0.17        0.22        None
+tentrup_pec_look_ahead_arbiter_5_3.dqdimacs                         unknown                       0.15        0.19        None
+tentrup_pec_look_ahead_arbiter_5_5.dqdimacs                         unknown                       0.13        0.19        None
+tentrup_pec_look_ahead_arbiter_6_12.dqdimacs                        unknown                       0.20        0.25        None
+tentrup_pec_look_ahead_arbiter_6_2.dqdimacs                         unknown                       0.23        0.27        None
+tentrup_pec_look_ahead_arbiter_6_40.dqdimacs                        unknown                       0.21        0.27        None
+tentrup_pec_look_ahead_arbiter_6_70.dqdimacs                        unknown                       0.14        0.20        None
+tentrup_pec_look_ahead_arbiter_6_93.dqdimacs                        unknown                       0.16        0.20        None
+tentrup_pec_look_ahead_arbiter_7_22.dqdimacs                        unknown                       0.35        0.41        None
+tentrup_pec_look_ahead_arbiter_7_9.dqdimacs                         unknown                       0.22        0.27        None
+tentrup_pec_look_ahead_arbiter_8_11.dqdimacs                        unknown                       0.21        0.25        None
+tentrup_pec_look_ahead_arbiter_8_4.dqdimacs                         unknown                       0.24        0.29        None
+tentrup_pec_look_ahead_arbiter_9_36.dqdimacs                        unknown                       0.16        0.20        None
+tentrup_pec_look_ahead_arbiter_9_8.dqdimacs                         unknown                       0.19        0.27        None
+tentrup_pec_multiplexer_10_41.dqdimacs                              unknown                       0.15        0.19        None
+tentrup_pec_multiplexer_1_11.dqdimacs                               unknown                       0.12        0.16        None
+tentrup_pec_multiplexer_1_2.dqdimacs                                unknown                       0.13        0.37        None
+tentrup_pec_multiplexer_1_26.dqdimacs                               unknown                       0.13        0.17        None
+tentrup_pec_multiplexer_1_4.dqdimacs                                unknown                       0.32        0.36        None
+tentrup_pec_multiplexer_1_8.dqdimacs                                unknown                       0.21        0.26        None
+tentrup_pec_multiplexer_2_2.dqdimacs                                unknown                       0.37        0.43        None
+tentrup_pec_multiplexer_3_2.dqdimacs                                unknown                       0.14        0.17        None
+tentrup_pec_multiplexer_3_30.dqdimacs                               unknown                       0.14        0.20        None
+tentrup_pec_multiplexer_3_6.dqdimacs                                unknown                       0.11        0.33        None
+tentrup_pec_multiplexer_4_50.dqdimacs                               unknown                       0.13        0.17        None
+tentrup_pec_multiplexer_5_11.dqdimacs                               unknown                       0.12        0.26        None
+tentrup_pec_multiplexer_5_12.dqdimacs                               unknown                       0.12        0.23        None
+tentrup_pec_multiplexer_5_17.dqdimacs                               unknown                       0.12        0.17        None
+tentrup_pec_multiplexer_5_2.dqdimacs                                unknown                       0.14        0.32        None
+tentrup_pec_multiplexer_6_51.dqdimacs                               unknown                       0.16        0.20        None
+tentrup_pec_multiplexer_6_84.dqdimacs                               unknown                       0.13        0.16        None
+tentrup_pec_multiplexer_8_59.dqdimacs                               unknown                       0.15        0.20        None
+tentrup_pec_multiplier_1_0.dqdimacs                                 unknown                       0.20        0.25        None
+tentrup_pec_multiplier_1_10.dqdimacs                                unknown                       0.30        0.36        None
+tentrup_pec_multiplier_1_11.dqdimacs                                unknown                       0.25        0.30        None
+tentrup_pec_multiplier_1_20.dqdimacs                                unknown                       0.29        0.33        None
+tentrup_pec_multiplier_1_30.dqdimacs                                unknown                       0.22        0.25        None
+tentrup_pec_multiplier_1_9.dqdimacs                                 unknown                       0.23        0.28        None
+tentrup_pec_multiplier_3_2.dqdimacs                                 unknown                       0.13        0.17        None
+tentrup_pec_multiplier_3_3.dqdimacs                                 unknown                       1.85        1.89        None
+tentrup_pec_multiplier_3_4.dqdimacs                                 unknown                       0.11        0.16        None
+tentrup_pec_multiplier_4_14.dqdimacs                                unknown                       0.09        0.14        None
+tentrup_pec_multiplier_5_81.dqdimacs                                unknown                       0.18        0.26        None
+tentrup_pec_multiplier_5_91.dqdimacs                                unknown                       0.14        0.40        None
+tentrup_pec_multiplier_7_13.dqdimacs                                unknown                       0.12        0.15        None
+tentrup_pec_multiplier_7_87.dqdimacs                                unknown                       0.19        0.26        None
+tentrup_prioritized_arbiter_environment_4.dqdimacs                  unsat                         2.32        2.38        None
+tentrup_round_robin_arbiter_system_1.dqdimacs                       unsat                         0.23        0.28        None
+urquhart3_25bis.shuffled.cnf.dqdimacs                               unsat                         4.71        4.76        None
+x1_40.shuffled.cnf.dqdimacs                                         unknown                      80.73       80.71        None
+x1_80.shuffled.cnf.dqdimacs                                         unknown                      61.56       61.58        None
+------------------------------------------------------------------------------------------------------------------------------
+Run set 1                                                           done                       3540.06      727.37           -
+
+Statistics:            354 Files
+  correct:               0
+    correct true:        0
+    correct false:       0
+  incorrect:             0
+    incorrect true:      0
+    incorrect false:     0
+  unknown:             277
