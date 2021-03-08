@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE benchmark PUBLIC "+//IDN sosy-lab.org//DTD BenchExec benchmark 1.18//EN" "https://www.sosy-lab.org/benchexec/benchmark-1.18.dtd">
+<benchmark tool="dqbftoolinfos.caqe"
+           timelimit="15min"
+           memlimit="4000 MB"
+           cpuCores="1"
+           threads="6">
+    
+  <rundefinition name="hqspre">
+    <option name="--preprocessor">hqspre</option>
+  </rundefinition>
+
+  <!-- test benchmarks -->  
+  <tasks name="testing">
+    <include>../benchmarks/testing/test*.qdimacs</include>
+  </tasks>
+
+  <!-- benchmarks from QBFeval18 -->
+  <tasks name="dqbf20">
+    <include>../QBFbenchmarks/afterhqspre/dqbf20/PCNF/*.qdimacs</include>
+  </tasks>
+ 
+</benchmark>
