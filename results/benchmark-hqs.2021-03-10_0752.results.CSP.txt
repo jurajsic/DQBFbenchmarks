@@ -1,0 +1,468 @@
+   BENCHMARK INFORMATION
+benchmark definition:    benchmark-definitions/benchmark-hqs.xml
+name:                    benchmark-hqs
+run sets:                CSP
+date:                    Wed, 2021-03-10 07:52:44 CET
+tool:                    HQS 2
+tool executable:         /home/xsic/DQBFbenchmarks/solvers/HQSnp
+options:                 
+parallel runs:           6
+resource limits:
+- memory:                4000.0 MB
+- time:                  900 s
+- cpu cores:             1
+hardware requirements:
+- cpu cores:             1
+- memory:                4000.0 MB
+------------------------------------------------------------
+
+   SYSTEM INFORMATION
+host:                    islay
+os:                      Linux-3.16.0-4-amd64-x86_64-with-debian-8.5
+cpu:                     Intel Xeon CPU E5-2620 v2 @ 2.10GHz
+- cores:                 24
+- max frequency:         2600.0 MHz
+- turbo boost enabled:   False
+ram:                     135450.984448 MB
+------------------------------------------------------------
+
+
+
+CSP
+Run set 1 of 1 with options '' and propertyfile 'None'
+
+inputfile                       status                    cpu time   wall time        host  Preprocessor solved
+---------------------------------------------------------------------------------------------------------------
+add10n.dqdimacs                 sat                           0.46        0.50        None                 True
+add10y.dqdimacs                 sat                           0.68        0.73        None                 True
+add12n.dqdimacs                 sat                           0.80        0.91        None                 True
+add12y.dqdimacs                 sat                           0.98        1.00        None                 True
+add14n.dqdimacs                 sat                           0.74        0.82        None                 True
+add16n.dqdimacs                 sat                           1.03        1.16        None                 True
+add16y.dqdimacs                 sat                           1.64        1.68        None                 True
+add18n.dqdimacs                 sat                           1.15        1.19        None                 True
+add18y.dqdimacs                 sat                           2.13        2.15        None                 True
+add20n.dqdimacs                 sat                           1.32        1.52        None                 True
+add20y.dqdimacs                 sat                           2.81        2.96        None                 True
+add6n.dqdimacs                  sat                           0.09        0.12        None                 True
+add8n.dqdimacs                  sat                           0.37        0.49        None                 True
+add8y.dqdimacs                  sat                           0.79        0.94        None                 True
+amba10b4unrealn.dqdimacs        ABORTED                       1.41        1.60        None                False
+amba10b4unrealy.dqdimacs        ABORTED                       1.55        1.71        None                False
+amba10b5n.dqdimacs              ABORTED                       1.41        1.45        None                False
+amba10b5y.dqdimacs              ABORTED                       1.38        1.79        None                False
+amba10c4unrealn.dqdimacs        ABORTED                       1.21        1.41        None                False
+amba10c4unrealy.dqdimacs        ABORTED                       1.62        1.65        None                False
+amba10c5n.dqdimacs              ABORTED                       1.19        1.23        None                False
+amba10c5y.dqdimacs              ABORTED                       1.66        1.72        None                False
+amba10f36unrealn.dqdimacs       ABORTED                       1.65        1.70        None                False
+amba10f36unrealy.dqdimacs       ABORTED                       1.78        1.81        None                False
+amba10f37n.dqdimacs             ABORTED                       1.68        1.81        None                False
+amba10f37y.dqdimacs             ABORTED                       1.78        2.10        None                False
+amba2b8unrealn.dqdimacs         ABORTED                       0.48        0.52        None                False
+amba2b8unrealy.dqdimacs         ABORTED                       0.40        0.44        None                False
+amba2b9n.dqdimacs               ABORTED                       0.49        0.54        None                False
+amba2b9y.dqdimacs               ABORTED                       0.40        0.42        None                False
+amba2c6unrealn.dqdimacs         ABORTED                       0.31        0.47        None                False
+amba2c6unrealy.dqdimacs         ABORTED                       0.31        0.48        None                False
+amba2c7n.dqdimacs               ABORTED                       0.30        0.38        None                False
+amba2c7y.dqdimacs               ABORTED                       0.30        0.46        None                False
+amba2f8unrealn.dqdimacs         ABORTED                       0.44        0.79        None                False
+amba2f8unrealy.dqdimacs         ABORTED                       0.36        0.40        None                False
+amba2f9n.dqdimacs               ABORTED                       0.44        0.55        None                False
+amba2f9y.dqdimacs               ABORTED                       0.36        0.55        None                False
+amba3b4unrealn.dqdimacs         ABORTED                       0.62        0.74        None                False
+amba3b4unrealy.dqdimacs         ABORTED                       0.52        0.54        None                False
+amba3b5n.dqdimacs               ABORTED                       0.58        0.62        None                False
+amba3b5y.dqdimacs               ABORTED                       0.53        0.56        None                False
+amba3c4unrealn.dqdimacs         ABORTED                       0.41        0.48        None                False
+amba3c4unrealy.dqdimacs         ABORTED                       0.43        0.48        None                False
+amba3c5n.dqdimacs               ABORTED                       0.42        0.44        None                False
+amba3c5y.dqdimacs               ABORTED                       0.43        0.45        None                False
+amba3f8unrealn.dqdimacs         ABORTED                       0.75        0.86        None                False
+amba3f8unrealy.dqdimacs         ABORTED                       0.57        0.61        None                False
+amba3f9n.dqdimacs               ABORTED                       0.73        0.94        None                False
+amba3f9y.dqdimacs               ABORTED                       0.56        0.59        None                False
+amba4b8unrealn.dqdimacs         ABORTED                       0.77        1.03        None                False
+amba4b8unrealy.dqdimacs         ABORTED                       0.66        0.86        None                False
+amba4b9n.dqdimacs               ABORTED                       0.80        0.83        None                False
+amba4b9y.dqdimacs               ABORTED                       0.65        0.84        None                False
+amba4c6unrealn.dqdimacs         ABORTED                       0.46        0.49        None                False
+amba4c6unrealy.dqdimacs         ABORTED                       0.49        0.53        None                False
+amba4c7n.dqdimacs               ABORTED                       0.48        0.53        None                False
+amba4c7y.dqdimacs               ABORTED                       0.68        0.83        None                False
+amba4f24unrealn.dqdimacs        ABORTED                       0.59        0.81        None                False
+amba4f24unrealy.dqdimacs        ABORTED                       0.61        0.88        None                False
+amba4f25n.dqdimacs              ABORTED                       0.57        0.60        None                False
+amba4f25y.dqdimacs              ABORTED                       0.67        0.91        None                False
+amba5b4unrealn.dqdimacs         ABORTED                       0.62        0.91        None                False
+amba5b4unrealy.dqdimacs         ABORTED                       0.66        0.91        None                False
+amba5b5n.dqdimacs               ABORTED                       0.65        0.85        None                False
+amba5b5y.dqdimacs               ABORTED                       0.69        0.85        None                False
+amba5c4unrealn.dqdimacs         ABORTED                       0.62        0.78        None                False
+amba5c4unrealy.dqdimacs         ABORTED                       0.76        0.84        None                False
+amba5c5n.dqdimacs               ABORTED                       0.61        0.65        None                False
+amba5c5y.dqdimacs               ABORTED                       0.75        0.83        None                False
+amba5f16unrealn.dqdimacs        ABORTED                       0.59        0.63        None                False
+amba5f16unrealy.dqdimacs        ABORTED                       0.60        0.63        None                False
+amba5f17n.dqdimacs              ABORTED                       0.60        0.64        None                False
+amba5f17y.dqdimacs              ABORTED                       0.59        0.81        None                False
+amba6b4unrealn.dqdimacs         ABORTED                       0.85        0.89        None                False
+amba6b4unrealy.dqdimacs         ABORTED                       0.71        0.73        None                False
+amba6b5n.dqdimacs               ABORTED                       0.71        1.05        None                False
+amba6b5y.dqdimacs               ABORTED                       0.72        1.05        None                False
+amba6c4unrealn.dqdimacs         ABORTED                       0.72        0.76        None                False
+amba6c4unrealy.dqdimacs         ABORTED                       0.70        0.97        None                False
+amba6c5n.dqdimacs               ABORTED                       0.84        0.97        None                False
+amba6c5y.dqdimacs               ABORTED                       0.73        0.77        None                False
+amba6f20unrealn.dqdimacs        ABORTED                       1.00        1.05        None                False
+amba6f20unrealy.dqdimacs        ABORTED                       0.86        0.95        None                False
+amba6f21n.dqdimacs              ABORTED                       0.86        0.89        None                False
+amba6f21y.dqdimacs              ABORTED                       0.87        1.03        None                False
+amba7b4unrealn.dqdimacs         ABORTED                       0.86        1.03        None                False
+amba7b4unrealy.dqdimacs         ABORTED                       0.76        0.80        None                False
+amba7b5n.dqdimacs               ABORTED                       0.87        0.91        None                False
+amba7b5y.dqdimacs               ABORTED                       0.77        0.82        None                False
+amba7c4unrealn.dqdimacs         ABORTED                       0.77        1.07        None                False
+amba7c4unrealy.dqdimacs         ABORTED                       0.89        0.96        None                False
+amba7c5n.dqdimacs               ABORTED                       0.73        1.00        None                False
+amba7c5y.dqdimacs               ABORTED                       1.00        1.03        None                False
+amba7f24unrealn.dqdimacs        ABORTED                       0.87        0.91        None                False
+amba7f24unrealy.dqdimacs        ABORTED                       0.85        0.97        None                False
+amba7f25n.dqdimacs              ABORTED                       0.86        0.97        None                False
+amba7f25y.dqdimacs              ABORTED                       0.84        1.01        None                False
+amba8b5unrealn.dqdimacs         ABORTED                       0.98        1.02        None                False
+amba8b5unrealy.dqdimacs         ABORTED                       1.19        1.25        None                False
+amba8b6n.dqdimacs               ABORTED                       0.97        1.09        None                False
+amba8b6y.dqdimacs               ABORTED                       1.18        1.30        None                False
+amba8c6unrealn.dqdimacs         ABORTED                       0.84        1.16        None                False
+amba8c6unrealy.dqdimacs         ABORTED                       0.97        1.21        None                False
+amba8c7n.dqdimacs               ABORTED                       0.85        1.21        None                False
+amba8c7y.dqdimacs               ABORTED                       0.96        1.00        None                False
+amba8f56unrealn.dqdimacs        ABORTED                       0.94        0.97        None                False
+amba8f56unrealy.dqdimacs        ABORTED                       0.95        1.02        None                False
+amba8f57n.dqdimacs              ABORTED                       0.93        1.02        None                False
+amba8f57y.dqdimacs              ABORTED                       0.96        1.21        None                False
+amba9b4unrealn.dqdimacs         ABORTED                       1.38        1.43        None                False
+amba9b4unrealy.dqdimacs         ABORTED                       1.38        1.43        None                False
+amba9b5n.dqdimacs               ABORTED                       1.36        1.38        None                False
+amba9b5y.dqdimacs               ABORTED                       1.39        1.43        None                False
+amba9c4unrealn.dqdimacs         ABORTED                       0.93        0.95        None                False
+amba9c4unrealy.dqdimacs         ABORTED                       0.94        0.97        None                False
+amba9c5n.dqdimacs               ABORTED                       0.93        0.97        None                False
+amba9c5y.dqdimacs               ABORTED                       0.91        0.94        None                False
+amba9f32unrealn.dqdimacs        ABORTED                       1.43        1.47        None                False
+amba9f32unrealy.dqdimacs        ABORTED                       1.32        1.35        None                False
+amba9f33n.dqdimacs              ABORTED                       1.43        1.58        None                False
+amba9f33y.dqdimacs              ABORTED                       1.35        1.63        None                False
+bs128n.dqdimacs                 ABORTED                     198.50      198.41        None                False
+bs128y.dqdimacs                 ABORTED                     198.66      198.62        None                False
+bs16n.dqdimacs                  TIMEOUT                     901.71      901.08        None                False
+bs16y.dqdimacs                  TIMEOUT                     901.71      901.09        None                False
+bs32n.dqdimacs                  ABORTED                       3.25        3.29        None                False
+bs32y.dqdimacs                  ABORTED                       3.24        3.29        None                False
+bs64n.dqdimacs                  ABORTED                      35.60       35.61        None                False
+bs64y.dqdimacs                  ABORTED                      35.08       35.09        None                False
+bs8n.dqdimacs                   sat                           1.43        1.48        None                False
+bs8y.dqdimacs                   sat                           1.58        1.63        None                False
+cnt10n.dqdimacs                 sat                          22.97       23.00        None                False
+cnt10y.dqdimacs                 sat                          23.71       23.72        None                False
+cnt11n.dqdimacs                 sat                          83.04       83.05        None                False
+cnt11y.dqdimacs                 sat                          88.62       88.60        None                False
+cnt15n.dqdimacs                 TIMEOUT                     901.71      901.10        None                False
+cnt15y.dqdimacs                 TIMEOUT                     901.72      901.11        None                False
+cnt20n.dqdimacs                 TIMEOUT                     901.63      901.12        None                False
+cnt20y.dqdimacs                 TIMEOUT                     901.73      901.09        None                False
+cnt25n.dqdimacs                 TIMEOUT                     901.71      901.08        None                False
+cnt25y.dqdimacs                 TIMEOUT                     901.70      901.08        None                False
+cnt30n.dqdimacs                 ABORTED                       0.86        0.92        None                False
+cnt30y.dqdimacs                 ABORTED                       0.73        0.78        None                False
+cnt4n.dqdimacs                  sat                           0.03        0.06        None                 True
+cnt4y.dqdimacs                  sat                           0.03        0.05        None                 True
+cnt5n.dqdimacs                  sat                           0.18        0.22        None                False
+cnt5y.dqdimacs                  sat                           0.17        0.41        None                False
+cnt6n.dqdimacs                  sat                           0.31        0.34        None                False
+cnt6y.dqdimacs                  sat                           0.31        0.36        None                False
+cnt7n.dqdimacs                  sat                           0.67        0.73        None                False
+cnt7y.dqdimacs                  sat                           0.67        0.70        None                False
+cnt8n.dqdimacs                  sat                           1.84        1.88        None                False
+cnt8y.dqdimacs                  sat                           1.96        2.08        None                False
+cnt9n.dqdimacs                  sat                           6.18        6.22        None                False
+cnt9y.dqdimacs                  sat                           6.17        6.23        None                False
+genbuf10b3unrealn.dqdimacs      ABORTED                       0.83        0.89        None                False
+genbuf10b3unrealy.dqdimacs      ABORTED                       0.81        0.86        None                False
+genbuf10b4n.dqdimacs            ABORTED                       0.94        1.00        None                False
+genbuf10b4y.dqdimacs            ABORTED                       0.90        0.95        None                False
+genbuf10c2unrealn.dqdimacs      ABORTED                       0.79        0.83        None                False
+genbuf10c2unrealy.dqdimacs      ABORTED                       0.85        0.92        None                False
+genbuf10c3n.dqdimacs            ABORTED                       0.79        0.84        None                False
+genbuf10c3y.dqdimacs            ABORTED                       0.80        0.87        None                False
+genbuf10f10n.dqdimacs           ABORTED                       0.97        1.00        None                False
+genbuf10f10y.dqdimacs           ABORTED                       0.98        1.03        None                False
+genbuf10f9unrealn.dqdimacs      ABORTED                       0.97        1.00        None                False
+genbuf10f9unrealy.dqdimacs      ABORTED                       0.98        1.03        None                False
+genbuf11b3unrealn.dqdimacs      ABORTED                       1.09        1.13        None                False
+genbuf11b3unrealy.dqdimacs      ABORTED                       1.03        1.09        None                False
+genbuf11b4n.dqdimacs            ABORTED                       1.11        1.15        None                False
+genbuf11b4y.dqdimacs            ABORTED                       1.16        1.19        None                False
+genbuf11c2unrealn.dqdimacs      ABORTED                       0.72        0.76        None                False
+genbuf11c2unrealy.dqdimacs      ABORTED                       0.76        0.83        None                False
+genbuf11c3n.dqdimacs            ABORTED                       0.72        0.76        None                False
+genbuf11c3y.dqdimacs            ABORTED                       0.86        0.91        None                False
+genbuf11f10unrealn.dqdimacs     ABORTED                       0.95        1.57        None                False
+genbuf11f10unrealy.dqdimacs     ABORTED                       0.87        0.93        None                False
+genbuf11f11n.dqdimacs           ABORTED                       0.71        0.76        None                False
+genbuf11f11y.dqdimacs           ABORTED                       0.90        0.97        None                False
+genbuf12b3unrealn.dqdimacs      ABORTED                       1.21        1.24        None                False
+genbuf12b3unrealy.dqdimacs      ABORTED                       1.01        1.08        None                False
+genbuf12b4n.dqdimacs            ABORTED                       1.16        1.19        None                False
+genbuf12b4y.dqdimacs            ABORTED                       0.95        1.15        None                False
+genbuf12c2unrealn.dqdimacs      ABORTED                       0.60        0.80        None                False
+genbuf12c2unrealy.dqdimacs      ABORTED                       0.67        0.71        None                False
+genbuf12c3n.dqdimacs            ABORTED                       0.59        1.06        None                False
+genbuf12c3y.dqdimacs            ABORTED                       0.73        0.76        None                False
+genbuf12f11unrealn.dqdimacs     ABORTED                       0.83        0.87        None                False
+genbuf12f11unrealy.dqdimacs     ABORTED                       1.02        1.06        None                False
+genbuf12f12n.dqdimacs           ABORTED                       1.01        1.08        None                False
+genbuf12f12y.dqdimacs           ABORTED                       1.08        1.15        None                False
+genbuf13b3unrealn.dqdimacs      ABORTED                       1.30        1.61        None                False
+genbuf13b3unrealy.dqdimacs      ABORTED                       1.22        1.28        None                False
+genbuf13b4n.dqdimacs            ABORTED                       1.30        1.34        None                False
+genbuf13b4y.dqdimacs            ABORTED                       1.40        1.45        None                False
+genbuf13c2unrealn.dqdimacs      ABORTED                       0.72        0.91        None                False
+genbuf13c2unrealy.dqdimacs      ABORTED                       0.73        0.78        None                False
+genbuf13c3n.dqdimacs            ABORTED                       0.73        0.81        None                False
+genbuf13c3y.dqdimacs            ABORTED                       0.73        0.78        None                False
+genbuf13f12unrealn.dqdimacs     ABORTED                       1.04        1.08        None                False
+genbuf13f12unrealy.dqdimacs     ABORTED                       1.11        1.15        None                False
+genbuf13f13n.dqdimacs           ABORTED                       1.05        1.08        None                False
+genbuf13f13y.dqdimacs           ABORTED                       1.12        1.15        None                False
+genbuf14b3unrealn.dqdimacs      ABORTED                       1.16        1.31        None                False
+genbuf14b3unrealy.dqdimacs      ABORTED                       1.28        1.31        None                False
+genbuf14b4n.dqdimacs            ABORTED                       1.15        1.49        None                False
+genbuf14b4y.dqdimacs            ABORTED                       1.26        1.29        None                False
+genbuf14c2unrealn.dqdimacs      ABORTED                       0.85        0.94        None                False
+genbuf14c2unrealy.dqdimacs      ABORTED                       0.88        0.94        None                False
+genbuf14c3n.dqdimacs            ABORTED                       0.84        0.89        None                False
+genbuf14c3y.dqdimacs            ABORTED                       0.88        1.06        None                False
+genbuf14f13unrealn.dqdimacs     ABORTED                       0.84        0.86        None                False
+genbuf14f13unrealy.dqdimacs     ABORTED                       1.04        1.09        None                False
+genbuf14f14n.dqdimacs           ABORTED                       0.82        0.87        None                False
+genbuf14f14y.dqdimacs           ABORTED                       1.06        1.13        None                False
+genbuf15b3unrealn.dqdimacs      ABORTED                       1.15        1.25        None                False
+genbuf15b3unrealy.dqdimacs      ABORTED                       1.18        1.22        None                False
+genbuf15b4n.dqdimacs            ABORTED                       1.69        1.73        None                False
+genbuf15b4y.dqdimacs            ABORTED                       1.65        1.71        None                False
+genbuf15c2unrealn.dqdimacs      ABORTED                       1.17        1.22        None                False
+genbuf15c2unrealy.dqdimacs      ABORTED                       1.45        1.49        None                False
+genbuf15c3n.dqdimacs            ABORTED                       1.16        1.19        None                False
+genbuf15c3y.dqdimacs            ABORTED                       1.62        1.66        None                False
+genbuf15f14unrealn.dqdimacs     ABORTED                       1.02        1.08        None                False
+genbuf15f14unrealy.dqdimacs     ABORTED                       1.18        1.41        None                False
+genbuf15f15n.dqdimacs           ABORTED                       1.01        1.04        None                False
+genbuf15f15y.dqdimacs           ABORTED                       1.20        1.23        None                False
+genbuf16b3unrealn.dqdimacs      ABORTED                       1.49        1.53        None                False
+genbuf16b3unrealy.dqdimacs      ABORTED                       1.17        1.41        None                False
+genbuf16b4n.dqdimacs            ABORTED                       1.79        1.84        None                False
+genbuf16b4y.dqdimacs            ABORTED                       1.35        1.40        None                False
+genbuf16c2unrealn.dqdimacs      ABORTED                       1.08        1.13        None                False
+genbuf16c2unrealy.dqdimacs      ABORTED                       1.24        1.56        None                False
+genbuf16c3n.dqdimacs            ABORTED                       1.08        1.33        None                False
+genbuf16c3y.dqdimacs            ABORTED                       1.49        1.53        None                False
+genbuf16f15unrealn.dqdimacs     ABORTED                       1.14        1.21        None                False
+genbuf16f15unrealy.dqdimacs     ABORTED                       1.05        1.08        None                False
+genbuf16f16n.dqdimacs           ABORTED                       1.17        1.20        None                False
+genbuf16f16y.dqdimacs           ABORTED                       1.27        1.31        None                False
+genbuf1b3unrealn.dqdimacs       TIMEOUT                     901.62      901.10        None                False
+genbuf1b3unrealy.dqdimacs       TIMEOUT                     901.73      901.23        None                False
+genbuf1b4n.dqdimacs             TIMEOUT                     901.73      901.11        None                False
+genbuf1b4y.dqdimacs             TIMEOUT                     901.71      901.08        None                False
+genbuf1c2unrealn.dqdimacs       TIMEOUT                     901.72      901.12        None                False
+genbuf1c2unrealy.dqdimacs       TIMEOUT                     901.72      901.25        None                False
+genbuf1c3n.dqdimacs             TIMEOUT                     901.62      901.11        None                False
+genbuf1c3y.dqdimacs             TIMEOUT                     901.72      901.20        None                False
+genbuf1f3unrealn.dqdimacs       TIMEOUT                     901.72      901.08        None                False
+genbuf1f3unrealy.dqdimacs       TIMEOUT                     901.76      901.15        None                False
+genbuf1f4n.dqdimacs             TIMEOUT                     901.71      901.12        None                False
+genbuf1f4y.dqdimacs             TIMEOUT                     901.71      901.08        None                False
+genbuf2b3unrealn.dqdimacs       TIMEOUT                     901.60      901.10        None                False
+genbuf2b3unrealy.dqdimacs       TIMEOUT                     901.83      901.22        None                False
+genbuf2b4n.dqdimacs             TIMEOUT                     901.69      901.07        None                False
+genbuf2b4y.dqdimacs             TIMEOUT                     902.07      901.46        None                False
+genbuf2c2unrealn.dqdimacs       TIMEOUT                     901.69      901.10        None                False
+genbuf2c2unrealy.dqdimacs       TIMEOUT                     901.70      901.07        None                False
+genbuf2c3n.dqdimacs             TIMEOUT                     901.61      901.09        None                False
+genbuf2c3y.dqdimacs             TIMEOUT                     901.85      901.24        None                False
+genbuf2f3unrealn.dqdimacs       TIMEOUT                     901.70      901.06        None                False
+genbuf2f3unrealy.dqdimacs       TIMEOUT                     901.71      901.08        None                False
+genbuf2f4n.dqdimacs             TIMEOUT                     901.69      901.08        None                False
+genbuf2f4y.dqdimacs             TIMEOUT                     901.68      901.08        None                False
+genbuf3b3unrealn.dqdimacs       ABORTED                       0.28        0.32        None                False
+genbuf3b3unrealy.dqdimacs       ABORTED                       0.41        0.47        None                False
+genbuf3b4n.dqdimacs             ABORTED                       0.33        0.52        None                False
+genbuf3b4y.dqdimacs             ABORTED                       0.36        0.38        None                False
+genbuf3c2unrealn.dqdimacs       ABORTED                       0.20        0.27        None                False
+genbuf3c2unrealy.dqdimacs       ABORTED                       0.26        0.67        None                False
+genbuf3c3n.dqdimacs             ABORTED                       0.20        0.25        None                False
+genbuf3c3y.dqdimacs             ABORTED                       0.21        0.24        None                False
+genbuf3f3unrealn.dqdimacs       ABORTED                       0.24        0.47        None                False
+genbuf3f3unrealy.dqdimacs       ABORTED                       0.34        0.51        None                False
+genbuf3f4n.dqdimacs             ABORTED                       0.30        0.33        None                False
+genbuf3f4y.dqdimacs             ABORTED                       0.34        0.39        None                False
+genbuf4b3unrealn.dqdimacs       ABORTED                       0.46        0.49        None                False
+genbuf4b3unrealy.dqdimacs       ABORTED                       0.50        0.57        None                False
+genbuf4b4n.dqdimacs             ABORTED                       0.43        0.53        None                False
+genbuf4b4y.dqdimacs             ABORTED                       0.49        0.53        None                False
+genbuf4c2unrealn.dqdimacs       ABORTED                       0.30        0.34        None                False
+genbuf4c2unrealy.dqdimacs       ABORTED                       0.33        0.44        None                False
+genbuf4c3n.dqdimacs             ABORTED                       0.30        0.51        None                False
+genbuf4c3y.dqdimacs             ABORTED                       0.32        0.52        None                False
+genbuf4f3unrealn.dqdimacs       ABORTED                       0.37        0.42        None                False
+genbuf4f3unrealy.dqdimacs       ABORTED                       0.50        0.63        None                False
+genbuf4f4n.dqdimacs             ABORTED                       0.37        0.55        None                False
+genbuf4f4y.dqdimacs             ABORTED                       0.45        0.56        None                False
+genbuf5b3unrealn.dqdimacs       ABORTED                       0.56        0.69        None                False
+genbuf5b3unrealy.dqdimacs       ABORTED                       0.64        0.68        None                False
+genbuf5b4n.dqdimacs             ABORTED                       0.72        0.75        None                False
+genbuf5b4y.dqdimacs             ABORTED                       0.57        0.62        None                False
+genbuf5c2unrealn.dqdimacs       ABORTED                       0.39        0.41        None                False
+genbuf5c2unrealy.dqdimacs       ABORTED                       0.54        0.62        None                False
+genbuf5c3n.dqdimacs             ABORTED                       0.40        0.44        None                False
+genbuf5c3y.dqdimacs             ABORTED                       0.49        0.55        None                False
+genbuf5f4unrealn.dqdimacs       ABORTED                       0.60        0.66        None                False
+genbuf5f4unrealy.dqdimacs       ABORTED                       0.56        0.62        None                False
+genbuf5f5n.dqdimacs             ABORTED                       0.63        0.67        None                False
+genbuf5f5y.dqdimacs             ABORTED                       0.60        0.62        None                False
+genbuf6b3unrealn.dqdimacs       ABORTED                       0.55        0.73        None                False
+genbuf6b3unrealy.dqdimacs       ABORTED                       0.59        0.64        None                False
+genbuf6b4n.dqdimacs             ABORTED                       0.55        0.60        None                False
+genbuf6b4y.dqdimacs             ABORTED                       0.60        0.64        None                False
+genbuf6c2unrealn.dqdimacs       ABORTED                       0.40        0.44        None                False
+genbuf6c2unrealy.dqdimacs       ABORTED                       0.47        0.72        None                False
+genbuf6c3n.dqdimacs             ABORTED                       0.41        0.49        None                False
+genbuf6c3y.dqdimacs             ABORTED                       0.51        0.55        None                False
+genbuf6f5unrealn.dqdimacs       ABORTED                       0.55        0.61        None                False
+genbuf6f5unrealy.dqdimacs       ABORTED                       0.57        0.88        None                False
+genbuf6f6n.dqdimacs             ABORTED                       0.53        0.59        None                False
+genbuf6f6y.dqdimacs             ABORTED                       0.58        0.91        None                False
+genbuf7b3unrealn.dqdimacs       ABORTED                       0.53        0.57        None                False
+genbuf7b3unrealy.dqdimacs       ABORTED                       0.56        0.59        None                False
+genbuf7b4n.dqdimacs             ABORTED                       0.72        0.86        None                False
+genbuf7b4y.dqdimacs             ABORTED                       0.59        0.63        None                False
+genbuf7c2unrealn.dqdimacs       ABORTED                       0.54        0.59        None                False
+genbuf7c2unrealy.dqdimacs       ABORTED                       0.57        0.61        None                False
+genbuf7c3n.dqdimacs             ABORTED                       0.55        0.59        None                False
+genbuf7c3y.dqdimacs             ABORTED                       0.59        0.62        None                False
+genbuf7f6unrealn.dqdimacs       ABORTED                       0.55        0.59        None                False
+genbuf7f6unrealy.dqdimacs       ABORTED                       0.63        0.80        None                False
+genbuf7f7n.dqdimacs             ABORTED                       0.49        0.54        None                False
+genbuf7f7y.dqdimacs             ABORTED                       0.52        0.56        None                False
+genbuf8b3unrealn.dqdimacs       ABORTED                       0.70        0.72        None                False
+genbuf8b3unrealy.dqdimacs       ABORTED                       0.67        0.86        None                False
+genbuf8b4n.dqdimacs             ABORTED                       0.63        0.67        None                False
+genbuf8b4y.dqdimacs             ABORTED                       0.78        0.93        None                False
+genbuf8c2unrealn.dqdimacs       ABORTED                       0.43        0.55        None                False
+genbuf8c2unrealy.dqdimacs       ABORTED                       0.44        0.55        None                False
+genbuf8c3n.dqdimacs             ABORTED                       0.44        0.50        None                False
+genbuf8c3y.dqdimacs             ABORTED                       0.48        0.63        None                False
+genbuf8f7unrealn.dqdimacs       ABORTED                       0.56        0.63        None                False
+genbuf8f7unrealy.dqdimacs       ABORTED                       0.67        0.71        None                False
+genbuf8f8n.dqdimacs             ABORTED                       0.59        0.62        None                False
+genbuf8f8y.dqdimacs             ABORTED                       0.61        0.65        None                False
+genbuf9b3unrealn.dqdimacs       ABORTED                       0.86        1.15        None                False
+genbuf9b3unrealy.dqdimacs       ABORTED                       0.77        0.89        None                False
+genbuf9b4n.dqdimacs             ABORTED                       0.87        0.94        None                False
+genbuf9b4y.dqdimacs             ABORTED                       0.78        1.04        None                False
+genbuf9c2unrealn.dqdimacs       ABORTED                       0.72        0.77        None                False
+genbuf9c2unrealy.dqdimacs       ABORTED                       0.81        0.93        None                False
+genbuf9c3n.dqdimacs             ABORTED                       0.74        1.25        None                False
+genbuf9c3y.dqdimacs             ABORTED                       0.82        0.86        None                False
+genbuf9f8unrealn.dqdimacs       ABORTED                       0.83        0.96        None                False
+genbuf9f8unrealy.dqdimacs       ABORTED                       0.74        0.78        None                False
+genbuf9f9n.dqdimacs             ABORTED                       0.85        0.89        None                False
+genbuf9f9y.dqdimacs             ABORTED                       0.75        0.89        None                False
+ifm_amba03_fixed.dqdimacs       ABORTED                       2.50        2.52        None                False
+ifm_amba03_fixed_o.dqdimacs     ABORTED                       2.59        2.62        None                False
+ifm_amba03n.dqdimacs            ABORTED                       2.73        2.80        None                False
+ifm_amba03y.dqdimacs            ABORTED                       2.62        2.80        None                False
+ifm_amba15n.dqdimacs            ABORTED                       2.50        2.55        None                False
+ifm_amba15y.dqdimacs            ABORTED                       2.48        2.53        None                False
+ifm_genbuf16n.dqdimacs          ABORTED                       4.22        4.27        None                False
+ifm_genbuf16y.dqdimacs          ABORTED                       5.32        5.35        None                False
+mv10n.dqdimacs                  TIMEOUT                     901.61      901.08        None                False
+mv10y.dqdimacs                  TIMEOUT                     901.70      901.10        None                False
+mv11n.dqdimacs                  TIMEOUT                     901.71      901.07        None                False
+mv11y.dqdimacs                  TIMEOUT                     901.70      901.07        None                False
+mv12n.dqdimacs                  TIMEOUT                     901.69      901.08        None                False
+mv12y.dqdimacs                  TIMEOUT                     901.90      901.29        None                False
+mv14n.dqdimacs                  TIMEOUT                     901.61      901.10        None                False
+mv14y.dqdimacs                  TIMEOUT                     901.70      901.11        None                False
+mv16n.dqdimacs                  TIMEOUT                     901.70      901.08        None                False
+mv16y.dqdimacs                  TIMEOUT                     901.70      901.10        None                False
+mv20n.dqdimacs                  TIMEOUT                     901.70      901.10        None                False
+mv20y.dqdimacs                  TIMEOUT                     901.70      901.08        None                False
+mv4n.dqdimacs                   sat                           0.26        0.32        None                False
+mv4y.dqdimacs                   sat                           0.27        0.33        None                False
+mv8n.dqdimacs                   TIMEOUT                     901.62      901.10        None                False
+mv8y.dqdimacs                   TIMEOUT                     901.70      901.08        None                False
+mv9n.dqdimacs                   TIMEOUT                     901.70      901.08        None                False
+mv9y.dqdimacs                   TIMEOUT                     901.69      901.07        None                False
+mvs12n.dqdimacs                 TIMEOUT                     901.69      901.08        None                False
+mvs12y.dqdimacs                 TIMEOUT                     901.69      901.04        None                False
+mvs14n.dqdimacs                 TIMEOUT                     901.61      901.09        None                False
+mvs14y.dqdimacs                 TIMEOUT                     901.69      901.06        None                False
+mvs16n.dqdimacs                 TIMEOUT                     901.71      901.10        None                False
+mvs16y.dqdimacs                 TIMEOUT                     902.35      901.72        None                False
+mvs18n.dqdimacs                 TIMEOUT                     901.70      901.07        None                False
+mvs18y.dqdimacs                 TIMEOUT                     901.75      901.23        None                False
+mvs20n.dqdimacs                 TIMEOUT                     901.61      901.09        None                False
+mvs20y.dqdimacs                 TIMEOUT                     901.70      901.07        None                False
+mvs22n.dqdimacs                 TIMEOUT                     901.72      901.27        None                False
+mvs22y.dqdimacs                 TIMEOUT                     901.70      901.23        None                False
+mvs24n.dqdimacs                 TIMEOUT                     901.70      901.10        None                False
+mvs24y.dqdimacs                 TIMEOUT                     901.75      901.23        None                False
+mvs28n.dqdimacs                 ABORTED                       1.26        1.32        None                False
+mvs28y.dqdimacs                 ABORTED                       0.90        0.94        None                False
+mvs4n.dqdimacs                  sat                           0.09        0.13        None                 True
+mvs4y.dqdimacs                  sat                           0.09        0.47        None                 True
+mvs8n.dqdimacs                  sat                          38.26       38.30        None                False
+mvs8y.dqdimacs                  sat                          26.97       27.00        None                False
+namba02_new_07nrc_o.dqdimacs    ABORTED                       0.30        0.35        None                False
+namba03_new_05nrc_o.dqdimacs    ABORTED                       0.30        0.35        None                False
+namba04_new_07nrc_o.dqdimacs    ABORTED                       0.53        0.56        None                False
+ngenbuf02_03nrc_o.dqdimacs      TIMEOUT                     901.69      901.07        None                False
+ngenbuf03_03nrc_o.dqdimacs      TIMEOUT                     901.67      901.13        None                False
+ngenbuf04_03nrc_o.dqdimacs      ABORTED                       0.26        0.30        None                False
+stay10n.dqdimacs                TIMEOUT                     901.69      901.13        None                False
+stay10y.dqdimacs                TIMEOUT                     901.70      901.09        None                False
+stay12n.dqdimacs                TIMEOUT                     901.70      901.08        None                False
+stay12y.dqdimacs                TIMEOUT                     901.73      901.19        None                False
+stay14n.dqdimacs                TIMEOUT                     901.69      901.08        None                False
+stay14y.dqdimacs                TIMEOUT                     901.61      901.05        None                False
+stay16n.dqdimacs                TIMEOUT                     901.70      901.08        None                False
+stay16y.dqdimacs                TIMEOUT                     901.71      901.11        None                False
+stay18n.dqdimacs                TIMEOUT                     901.69      901.07        None                False
+stay18y.dqdimacs                TIMEOUT                     901.86      901.23        None                False
+stay20n.dqdimacs                TIMEOUT                     901.70      901.08        None                False
+stay20y.dqdimacs                TIMEOUT                     901.65      901.23        None                False
+stay22n.dqdimacs                TIMEOUT                     901.70      901.08        None                False
+stay22y.dqdimacs                TIMEOUT                     901.71      901.11        None                False
+stay24n.dqdimacs                TIMEOUT                     901.71      901.08        None                False
+stay24y.dqdimacs                TIMEOUT                     901.71      901.07        None                False
+stay4n.dqdimacs                 sat                           0.56        0.63        None                False
+stay4y.dqdimacs                 sat                           0.57        0.81        None                False
+stay6n.dqdimacs                 sat                          83.76       83.77        None                False
+stay6y.dqdimacs                 sat                          46.44       46.46        None                False
+stay8n.dqdimacs                 TIMEOUT                     901.70      901.08        None                False
+stay8y.dqdimacs                 TIMEOUT                     901.72      901.07        None                False
+---------------------------------------------------------------------------------------------------------------
+Run set 1                       done                      75129.60    12991.10           -
+
+Statistics:            422 Files
+  correct:               0
+    correct true:        0
+    correct false:       0
+  incorrect:             0
+    incorrect true:      0
+    incorrect false:     0
+  unknown:             380
