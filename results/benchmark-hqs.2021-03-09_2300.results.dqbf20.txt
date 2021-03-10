@@ -1,0 +1,400 @@
+   BENCHMARK INFORMATION
+benchmark definition:    benchmark-definitions/benchmark-hqs.xml
+name:                    benchmark-hqs
+run sets:                dqbf20
+date:                    Tue, 2021-03-09 23:00:34 CET
+tool:                    HQS 2
+tool executable:         /home/xsic/DQBFbenchmarks/solvers/HQSnp
+options:                 
+parallel runs:           6
+resource limits:
+- memory:                4000.0 MB
+- time:                  900 s
+- cpu cores:             1
+hardware requirements:
+- cpu cores:             1
+- memory:                4000.0 MB
+------------------------------------------------------------
+
+   SYSTEM INFORMATION
+host:                    islay
+os:                      Linux-3.16.0-4-amd64-x86_64-with-debian-8.5
+cpu:                     Intel Xeon CPU E5-2620 v2 @ 2.10GHz
+- cores:                 24
+- max frequency:         2600.0 MHz
+- turbo boost enabled:   False
+ram:                     135450.984448 MB
+------------------------------------------------------------
+
+
+
+dqbf20
+Run set 1 of 1 with options '' and propertyfile 'None'
+
+inputfile                                                           status                    cpu time   wall time        host  Preprocessor solved
+---------------------------------------------------------------------------------------------------------------------------------------------------
+battleship-10-10-unsat.cnf.dqdimacs                                 unsat                        12.32       12.37        None                 True
+battleship-10-17-sat.cnf.dqdimacs                                   sat                         832.69      832.11        None                False
+battleship-10-19-sat.cnf.dqdimacs                                   sat                          28.65       28.67        None                 True
+battleship-11-11-unsat.cnf.dqdimacs                                 TIMEOUT                     901.67      901.04        None                False
+battleship-11-21-sat.cnf.dqdimacs                                   sat                          82.96       82.97        None                 True
+battleship-12-12-unsat.cnf.dqdimacs                                 TIMEOUT                     901.67      901.05        None                False
+battleship-13-13-unsat.cnf.dqdimacs                                 TIMEOUT                     901.66      901.05        None                False
+battleship-5-8-unsat.cnf.dqdimacs                                   unsat                         0.82        0.87        None                 True
+battleship-6-9-unsat.cnf.dqdimacs                                   unsat                         1.42        1.48        None                 True
+battleship-7-12-unsat.cnf.dqdimacs                                  TIMEOUT                     901.58      901.05        None                False
+bloem_add10n.dqdimacs                                               sat                           0.44        0.49        None                 True
+bloem_add10y.dqdimacs                                               sat                           0.67        0.71        None                 True
+bloem_add16n.dqdimacs                                               sat                           1.03        1.08        None                 True
+bloem_add20n.dqdimacs                                               sat                           1.33        1.37        None                 True
+bloem_add4n.dqdimacs                                                sat                           0.04        0.11        None                 True
+bloem_add6n.dqdimacs                                                sat                           0.09        0.14        None                 True
+bloem_add8y.dqdimacs                                                sat                           0.79        0.85        None                 True
+bloem_amba10b4unrealy.dqdimacs                                      ABORTED                       1.58        1.65        None                False
+bloem_amba2f8unrealy.dqdimacs                                       ABORTED                       0.36        0.43        None                False
+bloem_amba3b4unrealy.dqdimacs                                       ABORTED                       0.52        0.56        None                False
+bloem_amba3c5n.dqdimacs                                             ABORTED                       0.41        0.47        None                False
+bloem_amba4b9n.dqdimacs                                             ABORTED                       0.77        0.81        None                False
+bloem_amba4c7n.dqdimacs                                             ABORTED                       0.49        0.54        None                False
+bloem_amba5b4unrealy.dqdimacs                                       ABORTED                       0.66        0.71        None                False
+bloem_amba6b5n.dqdimacs                                             ABORTED                       0.72        0.77        None                False
+bloem_amba6c5n.dqdimacs                                             ABORTED                       0.83        0.89        None                False
+bloem_amba7b4unrealy.dqdimacs                                       ABORTED                       0.77        0.82        None                False
+bloem_amba8c6unrealn.dqdimacs                                       ABORTED                       0.86        0.94        None                False
+bloem_amba8c7y.dqdimacs                                             ABORTED                       0.97        1.05        None                False
+bloem_amba8f56unrealy.dqdimacs                                      ABORTED                       0.96        1.03        None                False
+bloem_amba8f57n.dqdimacs                                            ABORTED                       0.94        1.02        None                False
+bloem_amba9b5y.dqdimacs                                             ABORTED                       1.40        1.43        None                False
+bloem_amba9c5n.dqdimacs                                             ABORTED                       0.93        0.99        None                False
+bloem_bs128y.dqdimacs                                               ABORTED                     200.30      200.21        None                False
+bloem_bs16n.dqdimacs                                                TIMEOUT                     901.71      901.11        None                False
+bloem_bs16y.dqdimacs                                                TIMEOUT                     901.71      901.10        None                False
+bloem_bs64n.dqdimacs                                                ABORTED                      35.36       35.37        None                False
+bloem_bs8y.dqdimacs                                                 sat                           1.52        1.58        None                False
+bloem_cnt10n.dqdimacs                                               sat                          23.30       23.32        None                False
+bloem_cnt10y.dqdimacs                                               sat                          23.41       23.47        None                False
+bloem_cnt11n.dqdimacs                                               sat                          84.49       84.49        None                False
+bloem_cnt11y.dqdimacs                                               sat                          83.96       83.97        None                False
+bloem_cnt6n.dqdimacs                                                sat                           0.30        0.38        None                False
+bloem_cnt6y.dqdimacs                                                sat                           0.31        0.36        None                False
+bloem_cnt7y.dqdimacs                                                sat                           0.67        0.70        None                False
+bloem_cnt9n.dqdimacs                                                sat                           6.13        6.17        None                False
+bloem_cnt9y.dqdimacs                                                sat                           6.21        6.23        None                False
+bloem_ex2.dqdimacs                                                  sat                           0.01        0.07        None                 True
+bloem_genbuf11b3unrealn.dqdimacs                                    ABORTED                       1.10        1.15        None                False
+bloem_genbuf11c2unrealn.dqdimacs                                    ABORTED                       0.72        0.78        None                False
+bloem_genbuf11c2unrealy.dqdimacs                                    ABORTED                       0.76        0.83        None                False
+bloem_genbuf11f11n.dqdimacs                                         ABORTED                       0.71        0.77        None                False
+bloem_genbuf11f11y.dqdimacs                                         ABORTED                       0.90        0.94        None                False
+bloem_genbuf12b4y.dqdimacs                                          ABORTED                       0.96        1.13        None                False
+bloem_genbuf12f12n.dqdimacs                                         ABORTED                       1.04        1.07        None                False
+bloem_genbuf12f12y.dqdimacs                                         ABORTED                       1.07        1.11        None                False
+bloem_genbuf13b4n.dqdimacs                                          ABORTED                       1.31        1.37        None                False
+bloem_genbuf13f13y.dqdimacs                                         ABORTED                       1.12        1.16        None                False
+bloem_genbuf14b3unrealn.dqdimacs                                    ABORTED                       1.17        1.39        None                False
+bloem_genbuf14c2unrealn.dqdimacs                                    ABORTED                       0.87        0.91        None                False
+bloem_genbuf14c3y.dqdimacs                                          ABORTED                       0.90        0.94        None                False
+bloem_genbuf15b4y.dqdimacs                                          ABORTED                       1.64        1.72        None                False
+bloem_genbuf15c3y.dqdimacs                                          ABORTED                       1.65        1.67        None                False
+bloem_genbuf15f14unrealy.dqdimacs                                   ABORTED                       1.19        1.25        None                False
+bloem_genbuf15f15n.dqdimacs                                         ABORTED                       1.02        1.08        None                False
+bloem_genbuf16c2unrealn.dqdimacs                                    ABORTED                       1.09        1.15        None                False
+bloem_genbuf16c3y.dqdimacs                                          ABORTED                       1.50        1.55        None                False
+bloem_genbuf5f4unrealn.dqdimacs                                     ABORTED                       0.61        0.74        None                False
+bloem_genbuf5f4unrealy.dqdimacs                                     ABORTED                       0.57        0.60        None                False
+bloem_genbuf6b4y.dqdimacs                                           ABORTED                       0.59        0.69        None                False
+bloem_genbuf7c2unrealn.dqdimacs                                     ABORTED                       0.55        0.59        None                False
+bloem_genbuf7f7y.dqdimacs                                           ABORTED                       0.53        0.77        None                False
+bloem_genbuf8b3unrealn.dqdimacs                                     ABORTED                       0.72        0.75        None                False
+bloem_genbuf8b4y.dqdimacs                                           ABORTED                       0.79        0.86        None                False
+bloem_genbuf8c2unrealn.dqdimacs                                     ABORTED                       0.43        0.46        None                False
+bloem_genbuf9b4n.dqdimacs                                           ABORTED                       0.86        0.91        None                False
+bloem_genbuf9c2unrealy.dqdimacs                                     ABORTED                       0.83        0.87        None                False
+bloem_genbuf9c3n.dqdimacs                                           ABORTED                       0.73        0.78        None                False
+bloem_genbuf9f8unrealy.dqdimacs                                     ABORTED                       0.75        0.81        None                False
+bloem_ifm_amba15n.dqdimacs                                          ABORTED                       2.53        2.57        None                False
+bloem_mult11.dqdimacs                                               sat                           0.02        0.07        None                 True
+bloem_mult2.dqdimacs                                                sat                           0.01        0.04        None                 True
+bloem_mult4.dqdimacs                                                sat                           0.01        0.04        None                 True
+bloem_mult6.dqdimacs                                                sat                           0.01        0.07        None                 True
+bloem_mult9.dqdimacs                                                sat                           0.02        0.18        None                 True
+bloem_mv11n.dqdimacs                                                TIMEOUT                     901.69      901.08        None                False
+bloem_mv20n.dqdimacs                                                TIMEOUT                     901.70      901.09        None                False
+bloem_mv20y.dqdimacs                                                TIMEOUT                     901.69      901.07        None                False
+bloem_mv4n.dqdimacs                                                 sat                           0.27        0.33        None                False
+bloem_mv9y.dqdimacs                                                 TIMEOUT                     901.60      901.06        None                False
+bloem_mvs4n.dqdimacs                                                sat                           0.08        0.13        None                 True
+bloem_mvs8n.dqdimacs                                                sat                          62.01       62.03        None                False
+bloem_mvs8y.dqdimacs                                                sat                          28.03       28.07        None                False
+bloem_sh_u_o.dqdimacs                                               unsat                         0.01        0.07        None                 True
+bloem_stay12y.dqdimacs                                              TIMEOUT                     901.72      901.10        None                False
+bloem_stay4n.dqdimacs                                               sat                           0.57        0.61        None                False
+bloem_stay4y.dqdimacs                                               sat                           0.57        0.61        None                False
+bloem_stay6n.dqdimacs                                               sat                          65.22       65.23        None                False
+bloem_stay6y.dqdimacs                                               sat                          37.32       37.32        None                False
+bloem_unrealizable.dqdimacs                                         unsat                         0.01        0.04        None                 True
+crn_11_100_s.cnf.dqdimacs                                           TIMEOUT                     901.69      901.05        None                False
+crn_11_99_u.cnf.dqdimacs                                            TIMEOUT                     901.67      901.06        None                False
+eulcbip-7-UNSAT.shuffled-as.sat05-3936.cnf.dqdimacs                 TIMEOUT                     901.67      901.05        None                False
+f600.shuffled.cnf.dqdimacs                                          TIMEOUT                     901.68      901.05        None                False
+hwb-n28-01-S136611085.shuffled-as.sat03-1627.cnf.dqdimacs           TIMEOUT                     901.59      901.06        None                False
+kullmann_DeQuBlRaGe_28_57_3551281699345079841.dqdimacs              sat                          40.28       40.35        None                False
+kullmann_DeQuBlRaGe_28_57_3551281699345079858.dqdimacs              TIMEOUT                     901.71      901.10        None                False
+kullmann_DeQuBlRaGe_28_57_3551281699345079867.dqdimacs              sat                         476.42      476.13        None                False
+kullmann_DeQuBlRaGe_28_57_3551281699345079868.dqdimacs              sat                         135.53      135.48        None                False
+kullmann_DeQuBlRaGe_28_57_3551281699345079870.dqdimacs              sat                          44.80       44.81        None                False
+kullmann_DeQuBlRaGe_28_57_3551281699345079872.dqdimacs              sat                         288.85      288.67        None                False
+kullmann_DeQuBlRaGe_28_57_3551281699345079876.dqdimacs              TIMEOUT                     901.62      901.10        None                False
+kullmann_DeQuBlRaGe_28_57_3551281699345079892.dqdimacs              sat                         122.91      122.87        None                False
+kullmann_DeQuBlRaGe_28_57_3551281699345079906.dqdimacs              sat                          45.54       45.55        None                False
+kullmann_DeQuBlRaGe_28_57_3551281699345079926.dqdimacs              sat                          18.81       18.85        None                False
+kullmann_DeQuBlRaGe_28_57_3551281699345079936.dqdimacs              sat                         356.18      355.98        None                False
+kullmann_DeQuBlRaGe_28_57_3551281699345079939.dqdimacs              TIMEOUT                     901.71      901.09        None                False
+kullmann_DeQuBlRaGe_28_57_3551281699345079952.dqdimacs              sat                          58.35       58.36        None                False
+kullmann_DeQuBlRaGe_28_57_3551281699345079954.dqdimacs              sat                         548.34      547.99        None                False
+kullmann_DeQuBlRaGe_28_57_3551281699345079959.dqdimacs              TIMEOUT                     901.71      901.08        None                False
+kullmann_DeQuBlRaGe_28_57_3551281699345079963.dqdimacs              TIMEOUT                     901.69      901.08        None                False
+kullmann_DeQuBlRaGe_28_57_3551281699345079974.dqdimacs              TIMEOUT                     901.69      901.11        None                False
+kullmann_DeQuBlRaGe_28_57_3551281699345079997.dqdimacs              sat                           0.01        0.04        None                 True
+kullmann_DeQuBlRaGe_28_57_3551281699345080002.dqdimacs              sat                         801.87      801.33        None                False
+kullmann_DeQuBlRaGe_28_57_3551281699345080028.dqdimacs              sat                          57.67       57.67        None                False
+kullmann_DeQuBlRaGe_400_700_3545989440129287368.dqdimacs            TIMEOUT                     901.61      901.09        None                False
+kullmann_DeQuBlRaGe_400_700_3545989440129288256.dqdimacs            sat                           0.07        0.12        None                 True
+kullmann_DeQuBlRaGe_400_700_3545989440129333271.dqdimacs            sat                           0.11        0.15        None                 True
+kullmann_DeQuBlRaGe_400_700_3545989440129361523.dqdimacs            sat                           0.11        0.15        None                 True
+kullmann_DeQuBlRaGe_400_700_3545989440129390151.dqdimacs            sat                           0.04        0.09        None                 True
+kullmann_DeQuBlRaGe_400_700_3545989440129428353.dqdimacs            sat                           0.03        0.07        None                 True
+kullmann_DeQuBlRaGe_400_700_3545989440129444764.dqdimacs            sat                           0.03        0.09        None                 True
+kullmann_DeQuBlRaGe_400_700_3545989440129490335.dqdimacs            sat                           0.04        0.07        None                 True
+kullmann_DeQuBlRaGe_400_700_3545989440129545215.dqdimacs            sat                           0.09        0.14        None                 True
+kullmann_DeQuBlRaGe_400_700_3545989440129581167.dqdimacs            sat                           0.17        0.22        None                 True
+kullmann_DeQuBlRaGe_400_700_3545989440129626897.dqdimacs            sat                           0.08        0.14        None                 True
+kullmann_DeQuBlRaGe_400_700_3545989440129641106.dqdimacs            sat                           0.11        0.17        None                 True
+kullmann_DeQuBlRaGe_400_700_3545989440129645006.dqdimacs            sat                           0.07        0.13        None                 True
+kullmann_DeQuBlRaGe_400_700_3545989440129698820.dqdimacs            sat                           0.11        0.17        None                 True
+kullmann_DeQuBlRaGe_400_700_3545989440129699164.dqdimacs            sat                           0.09        0.15        None                 True
+kullmann_DeQuBlRaGe_400_700_3545989440129704812.dqdimacs            sat                           0.03        0.11        None                 True
+kullmann_DeQuBlRaGe_400_700_3545989440129712723.dqdimacs            sat                           0.11        0.15        None                 True
+kullmann_DeQuBlRaGe_400_700_3545989440129740410.dqdimacs            sat                           0.06        0.14        None                 True
+kullmann_DeQuBlRaGe_400_700_3545989440129766070.dqdimacs            sat                           0.06        0.11        None                 True
+kullmann_DeQuBlRaGe_400_700_3545989440129788791.dqdimacs            sat                           0.04        0.11        None                 True
+kullmann_DeQuBlRaGe_800_1500_3545957297944809435.dqdimacs           sat                          17.12       17.16        None                 True
+kullmann_DeQuBlRaGe_800_1500_3545957297944809593.dqdimacs           sat                           7.40        7.45        None                 True
+kullmann_DeQuBlRaGe_800_1500_3545957297944809611.dqdimacs           sat                          21.31       21.35        None                 True
+kullmann_DeQuBlRaGe_800_1500_3545957297944809688.dqdimacs           sat                          26.45       26.47        None                 True
+kullmann_DeQuBlRaGe_800_1500_3545957297944810239.dqdimacs           sat                          14.53       14.58        None                 True
+kullmann_DeQuBlRaGe_800_1500_3545957297944810507.dqdimacs           sat                          27.44       27.46        None                 True
+kullmann_DeQuBlRaGe_800_1500_3545957297944810994.dqdimacs           sat                          24.44       24.47        None                 True
+kullmann_DeQuBlRaGe_800_1500_3545957297944811007.dqdimacs           sat                          15.99       16.03        None                 True
+kullmann_DeQuBlRaGe_800_1500_3545957297944811252.dqdimacs           sat                          16.07       16.09        None                 True
+kullmann_DeQuBlRaGe_800_1500_3545957297944811337.dqdimacs           sat                          29.87       29.89        None                 True
+lksat-n900-m3357-k3-l5-s950595579.used-as.sat04-938.cnf.dqdimacs    sat                           5.09        5.12        None                 True
+marg3x3add8.shuffled-as.sat03-1449.cnf.dqdimacs                     unsat                         1.49        1.53        None                 True
+marg3x3add8ch.shuffled-as.sat03-1448.cnf.dqdimacs                   unsat                         9.02        9.05        None                 True
+mm-2x2-6-6-s.1.shuffled-as.sat03-1499.cnf.dqdimacs                  unsat                       376.03      375.80        None                 True
+mod2-rand3bip-sat-270-1.shuffled-as.sat05-2248.cnf.dqdimacs         TIMEOUT                     901.67      901.05        None                False
+php-010-008.shuffled-as.sat05-1171.cnf.dqdimacs                     unsat                         0.91        0.97        None                 True
+scholl_C432.blif_0.10_0.10_1_0_henkin.dqdimacs                      TIMEOUT                     901.70      901.07        None                False
+scholl_C432.blif_0.10_1.00_2_0_henkin.dqdimacs                      sat                           0.32        0.35        None                False
+scholl_C432.blif_0.10_1.00_7_3_henkin.dqdimacs                      unsat                         0.18        0.24        None                 True
+scholl_C432.blif_0.20_0.50_1_3_henkin.dqdimacs                      TIMEOUT                     901.69      901.09        None                False
+scholl_C432.blif_0.40_0.10_0_0_henkin.dqdimacs                      TIMEOUT                     901.70      901.10        None                False
+scholl_C432.blif_0.40_0.20_1_2_henkin.dqdimacs                      TIMEOUT                     901.69      901.09        None                False
+scholl_C432.blif_0.40_1.00_1_2_henkin.dqdimacs                      unsat                         0.46        0.52        None                 True
+scholl_C432.blif_0.50_0.50_1_3_henkin.dqdimacs                      ABORTED                       0.28        0.33        None                False
+scholl_C432.blif_0.50_1.00_3_3_henkin.dqdimacs                      unsat                         0.17        0.22        None                 True
+scholl_C499.blif_0.10_1.00_4_2_henkin.dqdimacs                      TIMEOUT                     901.62      901.09        None                False
+scholl_C499.blif_0.10_1.00_7_1_henkin.dqdimacs                      unsat                         0.19        0.22        None                 True
+scholl_C499.blif_0.10_1.00_7_2_henkin.dqdimacs                      unsat                         4.18        4.23        None                False
+scholl_C499.blif_0.10_1.00_9_2_henkin.dqdimacs                      unsat                        51.12       51.11        None                False
+scholl_C499.blif_0.20_1.00_3_3_henkin.dqdimacs                      TIMEOUT                     901.70      901.07        None                False
+scholl_C499.blif_0.20_1.00_7_2_henkin.dqdimacs                      unsat                         4.17        4.23        None                False
+scholl_C499.blif_0.50_1.00_8_1_henkin.dqdimacs                      unsat                        33.93       33.93        None                False
+scholl_C499.blif_0.60_1.00_1_2_henkin.dqdimacs                      TIMEOUT                     901.67      901.05        None                False
+scholl_comp.blif_0.10_0.10_0_0_henkin.dqdimacs                      sat                           9.00        9.03        None                False
+scholl_comp.blif_0.10_0.10_0_2_henkin.dqdimacs                      unsat                         0.20        0.25        None                False
+scholl_comp.blif_0.10_0.10_0_3_henkin.dqdimacs                      unsat                         0.41        0.47        None                False
+scholl_comp.blif_0.10_0.20_0_0_henkin.dqdimacs                      sat                           4.07        4.12        None                False
+scholl_comp.blif_0.10_0.20_1_0_henkin.dqdimacs                      sat                           4.51        4.55        None                False
+scholl_comp.blif_0.10_0.20_1_3_henkin.dqdimacs                      unsat                         3.31        3.37        None                False
+scholl_comp.blif_0.10_0.20_2_0_henkin.dqdimacs                      sat                           0.74        0.79        None                False
+scholl_comp.blif_0.10_0.20_2_1_henkin.dqdimacs                      unsat                         0.38        0.41        None                False
+scholl_comp.blif_0.10_0.50_0_3_henkin.dqdimacs                      unsat                         0.29        0.33        None                False
+scholl_comp.blif_0.10_0.50_1_3_henkin.dqdimacs                      unsat                         3.31        3.35        None                False
+scholl_comp.blif_0.10_1.00_0_0_henkin.dqdimacs                      sat                           0.25        0.31        None                False
+scholl_comp.blif_0.10_1.00_0_1_henkin.dqdimacs                      unsat                         0.37        0.43        None                False
+scholl_comp.blif_0.10_1.00_2_0_henkin.dqdimacs                      sat                           0.18        0.23        None                False
+scholl_comp.blif_0.10_1.00_2_1_henkin.dqdimacs                      unsat                         0.39        0.44        None                False
+scholl_comp.blif_0.10_1.00_2_3_henkin.dqdimacs                      unsat                         0.35        0.40        None                False
+scholl_comp.blif_0.10_1.00_4_1_henkin.dqdimacs                      unsat                         0.56        0.63        None                False
+scholl_comp.blif_0.10_1.00_4_2_henkin.dqdimacs                      unsat                         0.66        0.71        None                False
+scholl_comp.blif_0.10_1.00_5_2_henkin.dqdimacs                      unsat                         1.09        1.15        None                False
+scholl_comp.blif_0.10_1.00_9_3_henkin.dqdimacs                      unsat                         0.96        0.99        None                False
+scholl_comp.blif_0.20_0.20_0_3_henkin.dqdimacs                      unsat                         5.00        5.04        None                False
+scholl_comp.blif_0.20_0.20_2_2_henkin.dqdimacs                      unsat                         0.84        0.89        None                False
+scholl_comp.blif_0.20_0.50_2_3_henkin.dqdimacs                      unsat                         0.47        0.52        None                False
+scholl_comp.blif_0.20_1.00_4_0_henkin.dqdimacs                      sat                           0.40        0.46        None                False
+scholl_comp.blif_0.20_1.00_5_1_henkin.dqdimacs                      unsat                         0.14        0.19        None                False
+scholl_comp.blif_0.20_1.00_9_3_henkin.dqdimacs                      sat                           0.37        0.43        None                False
+scholl_comp.blif_0.30_0.50_0_1_henkin.dqdimacs                      TIMEOUT                     901.70      901.11        None                False
+scholl_comp.blif_0.30_0.50_0_2_henkin.dqdimacs                      TIMEOUT                     901.68      901.08        None                False
+scholl_comp.blif_0.30_0.50_2_1_henkin.dqdimacs                      unsat                         0.48        0.54        None                False
+scholl_comp.blif_0.50_1.00_2_2_henkin.dqdimacs                      unsat                         0.15        0.20        None                 True
+scholl_comp.blif_0.50_1.00_4_0_henkin.dqdimacs                      sat                           1.96        2.01        None                False
+scholl_comp.blif_0.50_1.00_5_1_henkin.dqdimacs                      unsat                         1.58        1.64        None                False
+scholl_comp.blif_0.50_1.00_9_1_henkin.dqdimacs                      unsat                         1.14        1.18        None                False
+scholl_comp.blif_0.60_1.00_4_0_henkin.dqdimacs                      TIMEOUT                     901.70      901.08        None                False
+scholl_comp.blif_0.60_1.00_4_1_henkin.dqdimacs                      TIMEOUT                     901.62      901.10        None                False
+scholl_comp.blif_0.60_1.00_5_0_henkin.dqdimacs                      sat                           7.61        7.64        None                False
+scholl_comp.blif_0.60_1.00_9_2_henkin.dqdimacs                      unsat                         1.99        2.04        None                False
+scholl_term1.blif_0.10_1.00_5_1_henkin.dqdimacs                     unsat                        20.75       20.76        None                 True
+scholl_term1.blif_0.10_1.00_5_2_henkin.dqdimacs                     unsat                        36.25       36.28        None                 True
+scholl_term1.blif_0.10_1.00_5_3_henkin.dqdimacs                     unsat                        15.41       15.45        None                 True
+scholl_term1.blif_0.20_1.00_3_1_henkin.dqdimacs                     unsat                         0.50        0.53        None                False
+scholl_term1.blif_0.20_1.00_3_2_henkin.dqdimacs                     unsat                         0.69        0.75        None                False
+scholl_term1.blif_0.20_1.00_5_2_henkin.dqdimacs                     unsat                        36.20       36.22        None                 True
+scholl_term1.blif_0.20_1.00_5_3_henkin.dqdimacs                     unsat                        15.54       15.58        None                 True
+scholl_term1.blif_0.20_1.00_9_0_henkin.dqdimacs                     sat                           0.84        0.91        None                False
+scholl_term1.blif_0.50_1.00_3_0_henkin.dqdimacs                     sat                           0.71        0.75        None                False
+scholl_term1.blif_0.50_1.00_3_1_henkin.dqdimacs                     unsat                         0.46        0.51        None                False
+scholl_term1.blif_0.50_1.00_5_0_henkin.dqdimacs                     sat                          21.72       21.80        None                 True
+scholl_term1.blif_0.50_1.00_5_3_henkin.dqdimacs                     unsat                        15.46       15.50        None                 True
+scholl_term1.blif_0.50_1.00_9_2_henkin.dqdimacs                     unsat                         0.69        0.73        None                 True
+scholl_term1.blif_0.60_1.00_3_0_henkin.dqdimacs                     sat                           0.70        0.76        None                False
+scholl_term1.blif_0.60_1.00_3_1_henkin.dqdimacs                     unsat                         0.47        0.52        None                False
+scholl_term1.blif_0.60_1.00_3_3_henkin.dqdimacs                     unsat                         0.80        0.88        None                False
+scholl_term1.blif_0.60_1.00_5_1_henkin.dqdimacs                     unsat                        20.70       20.73        None                 True
+scholl_term1.blif_0.60_1.00_9_0_henkin.dqdimacs                     sat                           0.83        0.88        None                False
+scholl_term1.blif_0.60_1.00_9_1_henkin.dqdimacs                     unsat                         0.09        0.14        None                 True
+scholl_z4ml.blif_0.10_0.10_2_3_henkin.dqdimacs                      unsat                         0.09        0.14        None                False
+scholl_z4ml.blif_0.10_0.20_1_2_henkin.dqdimacs                      unsat                         0.01        0.06        None                 True
+scholl_z4ml.blif_0.10_0.20_2_0_henkin.dqdimacs                      sat                           0.11        0.17        None                False
+scholl_z4ml.blif_0.10_0.50_2_3_henkin.dqdimacs                      unsat                         0.07        0.12        None                False
+scholl_z4ml.blif_0.10_1.00_1_3_henkin.dqdimacs                      unsat                         0.01        0.07        None                 True
+scholl_z4ml.blif_0.20_0.20_2_2_henkin.dqdimacs                      unsat                         0.06        0.11        None                False
+scholl_z4ml.blif_0.20_0.50_2_0_henkin.dqdimacs                      sat                           0.14        0.19        None                 True
+scholl_z4ml.blif_0.20_1.00_0_3_henkin.dqdimacs                      unsat                         0.01        0.07        None                 True
+scholl_z4ml.blif_0.30_0.10_1_2_henkin.dqdimacs                      unsat                         0.07        0.15        None                False
+scholl_z4ml.blif_0.30_0.10_2_1_henkin.dqdimacs                      unsat                         0.41        0.46        None                False
+scholl_z4ml.blif_0.30_0.50_1_0_henkin.dqdimacs                      sat                           0.14        0.20        None                 True
+scholl_z4ml.blif_0.30_1.00_1_3_henkin.dqdimacs                      unsat                         0.02        0.07        None                 True
+scholl_z4ml.blif_0.50_0.10_2_0_henkin.dqdimacs                      sat                          33.75       33.77        None                False
+scholl_z4ml.blif_0.50_0.10_2_2_henkin.dqdimacs                      unsat                        23.68       23.72        None                False
+scholl_z4ml.blif_0.50_0.10_2_3_henkin.dqdimacs                      unsat                        30.29       30.31        None                False
+scholl_z4ml.blif_0.50_0.50_1_0_henkin.dqdimacs                      sat                           1.31        1.37        None                 True
+scholl_z4ml.blif_0.50_1.00_7_0_henkin.dqdimacs                      sat                           0.35        0.41        None                 True
+scholl_z4ml.blif_0.50_1.00_7_3_henkin.dqdimacs                      unsat                         0.07        0.12        None                 True
+sgen3-n120-s12930489-sat.cnf.dqdimacs                               sat                          39.23       39.24        None                 True
+sgen3-n140-s18527668-sat.cnf.dqdimacs                               TIMEOUT                     901.68      901.03        None                False
+sgen3-n160-s40283905-sat.cnf.dqdimacs                               TIMEOUT                     901.66      901.06        None                False
+sgen3-n180-s34713902-sat.cnf.dqdimacs                               TIMEOUT                     901.67      901.05        None                False
+sgen3-n200-s39840374-sat.cnf.dqdimacs                               TIMEOUT                     901.67      901.07        None                False
+sgen3-n220-s24359701-sat.cnf.dqdimacs                               TIMEOUT                     901.67      901.03        None                False
+sgen3-n240-s78945233-sat.cnf.dqdimacs                               TIMEOUT                     901.58      901.06        None                False
+sgen3-n260-s62321009-sat.cnf.dqdimacs                               TIMEOUT                     901.67      901.03        None                False
+sgen3-n280-s93756482-sat.cnf.dqdimacs                               TIMEOUT                     901.66      901.05        None                False
+sgen3-n300-s12830984-sat.cnf.dqdimacs                               TIMEOUT                     901.67      901.03        None                False
+tentrup_amba_case_study_system_1.dqdimacs                           unsat                        55.37       55.37        None                 True
+tentrup_amba_case_study_unreal2_system_1.dqdimacs                   unsat                        89.53       89.50        None                 True
+tentrup_amba_decomposed_arbiter_system_8.dqdimacs                   sat                          28.74       28.78        None                 True
+tentrup_amba_decomposed_decode_environment_16.dqdimacs              unsat                         0.44        0.47        None                False
+tentrup_amba_decomposed_tburst4_system_16.dqdimacs                  TIMEOUT                     901.73      901.10        None                False
+tentrup_full_arbiter_environment_4.dqdimacs                         unsat                        38.27       38.30        None                 True
+tentrup_full_arbiter_unreal1_environment_1.dqdimacs                 sat                           7.26        7.31        None                 True
+tentrup_full_arbiter_unreal3_environment_2.dqdimacs                 unsat                        42.51       42.51        None                 True
+tentrup_genbuf2_system_4.dqdimacs                                   unsat                         5.54        5.59        None                 True
+tentrup_lilydemo04_environment_8.dqdimacs                           sat                           8.44        8.46        None                 True
+tentrup_lilydemo07_system_16.dqdimacs                               sat                          49.81       49.84        None                False
+tentrup_lilydemo19_environment_4.dqdimacs                           unsat                         5.36        5.39        None                 True
+tentrup_load_balancer_environment_8.dqdimacs                        sat                           6.34        6.38        None                 True
+tentrup_load_balancer_system_4.dqdimacs                             unsat                         9.34        9.39        None                 True
+tentrup_load_balancer_unreal2_system_4.dqdimacs                     sat                           7.01        7.03        None                 True
+tentrup_ltl2dba13_environment_8.dqdimacs                            unsat                       135.16      135.10        None                 True
+tentrup_ltl2dba_U1_system_16.dqdimacs                               TIMEOUT                     901.61      901.11        None                False
+tentrup_ltl2dba_alpha_environment_8.dqdimacs                        unsat                       191.08      190.97        None                 True
+tentrup_pec_adder_n_bit_10_32.dqdimacs                              TIMEOUT                     901.70      901.08        None                False
+tentrup_pec_adder_n_bit_1_19.dqdimacs                               TIMEOUT                     901.71      901.11        None                False
+tentrup_pec_adder_n_bit_1_35.dqdimacs                               TIMEOUT                     901.70      901.08        None                False
+tentrup_pec_adder_n_bit_2_10.dqdimacs                               TIMEOUT                     901.71      901.10        None                False
+tentrup_pec_adder_n_bit_3_1.dqdimacs                                unsat                        56.51       56.51        None                False
+tentrup_pec_adder_n_bit_3_38.dqdimacs                               TIMEOUT                     901.69      901.08        None                False
+tentrup_pec_adder_n_bit_4_11.dqdimacs                               unsat                         7.80        7.85        None                False
+tentrup_pec_adder_n_bit_4_4.dqdimacs                                TIMEOUT                     901.60      901.08        None                False
+tentrup_pec_adder_n_bit_5_90.dqdimacs                               TIMEOUT                     901.70      901.08        None                False
+tentrup_pec_adder_n_bit_7_26.dqdimacs                               unsat                        18.99       19.03        None                False
+tentrup_pec_look_ahead_arbiter_10_2.dqdimacs                        unsat                        30.65       30.68        None                False
+tentrup_pec_look_ahead_arbiter_1_0.dqdimacs                         sat                           3.98        4.04        None                False
+tentrup_pec_look_ahead_arbiter_1_11.dqdimacs                        unsat                         7.21        7.23        None                False
+tentrup_pec_look_ahead_arbiter_1_14.dqdimacs                        unsat                         4.75        4.78        None                False
+tentrup_pec_look_ahead_arbiter_1_2.dqdimacs                         unsat                         2.95        2.99        None                False
+tentrup_pec_look_ahead_arbiter_1_35.dqdimacs                        unsat                         6.03        6.10        None                False
+tentrup_pec_look_ahead_arbiter_2_24.dqdimacs                        unsat                         4.37        4.41        None                False
+tentrup_pec_look_ahead_arbiter_2_4.dqdimacs                         unsat                         6.11        6.17        None                False
+tentrup_pec_look_ahead_arbiter_3_12.dqdimacs                        unsat                         4.10        4.14        None                False
+tentrup_pec_look_ahead_arbiter_3_15.dqdimacs                        unsat                         5.50        5.57        None                False
+tentrup_pec_look_ahead_arbiter_3_3.dqdimacs                         unsat                         4.24        4.28        None                False
+tentrup_pec_look_ahead_arbiter_5_1.dqdimacs                         unsat                        31.18       31.23        None                False
+tentrup_pec_look_ahead_arbiter_5_10.dqdimacs                        unsat                         8.22        8.28        None                False
+tentrup_pec_look_ahead_arbiter_5_12.dqdimacs                        unsat                        24.13       24.17        None                False
+tentrup_pec_look_ahead_arbiter_5_2.dqdimacs                         unsat                        26.45       26.63        None                False
+tentrup_pec_look_ahead_arbiter_5_3.dqdimacs                         unsat                        13.62       13.64        None                False
+tentrup_pec_look_ahead_arbiter_5_5.dqdimacs                         unsat                         5.65        5.71        None                False
+tentrup_pec_look_ahead_arbiter_6_12.dqdimacs                        unsat                         6.78        6.84        None                False
+tentrup_pec_look_ahead_arbiter_6_2.dqdimacs                         unsat                        22.47       22.50        None                False
+tentrup_pec_look_ahead_arbiter_6_40.dqdimacs                        unsat                        18.22       18.25        None                False
+tentrup_pec_look_ahead_arbiter_6_70.dqdimacs                        unsat                         6.85        6.91        None                False
+tentrup_pec_look_ahead_arbiter_6_93.dqdimacs                        unsat                        36.82       36.86        None                False
+tentrup_pec_look_ahead_arbiter_7_22.dqdimacs                        unsat                        10.12       10.17        None                False
+tentrup_pec_look_ahead_arbiter_7_9.dqdimacs                         unsat                         7.29        7.34        None                False
+tentrup_pec_look_ahead_arbiter_8_11.dqdimacs                        unsat                        14.71       14.75        None                False
+tentrup_pec_look_ahead_arbiter_8_4.dqdimacs                         unsat                       134.23      134.18        None                False
+tentrup_pec_look_ahead_arbiter_9_36.dqdimacs                        unsat                        39.19       39.21        None                False
+tentrup_pec_look_ahead_arbiter_9_8.dqdimacs                         unsat                       654.48      654.06        None                False
+tentrup_pec_multiplexer_10_41.dqdimacs                              unsat                         2.89        2.94        None                False
+tentrup_pec_multiplexer_1_11.dqdimacs                               unsat                         0.65        0.68        None                False
+tentrup_pec_multiplexer_1_2.dqdimacs                                unsat                         1.51        1.56        None                False
+tentrup_pec_multiplexer_1_26.dqdimacs                               unsat                         1.03        1.07        None                False
+tentrup_pec_multiplexer_1_4.dqdimacs                                unsat                         1.21        1.24        None                False
+tentrup_pec_multiplexer_1_8.dqdimacs                                unsat                         1.37        1.40        None                False
+tentrup_pec_multiplexer_2_2.dqdimacs                                unsat                         1.60        1.64        None                False
+tentrup_pec_multiplexer_3_2.dqdimacs                                sat                           1.95        1.99        None                False
+tentrup_pec_multiplexer_3_30.dqdimacs                               unsat                         1.85        1.90        None                False
+tentrup_pec_multiplexer_3_6.dqdimacs                                unsat                         2.11        2.15        None                False
+tentrup_pec_multiplexer_4_50.dqdimacs                               unsat                         2.36        2.39        None                False
+tentrup_pec_multiplexer_5_11.dqdimacs                               unsat                         1.78        1.82        None                False
+tentrup_pec_multiplexer_5_12.dqdimacs                               unsat                         2.99        3.05        None                False
+tentrup_pec_multiplexer_5_17.dqdimacs                               unsat                         2.40        2.46        None                False
+tentrup_pec_multiplexer_5_2.dqdimacs                                unsat                         1.66        1.69        None                False
+tentrup_pec_multiplexer_6_51.dqdimacs                               unsat                         2.81        2.84        None                False
+tentrup_pec_multiplexer_6_84.dqdimacs                               unsat                         1.76        1.81        None                False
+tentrup_pec_multiplexer_8_59.dqdimacs                               unsat                         4.74        4.78        None                False
+tentrup_pec_multiplier_1_0.dqdimacs                                 sat                          12.82       12.84        None                False
+tentrup_pec_multiplier_1_10.dqdimacs                                unsat                         7.44        7.47        None                False
+tentrup_pec_multiplier_1_11.dqdimacs                                unsat                        41.45       41.48        None                False
+tentrup_pec_multiplier_1_20.dqdimacs                                unsat                         7.10        7.14        None                False
+tentrup_pec_multiplier_1_30.dqdimacs                                unsat                        13.16       13.19        None                False
+tentrup_pec_multiplier_1_9.dqdimacs                                 unsat                         6.62        6.67        None                False
+tentrup_pec_multiplier_3_2.dqdimacs                                 unsat                        19.21       19.27        None                False
+tentrup_pec_multiplier_3_3.dqdimacs                                 TIMEOUT                     901.70      901.10        None                False
+tentrup_pec_multiplier_3_4.dqdimacs                                 unsat                        23.86       23.90        None                False
+tentrup_pec_multiplier_4_14.dqdimacs                                unsat                        32.07       32.12        None                False
+tentrup_pec_multiplier_5_81.dqdimacs                                TIMEOUT                     901.70      901.10        None                False
+tentrup_pec_multiplier_5_91.dqdimacs                                TIMEOUT                     901.71      901.08        None                False
+tentrup_pec_multiplier_7_13.dqdimacs                                TIMEOUT                     901.62      901.08        None                False
+tentrup_pec_multiplier_7_87.dqdimacs                                TIMEOUT                     901.72      901.10        None                False
+tentrup_prioritized_arbiter_environment_4.dqdimacs                  unsat                         2.62        2.67        None                 True
+tentrup_round_robin_arbiter_system_1.dqdimacs                       unsat                         0.20        0.24        None                 True
+urquhart3_25bis.shuffled.cnf.dqdimacs                               unsat                         7.60        7.66        None                 True
+x1_40.shuffled.cnf.dqdimacs                                         unsat                         6.93        6.99        None                 True
+x1_80.shuffled.cnf.dqdimacs                                         TIMEOUT                     901.67      901.03        None                False
+---------------------------------------------------------------------------------------------------------------------------------------------------
+Run set 1                                                           done                      61052.95    10548.98           -
+
+Statistics:            354 Files
+  correct:               0
+    correct true:        0
+    correct false:       0
+  incorrect:             0
+    incorrect true:      0
+    incorrect false:     0
+  unknown:             110
