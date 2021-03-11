@@ -28,7 +28,7 @@ class Tool(benchexec.tools.template.BaseTool):
     """
     
     def executable(self):
-        return util.find_executable('iproveropt_v3.1_static')
+        return util.find_executable('iproveropt')
 
     def name(self):
         return 'iProver'
