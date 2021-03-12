@@ -163,6 +163,11 @@
   <tasks name="QBFtest">
     <include>/var/data/xsic/QBFbenchmarks/test/*.qdimacs</include>
   </tasks>
+
+  <!-- QBF PCNF  benchmarks from QBFeval20 -->
+  <tasks name="qbf20PCNF">
+    <include>/var/data/xsic/QBFbenchmarks/qbf20PCNF/*.qdimacs</include>
+  </tasks>
   
   <columns>
     <column title="Preprocessor solved">Solved by preprocessor</column>
