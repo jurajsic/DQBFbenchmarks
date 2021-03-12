@@ -1,0 +1,623 @@
+   BENCHMARK INFORMATION
+benchmark definition:    benchmark-definitions/benchmark-dqbdd.xml
+name:                    benchmark-dqbdd
+run sets:                tree-simpleelimination-atbeginning.qbf20PCNF
+date:                    Fri, 2021-03-12 08:14:53 CET
+tool:                    DQBDD 1.1
+tool executable:         /home/xsic/DQBFbenchmarks/solvers/DQBDD
+options:                 
+parallel runs:           6
+resource limits:
+- memory:                4000.0 MB
+- time:                  900 s
+- cpu cores:             1
+hardware requirements:
+- cpu cores:             1
+- memory:                4000.0 MB
+------------------------------------------------------------
+
+   SYSTEM INFORMATION
+host:                    islay
+os:                      Linux-3.16.0-4-amd64-x86_64-with-debian-8.5
+cpu:                     Intel Xeon CPU E5-2620 v2 @ 2.10GHz
+- cores:                 24
+- max frequency:         2600.0 MHz
+- turbo boost enabled:   False
+ram:                     135450.984448 MB
+------------------------------------------------------------
+
+
+
+simple-atbeginning.qbf20PCNF
+Run set 1 of 15: skipped 
+
+
+simple-continuous.qbf20PCNF
+Run set 2 of 15: skipped 
+
+
+simple-varsinconjuncts.qbf20PCNF
+Run set 3 of 15: skipped 
+
+
+tree-noelimination-atbeginning.qbf20PCNF
+Run set 4 of 15: skipped 
+
+
+tree-noelimination-continuous.qbf20PCNF
+Run set 5 of 15: skipped 
+
+
+tree-noelimination-varsinconjuncts.qbf20PCNF
+Run set 6 of 15: skipped 
+
+
+tree-simpleelimination-atbeginning.qbf20PCNF
+Run set 7 of 15 with options '--preprocess 1 --dyn-reordering 1 --localise 1 --elimination-choice 1 --uvar-choice 0' and propertyfile 'None'
+
+inputfile                                                                                                                         status                    cpu time   wall time        host  Preprocessor solved
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+AR-fixpoint-1.qdimacs                                                                                                             OUT OF MEMORY               142.74      142.69        None                False
+AR-fixpoint-5.qdimacs                                                                                                             OUT OF MEMORY               790.12      789.58        None                False
+Adder2-10-s.qdimacs                                                                                                               TIMEOUT                     901.65      901.18        None                False
+Adder2-14-s.qdimacs                                                                                                               TIMEOUT                     901.93      901.32        None                False
+Adder2-16-c.qdimacs                                                                                                               OUT OF MEMORY                19.62       19.67        None                False
+Adder2-16-s.qdimacs                                                                                                               OUT OF MEMORY                15.30       15.32        None                False
+Adder2-8-c.qdimacs                                                                                                                TIMEOUT                     901.74      901.11        None                False
+Adder2-8-s.qdimacs                                                                                                                sat                         283.65      283.51        None                False
+C5315.blif_0.10_0.20_0_0_inp_exact.qdimacs                                                                                        OUT OF MEMORY                35.66       35.70        None                False
+C5315.blif_0.10_0.20_0_0_out_exact.qdimacs                                                                                        OUT OF MEMORY                24.46       24.49        None                False
+C5315.blif_0.10_0.20_0_1_out_exact.qdimacs                                                                                        OUT OF MEMORY                24.07       24.11        None                False
+C6288.blif_0.10_0.20_0_0_inp_exact.qdimacs                                                                                        OUT OF MEMORY                33.07       33.11        None                False
+C6288.blif_0.10_0.20_0_0_out_exact.qdimacs                                                                                        OUT OF MEMORY                38.45       38.49        None                False
+C6288.blif_0.10_0.20_0_1_inp_exact.qdimacs                                                                                        OUT OF MEMORY                32.88       32.92        None                False
+C6288.blif_0.10_0.20_0_1_out_exact.qdimacs                                                                                        OUT OF MEMORY                38.84       38.87        None                False
+C6288.blif_0.10_1.00_0_0_inp_exact.qdimacs                                                                                        OUT OF MEMORY                35.47       35.48        None                False
+ConcreteActivityService.qdimacs                                                                                                   OUT OF MEMORY                25.87       25.99        None                False
+Core1108_tbm_21.tex.module.000008.qdimacs                                                                                         sat                         788.64      788.10        None                False
+Core1108_tbm_21.tex.module.000030.qdimacs                                                                                         sat                         381.50      381.29        None                False
+GuidanceService.qdimacs                                                                                                           OUT OF MEMORY                24.12       24.15        None                False
+GuidanceService2.qdimacs                                                                                                          OUT OF MEMORY                24.29       24.33        None                False
+IssueServiceImpl.qdimacs                                                                                                          OUT OF MEMORY                25.36       25.40        None                False
+IterationService.qdimacs                                                                                                          OUT OF MEMORY                25.27       25.31        None                False
+LoginService.qdimacs                                                                                                              OUT OF MEMORY                26.08       26.12        None                False
+NotificationServiceImpl2.qdimacs                                                                                                  OUT OF MEMORY                26.82       26.85        None                False
+PhaseService.qdimacs                                                                                                              OUT OF MEMORY                25.37       25.39        None                False
+ProcessBean.qdimacs                                                                                                               OUT OF MEMORY                32.27       32.28        None                False
+ProjectService3.qdimacs                                                                                                           OUT OF MEMORY                26.18       26.21        None                False
+Umbrella_tbm_05.tex.module.000039.qdimacs                                                                                         TIMEOUT                     901.71      901.08        None                False
+W4-Umbrella_tbm_05.tex.moduleQ3.8S.000001.qdimacs                                                                                 TIMEOUT                     901.73      901.10        None                False
+W4-Umbrella_tbm_21.tex.moduleQ3.6S.000001.qdimacs                                                                                 TIMEOUT                     901.63      901.11        None                False
+W4-Umbrella_tbm_25.tex.moduleQ3.7S.000003.qdimacs                                                                                 TIMEOUT                     901.74      901.18        None                False
+W4-Umbrella_tbm_26.tex.moduleQ3.7S.000003.qdimacs                                                                                 TIMEOUT                     901.72      901.10        None                False
+W5-Umbrella_tbm_05.tex.moduleQ3.8S.000001.qdimacs                                                                                 TIMEOUT                     901.72      901.11        None                False
+W5-Umbrella_tbm_25.tex.moduleQ3.7S.000003.qdimacs                                                                                 TIMEOUT                     901.73      901.10        None                False
+W5-Umbrella_tbm_26.tex.moduleQ3.7S.000003.qdimacs                                                                                 TIMEOUT                     901.72      901.13        None                False
+add20y.sat.qdimacs                                                                                                                sat                           0.70        0.75        None                False
+add4_CHOOSE.qdimacs                                                                                                               ERROR (255)                 452.53      452.23        None                False
+add5_CHOOSE.qdimacs                                                                                                               TIMEOUT                     901.63      901.11        None                False
+add5_COMPLETE.qdimacs                                                                                                             TIMEOUT                     901.68      901.07        None                False
+add5_REDUCED.qdimacs                                                                                                              TIMEOUT                     901.67      901.07        None                False
+add6_CHOOSE.qdimacs                                                                                                               TIMEOUT                     901.70      901.07        None                False
+add6_COMPLETE.qdimacs                                                                                                             TIMEOUT                     901.70      901.06        None                False
+add6_REDUCED.qdimacs                                                                                                              TIMEOUT                     901.69      901.07        None                False
+add7_CHOOSE.qdimacs                                                                                                               TIMEOUT                     901.64      901.13        None                False
+add7_COMPLETE.qdimacs                                                                                                             TIMEOUT                     901.68      901.08        None                False
+add7_REDUCED.qdimacs                                                                                                              TIMEOUT                     901.68      901.08        None                False
+adder-10-sat.qdimacs                                                                                                              sat                         521.75      521.40        None                False
+adder-12-unsat.qdimacs                                                                                                            TIMEOUT                     901.86      901.24        None                False
+amba2c7n.sat.qdimacs                                                                                                              OUT OF MEMORY                30.03       30.06        None                False
+amba2f9n.sat.qdimacs                                                                                                              sat                           9.22        9.27        None                False
+amba3b5y.sat.qdimacs                                                                                                              OUT OF MEMORY                39.44       39.48        None                False
+amba4b9y.unsat.qdimacs                                                                                                            TIMEOUT                     901.74      901.13        None                False
+arbiter-05-comp-error01-qbf-hardness-depth-8.qdimacs                                                                              TIMEOUT                     901.69      901.07        None                False
+arbiter-06-comp-error01-qbf-hardness-depth-11.qdimacs                                                                             TIMEOUT                     901.66      901.16        None                False
+arbiter-06-comp-error01-qbf-hardness-depth-15.qdimacs                                                                             TIMEOUT                     901.88      901.27        None                False
+arbiter-07-comp-error01-qbf-hardness-depth-20.qdimacs                                                                             OUT OF MEMORY                37.92       37.95        None                False
+arbiter-08-comp-error02-qbf-hardness-depth-9.qdimacs                                                                              TIMEOUT                     901.72      901.14        None                False
+arbiter-09-comp-error01-qbf-hardness-depth-15.qdimacs                                                                             OUT OF MEMORY                29.92       29.94        None                False
+arbiter-09-comp-error01-qbf-hardness-depth-21.qdimacs                                                                             OUT OF MEMORY                37.31       37.31        None                False
+arbiter-10-comp-error01-qbf-hardness-depth-22.qdimacs                                                                             OUT OF MEMORY                31.65       31.68        None                False
+arbiter-10-comp-error01-qbf-hardness-depth-23.qdimacs                                                                             OUT OF MEMORY                59.82       59.97        None                False
+arbiter-10-comp-error01-qbf-hardness-depth-24.qdimacs                                                                             OUT OF MEMORY                32.86       32.91        None                False
+audio_ddksynth_csynth2.cpp.qdimacs                                                                                                OUT OF MEMORY                40.33       40.33        None                False
+axquery_query42_1344n.qdimacs                                                                                                     unsat                       519.63      519.31        None                False
+axquery_query64_1344.qdimacs                                                                                                      sat                           0.08        0.13        None                 True
+axquery_query64_1344n.qdimacs                                                                                                     TIMEOUT                     901.69      901.10        None                False
+axquery_query71_1344.qdimacs                                                                                                      sat                           0.10        0.30        None                 True
+axquery_query71_1344n.qdimacs                                                                                                     unsat                       558.86      558.49        None                False
+b14_PR_1_50.qdimacs                                                                                                               sat                           2.43        2.46        None                 True
+b17_PR_2_50.qdimacs                                                                                                               sat                           7.32        7.36        None                 True
+b18_PR_4_2.qdimacs                                                                                                                OUT OF MEMORY                71.87       71.85        None                False
+b20_C_3_2.qdimacs                                                                                                                 TIMEOUT                     901.70      901.17        None                False
+b20_PR_7_20.qdimacs                                                                                                               sat                           3.26        3.31        None                 True
+b21_C_3_206.qdimacs                                                                                                               OUT OF MEMORY               169.50      169.45        None                False
+b21_PR_8_20.qdimacs                                                                                                               sat                           2.30        2.35        None                 True
+b22_C_2_12.qdimacs                                                                                                                TIMEOUT                     901.73      901.13        None                False
+b22_PR_8_20.qdimacs                                                                                                               sat                           5.41        5.47        None                 True
+b22_PR_9_90.qdimacs                                                                                                               OUT OF MEMORY                52.72       52.73        None                False
+beemldelec4b1_c0to127.sat.qdimacs                                                                                                 OUT OF MEMORY               159.63      159.56        None                False
+beemskbn1f1_c0to7.sat.qdimacs                                                                                                     OUT OF MEMORY                38.37       38.38        None                False
+biu.mv.xl_ao.bb-b003-p020-IPF02-c05.blif-biu.inv.prop.bb-bmc.conf01.01X-QBF.BB1-Zi.BB2-01X.BB3-01X.with-IOC.unfold-007.qdimacs    unsat                         0.55        0.59        None                 True
+biu.mv.xl_ao.bb-b003-p020-IPF02-c05.blif-biu.inv.prop.bb-bmc.conf05.01X-QBF.BB1-Zi.BB2-01X.BB3-Zi.with-IOC.unfold-007.qdimacs     TIMEOUT                     901.73      901.10        None                False
+biu.mv.xl_ao.bb-b003-p020-IPF02-c05.blif-biu.inv.prop.bb-bmc.conf06.01X-QBF.BB1-01X.BB2-Zi.BB3-Zi.with-IOC.unfold-009.qdimacs     TIMEOUT                     901.86      901.24        None                False
+biu.mv.xl_ao.bb-b003-p020-IPF02-c05.blif-biu.inv.prop.bb-bmc.conf07.01X-QBF.BB1-Zi.BB2-Zi.BB3-Zi.with-IOC.unfold-008.qdimacs      TIMEOUT                     901.85      901.24        None                False
+biu.mv.xl_ao.bb-b003-p020-IPF02-c05.blif-biu.inv.prop.bb-bmc.with-IOC.unfold-007.qdimacs                                          OUT OF MEMORY                57.56       57.56        None                False
+biu.mv.xl_ao.bb-b003-p020-IPF02-c05.blif-biu.inv.prop.bb-bmc.with-IOC.unfold-010.qdimacs                                          OUT OF MEMORY               210.66      210.55        None                False
+biu.mv.xl_ao.bb-b003-p020-IPF03-c03.blif-biu.inv.prop.bb-bmc.conf02.01X-QBF.BB1-01X.BB2-Zi.BB3-01X.with-IOC.unfold-009.qdimacs    unsat                         0.99        1.01        None                 True
+biu.mv.xl_ao.bb-b003-p020-IPF03-c03.blif-biu.inv.prop.bb-bmc.conf07.01X-QBF.BB1-Zi.BB2-Zi.BB3-Zi.with-IOC.unfold-008.qdimacs      TIMEOUT                     901.90      901.29        None                False
+biu.mv.xl_ao.bb-b003-p020-IPF03-c03.blif-biu.inv.prop.bb-bmc.conf07.01X-QBF.BB1-Zi.BB2-Zi.BB3-Zi.with-IOC.unfold-009.qdimacs      OUT OF MEMORY               137.26      137.23        None                False
+biu.mv.xl_ao.bb-b003-p020-IPF03-c03.blif-biu.inv.prop.bb-bmc.with-IOC.unfold-009.qdimacs                                          TIMEOUT                     901.77      901.27        None                False
+biu.mv.xl_ao.bb-b003-p020-MIF02-c01.blif-biu.inv.prop.bb-bmc.conf06.01X-QBF.BB1-01X.BB2-Zi.BB3-Zi.with-IOC.unfold-010.qdimacs     unsat                        17.18       17.21        None                 True
+biu.mv.xl_ao.bb-b003-p020-MIF02-c01.blif-biu.inv.prop.bb-bmc.conf07.01X-QBF.BB1-Zi.BB2-Zi.BB3-Zi.with-IOC.unfold-009.qdimacs      OUT OF MEMORY               111.81      111.79        None                False
+biu.mv.xl_ao.bb-b003-p020-MIF02-c01.blif-biu.inv.prop.bb-bmc.with-IOC.unfold-009.qdimacs                                          TIMEOUT                     901.83      901.26        None                False
+biu.mv.xl_ao.bb-b003-p020-MIF04-c05.blif-biu.inv.prop.bb-bmc.conf01.01X-QBF.BB1-Zi.BB2-01X.BB3-01X.with-IOC.unfold-010.qdimacs    unsat                         1.11        1.15        None                 True
+biu.mv.xl_ao.bb-b003-p020-MIF04-c05.blif-biu.inv.prop.bb-bmc.conf03.01X-QBF.BB1-Zi.BB2-Zi.BB3-01X.with-IOC.unfold-010.qdimacs     unsat                         3.04        3.13        None                 True
+biu.mv.xl_ao.bb-b003-p020-MIF04-c05.blif-biu.inv.prop.bb-bmc.conf04.01X-QBF.BB1-01X.BB2-01X.BB3-Zi.with-IOC.unfold-009.qdimacs    unsat                         1.07        1.13        None                 True
+biu.mv.xl_ao.bb-b003-p020-MIF04-c05.blif-biu.inv.prop.bb-bmc.conf05.01X-QBF.BB1-Zi.BB2-01X.BB3-Zi.with-IOC.unfold-006.qdimacs     unsat                         0.77        0.83        None                 True
+biu.mv.xl_ao.bb-b003-p020-MIF04-c05.blif-biu.inv.prop.bb-bmc.conf06.01X-QBF.BB1-01X.BB2-Zi.BB3-Zi.with-IOC.unfold-009.qdimacs     unsat                         2.82        2.88        None                 True
+biu.mv.xl_ao.bb-b003-p020-MIF04-c05.blif-biu.inv.prop.bb-bmc.conf07.01X-QBF.BB1-Zi.BB2-Zi.BB3-Zi.with-IOC.unfold-010.qdimacs      unsat                         6.30        6.35        None                 True
+biu.mv.xl_ao.bb-b003-p020-MIF04-c05.blif-biu.inv.prop.bb-bmc.with-IOC.unfold-008.qdimacs                                          unsat                         1.61        1.66        None                 True
+bobsmfpu.qdimacs                                                                                                                  OUT OF MEMORY                43.33       43.35        None                False
+bobtuint31neg.qdimacs                                                                                                             sat                          74.50       74.51        None                False
+bs128n.sat.qdimacs                                                                                                                sat                           3.25        3.29        None                 True
+bs128y.sat.qdimacs                                                                                                                sat                           3.28        3.42        None                 True
+c1_BMC_p1_k2048.qdimacs                                                                                                           ERROR (255)                   0.01        0.16        None                False
+c1_BMC_p2_k1024.qdimacs                                                                                                           ERROR (255)                   0.02        0.18        None                False
+c1_BMC_p2_k2048.qdimacs                                                                                                           ERROR (255)                   0.02        0.06        None                False
+c1_Debug_s3_f1_e1_v1.qdimacs                                                                                                      TIMEOUT                     901.75      901.14        None                False
+c1_Debug_s3_f2_e1_v1.qdimacs                                                                                                      sat                         863.04      862.46        None                 True
+c1_Debug_s3_f2_e1_v2.qdimacs                                                                                                      sat                         191.58      191.50        None                 True
+c1_Debug_s5_f1_e1_v2.qdimacs                                                                                                      sat                         649.85      649.42        None                 True
+c2_BMC_p1_k2048.qdimacs                                                                                                           OUT OF MEMORY               869.30      868.73        None                False
+c2_Debug_s3_f1_e1_v2.qdimacs                                                                                                      TIMEOUT                     901.66      901.14        None                False
+c2_Debug_s3_f2_e1_v3.qdimacs                                                                                                      OUT OF MEMORY               612.12      611.74        None                False
+c3_BMC_p1_k256.qdimacs                                                                                                            sat                         132.66      132.60        None                 True
+c4_Debug_s3_f1_e2_v3.qdimacs                                                                                                      TIMEOUT                     901.69      901.10        None                False
+c4_Debug_s3_f2_e2_v2.qdimacs                                                                                                      sat                         152.76      152.68        None                 True
+c4_Debug_s3_f2_e2_v3.qdimacs                                                                                                      sat                         170.35      170.27        None                 True
+c4_Debug_s5_f2_e2_v1.qdimacs                                                                                                      TIMEOUT                     901.71      901.10        None                False
+c5_BMC_p1_k32.qdimacs                                                                                                             sat                          36.27       36.28        None                 True
+c6_BMC_p1_k1024.qdimacs                                                                                                           TIMEOUT                     901.92      901.32        None                False
+c6_BMC_p1_k2048.qdimacs                                                                                                           TIMEOUT                     901.78      901.18        None                False
+c6_BMC_p1_k512.qdimacs                                                                                                            sat                          48.08       48.11        None                 True
+c6_BMC_p2_k1024.qdimacs                                                                                                           unsat                        32.29       32.31        None                 True
+cache-coherence-2-fixpoint-2.qdimacs                                                                                              unsat                         3.43        3.49        None                 True
+cache-coherence-2-fixpoint-4.qdimacs                                                                                              OUT OF MEMORY                61.31       61.31        None                False
+cache-coherence-2-fixpoint-5.qdimacs                                                                                              OUT OF MEMORY                89.68       89.66        None                False
+cache-coherence-2-fixpoint-6.qdimacs                                                                                              OUT OF MEMORY               116.44      116.41        None                False
+cache-coherence-3-fixpoint-1.qdimacs                                                                                              unsat                         1.01        1.07        None                 True
+cache-coherence-3-fixpoint-2.qdimacs                                                                                              OUT OF MEMORY                31.77       31.80        None                False
+cache-coherence-3-fixpoint-3.qdimacs                                                                                              OUT OF MEMORY                69.36       69.36        None                False
+ceiling128.qdimacs                                                                                                                sat                          79.28       79.27        None                False
+ceiling256.qdimacs                                                                                                                sat                         701.56      701.18        None                False
+cmu.dme1.B-f3.qdimacs                                                                                                             TIMEOUT                     901.66      901.10        None                False
+cmu.dme2.B-f3.qdimacs                                                                                                             sat                         616.26      615.85        None                False
+cmu.gigamax.B-d4.qdimacs                                                                                                          OUT OF MEMORY                19.49       19.55        None                False
+cycle_sched_12_2_1.sat.qdimacs                                                                                                    OUT OF MEMORY                28.51       28.55        None                False
+cycle_sched_2_10_1.sat.qdimacs                                                                                                    OUT OF MEMORY                55.59       55.61        None                False
+cycle_sched_4_4_2.sat.qdimacs                                                                                                     OUT OF MEMORY                28.95       28.99        None                False
+cycle_sched_4_7_1.sat.qdimacs                                                                                                     OUT OF MEMORY               126.33      126.27        None                False
+cycle_sched_4_7_1.unsat.qdimacs                                                                                                   TIMEOUT                     901.67      901.07        None                False
+cycle_sched_6_6_2.sat.qdimacs                                                                                                     OUT OF MEMORY                31.30       31.34        None                False
+cycle_sched_6_7_1.sat.qdimacs                                                                                                     OUT OF MEMORY                32.21       32.27        None                False
+decomposition128.qdimacs                                                                                                          sat                           0.05        0.11        None                 True
+decomposition256.qdimacs                                                                                                          sat                           0.13        0.24        None                 True
+depots03_9.qdimacs                                                                                                                unsat                        22.93       22.99        None                 True
+depots07_8.qdimacs                                                                                                                unsat                        18.34       18.37        None                 True
+depots08_6.qdimacs                                                                                                                unsat                        52.69       52.70        None                 True
+depots09_11.qdimacs                                                                                                               unsat                       203.11      203.02        None                 True
+depots09_12.qdimacs                                                                                                               unsat                       205.56      205.44        None                 True
+depots09_13.qdimacs                                                                                                               unsat                       176.42      176.33        None                 True
+depots10_8.qdimacs                                                                                                                unsat                        76.11       76.11        None                 True
+depots13_9.qdimacs                                                                                                                sat                          50.35       50.35        None                 True
+depots16_5.qdimacs                                                                                                                unsat                        31.45       31.68        None                 True
+depots16_7.qdimacs                                                                                                                unsat                        79.49       79.50        None                 True
+driver_a10y.sat.qdimacs                                                                                                           OUT OF MEMORY                13.85       13.90        None                False
+driver_a9n.sat.qdimacs                                                                                                            sat                          69.15       69.15        None                False
+driver_b8n.sat.qdimacs                                                                                                            sat                          79.36       79.35        None                False
+driver_c9n.sat.qdimacs                                                                                                            sat                           0.31        0.36        None                 True
+driver_c9y.sat.qdimacs                                                                                                            sat                           0.23        0.27        None                 True
+driver_d9y.sat.qdimacs                                                                                                            sat                           1.47        1.50        None                False
+driverlog10_6.qdimacs                                                                                                             unsat                         4.16        4.21        None                 True
+driverlog10_7.qdimacs                                                                                                             sat                           3.70        3.74        None                 True
+driverlog11_8.qdimacs                                                                                                             unsat                         5.09        5.15        None                 True
+driverlog11_9.qdimacs                                                                                                             sat                          13.94       13.96        None                 True
+driverlog12_8.qdimacs                                                                                                             unsat                         6.19        6.25        None                 True
+driverlog12_9.qdimacs                                                                                                             unsat                        16.39       16.43        None                 True
+driverlog13_7.qdimacs                                                                                                             unsat                         5.63        5.69        None                 True
+driverlog13_8.qdimacs                                                                                                             unsat                         7.34        7.37        None                 True
+driverlog14_8.qdimacs                                                                                                             unsat                         8.30        8.35        None                 True
+driverlog14_9.qdimacs                                                                                                             TIMEOUT                     901.60      901.11        None                False
+dungeon_i25-m12-u5-v0.pddl_planlen=197.qdimacs                                                                                    unsat                        34.17       34.19        None                 True
+dungeon_i25-m12-u5-v0.pddl_planlen=198.qdimacs                                                                                    unsat                        36.22       36.25        None                 True
+dungeon_i25-m12-u5-v0.pddl_planlen=199.qdimacs                                                                                    unsat                        35.22       35.23        None                 True
+dungeon_i25-m12-u5-v0.pddl_planlen=200.qdimacs                                                                                    unsat                        35.16       35.19        None                 True
+dungeon_i25-m12-u5-v0.pddl_planlen=59.qdimacs                                                                                     unsat                        12.02       12.04        None                 True
+dungeon_i25-m12-u5-v0.pddl_planlen=65.qdimacs                                                                                     unsat                        12.88       12.91        None                 True
+dungeon_i25-m12-u5-v0.pddl_planlen=81.qdimacs                                                                                     unsat                        15.97       16.01        None                 True
+dungeon_i25-m12-u5-v0.pddl_planlen=86.qdimacs                                                                                     unsat                        16.65       16.76        None                 True
+dungeon_i25-m12-u5-v0.pddl_planlen=92.qdimacs                                                                                     unsat                        16.61       16.65        None                 True
+dungeon_i25-m12-u5-v0.pddl_planlen=98.qdimacs                                                                                     unsat                        19.20       19.24        None                 True
+eequery_query42_1344.qdimacs                                                                                                      TIMEOUT                     901.69      901.06        None                False
+eequery_query42_1344n.qdimacs                                                                                                     TIMEOUT                     901.69      901.05        None                False
+eequery_query64_1344.qdimacs                                                                                                      TIMEOUT                     901.68      901.07        None                False
+eequery_query64_1344n.qdimacs                                                                                                     TIMEOUT                     901.69      901.07        None                False
+eequery_query71_1344n.qdimacs                                                                                                     TIMEOUT                     901.69      901.08        None                False
+eijk.S1196.S-f2.qdimacs                                                                                                           unsat                        10.96       11.01        None                False
+eijk.bs1512.S-f4.qdimacs                                                                                                          OUT OF MEMORY                43.76       43.79        None                False
+eijk.bs3330.S-d3.qdimacs                                                                                                          sat                           0.37        0.43        None                 True
+eijk.bs4863.S-d4.qdimacs                                                                                                          OUT OF MEMORY                57.43       57.43        None                False
+eijkbs3330.qdimacs                                                                                                                TIMEOUT                     901.74      901.12        None                False
+eijkbs4863.qdimacs                                                                                                                OUT OF MEMORY                23.57       23.61        None                False
+equalization128.qdimacs                                                                                                           sat                           0.09        0.14        None                 True
+equalization32.qdimacs                                                                                                            sat                           0.03        0.07        None                 True
+ethernet-fixpoint-1.qdimacs                                                                                                       OUT OF MEMORY               408.39      408.17        None                False
+ethernet-fixpoint-2.qdimacs                                                                                                       OUT OF MEMORY                36.59       36.60        None                False
+ethernet-fixpoint-3.qdimacs                                                                                                       OUT OF MEMORY                64.00       63.99        None                False
+ethernet-fixpoint-4.qdimacs                                                                                                       OUT OF MEMORY                97.73       97.74        None                False
+ev-pr-6x6-11-5-0-1-2-s.qdimacs                                                                                                    OUT OF MEMORY               160.25      160.19        None                False
+ev-pr-6x6-13-5-0-1-2-s.qdimacs                                                                                                    OUT OF MEMORY               178.52      178.43        None                False
+ev-pr-6x6-15-5-0-1-2-s.qdimacs                                                                                                    OUT OF MEMORY               231.76      231.66        None                False
+ev-pr-6x6-17-5-0-1-2-lg.qdimacs                                                                                                   OUT OF MEMORY               169.19      169.11        None                False
+ev-pr-6x6-17-5-0-1-2-s.qdimacs                                                                                                    OUT OF MEMORY               236.89      236.76        None                False
+ev-pr-6x6-19-5-0-1-2-lg.qdimacs                                                                                                   OUT OF MEMORY               164.96      164.89        None                False
+ev-pr-6x6-19-5-0-1-2-s.qdimacs                                                                                                    OUT OF MEMORY               271.86      271.73        None                False
+ev-pr-8x8-15-7-0-1-2-lg.qdimacs                                                                                                   OUT OF MEMORY               280.18      280.01        None                False
+ev-pr-8x8-17-7-0-1-2-lg.qdimacs                                                                                                   OUT OF MEMORY               243.34      243.23        None                False
+ev-pr-8x8-19-7-0-1-2-lg.qdimacs                                                                                                   OUT OF MEMORY               246.13      245.99        None                False
+exquery_query42_1344n.qdimacs                                                                                                     unsat                       620.95      620.55        None                False
+exquery_query64_1344.qdimacs                                                                                                      sat                           0.14        0.18        None                 True
+exquery_query64_1344n.qdimacs                                                                                                     TIMEOUT                     901.60      901.09        None                False
+exquery_query71_1344.qdimacs                                                                                                      sat                           0.05        0.10        None                 True
+exquery_query71_1344n.qdimacs                                                                                                     unsat                       406.17      405.92        None                False
+falsequ_query60_1344n.qdimacs                                                                                                     unsat                         0.01        0.06        None                 True
+falsequ_query64_1344.qdimacs                                                                                                      sat                           0.01        0.06        None                 True
+falsequ_query64_1344n.qdimacs                                                                                                     unsat                         0.02        0.06        None                 True
+falsequ_query71_1344.qdimacs                                                                                                      sat                           0.02        0.05        None                 True
+falsequ_query71_1344n.qdimacs                                                                                                     unsat                         0.01        0.05        None                 True
+filesys_fastfat_cachesup.c.qdimacs                                                                                                OUT OF MEMORY                49.91       49.93        None                False
+filesys_smbmrx_cvsndrcv.c.qdimacs                                                                                                 unsat                        11.94       11.98        None                 True
+filesys_smbmrx_midatlas.c.qdimacs                                                                                                 OUT OF MEMORY                33.24       33.27        None                False
+floor128.qdimacs                                                                                                                  sat                           0.03        0.07        None                 True
+floor256.qdimacs                                                                                                                  sat                           0.03        0.09        None                 True
+fpu-01Xh-error02-nonuniform-depth-18.qdimacs                                                                                      unsat                         3.34        3.39        None                 True
+fpu-01Xh-error02-nonuniform-depth-27.qdimacs                                                                                      sat                         723.21      722.71        None                 True
+fpu-01Xh-error02-uniform-depth-24.qdimacs                                                                                         unsat                         4.34        4.39        None                 True
+fpu-10Xh-correct04-nonuniform-depth-14.qdimacs                                                                                    unsat                         2.67        2.71        None                 True
+fpu-10Xh-correct04-nonuniform-depth-28.qdimacs                                                                                    sat                         748.74      748.25        None                 True
+fpu-10Xh-correct04-uniform-depth-18.qdimacs                                                                                       unsat                         3.43        3.47        None                 True
+fpu-10Xh-correct04-uniform-depth-28.qdimacs                                                                                       sat                         730.07      729.58        None                 True
+fpu-10Xh-error01-nonuniform-depth-27.qdimacs                                                                                      sat                         718.17      717.71        None                 True
+fpu-10Xh-error01-uniform-depth-20.qdimacs                                                                                         unsat                         3.71        3.75        None                 True
+fpu-10Xh-error01-uniform-depth-25.qdimacs                                                                                         unsat                         4.55        4.60        None                 True
+freecell01_6.qdimacs                                                                                                              sat                           9.60        9.63        None                 True
+freecell02_4.qdimacs                                                                                                              unsat                        42.95       42.95        None                 True
+freecell02_5.qdimacs                                                                                                              unsat                        43.93       43.93        None                 True
+freecell02_6.qdimacs                                                                                                              unsat                        72.18       72.17        None                 True
+freecell03_5.qdimacs                                                                                                              unsat                       131.23      131.16        None                 True
+freecell03_6.qdimacs                                                                                                              unsat                       129.62      129.58        None                 True
+freecell03_7.qdimacs                                                                                                              sat                         181.84      181.75        None                 True
+freecell04_7.qdimacs                                                                                                              unsat                       625.12      624.73        None                 True
+freecell04_8.qdimacs                                                                                                              unsat                       620.08      619.74        None                 True
+freecell04_9.qdimacs                                                                                                              unsat                       439.86      439.61        None                 True
+genbuf10b4n.unsat.qdimacs                                                                                                         OUT OF MEMORY                59.99       59.99        None                False
+genbuf9b4n.unsat.qdimacs                                                                                                          TIMEOUT                     901.89      901.27        None                False
+gttt_1_1_000111_4x4_torus_b.qdimacs                                                                                               TIMEOUT                     901.75      901.15        None                False
+gttt_1_1_000111_4x4_torus_w.qdimacs                                                                                               TIMEOUT                     901.73      901.13        None                False
+gttt_1_1_00101121_4x4_torus_w.qdimacs                                                                                             TIMEOUT                     901.76      901.13        None                False
+gttt_2_1_00011020_4x4_b.qdimacs                                                                                                   OUT OF MEMORY               165.30      165.21        None                False
+gttt_2_1_00102030_4x4_torus_b.qdimacs                                                                                             TIMEOUT                     901.63      901.10        None                False
+gttt_2_1_001020_4x4_torus_w.qdimacs                                                                                               TIMEOUT                     901.77      901.16        None                False
+gttt_2_2_000111_4x4_b.qdimacs                                                                                                     OUT OF MEMORY               187.00      186.89        None                False
+gttt_2_2_000111_4x4_torus_b.qdimacs                                                                                               OUT OF MEMORY               178.28      178.20        None                False
+gttt_2_2_000111_4x4_torus_w.qdimacs                                                                                               OUT OF MEMORY               118.00      117.96        None                False
+gttt_2_2_000111_4x4_w.qdimacs                                                                                                     OUT OF MEMORY               105.52      105.48        None                False
+incrementer-enc02-uniform-depth-58.qdimacs                                                                                        unsat                         9.99       10.01        None                 True
+incrementer-enc02-uniform-depth-63.qdimacs                                                                                        unsat                        12.29       12.36        None                 True
+incrementer-enc06-nonuniform-depth-33.qdimacs                                                                                     OUT OF MEMORY                70.84       70.84        None                False
+incrementer-enc06-uniform-depth-24.qdimacs                                                                                        unsat                         3.50        3.55        None                 True
+incrementer-enc07-nonuniform-depth-25.qdimacs                                                                                     unsat                         4.13        4.19        None                 True
+incrementer-enc07-uniform-depth-25.qdimacs                                                                                        unsat                         4.31        4.35        None                 True
+incrementer-enc08-nonuniform-depth-32.qdimacs                                                                                     unsat                         4.17        4.22        None                 True
+incrementer-enc08-uniform-depth-33.qdimacs                                                                                        OUT OF MEMORY                41.81       41.83        None                False
+incrementer-enc09-nonuniform-depth-15.qdimacs                                                                                     unsat                         1.54        1.61        None                 True
+incrementer-enc09-uniform-depth-17.qdimacs                                                                                        OUT OF MEMORY                32.32       32.35        None                False
+input_mouser_detect.c.qdimacs                                                                                                     OUT OF MEMORY                41.30       41.34        None                False
+input_pnpi8042_moudep.c.qdimacs                                                                                                   OUT OF MEMORY                57.85       57.85        None                False
+intermediate128.qdimacs                                                                                                           sat                         311.45      311.27        None                False
+intermediate256.qdimacs                                                                                                           TIMEOUT                     901.81      901.21        None                False
+irst.dme6.B-d4.qdimacs                                                                                                            sat                           0.17        0.22        None                 True
+itc-b13-fixpoint-10.qdimacs                                                                                                       sat                          18.10       18.14        None                 True
+itc-b13-fixpoint-2.qdimacs                                                                                                        unsat                         0.25        0.30        None                 True
+itc-b13-fixpoint-3.qdimacs                                                                                                        sat                           0.65        0.68        None                 True
+itc-b13-fixpoint-4.qdimacs                                                                                                        sat                           1.23        1.28        None                 True
+itc-b13-fixpoint-5.qdimacs                                                                                                        sat                           2.19        2.23        None                 True
+itc-b13-fixpoint-6.qdimacs                                                                                                        sat                           2.95        3.00        None                 True
+itc-b13-fixpoint-7.qdimacs                                                                                                        sat                           4.00        4.05        None                 True
+itc-b13-fixpoint-8.qdimacs                                                                                                        sat                           5.44        5.50        None                 True
+itc-b13-fixpoint-9.qdimacs                                                                                                        sat                          16.07       16.14        None                 True
+k_branch_n-11.qdimacs                                                                                                             sat                          12.34       12.37        None                 True
+k_branch_n-12.qdimacs                                                                                                             sat                          19.94       19.97        None                 True
+k_branch_n-17.qdimacs                                                                                                             TIMEOUT                     901.80      901.17        None                False
+k_branch_n-20.qdimacs                                                                                                             TIMEOUT                     901.83      901.22        None                False
+k_branch_n-21.qdimacs                                                                                                             TIMEOUT                     901.74      901.21        None                False
+k_branch_p-14.qdimacs                                                                                                             unsat                        20.47       20.51        None                 True
+k_branch_p-16.qdimacs                                                                                                             unsat                        35.81       35.82        None                 True
+k_branch_p-18.qdimacs                                                                                                             TIMEOUT                     901.81      901.19        None                False
+k_branch_p-19.qdimacs                                                                                                             TIMEOUT                     901.82      901.19        None                False
+k_branch_p-21.qdimacs                                                                                                             TIMEOUT                     901.83      901.25        None                False
+k_ph_n-11.qdimacs                                                                                                                 sat                           0.24        0.29        None                 True
+k_ph_n-15.qdimacs                                                                                                                 sat                           1.33        1.39        None                 True
+k_ph_n-18.qdimacs                                                                                                                 sat                           2.81        2.86        None                 True
+k_ph_n-19.qdimacs                                                                                                                 sat                           3.90        3.93        None                 True
+k_ph_n-20.qdimacs                                                                                                                 sat                           5.57        5.61        None                 True
+k_ph_p-11.qdimacs                                                                                                                 unsat                       467.19      466.91        None                False
+k_ph_p-15.qdimacs                                                                                                                 OUT OF MEMORY               253.10      252.95        None                False
+k_ph_p-18.qdimacs                                                                                                                 TIMEOUT                     901.60      901.09        None                False
+k_ph_p-19.qdimacs                                                                                                                 TIMEOUT                     901.69      901.08        None                False
+k_ph_p-20.qdimacs                                                                                                                 TIMEOUT                     901.69      901.09        None                False
+ken.flash^05.C-d3.qdimacs                                                                                                         OUT OF MEMORY                35.78       35.79        None                False
+ken.flash^08.C-d4.qdimacs                                                                                                         OUT OF MEMORY                38.79       38.81        None                False
+ken.flash^09.C-d4.qdimacs                                                                                                         OUT OF MEMORY                74.89       74.89        None                False
+kenflashp04.qdimacs                                                                                                               sat                           0.05        0.09        None                 True
+kenflashp12.qdimacs                                                                                                               sat                           4.49        4.55        None                False
+kmdf_osrusbfx2_exe_dump.c.qdimacs                                                                                                 OUT OF MEMORY                62.15       62.15        None                False
+kmdf_pcidrv_sys_hw_physet.c.qdimacs                                                                                               OUT OF MEMORY                25.34       25.37        None                False
+load_2c_comp_comp7_REAL.sat.qdimacs                                                                                               OUT OF MEMORY                20.64       20.68        None                False
+load_3c_comp_comp7_REAL.unsat.qdimacs                                                                                             unsat                         5.71        5.75        None                 True
+load_full_4_comp3_REAL.unsat.qdimacs                                                                                              unsat                       127.63      127.59        None                 True
+ltl2dba_C2-6_comp3_REAL.sat.qdimacs                                                                                               sat                         114.61      114.59        None                False
+ltl2dba_C2-8_comp4_REAL.sat.qdimacs                                                                                               OUT OF MEMORY                13.82       13.87        None                False
+ltl2dpa_C26_comp2_REAL.sat.qdimacs                                                                                                OUT OF MEMORY                16.83       16.89        None                False
+mult9.sat.qdimacs                                                                                                                 sat                           0.07        0.09        None                 True
+mult_bool_matrix_10_9_11.sat.qdimacs                                                                                              sat                           0.31        0.38        None                 True
+mult_bool_matrix_10_9_11.unsat.qdimacs                                                                                            OUT OF MEMORY                38.36       38.38        None                False
+mult_bool_matrix_12_13_11.sat.qdimacs                                                                                             sat                           0.60        0.65        None                 True
+mult_bool_matrix_17_17_17.sat.qdimacs                                                                                             sat                           2.20        2.24        None                 True
+mult_bool_matrix_18_18_18.sat.qdimacs                                                                                             sat                           2.67        2.71        None                 True
+mult_bool_matrix_dyn_9_5.sat.qdimacs                                                                                              TIMEOUT                     901.68      901.07        None                False
+neclaftp2002.qdimacs                                                                                                              OUT OF MEMORY                52.12       52.14        None                False
+neclaftp4001.qdimacs                                                                                                              OUT OF MEMORY                21.03       21.05        None                False
+network_irda_miniport_nscirda_comm.c.qdimacs                                                                                      OUT OF MEMORY                60.97       60.97        None                False
+network_ndis_rtlnwifi_hw_hw_ccmp.c.qdimacs                                                                                        OUT OF MEMORY                33.87       33.88        None                False
+network_trans_sys_notify.c.qdimacs                                                                                                unsat                        15.96       15.99        None                 True
+nreachq_query11_1344n.qdimacs                                                                                                     TIMEOUT                     901.87      901.26        None                False
+nreachq_query54_1344.qdimacs                                                                                                      TIMEOUT                     901.79      901.16        None                False
+nreachq_query54_1344n.qdimacs                                                                                                     TIMEOUT                     901.82      901.28        None                False
+nreachq_query71_1344.qdimacs                                                                                                      TIMEOUT                     901.78      901.18        None                False
+nreachq_query71_1344n.qdimacs                                                                                                     TIMEOUT                     901.91      901.30        None                False
+ntrivil_query42_1344n.qdimacs                                                                                                     TIMEOUT                     901.70      901.08        None                False
+ntrivil_query64_1344.qdimacs                                                                                                      sat                           0.75        0.78        None                 True
+ntrivil_query64_1344n.qdimacs                                                                                                     TIMEOUT                     901.71      901.10        None                False
+ntrivil_query71_1344.qdimacs                                                                                                      sat                           0.41        0.46        None                 True
+ntrivil_query71_1344n.qdimacs                                                                                                     TIMEOUT                     901.69      901.08        None                False
+nusmv.reactor^3.C-d4.qdimacs                                                                                                      sat                          15.72       15.75        None                False
+nusmv.tcas-t^1.B-d2.qdimacs                                                                                                       sat                           0.96        1.02        None                 True
+nusmv.tcas^2.B-f2.qdimacs                                                                                                         OUT OF MEMORY                37.24       37.27        None                False
+nusmv.tcas^3.B-f2.qdimacs                                                                                                         OUT OF MEMORY                40.10       40.14        None                False
+nusmv.tcas^4.B-f3.qdimacs                                                                                                         OUT OF MEMORY                64.08       64.08        None                False
+nusmv.tcas^6.B-f4.qdimacs                                                                                                         OUT OF MEMORY                67.44       67.43        None                False
+nxquery_query42_1344n.qdimacs                                                                                                     unsat                       246.32      246.23        None                False
+nxquery_query50_1344n.qdimacs                                                                                                     sat                          32.28       32.31        None                False
+nxquery_query64_1344n.qdimacs                                                                                                     TIMEOUT                     901.70      901.10        None                False
+nxquery_query71_1344.qdimacs                                                                                                      sat                           0.09        0.14        None                 True
+nxquery_query71_1344n.qdimacs                                                                                                     unsat                       319.65      319.48        None                False
+p10-10.pddl_planlen=19.qdimacs                                                                                                    sat                          34.82       34.86        None                 True
+p10-10.pddl_planlen=20.qdimacs                                                                                                    sat                          13.27       13.30        None                 True
+p10-5.pddl_planlen=24.qdimacs                                                                                                     sat                           1.24        1.28        None                 True
+p10-5.pddl_planlen=25.qdimacs                                                                                                     sat                           5.70        5.75        None                 True
+p20-1.pddl_planlen=48.qdimacs                                                                                                     sat                          48.37       48.38        None                 True
+p20-1.pddl_planlen=49.qdimacs                                                                                                     TIMEOUT                     901.60      901.08        None                False
+p20-10.pddl_planlen=39.qdimacs                                                                                                    sat                         419.52      419.24        None                 True
+p20-10.pddl_planlen=40.qdimacs                                                                                                    sat                         384.17      383.94        None                 True
+p20-20.pddl_planlen=29.qdimacs                                                                                                    sat                         605.51      605.12        None                 True
+p20-20.pddl_planlen=30.qdimacs                                                                                                    TIMEOUT                     901.89      901.28        None                False
+pdtpmsmiim.qdimacs                                                                                                                OUT OF MEMORY                20.39       20.42        None                False
+pdtpmsrotate32.qdimacs                                                                                                            sat                          71.06       71.05        None                False
+pi-bus-fixpoint-1.qdimacs                                                                                                         OUT OF MEMORY                66.77       66.76        None                False
+pi-bus-fixpoint-2.qdimacs                                                                                                         OUT OF MEMORY               156.77      156.70        None                False
+pi-bus-fixpoint-3.qdimacs                                                                                                         OUT OF MEMORY               224.48      224.35        None                False
+pipesnotankage14_10.qdimacs                                                                                                       unsat                        58.26       58.28        None                 True
+pipesnotankage15_10.qdimacs                                                                                                       unsat                        54.95       54.99        None                 True
+pipesnotankage16_10.qdimacs                                                                                                       unsat                        55.68       55.67        None                 True
+pipesnotankage17_5.qdimacs                                                                                                        unsat                        73.72       73.72        None                 True
+pipesnotankage17_6.qdimacs                                                                                                        unsat                        75.40       75.39        None                 True
+pipesnotankage17_7.qdimacs                                                                                                        unsat                        75.10       75.08        None                 True
+pipesnotankage18_7.qdimacs                                                                                                        unsat                       159.98      159.91        None                 True
+pipesnotankage18_8.qdimacs                                                                                                        unsat                       163.16      163.07        None                 True
+pipesnotankage19_7.qdimacs                                                                                                        unsat                       204.61      204.51        None                 True
+pipesnotankage19_9.qdimacs                                                                                                        unsat                       261.22      261.11        None                 True
+query64_query11_1344n.qdimacs                                                                                                     TIMEOUT                     901.59      901.07        None                False
+query64_query42_1344n.qdimacs                                                                                                     TIMEOUT                     901.70      901.10        None                False
+query71_query31_1344n.qdimacs                                                                                                     TIMEOUT                     901.72      901.10        None                False
+query71_query34_1344n.qdimacs                                                                                                     TIMEOUT                     901.74      901.13        None                False
+query71_query36_1344n.qdimacs                                                                                                     TIMEOUT                     901.72      901.11        None                False
+rankfunc18_unsigned_64.qdimacs                                                                                                    sat                           0.17        0.20        None                 True
+rankfunc19_signed_64.qdimacs                                                                                                      sat                           0.67        0.73        None                 True
+rankfunc19_unsigned_64.qdimacs                                                                                                    sat                           0.65        0.70        None                 True
+rankfunc21_signed_64.qdimacs                                                                                                      sat                           0.21        0.27        None                 True
+rankfunc21_unsigned_64.qdimacs                                                                                                    sat                           0.22        0.28        None                 True
+rankfunc30_signed_64.qdimacs                                                                                                      sat                           0.30        0.36        None                 True
+rankfunc30_unsigned_64.qdimacs                                                                                                    sat                           0.29        0.35        None                 True
+rankfunc3_signed_64.qdimacs                                                                                                       sat                           0.27        0.31        None                 True
+rankfunc3_unsigned_64.qdimacs                                                                                                     sat                           0.27        0.33        None                 True
+rankfunc42_signed_64.qdimacs                                                                                                      sat                           0.15        0.20        None                 True
+reachqu_query60_1344.qdimacs                                                                                                      TIMEOUT                     901.79      901.23        None                False
+reachqu_query60_1344n.qdimacs                                                                                                     OUT OF MEMORY                14.26       14.30        None                False
+reachqu_query64_1344.qdimacs                                                                                                      TIMEOUT                     901.70      901.19        None                False
+reachqu_query64_1344n.qdimacs                                                                                                     OUT OF MEMORY                15.18       15.24        None                False
+reachqu_query71_1344.qdimacs                                                                                                      TIMEOUT                     901.78      901.16        None                False
+s01423_PR_4_75.qdimacs                                                                                                            unsat                         0.03        0.07        None                 True
+s01423_PR_4_90.qdimacs                                                                                                            unsat                         0.03        0.07        None                 True
+s05378_PR_5_2.qdimacs                                                                                                             sat                           0.60        0.65        None                 True
+s05378_PR_5_20.qdimacs                                                                                                            sat                           0.71        0.76        None                 True
+s09234_PR_7_2.qdimacs                                                                                                             sat                           0.55        0.58        None                 True
+s09234_PR_7_20.qdimacs                                                                                                            sat                           0.73        0.78        None                 True
+s1269_d10_s.qdimacs                                                                                                               OUT OF MEMORY               143.64      143.59        None                False
+s1269_d12_u.qdimacs                                                                                                               OUT OF MEMORY               161.92      161.85        None                False
+s1269_d13_u.qdimacs                                                                                                               OUT OF MEMORY               182.47      182.43        None                False
+s1269_d14_u.qdimacs                                                                                                               OUT OF MEMORY               151.56      151.51        None                False
+s1269_d15_u.qdimacs                                                                                                               OUT OF MEMORY               147.15      147.08        None                False
+s15850_PR_0_50.qdimacs                                                                                                            sat                           4.22        4.28        None                 True
+s15850_PR_6_10.qdimacs                                                                                                            sat                           4.94        4.99        None                 True
+s3330_d10_u.qdimacs                                                                                                               OUT OF MEMORY               243.04      242.89        None                False
+s3330_d14_u.qdimacs                                                                                                               OUT OF MEMORY               316.92      316.75        None                False
+s3330_d9_s.qdimacs                                                                                                                OUT OF MEMORY               240.56      240.44        None                False
+s38584_PR_9_5.qdimacs                                                                                                             sat                           3.38        3.42        None                 True
+s38584_PR_9_50.qdimacs                                                                                                            sat                           3.46        3.49        None                 True
+s820_d10_s.qdimacs                                                                                                                OUT OF MEMORY                46.45       46.46        None                False
+s820_d11_u.qdimacs                                                                                                                OUT OF MEMORY                55.13       55.13        None                False
+sdlx-fixpoint-10.qdimacs                                                                                                          OUT OF MEMORY                65.21       65.21        None                False
+sdlx-fixpoint-3.qdimacs                                                                                                           OUT OF MEMORY                25.96       25.99        None                False
+sdlx-fixpoint-4.qdimacs                                                                                                           OUT OF MEMORY                32.45       32.46        None                False
+sdlx-fixpoint-5.qdimacs                                                                                                           OUT OF MEMORY                38.12       38.14        None                False
+sdlx-fixpoint-6.qdimacs                                                                                                           OUT OF MEMORY                43.83       43.85        None                False
+sdlx-fixpoint-7.qdimacs                                                                                                           OUT OF MEMORY                50.09       50.11        None                False
+sdlx-fixpoint-8.qdimacs                                                                                                           OUT OF MEMORY                49.80       49.81        None                False
+sdlx-fixpoint-9.qdimacs                                                                                                           OUT OF MEMORY                54.89       54.91        None                False
+small-pipeline-fixpoint-1.qdimacs                                                                                                 OUT OF MEMORY                27.92       27.93        None                False
+small-pipeline-fixpoint-2.qdimacs                                                                                                 OUT OF MEMORY                25.08       25.11        None                False
+small-pipeline-fixpoint-3.qdimacs                                                                                                 OUT OF MEMORY                35.88       35.90        None                False
+small-seq-fixpoint-10.qdimacs                                                                                                     OUT OF MEMORY               108.23      108.19        None                False
+small-seq-fixpoint-3.qdimacs                                                                                                      unsat                        15.77       15.80        None                 True
+small-seq-fixpoint-5.qdimacs                                                                                                      OUT OF MEMORY                73.75       73.76        None                False
+small-seq-fixpoint-7.qdimacs                                                                                                      OUT OF MEMORY                85.78       85.77        None                False
+small-seq-fixpoint-8.qdimacs                                                                                                      OUT OF MEMORY               121.74      121.69        None                False
+small-seq-fixpoint-9.qdimacs                                                                                                      OUT OF MEMORY               104.03      104.02        None                False
+small-swap1-fixpoint-10.qdimacs                                                                                                   sat                           1.74        1.80        None                 True
+small-swap1-fixpoint-4.qdimacs                                                                                                    sat                           0.41        0.44        None                 True
+small-swap1-fixpoint-5.qdimacs                                                                                                    sat                           1.00        1.04        None                 True
+small-swap1-fixpoint-6.qdimacs                                                                                                    sat                           0.53        0.57        None                 True
+small-swap1-fixpoint-7.qdimacs                                                                                                    sat                           1.15        1.21        None                 True
+small-swap1-fixpoint-8.qdimacs                                                                                                    sat                           1.04        1.08        None                 True
+small-swap1-fixpoint-9.qdimacs                                                                                                    sat                           2.56        2.60        None                 True
+small-synabs-fixpoint-10.qdimacs                                                                                                  unsat                         7.92        7.96        None                False
+small-synabs-fixpoint-3.qdimacs                                                                                                   unsat                         0.31        0.35        None                False
+sortnetsort10.AE.stepl.006.qdimacs                                                                                                OUT OF MEMORY               576.51      576.14        None                False
+sortnetsort10.AE.stepl.008.qdimacs                                                                                                OUT OF MEMORY               280.31      280.17        None                False
+sortnetsort10.v.stepl.005.qdimacs                                                                                                 TIMEOUT                     901.67      901.05        None                False
+sortnetsort8.v.stepl.007.qdimacs                                                                                                  sat                          19.18       19.21        None                 True
+sortnetsort9.AE.stepl.007.qdimacs                                                                                                 TIMEOUT                     901.85      901.30        None                False
+sortnetsort9.AE.stepl.008.qdimacs                                                                                                 OUT OF MEMORY               244.96      244.83        None                False
+sortnetsort9.AE.stepl.009.qdimacs                                                                                                 OUT OF MEMORY               184.50      184.44        None                False
+sortnetsort9.AE.stepl.012.qdimacs                                                                                                 OUT OF MEMORY               422.17      421.91        None                False
+sortnetsort9.v.stepl.005.qdimacs                                                                                                  TIMEOUT                     901.69      901.05        None                False
+sortnetsort9.v.stepl.007.qdimacs                                                                                                  TIMEOUT                     901.66      901.07        None                False
+stay24n.sat.qdimacs                                                                                                               sat                           1.80        1.83        None                 True
+stmt124_966_965.qdimacs                                                                                                           OUT OF MEMORY                25.17       25.19        None                False
+stmt16_818_819.qdimacs                                                                                                            OUT OF MEMORY                28.34       28.38        None                False
+stmt17_62_98.qdimacs                                                                                                              OUT OF MEMORY                32.34       32.36        None                False
+stmt17_63_82.qdimacs                                                                                                              OUT OF MEMORY                30.06       30.07        None                False
+stmt17_70_90.qdimacs                                                                                                              OUT OF MEMORY                32.35       32.39        None                False
+stmt17_70_98.qdimacs                                                                                                              OUT OF MEMORY                35.87       35.90        None                False
+stmt17_82_98.qdimacs                                                                                                              OUT OF MEMORY                37.51       37.55        None                False
+stmt17_86_98.qdimacs                                                                                                              OUT OF MEMORY                37.02       37.05        None                False
+stmt19_313_412.qdimacs                                                                                                            OUT OF MEMORY                32.94       32.97        None                False
+stmt19_64_99.qdimacs                                                                                                              OUT OF MEMORY                35.16       35.19        None                False
+stmt19_83_412.qdimacs                                                                                                             OUT OF MEMORY                28.64       28.68        None                False
+stmt1_79_80.qdimacs                                                                                                               OUT OF MEMORY                27.13       27.15        None                False
+stmt21_181_369.qdimacs                                                                                                            OUT OF MEMORY                32.10       32.11        None                False
+stmt21_310_360.qdimacs                                                                                                            OUT OF MEMORY                29.78       29.80        None                False
+stmt21_319_418.qdimacs                                                                                                            OUT OF MEMORY                31.00       31.00        None                False
+stmt23_66_96.qdimacs                                                                                                              OUT OF MEMORY                31.07       31.10        None                False
+stmt23_72_76.qdimacs                                                                                                              OUT OF MEMORY                28.80       28.84        None                False
+stmt25_52_53.qdimacs                                                                                                              OUT OF MEMORY                26.69       26.73        None                False
+stmt27_93_98.qdimacs                                                                                                              OUT OF MEMORY                27.19       27.21        None                False
+stmt28_68_81.qdimacs                                                                                                              OUT OF MEMORY                33.62       33.66        None                False
+stmt29_226_376.qdimacs                                                                                                            OUT OF MEMORY                28.85       28.89        None                False
+stmt2_976_999.qdimacs                                                                                                             OUT OF MEMORY                35.10       35.13        None                False
+stmt32_329_378.qdimacs                                                                                                            OUT OF MEMORY                31.66       31.68        None                False
+stmt39_285_335.qdimacs                                                                                                            OUT OF MEMORY                31.51       31.55        None                False
+stmt41_160_235.qdimacs                                                                                                            OUT OF MEMORY                27.14       27.18        None                False
+stmt41_262_275.qdimacs                                                                                                            OUT OF MEMORY                15.70       15.72        None                False
+stmt44_554_604.qdimacs                                                                                                            OUT OF MEMORY                28.36       28.38        None                False
+stmt52_295_394.qdimacs                                                                                                            OUT OF MEMORY                32.49       32.49        None                False
+stmt5_731_730.qdimacs                                                                                                             OUT OF MEMORY                27.78       27.80        None                False
+stmt9_445_446.qdimacs                                                                                                             sat                           0.09        0.15        None                 True
+szymanski-20-s.qdimacs                                                                                                            OUT OF MEMORY               175.02      174.95        None                False
+szymanski-24-s.qdimacs                                                                                                            OUT OF MEMORY               734.80      734.31        None                False
+test1_quant3.qdimacs                                                                                                              sat                          13.50       13.55        None                False
+test2_quant3.qdimacs                                                                                                              OUT OF MEMORY                46.94       46.94        None                False
+test2_quant_squaring2.qdimacs                                                                                                     OUT OF MEMORY                47.66       47.66        None                False
+test2_quant_squaring3.qdimacs                                                                                                     OUT OF MEMORY                59.70       59.72        None                False
+test3_quant2.qdimacs                                                                                                              unsat                         0.15        0.18        None                False
+test3_quant_squaring2.qdimacs                                                                                                     unsat                         0.22        0.27        None                False
+test4_quant4.qdimacs                                                                                                              unsat                         6.18        6.22        None                False
+test4_quant_squaring2.qdimacs                                                                                                     unsat                         0.28        0.33        None                False
+test5_quant7.qdimacs                                                                                                              sat                           9.74        9.77        None                False
+test5_quant_squaring5.qdimacs                                                                                                     OUT OF MEMORY               123.42      123.39        None                False
+texas.PI_main^05.E-f3.qdimacs                                                                                                     OUT OF MEMORY                47.48       47.53        None                False
+texas.PI_main^08.E-f3.qdimacs                                                                                                     OUT OF MEMORY                46.67       46.92        None                False
+tlc05-uniform-depth-40.qdimacs                                                                                                    unsat                         1.25        1.31        None                 True
+tlc05-uniform-depth-45.qdimacs                                                                                                    unsat                         1.78        1.85        None                 True
+tlc05-uniform-depth-50.qdimacs                                                                                                    unsat                         2.04        2.11        None                 True
+tlc05-uniform-depth-55.qdimacs                                                                                                    unsat                         2.30        2.35        None                 True
+tlc05-uniform-depth-60.qdimacs                                                                                                    unsat                         2.93        3.00        None                 True
+tlc05-uniform-depth-65.qdimacs                                                                                                    unsat                         3.28        3.33        None                 True
+tlc05-uniform-depth-70.qdimacs                                                                                                    unsat                         3.59        3.62        None                 True
+tlc05-uniform-depth-75.qdimacs                                                                                                    unsat                         4.83        4.87        None                 True
+tlc05-uniform-depth-80.qdimacs                                                                                                    unsat                         4.93        4.97        None                 True
+tlc05-uniform-depth-85.qdimacs                                                                                                    unsat                         6.22        6.26        None                 True
+trivial_query60_1344n.qdimacs                                                                                                     TIMEOUT                     901.63      901.08        None                False
+trivial_query64_1344.qdimacs                                                                                                      sat                           0.79        0.85        None                 True
+trivial_query64_1344n.qdimacs                                                                                                     unsat                         0.10        0.16        None                 True
+trivial_query71_1344.qdimacs                                                                                                      sat                           0.40        0.46        None                 True
+trivial_query71_1344n.qdimacs                                                                                                     TIMEOUT                     901.71      901.08        None                False
+trueque_query60_1344n.qdimacs                                                                                                     unsat                         0.02        0.07        None                 True
+trueque_query64_1344.qdimacs                                                                                                      sat                           0.02        0.15        None                 True
+trueque_query64_1344n.qdimacs                                                                                                     unsat                         0.01        0.05        None                 True
+trueque_query71_1344.qdimacs                                                                                                      sat                           0.02        0.06        None                 True
+trueque_query71_1344n.qdimacs                                                                                                     unsat                         0.02        0.05        None                 True
+unit11_3_b.qdimacs                                                                                                                OUT OF MEMORY               267.27      267.11        None                False
+unit12_2_b.qdimacs                                                                                                                OUT OF MEMORY                56.44       56.45        None                False
+unit6_3_b.qdimacs                                                                                                                 OUT OF MEMORY               170.45      170.38        None                False
+unit8_2_b.qdimacs                                                                                                                 OUT OF MEMORY                26.47       26.50        None                False
+unit9_2_b.qdimacs                                                                                                                 sat                          45.46       45.47        None                False
+usb-phy-fixpoint-3.qdimacs                                                                                                        OUT OF MEMORY                38.71       38.73        None                False
+usb-phy-fixpoint-4.qdimacs                                                                                                        OUT OF MEMORY                60.76       60.76        None                False
+usb-phy-fixpoint-5.qdimacs                                                                                                        OUT OF MEMORY                87.31       87.31        None                False
+vis.prodcell^01.E-d4.qdimacs                                                                                                      sat                           0.48        0.52        None                 True
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Run set 7                                                                                                                         done                     121472.19    20700.58           -
+
+
+tree-simpleelimination-continuous.qbf20PCNF
+Run set 8 of 15: skipped 
+
+
+tree-simpleelimination-varsinconjuncts.qbf20PCNF
+Run set 9 of 15: skipped 
+
+
+nodynreorder-tree-simpleelimination-atbeginning.qbf20PCNF
+Run set 10 of 15: skipped 
+
+
+nodynreorder-tree-simpleelimination-continuous.qbf20PCNF
+Run set 11 of 15: skipped 
+
+
+nodynreorder-tree-simpleelimination-varsinconjuncts.qbf20PCNF
+Run set 12 of 15: skipped 
+
+
+tree-fullelimination-atbeginning.qbf20PCNF
+Run set 13 of 15: skipped 
+
+
+tree-fullelimination-continuous.qbf20PCNF
+Run set 14 of 15: skipped 
+
+
+tree-fullelimination-varsinconjuncts.qbf20PCNF
+Run set 15 of 15: skipped 
+
+Statistics:            521 Files
+  correct:               0
+    correct true:        0
+    correct false:       0
+  incorrect:             0
+    incorrect true:      0
+    incorrect false:     0
+  unknown:             282
