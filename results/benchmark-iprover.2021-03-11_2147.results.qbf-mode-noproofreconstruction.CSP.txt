@@ -1,0 +1,468 @@
+   BENCHMARK INFORMATION
+benchmark definition:    benchmark-definitions/benchmark-iprover.xml
+name:                    benchmark-iprover
+run sets:                qbf-mode-noproofreconstruction.CSP
+date:                    Thu, 2021-03-11 21:47:29 CET
+tool:                    iProver v3.4 (post CASC-J10 2020)
+tool executable:         /home/xsic/DQBFbenchmarks/solvers/iproveropt
+options:                 
+parallel runs:           6
+resource limits:
+- memory:                4000.0 MB
+- time:                  900 s
+- cpu cores:             1
+hardware requirements:
+- cpu cores:             1
+- memory:                4000.0 MB
+------------------------------------------------------------
+
+   SYSTEM INFORMATION
+host:                    islay
+os:                      Linux-3.16.0-4-amd64-x86_64-with-debian-8.5
+cpu:                     Intel Xeon CPU E5-2620 v2 @ 2.10GHz
+- cores:                 24
+- max frequency:         2600.0 MHz
+- turbo boost enabled:   False
+ram:                     135450.984448 MB
+------------------------------------------------------------
+
+
+
+qbf-mode-noproofreconstruction.CSP
+Run set 1 of 1 with options '--qbf_mode true --inst_out_proof false --res_out_proof false' and propertyfile 'None'
+
+inputfile                       status                    cpu time   wall time        host
+------------------------------------------------------------------------------------------
+add10n.dqdimacs                 sat                           2.76        2.81        None
+add10y.dqdimacs                 sat                           1.50        1.54        None
+add12n.dqdimacs                 sat                           8.42        8.47        None
+add12y.dqdimacs                 sat                           1.82        2.01        None
+add14n.dqdimacs                 sat                          16.15       16.19        None
+add16n.dqdimacs                 sat                          22.19       22.22        None
+add16y.dqdimacs                 sat                           3.15        3.18        None
+add18n.dqdimacs                 sat                          20.30       20.35        None
+add18y.dqdimacs                 sat                           3.65        3.71        None
+add20n.dqdimacs                 TIMEOUT                     901.94      901.32        None
+add20y.dqdimacs                 sat                           4.05        4.07        None
+add6n.dqdimacs                  sat                           0.57        0.60        None
+add8n.dqdimacs                  sat                           2.11        2.27        None
+add8y.dqdimacs                  sat                           0.47        0.53        None
+amba10b4unrealn.dqdimacs        OUT OF MEMORY               397.91      397.71        None
+amba10b4unrealy.dqdimacs        OUT OF MEMORY               468.42      468.14        None
+amba10b5n.dqdimacs              OUT OF MEMORY               635.81      635.39        None
+amba10b5y.dqdimacs              OUT OF MEMORY               472.27      471.96        None
+amba10c4unrealn.dqdimacs        OUT OF MEMORY               318.03      317.83        None
+amba10c4unrealy.dqdimacs        OUT OF MEMORY               642.03      641.61        None
+amba10c5n.dqdimacs              OUT OF MEMORY               383.06      382.87        None
+amba10c5y.dqdimacs              OUT OF MEMORY               565.09      564.74        None
+amba10f36unrealn.dqdimacs       OUT OF MEMORY               368.11      367.88        None
+amba10f36unrealy.dqdimacs       OUT OF MEMORY               316.06      315.88        None
+amba10f37n.dqdimacs             OUT OF MEMORY               407.39      407.18        None
+amba10f37y.dqdimacs             OUT OF MEMORY               404.12      403.87        None
+amba2b8unrealn.dqdimacs         OUT OF MEMORY               769.69      769.18        None
+amba2b8unrealy.dqdimacs         OUT OF MEMORY               667.09      666.65        None
+amba2b9n.dqdimacs               OUT OF MEMORY               790.71      790.17        None
+amba2b9y.dqdimacs               OUT OF MEMORY               783.95      783.45        None
+amba2c6unrealn.dqdimacs         OUT OF MEMORY               713.89      713.50        None
+amba2c6unrealy.dqdimacs         OUT OF MEMORY               108.33      108.30        None
+amba2c7n.dqdimacs               TIMEOUT                     901.93      901.31        None
+amba2c7y.dqdimacs               OUT OF MEMORY               116.87      116.87        None
+amba2f8unrealn.dqdimacs         OUT OF MEMORY               743.14      742.67        None
+amba2f8unrealy.dqdimacs         OUT OF MEMORY               629.67      629.27        None
+amba2f9n.dqdimacs               OUT OF MEMORY               629.49      629.08        None
+amba2f9y.dqdimacs               OUT OF MEMORY               411.33      411.09        None
+amba3b4unrealn.dqdimacs         OUT OF MEMORY               618.00      617.64        None
+amba3b4unrealy.dqdimacs         OUT OF MEMORY               579.70      579.34        None
+amba3b5n.dqdimacs               OUT OF MEMORY               614.91      614.51        None
+amba3b5y.dqdimacs               OUT OF MEMORY               547.21      546.86        None
+amba3c4unrealn.dqdimacs         OUT OF MEMORY               808.87      808.31        None
+amba3c4unrealy.dqdimacs         OUT OF MEMORY               496.58      496.27        None
+amba3c5n.dqdimacs               OUT OF MEMORY               388.86      388.69        None
+amba3c5y.dqdimacs               OUT OF MEMORY               357.88      357.67        None
+amba3f8unrealn.dqdimacs         OUT OF MEMORY               655.01      654.59        None
+amba3f8unrealy.dqdimacs         OUT OF MEMORY               502.44      502.11        None
+amba3f9n.dqdimacs               OUT OF MEMORY               496.29      496.03        None
+amba3f9y.dqdimacs               OUT OF MEMORY               654.92      654.49        None
+amba4b8unrealn.dqdimacs         OUT OF MEMORY               538.09      537.77        None
+amba4b8unrealy.dqdimacs         OUT OF MEMORY               483.48      483.16        None
+amba4b9n.dqdimacs               OUT OF MEMORY               682.98      682.52        None
+amba4b9y.dqdimacs               OUT OF MEMORY               604.24      603.91        None
+amba4c6unrealn.dqdimacs         OUT OF MEMORY               764.90      764.39        None
+amba4c6unrealy.dqdimacs         OUT OF MEMORY               750.98      750.50        None
+amba4c7n.dqdimacs               OUT OF MEMORY               745.22      744.71        None
+amba4c7y.dqdimacs               OUT OF MEMORY               776.66      776.16        None
+amba4f24unrealn.dqdimacs        OUT OF MEMORY               462.28      462.07        None
+amba4f24unrealy.dqdimacs        OUT OF MEMORY               368.17      367.96        None
+amba4f25n.dqdimacs              OUT OF MEMORY               386.32      386.09        None
+amba4f25y.dqdimacs              OUT OF MEMORY               469.62      469.34        None
+amba5b4unrealn.dqdimacs         OUT OF MEMORY               598.66      598.27        None
+amba5b4unrealy.dqdimacs         OUT OF MEMORY               424.28      424.03        None
+amba5b5n.dqdimacs               OUT OF MEMORY               651.08      650.73        None
+amba5b5y.dqdimacs               OUT OF MEMORY               277.18      277.01        None
+amba5c4unrealn.dqdimacs         OUT OF MEMORY               351.55      351.34        None
+amba5c4unrealy.dqdimacs         OUT OF MEMORY               437.44      437.18        None
+amba5c5n.dqdimacs               OUT OF MEMORY               464.88      464.62        None
+amba5c5y.dqdimacs               OUT OF MEMORY               603.05      602.65        None
+amba5f16unrealn.dqdimacs        OUT OF MEMORY               555.68      555.32        None
+amba5f16unrealy.dqdimacs        OUT OF MEMORY               712.40      711.93        None
+amba5f17n.dqdimacs              OUT OF MEMORY               579.60      579.29        None
+amba5f17y.dqdimacs              OUT OF MEMORY               354.99      354.81        None
+amba6b4unrealn.dqdimacs         OUT OF MEMORY               257.58      257.43        None
+amba6b4unrealy.dqdimacs         OUT OF MEMORY               346.99      346.79        None
+amba6b5n.dqdimacs               OUT OF MEMORY               608.14      607.75        None
+amba6b5y.dqdimacs               OUT OF MEMORY               395.29      395.07        None
+amba6c4unrealn.dqdimacs         OUT OF MEMORY               282.15      281.99        None
+amba6c4unrealy.dqdimacs         OUT OF MEMORY               770.23      769.80        None
+amba6c5n.dqdimacs               OUT OF MEMORY               298.47      298.30        None
+amba6c5y.dqdimacs               OUT OF MEMORY               586.25      585.88        None
+amba6f20unrealn.dqdimacs        OUT OF MEMORY               458.81      458.51        None
+amba6f20unrealy.dqdimacs        OUT OF MEMORY               597.77      597.40        None
+amba6f21n.dqdimacs              OUT OF MEMORY               447.43      447.15        None
+amba6f21y.dqdimacs              OUT OF MEMORY               701.34      700.88        None
+amba7b4unrealn.dqdimacs         OUT OF MEMORY               420.92      420.65        None
+amba7b4unrealy.dqdimacs         OUT OF MEMORY               374.07      373.84        None
+amba7b5n.dqdimacs               OUT OF MEMORY               328.93      328.77        None
+amba7b5y.dqdimacs               OUT OF MEMORY               333.44      333.24        None
+amba7c4unrealn.dqdimacs         OUT OF MEMORY               529.52      529.19        None
+amba7c4unrealy.dqdimacs         OUT OF MEMORY               576.38      576.01        None
+amba7c5n.dqdimacs               OUT OF MEMORY               592.66      592.27        None
+amba7c5y.dqdimacs               OUT OF MEMORY               439.07      438.86        None
+amba7f24unrealn.dqdimacs        OUT OF MEMORY               485.52      485.22        None
+amba7f24unrealy.dqdimacs        OUT OF MEMORY               412.72      412.51        None
+amba7f25n.dqdimacs              OUT OF MEMORY               385.17      384.95        None
+amba7f25y.dqdimacs              OUT OF MEMORY               331.06      330.86        None
+amba8b5unrealn.dqdimacs         OUT OF MEMORY               279.33      279.22        None
+amba8b5unrealy.dqdimacs         OUT OF MEMORY               570.15      569.79        None
+amba8b6n.dqdimacs               OUT OF MEMORY               543.50      543.15        None
+amba8b6y.dqdimacs               OUT OF MEMORY               441.25      440.97        None
+amba8c6unrealn.dqdimacs         OUT OF MEMORY               374.96      374.75        None
+amba8c6unrealy.dqdimacs         OUT OF MEMORY               389.71      389.53        None
+amba8c7n.dqdimacs               OUT OF MEMORY               332.78      332.60        None
+amba8c7y.dqdimacs               OUT OF MEMORY               391.67      391.42        None
+amba8f56unrealn.dqdimacs        OUT OF MEMORY               748.02      747.54        None
+amba8f56unrealy.dqdimacs        OUT OF MEMORY               404.28      404.03        None
+amba8f57n.dqdimacs              OUT OF MEMORY               629.94      629.52        None
+amba8f57y.dqdimacs              OUT OF MEMORY               628.43      628.01        None
+amba9b4unrealn.dqdimacs         OUT OF MEMORY               358.24      358.07        None
+amba9b4unrealy.dqdimacs         OUT OF MEMORY               331.13      330.94        None
+amba9b5n.dqdimacs               OUT OF MEMORY               299.76      299.58        None
+amba9b5y.dqdimacs               OUT OF MEMORY               410.36      410.15        None
+amba9c4unrealn.dqdimacs         OUT OF MEMORY               373.18      372.97        None
+amba9c4unrealy.dqdimacs         OUT OF MEMORY               592.99      592.61        None
+amba9c5n.dqdimacs               OUT OF MEMORY               289.82      289.64        None
+amba9c5y.dqdimacs               OUT OF MEMORY               614.77      614.38        None
+amba9f32unrealn.dqdimacs        OUT OF MEMORY               475.67      475.40        None
+amba9f32unrealy.dqdimacs        OUT OF MEMORY               767.60      767.18        None
+amba9f33n.dqdimacs              OUT OF MEMORY               485.43      485.13        None
+amba9f33y.dqdimacs              OUT OF MEMORY               686.73      686.27        None
+bs128n.dqdimacs                 OUT OF MEMORY               439.34      439.08        None
+bs128y.dqdimacs                 OUT OF MEMORY               438.44      438.17        None
+bs16n.dqdimacs                  OUT OF MEMORY               836.98      836.43        None
+bs16y.dqdimacs                  OUT OF MEMORY               793.99      793.45        None
+bs32n.dqdimacs                  OUT OF MEMORY               743.96      743.56        None
+bs32y.dqdimacs                  OUT OF MEMORY               860.16      859.59        None
+bs64n.dqdimacs                  OUT OF MEMORY               641.61      641.19        None
+bs64y.dqdimacs                  OUT OF MEMORY               490.20      489.91        None
+bs8n.dqdimacs                   sat                          73.61       73.59        None
+bs8y.dqdimacs                   sat                          73.61       73.63        None
+cnt10n.dqdimacs                 OUT OF MEMORY               279.37      279.23        None
+cnt10y.dqdimacs                 OUT OF MEMORY               455.55      455.27        None
+cnt11n.dqdimacs                 OUT OF MEMORY               262.75      262.61        None
+cnt11y.dqdimacs                 OUT OF MEMORY               251.30      251.19        None
+cnt15n.dqdimacs                 sat                           4.67        4.75        None
+cnt15y.dqdimacs                 sat                           5.61        5.66        None
+cnt20n.dqdimacs                 OUT OF MEMORY               159.87      159.80        None
+cnt20y.dqdimacs                 OUT OF MEMORY               181.99      181.92        None
+cnt25n.dqdimacs                 OUT OF MEMORY               146.58      146.52        None
+cnt25y.dqdimacs                 OUT OF MEMORY               230.23      230.12        None
+cnt30n.dqdimacs                 OUT OF MEMORY                88.73       88.71        None
+cnt30y.dqdimacs                 OUT OF MEMORY               117.31      117.29        None
+cnt4n.dqdimacs                  sat                           0.25        0.30        None
+cnt4y.dqdimacs                  sat                           0.25        0.29        None
+cnt5n.dqdimacs                  sat                           1.54        1.60        None
+cnt5y.dqdimacs                  sat                           1.60        1.64        None
+cnt6n.dqdimacs                  sat                           7.37        7.42        None
+cnt6y.dqdimacs                  sat                          12.97       13.01        None
+cnt7n.dqdimacs                  sat                           1.07        1.12        None
+cnt7y.dqdimacs                  sat                           1.17        1.26        None
+cnt8n.dqdimacs                  OUT OF MEMORY               461.04      460.76        None
+cnt8y.dqdimacs                  OUT OF MEMORY               436.35      436.09        None
+cnt9n.dqdimacs                  OUT OF MEMORY               434.19      433.93        None
+cnt9y.dqdimacs                  OUT OF MEMORY               295.72      295.58        None
+genbuf10b3unrealn.dqdimacs      OUT OF MEMORY               594.36      593.99        None
+genbuf10b3unrealy.dqdimacs      OUT OF MEMORY               342.59      342.39        None
+genbuf10b4n.dqdimacs            OUT OF MEMORY               508.38      508.12        None
+genbuf10b4y.dqdimacs            OUT OF MEMORY               447.95      447.67        None
+genbuf10c2unrealn.dqdimacs      OUT OF MEMORY               525.39      525.04        None
+genbuf10c2unrealy.dqdimacs      OUT OF MEMORY               348.35      348.14        None
+genbuf10c3n.dqdimacs            OUT OF MEMORY               543.96      543.63        None
+genbuf10c3y.dqdimacs            OUT OF MEMORY               312.74      312.57        None
+genbuf10f10n.dqdimacs           OUT OF MEMORY               254.88      254.75        None
+genbuf10f10y.dqdimacs           OUT OF MEMORY               608.67      608.36        None
+genbuf10f9unrealn.dqdimacs      OUT OF MEMORY               309.51      309.34        None
+genbuf10f9unrealy.dqdimacs      OUT OF MEMORY               405.79      405.53        None
+genbuf11b3unrealn.dqdimacs      OUT OF MEMORY               497.19      496.89        None
+genbuf11b3unrealy.dqdimacs      OUT OF MEMORY               550.63      550.30        None
+genbuf11b4n.dqdimacs            OUT OF MEMORY               709.04      708.57        None
+genbuf11b4y.dqdimacs            OUT OF MEMORY               658.55      658.13        None
+genbuf11c2unrealn.dqdimacs      OUT OF MEMORY               426.16      425.91        None
+genbuf11c2unrealy.dqdimacs      OUT OF MEMORY               301.63      301.49        None
+genbuf11c3n.dqdimacs            OUT OF MEMORY               366.56      366.33        None
+genbuf11c3y.dqdimacs            OUT OF MEMORY               327.46      327.28        None
+genbuf11f10unrealn.dqdimacs     OUT OF MEMORY               466.94      466.71        None
+genbuf11f10unrealy.dqdimacs     OUT OF MEMORY               543.58      543.23        None
+genbuf11f11n.dqdimacs           OUT OF MEMORY               569.90      569.53        None
+genbuf11f11y.dqdimacs           OUT OF MEMORY               392.48      392.25        None
+genbuf12b3unrealn.dqdimacs      OUT OF MEMORY               695.12      694.67        None
+genbuf12b3unrealy.dqdimacs      OUT OF MEMORY               420.50      420.27        None
+genbuf12b4n.dqdimacs            OUT OF MEMORY               637.36      636.93        None
+genbuf12b4y.dqdimacs            OUT OF MEMORY               591.33      591.03        None
+genbuf12c2unrealn.dqdimacs      OUT OF MEMORY               340.23      340.03        None
+genbuf12c2unrealy.dqdimacs      OUT OF MEMORY               313.11      312.93        None
+genbuf12c3n.dqdimacs            OUT OF MEMORY               339.50      339.31        None
+genbuf12c3y.dqdimacs            OUT OF MEMORY               308.91      308.73        None
+genbuf12f11unrealn.dqdimacs     OUT OF MEMORY               459.67      459.39        None
+genbuf12f11unrealy.dqdimacs     OUT OF MEMORY               521.66      521.33        None
+genbuf12f12n.dqdimacs           OUT OF MEMORY               636.85      636.44        None
+genbuf12f12y.dqdimacs           OUT OF MEMORY               545.46      545.19        None
+genbuf13b3unrealn.dqdimacs      OUT OF MEMORY               665.24      664.81        None
+genbuf13b3unrealy.dqdimacs      OUT OF MEMORY               589.73      589.35        None
+genbuf13b4n.dqdimacs            OUT OF MEMORY               580.24      579.86        None
+genbuf13b4y.dqdimacs            OUT OF MEMORY               504.86      504.55        None
+genbuf13c2unrealn.dqdimacs      OUT OF MEMORY               291.99      291.82        None
+genbuf13c2unrealy.dqdimacs      OUT OF MEMORY               302.72      302.60        None
+genbuf13c3n.dqdimacs            OUT OF MEMORY               300.39      300.22        None
+genbuf13c3y.dqdimacs            OUT OF MEMORY               338.84      338.65        None
+genbuf13f12unrealn.dqdimacs     OUT OF MEMORY               568.08      567.71        None
+genbuf13f12unrealy.dqdimacs     OUT OF MEMORY               484.71      484.47        None
+genbuf13f13n.dqdimacs           OUT OF MEMORY               580.23      579.87        None
+genbuf13f13y.dqdimacs           OUT OF MEMORY               407.74      407.48        None
+genbuf14b3unrealn.dqdimacs      OUT OF MEMORY               319.78      319.58        None
+genbuf14b3unrealy.dqdimacs      OUT OF MEMORY               329.72      329.51        None
+genbuf14b4n.dqdimacs            OUT OF MEMORY               426.48      426.21        None
+genbuf14b4y.dqdimacs            OUT OF MEMORY               306.09      305.92        None
+genbuf14c2unrealn.dqdimacs      OUT OF MEMORY               429.29      429.07        None
+genbuf14c2unrealy.dqdimacs      OUT OF MEMORY               241.72      241.59        None
+genbuf14c3n.dqdimacs            OUT OF MEMORY               395.11      394.86        None
+genbuf14c3y.dqdimacs            OUT OF MEMORY               280.77      280.62        None
+genbuf14f13unrealn.dqdimacs     OUT OF MEMORY               506.67      506.36        None
+genbuf14f13unrealy.dqdimacs     OUT OF MEMORY               481.81      481.50        None
+genbuf14f14n.dqdimacs           OUT OF MEMORY               447.31      447.03        None
+genbuf14f14y.dqdimacs           OUT OF MEMORY               620.29      619.88        None
+genbuf15b3unrealn.dqdimacs      OUT OF MEMORY               498.71      498.44        None
+genbuf15b3unrealy.dqdimacs      OUT OF MEMORY               350.50      350.30        None
+genbuf15b4n.dqdimacs            OUT OF MEMORY               481.55      481.26        None
+genbuf15b4y.dqdimacs            OUT OF MEMORY               569.83      569.45        None
+genbuf15c2unrealn.dqdimacs      OUT OF MEMORY               271.66      271.50        None
+genbuf15c2unrealy.dqdimacs      OUT OF MEMORY               411.58      411.32        None
+genbuf15c3n.dqdimacs            OUT OF MEMORY               192.23      192.15        None
+genbuf15c3y.dqdimacs            OUT OF MEMORY               275.85      275.71        None
+genbuf15f14unrealn.dqdimacs     OUT OF MEMORY               315.22      315.03        None
+genbuf15f14unrealy.dqdimacs     OUT OF MEMORY               354.55      354.36        None
+genbuf15f15n.dqdimacs           OUT OF MEMORY               301.99      301.82        None
+genbuf15f15y.dqdimacs           OUT OF MEMORY               465.02      464.74        None
+genbuf16b3unrealn.dqdimacs      OUT OF MEMORY               412.77      412.52        None
+genbuf16b3unrealy.dqdimacs      OUT OF MEMORY               362.70      362.47        None
+genbuf16b4n.dqdimacs            OUT OF MEMORY               436.90      436.63        None
+genbuf16b4y.dqdimacs            OUT OF MEMORY               178.86      178.80        None
+genbuf16c2unrealn.dqdimacs      OUT OF MEMORY               328.98      328.79        None
+genbuf16c2unrealy.dqdimacs      OUT OF MEMORY               267.48      267.36        None
+genbuf16c3n.dqdimacs            OUT OF MEMORY               326.77      326.57        None
+genbuf16c3y.dqdimacs            OUT OF MEMORY               343.40      343.21        None
+genbuf16f15unrealn.dqdimacs     OUT OF MEMORY               421.30      421.05        None
+genbuf16f15unrealy.dqdimacs     OUT OF MEMORY               308.21      308.04        None
+genbuf16f16n.dqdimacs           OUT OF MEMORY               414.22      413.98        None
+genbuf16f16y.dqdimacs           OUT OF MEMORY               256.58      256.47        None
+genbuf1b3unrealn.dqdimacs       OUT OF MEMORY               500.03      499.73        None
+genbuf1b3unrealy.dqdimacs       OUT OF MEMORY               433.70      433.43        None
+genbuf1b4n.dqdimacs             OUT OF MEMORY               726.50      726.04        None
+genbuf1b4y.dqdimacs             OUT OF MEMORY               502.59      502.28        None
+genbuf1c2unrealn.dqdimacs       OUT OF MEMORY               516.55      516.28        None
+genbuf1c2unrealy.dqdimacs       OUT OF MEMORY               245.83      245.69        None
+genbuf1c3n.dqdimacs             OUT OF MEMORY               443.78      443.51        None
+genbuf1c3y.dqdimacs             OUT OF MEMORY               252.45      252.32        None
+genbuf1f3unrealn.dqdimacs       OUT OF MEMORY               357.10      356.90        None
+genbuf1f3unrealy.dqdimacs       OUT OF MEMORY               459.82      459.51        None
+genbuf1f4n.dqdimacs             OUT OF MEMORY               538.26      537.98        None
+genbuf1f4y.dqdimacs             OUT OF MEMORY               610.42      610.03        None
+genbuf2b3unrealn.dqdimacs       OUT OF MEMORY               406.43      406.19        None
+genbuf2b3unrealy.dqdimacs       OUT OF MEMORY               396.56      396.32        None
+genbuf2b4n.dqdimacs             OUT OF MEMORY               636.68      636.27        None
+genbuf2b4y.dqdimacs             OUT OF MEMORY               356.99      356.79        None
+genbuf2c2unrealn.dqdimacs       OUT OF MEMORY               677.91      677.54        None
+genbuf2c2unrealy.dqdimacs       OUT OF MEMORY               446.57      446.30        None
+genbuf2c3n.dqdimacs             OUT OF MEMORY               600.97      600.58        None
+genbuf2c3y.dqdimacs             OUT OF MEMORY               440.38      440.11        None
+genbuf2f3unrealn.dqdimacs       OUT OF MEMORY               452.04      451.77        None
+genbuf2f3unrealy.dqdimacs       OUT OF MEMORY               404.92      404.68        None
+genbuf2f4n.dqdimacs             OUT OF MEMORY               439.62      439.36        None
+genbuf2f4y.dqdimacs             OUT OF MEMORY               273.08      272.94        None
+genbuf3b3unrealn.dqdimacs       OUT OF MEMORY               404.00      403.76        None
+genbuf3b3unrealy.dqdimacs       OUT OF MEMORY               241.05      240.92        None
+genbuf3b4n.dqdimacs             OUT OF MEMORY               385.75      385.56        None
+genbuf3b4y.dqdimacs             OUT OF MEMORY               247.32      247.19        None
+genbuf3c2unrealn.dqdimacs       OUT OF MEMORY               583.78      583.40        None
+genbuf3c2unrealy.dqdimacs       OUT OF MEMORY               232.21      232.09        None
+genbuf3c3n.dqdimacs             OUT OF MEMORY               356.82      356.63        None
+genbuf3c3y.dqdimacs             OUT OF MEMORY               169.03      168.97        None
+genbuf3f3unrealn.dqdimacs       OUT OF MEMORY               643.76      643.34        None
+genbuf3f3unrealy.dqdimacs       OUT OF MEMORY               189.42      189.33        None
+genbuf3f4n.dqdimacs             TIMEOUT                     901.97      901.37        None
+genbuf3f4y.dqdimacs             OUT OF MEMORY               484.34      484.03        None
+genbuf4b3unrealn.dqdimacs       OUT OF MEMORY               779.56      779.14        None
+genbuf4b3unrealy.dqdimacs       OUT OF MEMORY               153.91      153.86        None
+genbuf4b4n.dqdimacs             OUT OF MEMORY               348.28      348.11        None
+genbuf4b4y.dqdimacs             OUT OF MEMORY               660.54      660.11        None
+genbuf4c2unrealn.dqdimacs       OUT OF MEMORY               599.70      599.32        None
+genbuf4c2unrealy.dqdimacs       OUT OF MEMORY               446.10      445.83        None
+genbuf4c3n.dqdimacs             OUT OF MEMORY               490.69      490.41        None
+genbuf4c3y.dqdimacs             OUT OF MEMORY               421.61      421.39        None
+genbuf4f3unrealn.dqdimacs       OUT OF MEMORY               807.61      807.08        None
+genbuf4f3unrealy.dqdimacs       OUT OF MEMORY               265.96      265.82        None
+genbuf4f4n.dqdimacs             OUT OF MEMORY               516.29      515.96        None
+genbuf4f4y.dqdimacs             OUT OF MEMORY               400.30      400.06        None
+genbuf5b3unrealn.dqdimacs       OUT OF MEMORY               517.86      517.56        None
+genbuf5b3unrealy.dqdimacs       OUT OF MEMORY               567.64      567.29        None
+genbuf5b4n.dqdimacs             OUT OF MEMORY               616.32      615.99        None
+genbuf5b4y.dqdimacs             TIMEOUT                     902.00      901.39        None
+genbuf5c2unrealn.dqdimacs       OUT OF MEMORY               864.67      864.09        None
+genbuf5c2unrealy.dqdimacs       OUT OF MEMORY               661.41      660.99        None
+genbuf5c3n.dqdimacs             OUT OF MEMORY               628.12      627.71        None
+genbuf5c3y.dqdimacs             OUT OF MEMORY               648.02      647.59        None
+genbuf5f4unrealn.dqdimacs       OUT OF MEMORY               731.60      731.21        None
+genbuf5f4unrealy.dqdimacs       OUT OF MEMORY               385.81      385.59        None
+genbuf5f5n.dqdimacs             OUT OF MEMORY               482.71      482.39        None
+genbuf5f5y.dqdimacs             OUT OF MEMORY               587.54      587.16        None
+genbuf6b3unrealn.dqdimacs       OUT OF MEMORY               676.85      676.39        None
+genbuf6b3unrealy.dqdimacs       OUT OF MEMORY               549.89      549.55        None
+genbuf6b4n.dqdimacs             OUT OF MEMORY               585.35      585.02        None
+genbuf6b4y.dqdimacs             OUT OF MEMORY               752.41      751.92        None
+genbuf6c2unrealn.dqdimacs       OUT OF MEMORY               674.73      674.26        None
+genbuf6c2unrealy.dqdimacs       OUT OF MEMORY               575.47      575.10        None
+genbuf6c3n.dqdimacs             OUT OF MEMORY               499.39      499.08        None
+genbuf6c3y.dqdimacs             OUT OF MEMORY               583.06      582.67        None
+genbuf6f5unrealn.dqdimacs       OUT OF MEMORY               493.17      492.89        None
+genbuf6f5unrealy.dqdimacs       OUT OF MEMORY               458.40      458.12        None
+genbuf6f6n.dqdimacs             OUT OF MEMORY               531.45      531.11        None
+genbuf6f6y.dqdimacs             OUT OF MEMORY               616.68      616.27        None
+genbuf7b3unrealn.dqdimacs       OUT OF MEMORY               749.14      748.62        None
+genbuf7b3unrealy.dqdimacs       TIMEOUT                     902.01      901.39        None
+genbuf7b4n.dqdimacs             OUT OF MEMORY               741.16      740.76        None
+genbuf7b4y.dqdimacs             OUT OF MEMORY               765.96      765.47        None
+genbuf7c2unrealn.dqdimacs       OUT OF MEMORY               326.15      325.95        None
+genbuf7c2unrealy.dqdimacs       OUT OF MEMORY               416.07      415.82        None
+genbuf7c3n.dqdimacs             OUT OF MEMORY               346.81      346.61        None
+genbuf7c3y.dqdimacs             OUT OF MEMORY               439.93      439.66        None
+genbuf7f6unrealn.dqdimacs       OUT OF MEMORY               558.45      558.15        None
+genbuf7f6unrealy.dqdimacs       OUT OF MEMORY               503.06      502.76        None
+genbuf7f7n.dqdimacs             OUT OF MEMORY               709.84      709.38        None
+genbuf7f7y.dqdimacs             OUT OF MEMORY               648.12      647.70        None
+genbuf8b3unrealn.dqdimacs       OUT OF MEMORY               619.77      619.39        None
+genbuf8b3unrealy.dqdimacs       OUT OF MEMORY               599.56      599.18        None
+genbuf8b4n.dqdimacs             OUT OF MEMORY               751.61      751.11        None
+genbuf8b4y.dqdimacs             OUT OF MEMORY               760.19      759.79        None
+genbuf8c2unrealn.dqdimacs       OUT OF MEMORY               365.12      364.92        None
+genbuf8c2unrealy.dqdimacs       OUT OF MEMORY               643.77      643.34        None
+genbuf8c3n.dqdimacs             OUT OF MEMORY               444.57      444.31        None
+genbuf8c3y.dqdimacs             OUT OF MEMORY               589.71      589.32        None
+genbuf8f7unrealn.dqdimacs       OUT OF MEMORY               613.95      613.56        None
+genbuf8f7unrealy.dqdimacs       OUT OF MEMORY               652.79      652.36        None
+genbuf8f8n.dqdimacs             OUT OF MEMORY               500.09      499.77        None
+genbuf8f8y.dqdimacs             OUT OF MEMORY               458.38      458.14        None
+genbuf9b3unrealn.dqdimacs       OUT OF MEMORY               484.09      483.77        None
+genbuf9b3unrealy.dqdimacs       OUT OF MEMORY               402.13      401.88        None
+genbuf9b4n.dqdimacs             TIMEOUT                     902.00      901.38        None
+genbuf9b4y.dqdimacs             OUT OF MEMORY               417.98      417.77        None
+genbuf9c2unrealn.dqdimacs       OUT OF MEMORY               326.17      325.98        None
+genbuf9c2unrealy.dqdimacs       OUT OF MEMORY               816.08      815.53        None
+genbuf9c3n.dqdimacs             OUT OF MEMORY               272.59      272.44        None
+genbuf9c3y.dqdimacs             OUT OF MEMORY               610.84      610.45        None
+genbuf9f8unrealn.dqdimacs       OUT OF MEMORY               404.54      404.28        None
+genbuf9f8unrealy.dqdimacs       OUT OF MEMORY               547.06      546.73        None
+genbuf9f9n.dqdimacs             OUT OF MEMORY               475.94      475.69        None
+genbuf9f9y.dqdimacs             OUT OF MEMORY               350.75      350.57        None
+ifm_amba03_fixed.dqdimacs       OUT OF MEMORY               219.56      219.45        None
+ifm_amba03_fixed_o.dqdimacs     OUT OF MEMORY               410.91      410.65        None
+ifm_amba03n.dqdimacs            OUT OF MEMORY               254.08      253.98        None
+ifm_amba03y.dqdimacs            OUT OF MEMORY               329.68      329.48        None
+ifm_amba15n.dqdimacs            OUT OF MEMORY               499.73      499.40        None
+ifm_amba15y.dqdimacs            OUT OF MEMORY               555.76      555.40        None
+ifm_genbuf16n.dqdimacs          OUT OF MEMORY               317.08      316.89        None
+ifm_genbuf16y.dqdimacs          OUT OF MEMORY               610.18      609.85        None
+mv10n.dqdimacs                  OUT OF MEMORY               175.51      175.42        None
+mv10y.dqdimacs                  OUT OF MEMORY               440.11      439.83        None
+mv11n.dqdimacs                  OUT OF MEMORY               371.76      371.55        None
+mv11y.dqdimacs                  OUT OF MEMORY               357.14      356.93        None
+mv12n.dqdimacs                  OUT OF MEMORY               397.44      397.21        None
+mv12y.dqdimacs                  OUT OF MEMORY               459.26      458.99        None
+mv14n.dqdimacs                  OUT OF MEMORY               268.32      268.15        None
+mv14y.dqdimacs                  OUT OF MEMORY               429.00      428.79        None
+mv16n.dqdimacs                  TIMEOUT                     901.95      901.34        None
+mv16y.dqdimacs                  OUT OF MEMORY               360.67      360.46        None
+mv20n.dqdimacs                  OUT OF MEMORY               478.08      477.79        None
+mv20y.dqdimacs                  OUT OF MEMORY               588.48      588.11        None
+mv4n.dqdimacs                   sat                           1.96        1.99        None
+mv4y.dqdimacs                   sat                           2.05        2.09        None
+mv8n.dqdimacs                   OUT OF MEMORY               422.72      422.47        None
+mv8y.dqdimacs                   OUT OF MEMORY               668.25      667.82        None
+mv9n.dqdimacs                   OUT OF MEMORY               217.60      217.51        None
+mv9y.dqdimacs                   OUT OF MEMORY               503.26      502.94        None
+mvs12n.dqdimacs                 OUT OF MEMORY               501.77      501.51        None
+mvs12y.dqdimacs                 OUT OF MEMORY               431.61      431.34        None
+mvs14n.dqdimacs                 OUT OF MEMORY               461.98      461.72        None
+mvs14y.dqdimacs                 OUT OF MEMORY               365.07      364.85        None
+mvs16n.dqdimacs                 OUT OF MEMORY               236.29      236.17        None
+mvs16y.dqdimacs                 OUT OF MEMORY               392.19      391.95        None
+mvs18n.dqdimacs                 OUT OF MEMORY               303.32      303.15        None
+mvs18y.dqdimacs                 OUT OF MEMORY               316.85      316.70        None
+mvs20n.dqdimacs                 OUT OF MEMORY               272.57      272.44        None
+mvs20y.dqdimacs                 OUT OF MEMORY               536.70      536.36        None
+mvs22n.dqdimacs                 OUT OF MEMORY               326.54      326.38        None
+mvs22y.dqdimacs                 OUT OF MEMORY               556.96      556.60        None
+mvs24n.dqdimacs                 OUT OF MEMORY               223.96      223.86        None
+mvs24y.dqdimacs                 OUT OF MEMORY               260.43      260.31        None
+mvs28n.dqdimacs                 OUT OF MEMORY               323.65      323.46        None
+mvs28y.dqdimacs                 OUT OF MEMORY               261.32      261.16        None
+mvs4n.dqdimacs                  sat                           0.31        0.36        None
+mvs4y.dqdimacs                  sat                           0.31        0.36        None
+mvs8n.dqdimacs                  TIMEOUT                     901.94      901.33        None
+mvs8y.dqdimacs                  TIMEOUT                     901.85      901.34        None
+namba02_new_07nrc_o.dqdimacs    OUT OF MEMORY               195.90      195.82        None
+namba03_new_05nrc_o.dqdimacs    OUT OF MEMORY               373.37      373.15        None
+namba04_new_07nrc_o.dqdimacs    OUT OF MEMORY               535.99      535.64        None
+ngenbuf02_03nrc_o.dqdimacs      OUT OF MEMORY               896.26      895.66        None
+ngenbuf03_03nrc_o.dqdimacs      OUT OF MEMORY               193.93      193.84        None
+ngenbuf04_03nrc_o.dqdimacs      OUT OF MEMORY               651.55      651.11        None
+stay10n.dqdimacs                OUT OF MEMORY               555.84      555.50        None
+stay10y.dqdimacs                OUT OF MEMORY               559.85      559.50        None
+stay12n.dqdimacs                TIMEOUT                     901.91      901.31        None
+stay12y.dqdimacs                TIMEOUT                     901.88      901.34        None
+stay14n.dqdimacs                OUT OF MEMORY               875.79      875.21        None
+stay14y.dqdimacs                OUT OF MEMORY               755.99      755.48        None
+stay16n.dqdimacs                TIMEOUT                     901.94      901.33        None
+stay16y.dqdimacs                OUT OF MEMORY               667.38      666.94        None
+stay18n.dqdimacs                TIMEOUT                     901.98      901.38        None
+stay18y.dqdimacs                OUT OF MEMORY               766.58      766.15        None
+stay20n.dqdimacs                OUT OF MEMORY               590.81      590.41        None
+stay20y.dqdimacs                OUT OF MEMORY               641.86      641.43        None
+stay22n.dqdimacs                OUT OF MEMORY               881.53      880.94        None
+stay22y.dqdimacs                TIMEOUT                     901.95      901.33        None
+stay24n.dqdimacs                OUT OF MEMORY               515.71      515.39        None
+stay24y.dqdimacs                TIMEOUT                     901.99      901.39        None
+stay4n.dqdimacs                 sat                           2.19        2.23        None
+stay4y.dqdimacs                 sat                           1.99        2.05        None
+stay6n.dqdimacs                 OUT OF MEMORY               798.71      798.23        None
+stay6y.dqdimacs                 OUT OF MEMORY               537.41      537.07        None
+stay8n.dqdimacs                 TIMEOUT                     902.03      901.42        None
+stay8y.dqdimacs                 OUT OF MEMORY               691.09      690.62        None
+------------------------------------------------------------------------------------------
+Run set 1                       done                     193160.81    32588.94           -
+
+Statistics:            422 Files
+  correct:               0
+    correct true:        0
+    correct false:       0
+  incorrect:             0
+    incorrect true:      0
+    incorrect false:     0
+  unknown:             391
