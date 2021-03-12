@@ -157,6 +157,12 @@
   <tasks name="CSP">
     <include>../benchmarks/originalhqspreunsolved/CSP/*.dqdimacs</include>
   </tasks>
+
+  <!-- QBF benchmark sets -->
+  <!-- test set -->
+  <tasks name="QBFtest">
+    <include>/var/data/xsic/QBFbenchmarks/test/*.qdimacs</include>
+  </tasks>
   
   <columns>
     <column title="Preprocessor solved">Solved by preprocessor</column>
