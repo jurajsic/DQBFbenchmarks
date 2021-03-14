@@ -1,0 +1,785 @@
+   BENCHMARK INFORMATION
+benchmark definition:    benchmark-definitions/benchmark-dqbdd.xml
+name:                    benchmark-dqbdd
+run sets:                simple-atbeginning.qbf20PNCNF, tree-simpleelimination-atbeginning.qbf20PNCNF
+date:                    Sun, 2021-03-14 09:18:39 CET
+tool:                    DQBDD 1.2-beta1
+tool executable:         /home/xsic/DQBFbenchmarks/solvers/DQBDD
+options:                 
+parallel runs:           6
+resource limits:
+- memory:                4000.0 MB
+- time:                  900 s
+- cpu cores:             1
+hardware requirements:
+- cpu cores:             1
+- memory:                4000.0 MB
+------------------------------------------------------------
+
+   SYSTEM INFORMATION
+host:                    islay
+os:                      Linux-3.16.0-4-amd64-x86_64-with-debian-8.5
+cpu:                     Intel Xeon CPU E5-2620 v2 @ 2.10GHz
+- cores:                 24
+- max frequency:         2600.0 MHz
+- turbo boost enabled:   False
+ram:                     135450.984448 MB
+------------------------------------------------------------
+
+
+
+simple-atbeginning.qbf20PNCNF
+Run set 1 of 15 with options '--preprocess 1 --dyn-reordering 1 --localise 0 --uvar-choice 0' and propertyfile 'None'
+
+inputfile                                            status                    cpu time   wall time        host  Preprocessor solved
+------------------------------------------------------------------------------------------------------------------------------------
+CM-sat-04-01-06-3.qcir                               TIMEOUT                     901.69      901.05        None                False
+CM-sat-04-01-06-4.qcir                               TIMEOUT                     901.69      901.07        None                False
+CM-sat-04-01-07-3.qcir                               TIMEOUT                     901.59      901.07        None                False
+CM-sat-07-01-06-3.qcir                               TIMEOUT                     901.69      901.07        None                False
+CM-sat-07-01-06-4.qcir                               TIMEOUT                     901.69      901.05        None                False
+CM-sat-07-01-07-3.qcir                               TIMEOUT                     901.90      901.26        None                False
+CM-sat-18-01-07-3.qcir                               TIMEOUT                     901.70      901.11        None                False
+CM-sat-19-01-06-3.qcir                               TIMEOUT                     901.70      901.08        None                False
+CM-sat-20-01-06-3.qcir                               TIMEOUT                     901.76      901.21        None                False
+CM-sat-21-01-06-3.qcir                               TIMEOUT                     901.71      901.08        None                False
+CM-unsat-07-01-06-2.qcir                             TIMEOUT                     901.81      901.18        None                False
+CM-unsat-13-01-05-3.qcir                             TIMEOUT                     901.68      901.04        None                False
+CM-unsat-14-01-05-3.qcir                             TIMEOUT                     901.69      901.07        None                False
+CM-unsat-15-01-05-3.qcir                             TIMEOUT                     901.80      901.17        None                False
+CM-unsat-16-01-05-3.qcir                             TIMEOUT                     901.80      901.17        None                False
+CM-unsat-17-01-05-3.qcir                             TIMEOUT                     901.69      901.04        None                False
+CM-unsat-18-01-05-3.qcir                             TIMEOUT                     901.60      901.05        None                False
+CM-unsat-19-01-05-3.qcir                             TIMEOUT                     901.69      901.06        None                False
+CM-unsat-20-01-05-3.qcir                             TIMEOUT                     901.69      901.06        None                False
+CM-unsat-21-01-05-3.qcir                             TIMEOUT                     901.70      901.08        None                False
+DW-sat-04-16-1.qcir                                  TIMEOUT                     901.70      901.06        None                False
+DW-sat-08-22-1.qcir                                  TIMEOUT                     901.60      901.22        None                False
+DW-sat-08-23-1.qcir                                  TIMEOUT                     901.68      901.07        None                False
+DW-sat-09-26-1.qcir                                  TIMEOUT                     901.69      901.19        None                False
+DW-sat-17-40-1.qcir                                  TIMEOUT                     901.69      901.08        None                False
+DW-sat-18-42-1.qcir                                  TIMEOUT                     901.69      901.08        None                False
+DW-sat-19-44-1.qcir                                  TIMEOUT                     901.69      901.08        None                False
+DW-sat-20-46-1.qcir                                  TIMEOUT                     901.83      901.21        None                False
+DW-sat-21-48-1.qcir                                  TIMEOUT                     901.69      901.04        None                False
+DW-sat-22-50-1.qcir                                  TIMEOUT                     901.60      901.06        None                False
+DW-unsat-09-22-1.qcir                                TIMEOUT                     901.68      901.05        None                False
+DW-unsat-09-23-1.qcir                                TIMEOUT                     903.04      902.41        None                False
+DW-unsat-10-25-1.qcir                                TIMEOUT                     902.98      902.36        None                False
+DW-unsat-11-26-1.qcir                                TIMEOUT                     902.48      901.86        None                False
+DW-unsat-20-44-1.qcir                                TIMEOUT                     902.16      901.51        None                False
+DW-unsat-21-46-1.qcir                                TIMEOUT                     902.05      901.50        None                False
+DW-unsat-22-48-1.qcir                                TIMEOUT                     901.70      901.06        None                False
+DW-unsat-23-50-1.qcir                                TIMEOUT                     901.79      901.16        None                False
+DW-unsat-24-52-1.qcir                                TIMEOUT                     901.69      901.17        None                False
+DW-unsat-25-54-1.qcir                                TIMEOUT                     901.77      901.15        None                False
+DWs-sat-10-23-1.qcir                                 TIMEOUT                     901.72      901.10        None                False
+DWs-sat-10-25-1.qcir                                 TIMEOUT                     901.69      901.08        None                False
+DWs-sat-12-28-1.qcir                                 TIMEOUT                     901.68      901.09        None                False
+DWs-sat-19-41-1.qcir                                 TIMEOUT                     901.69      901.23        None                False
+DWs-sat-20-43-1.qcir                                 TIMEOUT                     901.83      901.23        None                False
+DWs-sat-21-45-1.qcir                                 TIMEOUT                     901.70      901.20        None                False
+DWs-sat-22-47-1.qcir                                 TIMEOUT                     901.81      901.17        None                False
+DWs-sat-23-49-1.qcir                                 TIMEOUT                     901.77      901.23        None                False
+DWs-sat-24-51-1.qcir                                 TIMEOUT                     901.70      901.06        None                False
+DWs-sat-25-53-1.qcir                                 TIMEOUT                     901.71      901.10        None                False
+DWs-unsat-08-17-1.qcir                               TIMEOUT                     901.69      901.06        None                False
+DWs-unsat-08-18-1.qcir                               TIMEOUT                     901.59      901.10        None                False
+DWs-unsat-09-19-1.qcir                               TIMEOUT                     901.69      901.07        None                False
+DWs-unsat-10-22-1.qcir                               TIMEOUT                     901.68      901.07        None                False
+DWs-unsat-11-23-1.qcir                               TIMEOUT                     901.68      901.08        None                False
+DWs-unsat-11-24-1.qcir                               TIMEOUT                     901.68      901.08        None                False
+DWs-unsat-22-45-1.qcir                               TIMEOUT                     901.69      901.07        None                False
+DWs-unsat-23-47-1.qcir                               TIMEOUT                     901.60      901.07        None                False
+DWs-unsat-24-49-1.qcir                               TIMEOUT                     901.71      901.07        None                False
+DWs-unsat-25-51-1.qcir                               TIMEOUT                     901.71      901.08        None                False
+JP-sat-02-07-4.qcir                                  TIMEOUT                     901.69      901.05        None                False
+JP-sat-02-08-3.qcir                                  TIMEOUT                     901.68      901.18        None                False
+JP-sat-03-08-4.qcir                                  TIMEOUT                     901.68      901.05        None                False
+JP-sat-03-08-5.qcir                                  TIMEOUT                     901.69      901.03        None                False
+JP-sat-03-09-4.qcir                                  TIMEOUT                     901.87      901.24        None                False
+JP-sat-03-09-5.qcir                                  TIMEOUT                     901.59      901.05        None                False
+JP-sat-03-09-6.qcir                                  TIMEOUT                     901.68      901.09        None                False
+JP-sat-03-10-5.qcir                                  TIMEOUT                     901.68      901.06        None                False
+JP-unsat-02-06-3.qcir                                TIMEOUT                     901.69      901.06        None                False
+JP-unsat-02-07-2.qcir                                TIMEOUT                     901.69      901.09        None                False
+JP-unsat-03-07-4.qcir                                TIMEOUT                     901.69      901.06        None                False
+JP-unsat-03-08-3.qcir                                TIMEOUT                     901.59      901.18        None                False
+JP-unsat-03-08-5.qcir                                TIMEOUT                     901.68      901.09        None                False
+JP-unsat-03-09-4.qcir                                TIMEOUT                     901.81      901.21        None                False
+SR-sat-02-01-06-2.qcir                               TIMEOUT                     901.82      901.17        None                False
+SR-sat-02-01-06-3.qcir                               TIMEOUT                     901.69      901.09        None                False
+SR-sat-02-01-07-2.qcir                               TIMEOUT                     901.82      901.19        None                False
+SR-sat-03-01-07-2.qcir                               TIMEOUT                     901.59      901.07        None                False
+SR-sat-03-01-07-3.qcir                               TIMEOUT                     901.71      901.10        None                False
+SR-sat-03-01-08-2.qcir                               TIMEOUT                     901.68      901.07        None                False
+SR-sat-04-01-08-2.qcir                               TIMEOUT                     901.71      901.13        None                False
+SR-sat-04-01-08-3.qcir                               TIMEOUT                     901.87      901.24        None                False
+SR-sat-04-01-09-2.qcir                               TIMEOUT                     901.70      901.18        None                False
+SR-unsat-02-01-05-2.qcir                             TIMEOUT                     901.60      901.05        None                False
+SR-unsat-02-01-06-1.qcir                             unsat                       149.93      149.89        None                False
+SR-unsat-03-01-06-2.qcir                             TIMEOUT                     901.68      901.05        None                False
+SR-unsat-03-01-07-1.qcir                             TIMEOUT                     901.69      901.06        None                False
+SR-unsat-04-01-07-2.qcir                             TIMEOUT                     901.70      901.10        None                False
+SR-unsat-04-01-08-1.qcir                             TIMEOUT                     901.68      901.06        None                False
+add20y.sat.qcir                                      sat                           0.04        0.09        None                False
+amba2c7n.sat.qcir                                    sat                          13.05       13.08        None                False
+amba2f9n.sat.qcir                                    sat                           9.13        9.16        None                False
+amba3b5y.sat.qcir                                    TIMEOUT                     901.59      901.09        None                False
+amba4b9y.unsat.qcir                                  TIMEOUT                     901.68      901.08        None                False
+axquery_query42_1133.qcir                            sat                           0.05        0.07        None                False
+axquery_query64_1133.qcir                            sat                           0.07        0.10        None                False
+axquery_query64_1344.qcir                            sat                         199.47      199.37        None                False
+axquery_query71_1133.qcir                            unsat                         0.02        0.06        None                False
+axquery_query71_1344.qcir                            sat                         127.03      126.99        None                False
+beemldelec4b1_c0to127.sat.qcir                       TIMEOUT                     901.72      901.08        None                False
+beemskbn1f1_c0to7.sat.qcir                           TIMEOUT                     901.68      901.11        None                False
+bs128n.sat.qcir                                      TIMEOUT                     901.58      901.08        None                False
+bs128y.sat.qcir                                      TIMEOUT                     901.67      901.07        None                False
+chess_composing_6_template_01.qcir                   TIMEOUT                     901.68      901.07        None                False
+chess_composing_6_template_04.qcir                   TIMEOUT                     901.69      901.08        None                False
+chess_composing_6_template_06.qcir                   TIMEOUT                     901.69      901.07        None                False
+chess_composing_8_template_02.qcir                   TIMEOUT                     901.71      901.10        None                False
+chess_composing_8_template_13.qcir                   TIMEOUT                     901.61      901.07        None                False
+chess_composing_8_template_38.qcir                   TIMEOUT                     901.70      901.08        None                False
+chess_composing_8_template_42.qcir                   TIMEOUT                     901.70      901.08        None                False
+chess_composing_8_template_43.qcir                   TIMEOUT                     901.70      901.08        None                False
+chess_solving_mate_in_2_1982_WCSC-6_02.qcir          TIMEOUT                     901.68      901.07        None                False
+chess_solving_mate_in_2_1983_FIN-CH-4_01.qcir        TIMEOUT                     901.68      901.07        None                False
+chess_solving_mate_in_2_1987_FIN-CH-8_01.qcir        TIMEOUT                     901.59      901.07        None                False
+chess_solving_mate_in_2_1991_GER-CH-15_01.qcir       TIMEOUT                     901.68      901.10        None                False
+chess_solving_mate_in_2_1996_FIN-CH-17_03.qcir       TIMEOUT                     901.68      901.07        None                False
+chess_solving_mate_in_2_1997_WCCC-OPEN-40_03.qcir    TIMEOUT                     901.69      901.06        None                False
+chess_solving_mate_in_2_1998_GBR-CH-19_01.qcir       TIMEOUT                     901.68      901.08        None                False
+chess_solving_mate_in_2_2002_MAC-CH-6_03.qcir        TIMEOUT                     901.68      901.06        None                False
+chess_solving_mate_in_2_2002_WCCC-OPEN-45_01.qcir    TIMEOUT                     901.59      901.05        None                False
+chess_solving_mate_in_2_2005_POLTAVA-OPEN_01.qcir    TIMEOUT                     901.68      901.07        None                False
+chess_solving_mate_in_2_2008_BEL-CH-16B_08.qcir      TIMEOUT                     901.68      901.05        None                False
+chess_solving_mate_in_2_2009_BEL-CH-17B_01.qcir      TIMEOUT                     901.69      901.05        None                False
+chess_solving_mate_in_2_2009_POL-CH-33_01.qcir       TIMEOUT                     901.68      901.08        None                False
+chess_solving_mate_in_2_2011_GBR-CH-32_03.qcir       TIMEOUT                     901.68      901.06        None                False
+chess_solving_mate_in_2_2011_ISC-7B_01.qcir          TIMEOUT                     901.59      901.05        None                False
+chess_solving_mate_in_2_2011_ROM-CH-W_02.qcir        TIMEOUT                     901.68      901.07        None                False
+chess_solving_mate_in_2_2011_WCCC-OPEN-54_01.qcir    TIMEOUT                     901.68      901.07        None                False
+chess_solving_mate_in_2_2012_GER-CH-36-19_03.qcir    TIMEOUT                     901.68      901.07        None                False
+chess_solving_mate_in_2_2014_NED-CH-20B_09.qcir      TIMEOUT                     901.69      901.08        None                False
+chess_solving_mate_in_2_2015_GBR-CH-36_02.qcir       TIMEOUT                     901.68      901.11        None                False
+chess_solving_mate_in_3_1978_WCSC-2_05.qcir          TIMEOUT                     901.60      901.05        None                False
+chess_solving_mate_in_3_1991_WCSC-15_05.qcir         TIMEOUT                     901.69      901.08        None                False
+chess_solving_mate_in_3_2000_CZE-CH_04.qcir          TIMEOUT                     901.69      901.05        None                False
+chess_solving_mate_in_3_2001_UKR-CH_06.qcir          TIMEOUT                     901.69      901.04        None                False
+chess_solving_mate_in_3_2003_UKR-CH_04.qcir          TIMEOUT                     901.69      901.07        None                False
+chess_solving_mate_in_3_2008_ISC-4B_07.qcir          TIMEOUT                     901.69      901.07        None                False
+chess_solving_mate_in_3_2010_UKR-CH_04.qcir          TIMEOUT                     901.60      901.08        None                False
+chess_solving_mate_in_3_2011_UKR-OPEN-25_04.qcir     TIMEOUT                     901.69      901.08        None                False
+chess_solving_mate_in_3_2012_GRE-CH-11_02.qcir       TIMEOUT                     901.68      901.05        None                False
+chess_solving_mate_in_3_2012_NED-CH-18B_04.qcir      TIMEOUT                     901.69      901.07        None                False
+chess_solving_mate_in_3_2014_FRA-CH_03.qcir          TIMEOUT                     901.69      901.10        None                False
+chess_solving_mate_in_4_2001_UKR-CH_13.qcir          TIMEOUT                     901.70      901.11        None                False
+ci.e#1.a#3.E#40.A#60.c#200.w#6.s#6.asp.qcir          TIMEOUT                     901.60      901.05        None                False
+ci.e#1.a#3.E#40.A#60.c#208.w#6.s#8.asp.qcir          TIMEOUT                     901.69      901.07        None                False
+ci.e#1.a#3.E#40.A#60.c#264.w#4.s#2.asp.qcir          TIMEOUT                     901.68      901.07        None                False
+ci.e#1.a#3.E#40.A#60.c#280.w#6.s#7.asp.qcir          TIMEOUT                     901.68      901.07        None                False
+ci.e#1.a#3.E#40.A#60.c#288.w#4.s#8.asp.qcir          TIMEOUT                     901.69      901.08        None                False
+ci.e#1.a#3.E#40.A#60.c#296.w#4.s#7.asp.qcir          TIMEOUT                     901.69      901.08        None                False
+ci.e#1.a#3.E#40.A#60.c#296.w#6.s#7.asp.qcir          TIMEOUT                     901.60      901.06        None                False
+ci.e#1.a#3.E#40.A#60.c#304.w#4.s#7.asp.qcir          TIMEOUT                     901.69      901.07        None                False
+ci.e#1.a#3.E#40.A#60.c#304.w#6.s#8.asp.qcir          TIMEOUT                     901.68      901.06        None                False
+ci.e#1.a#3.E#40.A#60.c#312.w#2.s#3.asp.qcir          TIMEOUT                     901.68      901.05        None                False
+ci.e#1.a#3.E#40.A#60.c#312.w#4.s#3.asp.qcir          TIMEOUT                     901.69      901.08        None                False
+ci.e#1.a#3.E#40.A#60.c#320.w#4.s#8.asp.qcir          TIMEOUT                     901.69      901.07        None                False
+ci.e#1.a#3.E#40.A#60.c#336.w#4.s#5.asp.qcir          TIMEOUT                     901.60      901.07        None                False
+ci.e#1.a#3.E#40.A#60.c#344.w#4.s#5.asp.qcir          TIMEOUT                     901.69      901.07        None                False
+ci.e#1.a#3.E#40.A#60.c#360.w#2.s#8.asp.qcir          TIMEOUT                     901.68      901.09        None                False
+ci.e#1.a#3.E#40.A#60.c#368.w#2.s#7.asp.qcir          TIMEOUT                     901.69      901.07        None                False
+ci.e#1.a#3.E#40.A#60.c#368.w#6.s#7.asp.qcir          TIMEOUT                     901.68      901.10        None                False
+ci.e#1.a#3.E#40.A#60.c#376.w#2.s#4.asp.qcir          TIMEOUT                     901.69      901.09        None                False
+ci.e#1.a#3.E#40.A#60.c#376.w#4.s#6.asp.qcir          TIMEOUT                     901.60      901.06        None                False
+ci.e#1.a#3.E#40.A#60.c#376.w#6.s#6.asp.qcir          TIMEOUT                     901.69      901.08        None                False
+ci.e#1.a#3.E#40.A#60.c#376.w#6.s#7.asp.qcir          TIMEOUT                     901.71      901.09        None                False
+ci.e#1.a#3.E#40.A#60.c#384.w#6.s#3.asp.qcir          TIMEOUT                     901.68      901.08        None                False
+ci.e#1.a#3.E#40.A#60.c#384.w#6.s#8.asp.qcir          TIMEOUT                     901.69      901.06        None                False
+ci.e#1.a#3.E#40.A#60.c#392.w#6.s#4.asp.qcir          TIMEOUT                     901.68      901.07        None                False
+ci.e#1.a#3.E#40.A#60.c#400.w#2.s#1.asp.qcir          TIMEOUT                     901.60      901.06        None                False
+ci.e#1.a#3.E#40.A#60.c#400.w#2.s#4.asp.qcir          TIMEOUT                     901.69      901.08        None                False
+ci.e#1.a#3.E#40.A#60.c#400.w#4.s#5.asp.qcir          TIMEOUT                     901.68      901.07        None                False
+ci.e#1.a#3.E#40.A#60.c#416.w#2.s#3.asp.qcir          TIMEOUT                     901.69      901.08        None                False
+ci.e#1.a#3.E#40.A#60.c#424.w#2.s#1.asp.qcir          TIMEOUT                     901.69      901.08        None                False
+ci.e#1.a#3.E#40.A#60.c#432.w#2.s#8.asp.qcir          TIMEOUT                     901.69      901.04        None                False
+cycle_sched_12_2_1.sat.qcir                          TIMEOUT                     901.59      901.06        None                False
+cycle_sched_2_10_1.sat.qcir                          sat                          20.16       20.20        None                False
+cycle_sched_4_4_2.sat.qcir                           TIMEOUT                     901.67      901.05        None                False
+cycle_sched_4_7_1.sat.qcir                           sat                         760.03      759.54        None                False
+cycle_sched_4_7_1.unsat.qcir                         unsat                       733.35      732.87        None                False
+cycle_sched_6_6_2.sat.qcir                           TIMEOUT                     901.68      901.05        None                False
+cycle_sched_6_7_1.sat.qcir                           TIMEOUT                     901.68      901.04        None                False
+driver_a10y.sat.qcir                                 TIMEOUT                     901.68      901.06        None                False
+driver_a9n.sat.qcir                                  TIMEOUT                     901.59      901.05        None                False
+driver_b8n.sat.qcir                                  TIMEOUT                     901.68      901.07        None                False
+driver_c9n.sat.qcir                                  sat                         290.70      290.54        None                False
+driver_c9y.sat.qcir                                  sat                         286.05      285.91        None                False
+driver_d9y.sat.qcir                                  sat                          12.60       12.63        None                False
+eequery_query42_1133.qcir                            unsat                         0.15        0.20        None                False
+eequery_query42_1344.qcir                            TIMEOUT                     901.69      901.07        None                False
+eequery_query64_1133.qcir                            unsat                         0.11        0.15        None                False
+eequery_query64_1344.qcir                            TIMEOUT                     901.68      901.09        None                False
+eequery_query71_1133.qcir                            sat                           0.08        0.14        None                False
+exquery_query42_1133.qcir                            unsat                         0.04        0.07        None                False
+exquery_query64_1133.qcir                            sat                           0.07        0.11        None                False
+exquery_query64_1344.qcir                            sat                         230.06      229.93        None                False
+exquery_query71_1133.qcir                            sat                           0.01        0.06        None                False
+exquery_query71_1344.qcir                            sat                         251.16      251.03        None                False
+falsequ_query60_1133.qcir                            sat                           0.03        0.06        None                False
+falsequ_query64_1133.qcir                            sat                           0.06        0.11        None                False
+falsequ_query64_1344.qcir                            sat                         107.51      107.50        None                False
+falsequ_query71_1133.qcir                            sat                           0.01        0.04        None                False
+falsequ_query71_1344.qcir                            sat                         182.43      182.35        None                False
+genbuf10b4n.unsat.qcir                               TIMEOUT                     901.59      901.08        None                False
+genbuf9b4n.unsat.qcir                                TIMEOUT                     901.68      901.05        None                False
+jctc1-pass.qcir                                      TIMEOUT                     901.71      901.08        None                False
+jctc10-fail.qcir                                     TIMEOUT                     901.73      901.11        None                False
+jctc13-fail.qcir                                     TIMEOUT                     901.69      901.07        None                False
+jctc14-unrolled-fail.qcir                            TIMEOUT                     901.90      901.29        None                False
+jctc16-vals-0,2-pass.qcir                            TIMEOUT                     901.64      901.10        None                False
+jctc17-vals-0,2-pass.qcir                            OUT OF MEMORY                32.00       32.03        None                False
+jctc18-vals-0,2-pass.qcir                            OUT OF MEMORY                32.77       32.81        None                False
+jctc2-pass.qcir                                      TIMEOUT                     901.77      901.15        None                False
+jctc4-fail.qcir                                      TIMEOUT                     901.75      901.13        None                False
+jctc5-fail.qcir                                      TIMEOUT                     901.90      901.26        None                False
+jctc6-pass.qcir                                      TIMEOUT                     901.69      901.08        None                False
+jctc8-pass.qcir                                      TIMEOUT                     901.70      901.08        None                False
+jctc9-pass.qcir                                      TIMEOUT                     901.61      901.08        None                False
+k0026150.c.oe.qcir                                   sat                           0.05        0.11        None                False
+k0026150.h.oe.qcir                                   sat                           0.05        0.10        None                False
+k0201058.c.oe.qcir                                   sat                           0.05        0.09        None                False
+k0201058.connected.oe.qcir                           sat                           0.15        0.20        None                False
+k0201058.h.oe.qcir                                   sat                           0.04        0.09        None                False
+k0201058.v.oe.qcir                                   sat                           0.04        0.08        None                False
+k0206272.c.oe.qcir                                   sat                           0.04        0.07        None                False
+k0206272.h.oe.qcir                                   sat                           0.04        0.08        None                False
+k0206272.s.oe.qcir                                   sat                           0.04        0.11        None                False
+k0206272.v.oe.qcir                                   sat                           0.04        0.07        None                False
+k0225418.connected.oe.qcir                           sat                           0.10        0.15        None                False
+k0225418.v.oe.qcir                                   sat                           0.04        0.08        None                False
+k0225682.v.oe.qcir                                   sat                           0.05        0.19        None                False
+k0225744.s.oe.qcir                                   sat                           0.04        0.09        None                False
+k0226271.connected.oe.qcir                           sat                           0.11        0.25        None                False
+k0226271.s.oe.qcir                                   sat                           0.04        0.08        None                False
+k0248814.c.oe.qcir                                   sat                           0.05        0.09        None                False
+k0248814.h.oe.qcir                                   sat                           0.05        0.11        None                False
+k0248814.v.oe.qcir                                   sat                           0.05        0.27        None                False
+k0300663.c.oe.qcir                                   sat                           0.05        0.09        None                False
+k0300663.s.oe.qcir                                   sat                           0.04        0.22        None                False
+k0300663.v.oe.qcir                                   sat                           0.04        0.19        None                False
+k0302060.connected.oe.qcir                           sat                           0.10        0.26        None                False
+k0302060.h.oe.qcir                                   sat                           0.05        0.19        None                False
+k0302060.s.oe.qcir                                   sat                           0.04        0.19        None                False
+k0325261.connected.oe.qcir                           sat                           0.10        0.15        None                False
+k0325261.h.oe.qcir                                   sat                           0.05        0.08        None                False
+k0325261.s.oe.qcir                                   sat                           0.05        0.07        None                False
+k0325624.connected.oe.qcir                           sat                           0.09        0.14        None                False
+k0325624.s.oe.qcir                                   sat                           0.04        0.09        None                False
+k0325624.v.oe.qcir                                   sat                           0.05        0.09        None                False
+k0325715.c.oe.qcir                                   sat                           0.05        0.09        None                False
+k0325715.connected.oe.qcir                           sat                           0.09        0.43        None                False
+k0325715.s.oe.qcir                                   sat                           0.04        0.09        None                False
+k0326191.connected.oe.qcir                           sat                           0.10        0.45        None                False
+k0326578.connected.oe.qcir                           sat                           0.09        0.14        None                False
+k0327178.c.oe.qcir                                   sat                           0.05        0.09        None                False
+k0327178.connected.oe.qcir                           sat                           0.11        0.14        None                False
+k0327620.h.oe.qcir                                   sat                           0.05        0.10        None                False
+k0327694.v.oe.qcir                                   sat                           0.05        0.12        None                False
+klieber2017q-048-12-eq.qcir                          sat                          50.00       49.99        None                False
+klieber2017q-048-12-t1.qcir                          unsat                        24.34       24.38        None                False
+klieber2017q-052-13-eq.qcir                          TIMEOUT                     901.70      901.09        None                False
+klieber2017q-056-14-eq.qcir                          TIMEOUT                     901.68      901.06        None                False
+klieber2017q-060-15-eq.qcir                          TIMEOUT                     901.69      901.05        None                False
+klieber2017q-060-15-t1.qcir                          TIMEOUT                     901.70      901.08        None                False
+klieber2017q-062-15-eq.qcir                          TIMEOUT                     901.69      901.08        None                False
+klieber2017q-062-15-t1.qcir                          TIMEOUT                     901.60      901.10        None                False
+klieber2017q-064-16-eq.qcir                          TIMEOUT                     901.69      901.08        None                False
+klieber2017q-064-16-t1.qcir                          TIMEOUT                     901.68      901.04        None                False
+klieber2017q-066-16-eq.qcir                          TIMEOUT                     901.69      901.05        None                False
+klieber2017q-066-16-t1.qcir                          TIMEOUT                     901.69      901.09        None                False
+klieber2017q-068-17-eq.qcir                          TIMEOUT                     901.68      901.08        None                False
+klieber2017q-068-17-t1.qcir                          TIMEOUT                     901.59      901.08        None                False
+klieber2017q-070-17-eq.qcir                          TIMEOUT                     901.70      901.10        None                False
+klieber2017q-070-17-t1.qcir                          TIMEOUT                     901.69      901.08        None                False
+klieber2017q-072-18-eq.qcir                          TIMEOUT                     901.70      901.08        None                False
+klieber2017q-072-18-t1.qcir                          TIMEOUT                     901.70      901.07        None                False
+klieber2017q-074-18-eq.qcir                          TIMEOUT                     901.68      901.10        None                False
+klieber2017q-074-18-t1.qcir                          TIMEOUT                     901.59      901.05        None                False
+klieber2017q-076-19-eq.qcir                          TIMEOUT                     901.69      901.08        None                False
+klieber2017q-076-19-t1.qcir                          TIMEOUT                     901.68      901.07        None                False
+klieber2017q-078-19-eq.qcir                          TIMEOUT                     901.69      901.05        None                False
+klieber2017q-078-19-t1.qcir                          TIMEOUT                     901.68      901.07        None                False
+klieber2017q-080-20-t1.qcir                          TIMEOUT                     901.69      901.08        None                False
+klieber2017q-082-20-t1.qcir                          TIMEOUT                     901.59      901.05        None                False
+klieber2017q-084-21-eq.qcir                          TIMEOUT                     901.68      901.08        None                False
+klieber2017q-084-21-t1.qcir                          TIMEOUT                     901.69      901.05        None                False
+klieber2017q-086-21-t1.qcir                          TIMEOUT                     901.69      901.06        None                False
+klieber2017q-088-22-eq.qcir                          TIMEOUT                     901.69      901.08        None                False
+klieber2017q-088-22-t1.qcir                          TIMEOUT                     901.68      901.08        None                False
+klieber2017q-100-25-t1.qcir                          TIMEOUT                     901.60      901.11        None                False
+klieber2017q-104-26-t1.qcir                          TIMEOUT                     901.70      901.08        None                False
+klieber2017q-108-27-t1.qcir                          TIMEOUT                     901.69      901.10        None                False
+klieber2017q-112-28-t1.qcir                          TIMEOUT                     901.69      901.08        None                False
+load_2c_comp_comp7_REAL.sat.qcir                     TIMEOUT                     901.68      901.07        None                False
+load_3c_comp_comp7_REAL.unsat.qcir                   TIMEOUT                     901.68      901.08        None                False
+load_full_4_comp3_REAL.unsat.qcir                    TIMEOUT                     901.58      901.08        None                False
+ltl2dba_C2-6_comp3_REAL.sat.qcir                     TIMEOUT                     901.69      901.09        None                False
+ltl2dba_C2-8_comp4_REAL.sat.qcir                     TIMEOUT                     901.67      901.09        None                False
+ltl2dpa_C26_comp2_REAL.sat.qcir                      TIMEOUT                     901.69      901.07        None                False
+mult9.sat.qcir                                       sat                         167.26      167.19        None                False
+mult_bool_matrix_10_9_11.sat.qcir                    TIMEOUT                     901.69      901.08        None                False
+mult_bool_matrix_10_9_11.unsat.qcir                  TIMEOUT                     901.68      901.08        None                False
+mult_bool_matrix_12_13_11.sat.qcir                   TIMEOUT                     901.60      901.08        None                False
+mult_bool_matrix_17_17_17.sat.qcir                   TIMEOUT                     901.69      901.07        None                False
+mult_bool_matrix_18_18_18.sat.qcir                   TIMEOUT                     901.68      901.07        None                False
+mult_bool_matrix_dyn_9_5.sat.qcir                    TIMEOUT                     901.69      901.08        None                False
+nreachq_query11_1133.qcir                            unsat                         9.86        9.89        None                False
+nreachq_query54_1133.qcir                            unsat                        26.97       26.99        None                False
+nreachq_query71_1133.qcir                            unsat                         8.49        8.52        None                False
+nreachq_query71_1344.qcir                            TIMEOUT                     901.68      901.05        None                False
+ntrivil_query42_1133.qcir                            sat                           0.14        0.19        None                False
+ntrivil_query64_1133.qcir                            sat                           0.33        0.36        None                False
+ntrivil_query64_1344.qcir                            TIMEOUT                     901.69      901.07        None                False
+ntrivil_query71_1133.qcir                            sat                           0.05        0.10        None                False
+ntrivil_query71_1344.qcir                            TIMEOUT                     901.59      901.07        None                False
+nxquery_query42_1133.qcir                            sat                           0.04        0.09        None                False
+nxquery_query50_1133.qcir                            unsat                         0.01        0.04        None                False
+nxquery_query64_1133.qcir                            sat                           0.07        0.12        None                False
+nxquery_query71_1133.qcir                            unsat                         0.02        0.06        None                False
+nxquery_query71_1344.qcir                            sat                         151.04      150.99        None                False
+query64_query11_1133.qcir                            unsat                         0.17        0.23        None                False
+query64_query42_1133.qcir                            unsat                         1.16        1.19        None                False
+query71_query31_1133.qcir                            unsat                         1.39        1.44        None                False
+query71_query34_1133.qcir                            unsat                         0.70        0.78        None                False
+query71_query36_1133.qcir                            unsat                         0.73        0.78        None                False
+reachqu_query60_1133.qcir                            TIMEOUT                     901.68      901.05        None                False
+reachqu_query60_1344.qcir                            TIMEOUT                     901.69      901.08        None                False
+reachqu_query64_1133.qcir                            TIMEOUT                     901.68      901.05        None                False
+reachqu_query64_1344.qcir                            TIMEOUT                     901.68      901.07        None                False
+reachqu_query71_1344.qcir                            TIMEOUT                     901.69      901.08        None                False
+stay24n.sat.qcir                                     TIMEOUT                     901.58      901.04        None                False
+trivial_query60_1133.qcir                            sat                           0.15        0.21        None                False
+trivial_query64_1133.qcir                            sat                           0.51        0.55        None                False
+trivial_query64_1344.qcir                            TIMEOUT                     901.69      901.05        None                False
+trivial_query71_1133.qcir                            sat                           0.05        0.11        None                False
+trivial_query71_1344.qcir                            TIMEOUT                     901.69      901.05        None                False
+trueque_query60_1133.qcir                            sat                           0.03        0.07        None                False
+trueque_query64_1133.qcir                            sat                           0.06        0.09        None                False
+trueque_query64_1344.qcir                            TIMEOUT                     901.69      901.07        None                False
+trueque_query71_1133.qcir                            sat                           0.01        0.06        None                False
+trueque_query71_1344.qcir                            sat                         236.10      235.96        None                False
+------------------------------------------------------------------------------------------------------------------------------------
+Run set 1                                            done                     223241.92    37421.73           -
+
+
+simple-continuous.qbf20PNCNF
+Run set 2 of 15: skipped 
+
+
+simple-varsinconjuncts.qbf20PNCNF
+Run set 3 of 15: skipped 
+
+
+tree-noelimination-atbeginning.qbf20PNCNF
+Run set 4 of 15: skipped 
+
+
+tree-noelimination-continuous.qbf20PNCNF
+Run set 5 of 15: skipped 
+
+
+tree-noelimination-varsinconjuncts.qbf20PNCNF
+Run set 6 of 15: skipped 
+
+
+tree-simpleelimination-atbeginning.qbf20PNCNF
+Run set 7 of 15 with options '--preprocess 1 --dyn-reordering 1 --localise 1 --elimination-choice 1 --uvar-choice 0' and propertyfile 'None'
+
+inputfile                                            status                    cpu time   wall time        host  Preprocessor solved
+------------------------------------------------------------------------------------------------------------------------------------
+CM-sat-04-01-06-3.qcir                               OUT OF MEMORY               223.99      223.89        None                False
+CM-sat-04-01-06-4.qcir                               OUT OF MEMORY               226.48      226.36        None                False
+CM-sat-04-01-07-3.qcir                               OUT OF MEMORY               282.08      281.96        None                False
+CM-sat-07-01-06-3.qcir                               OUT OF MEMORY               107.54      107.51        None                False
+CM-sat-07-01-06-4.qcir                               OUT OF MEMORY                14.78       14.82        None                False
+CM-sat-07-01-07-3.qcir                               OUT OF MEMORY                13.39       13.43        None                False
+CM-sat-18-01-07-3.qcir                               OUT OF MEMORY                16.26       16.28        None                False
+CM-sat-19-01-06-3.qcir                               TIMEOUT                     901.85      901.24        None                False
+CM-sat-20-01-06-3.qcir                               OUT OF MEMORY                17.28       17.32        None                False
+CM-sat-21-01-06-3.qcir                               OUT OF MEMORY                17.67       17.69        None                False
+CM-unsat-07-01-06-2.qcir                             OUT OF MEMORY               304.75      304.57        None                False
+CM-unsat-13-01-05-3.qcir                             OUT OF MEMORY                14.62       14.65        None                False
+CM-unsat-14-01-05-3.qcir                             OUT OF MEMORY                14.85       14.88        None                False
+CM-unsat-15-01-05-3.qcir                             TIMEOUT                     901.90      901.27        None                False
+CM-unsat-16-01-05-3.qcir                             TIMEOUT                     901.91      901.31        None                False
+CM-unsat-17-01-05-3.qcir                             OUT OF MEMORY                15.72       15.77        None                False
+CM-unsat-18-01-05-3.qcir                             OUT OF MEMORY                15.78       15.83        None                False
+CM-unsat-19-01-05-3.qcir                             OUT OF MEMORY                16.07       16.11        None                False
+CM-unsat-20-01-05-3.qcir                             TIMEOUT                     901.93      901.32        None                False
+CM-unsat-21-01-05-3.qcir                             OUT OF MEMORY                16.45       16.49        None                False
+DW-sat-04-16-1.qcir                                  OUT OF MEMORY                20.06       20.09        None                False
+DW-sat-08-22-1.qcir                                  OUT OF MEMORY                87.59       87.59        None                False
+DW-sat-08-23-1.qcir                                  OUT OF MEMORY                47.61       47.63        None                False
+DW-sat-09-26-1.qcir                                  OUT OF MEMORY                57.44       57.46        None                False
+DW-sat-17-40-1.qcir                                  OUT OF MEMORY               163.80      163.74        None                False
+DW-sat-18-42-1.qcir                                  OUT OF MEMORY               115.38      115.37        None                False
+DW-sat-19-44-1.qcir                                  OUT OF MEMORY               130.87      130.84        None                False
+DW-sat-20-46-1.qcir                                  OUT OF MEMORY               153.24      153.17        None                False
+DW-sat-21-48-1.qcir                                  OUT OF MEMORY               188.16      188.08        None                False
+DW-sat-22-50-1.qcir                                  OUT OF MEMORY               218.73      218.63        None                False
+DW-unsat-09-22-1.qcir                                OUT OF MEMORY                68.86       68.87        None                False
+DW-unsat-09-23-1.qcir                                OUT OF MEMORY                94.54       94.51        None                False
+DW-unsat-10-25-1.qcir                                OUT OF MEMORY               106.82      106.79        None                False
+DW-unsat-11-26-1.qcir                                OUT OF MEMORY                81.56       81.56        None                False
+DW-unsat-20-44-1.qcir                                OUT OF MEMORY               158.02      157.95        None                False
+DW-unsat-21-46-1.qcir                                OUT OF MEMORY               182.41      182.30        None                False
+DW-unsat-22-48-1.qcir                                OUT OF MEMORY               225.92      225.83        None                False
+DW-unsat-23-50-1.qcir                                OUT OF MEMORY                48.44       48.44        None                False
+DW-unsat-24-52-1.qcir                                OUT OF MEMORY                14.99       15.02        None                False
+DW-unsat-25-54-1.qcir                                OUT OF MEMORY                14.84       14.89        None                False
+DWs-sat-10-23-1.qcir                                 OUT OF MEMORY                89.74       89.75        None                False
+DWs-sat-10-25-1.qcir                                 OUT OF MEMORY                74.89       74.89        None                False
+DWs-sat-12-28-1.qcir                                 OUT OF MEMORY                83.84       83.84        None                False
+DWs-sat-19-41-1.qcir                                 OUT OF MEMORY                15.18       15.21        None                False
+DWs-sat-20-43-1.qcir                                 OUT OF MEMORY                15.24       15.27        None                False
+DWs-sat-21-45-1.qcir                                 OUT OF MEMORY                15.45       15.48        None                False
+DWs-sat-22-47-1.qcir                                 OUT OF MEMORY                15.42       15.47        None                False
+DWs-sat-23-49-1.qcir                                 OUT OF MEMORY                14.94       15.02        None                False
+DWs-sat-24-51-1.qcir                                 OUT OF MEMORY                15.08       15.11        None                False
+DWs-sat-25-53-1.qcir                                 OUT OF MEMORY                15.71       15.74        None                False
+DWs-unsat-08-17-1.qcir                               OUT OF MEMORY                57.27       57.29        None                False
+DWs-unsat-08-18-1.qcir                               OUT OF MEMORY                80.33       80.33        None                False
+DWs-unsat-09-19-1.qcir                               OUT OF MEMORY                95.22       95.19        None                False
+DWs-unsat-10-22-1.qcir                               OUT OF MEMORY               104.96      104.92        None                False
+DWs-unsat-11-23-1.qcir                               OUT OF MEMORY               104.07      104.07        None                False
+DWs-unsat-11-24-1.qcir                               OUT OF MEMORY               104.33      104.31        None                False
+DWs-unsat-22-45-1.qcir                               OUT OF MEMORY                15.74       15.79        None                False
+DWs-unsat-23-47-1.qcir                               OUT OF MEMORY                15.51       15.55        None                False
+DWs-unsat-24-49-1.qcir                               OUT OF MEMORY                15.22       15.24        None                False
+DWs-unsat-25-51-1.qcir                               OUT OF MEMORY                15.07       15.10        None                False
+JP-sat-02-07-4.qcir                                  OUT OF MEMORY                81.78       81.75        None                False
+JP-sat-02-08-3.qcir                                  OUT OF MEMORY                59.66       59.66        None                False
+JP-sat-03-08-4.qcir                                  OUT OF MEMORY               399.22      398.98        None                False
+JP-sat-03-08-5.qcir                                  OUT OF MEMORY               559.45      559.07        None                False
+JP-sat-03-09-4.qcir                                  OUT OF MEMORY               306.75      306.57        None                False
+JP-sat-03-09-5.qcir                                  OUT OF MEMORY               284.99      284.87        None                False
+JP-sat-03-09-6.qcir                                  OUT OF MEMORY                13.24       13.27        None                False
+JP-sat-03-10-5.qcir                                  OUT OF MEMORY               569.58      569.21        None                False
+JP-unsat-02-06-3.qcir                                OUT OF MEMORY                58.02       58.04        None                False
+JP-unsat-02-07-2.qcir                                TIMEOUT                     901.88      901.26        None                False
+JP-unsat-03-07-4.qcir                                OUT OF MEMORY               362.43      362.20        None                False
+JP-unsat-03-08-3.qcir                                OUT OF MEMORY               175.91      175.85        None                False
+JP-unsat-03-08-5.qcir                                OUT OF MEMORY               558.03      557.67        None                False
+JP-unsat-03-09-4.qcir                                OUT OF MEMORY               305.29      305.15        None                False
+SR-sat-02-01-06-2.qcir                               OUT OF MEMORY               113.89      113.83        None                False
+SR-sat-02-01-06-3.qcir                               OUT OF MEMORY               565.08      564.71        None                False
+SR-sat-02-01-07-2.qcir                               OUT OF MEMORY               107.12      107.10        None                False
+SR-sat-03-01-07-2.qcir                               OUT OF MEMORY                13.27       13.31        None                False
+SR-sat-03-01-07-3.qcir                               OUT OF MEMORY                17.25       17.28        None                False
+SR-sat-03-01-08-2.qcir                               OUT OF MEMORY                14.21       14.25        None                False
+SR-sat-04-01-08-2.qcir                               TIMEOUT                     901.88      901.26        None                False
+SR-sat-04-01-08-3.qcir                               OUT OF MEMORY                34.13       34.15        None                False
+SR-sat-04-01-09-2.qcir                               OUT OF MEMORY                16.82       16.86        None                False
+SR-unsat-02-01-05-2.qcir                             OUT OF MEMORY               100.09      100.07        None                False
+SR-unsat-02-01-06-1.qcir                             TIMEOUT                     901.60      901.09        None                False
+SR-unsat-03-01-06-2.qcir                             OUT OF MEMORY                14.15       14.19        None                False
+SR-unsat-03-01-07-1.qcir                             OUT OF MEMORY                33.35       33.37        None                False
+SR-unsat-04-01-07-2.qcir                             OUT OF MEMORY                15.78       15.87        None                False
+SR-unsat-04-01-08-1.qcir                             OUT OF MEMORY               116.12      116.11        None                False
+add20y.sat.qcir                                      OUT OF MEMORY               169.55      169.48        None                False
+amba2c7n.sat.qcir                                    OUT OF MEMORY                29.71       29.74        None                False
+amba2f9n.sat.qcir                                    OUT OF MEMORY                34.70       34.73        None                False
+amba3b5y.sat.qcir                                    OUT OF MEMORY                42.60       42.61        None                False
+amba4b9y.unsat.qcir                                  unsat                       621.30      620.89        None                False
+axquery_query42_1133.qcir                            sat                           0.23        0.28        None                False
+axquery_query64_1133.qcir                            sat                           0.09        0.15        None                False
+axquery_query64_1344.qcir                            sat                         382.16      381.95        None                False
+axquery_query71_1133.qcir                            unsat                         0.09        0.15        None                False
+axquery_query71_1344.qcir                            sat                         145.67      145.61        None                False
+beemldelec4b1_c0to127.sat.qcir                       OUT OF MEMORY                19.11       19.15        None                False
+beemskbn1f1_c0to7.sat.qcir                           OUT OF MEMORY                12.05       12.11        None                False
+bs128n.sat.qcir                                      OUT OF MEMORY               226.04      225.91        None                False
+bs128y.sat.qcir                                      OUT OF MEMORY               226.07      225.95        None                False
+chess_composing_6_template_01.qcir                   OUT OF MEMORY                31.06       31.10        None                False
+chess_composing_6_template_04.qcir                   OUT OF MEMORY                31.10       31.13        None                False
+chess_composing_6_template_06.qcir                   OUT OF MEMORY                31.36       31.39        None                False
+chess_composing_8_template_02.qcir                   OUT OF MEMORY                35.25       35.27        None                False
+chess_composing_8_template_13.qcir                   OUT OF MEMORY                35.62       35.64        None                False
+chess_composing_8_template_38.qcir                   OUT OF MEMORY                35.70       35.72        None                False
+chess_composing_8_template_42.qcir                   OUT OF MEMORY                35.44       35.47        None                False
+chess_composing_8_template_43.qcir                   OUT OF MEMORY                35.49       35.51        None                False
+chess_solving_mate_in_2_1982_WCSC-6_02.qcir          OUT OF MEMORY                35.42       35.45        None                False
+chess_solving_mate_in_2_1983_FIN-CH-4_01.qcir        OUT OF MEMORY                35.30       35.34        None                False
+chess_solving_mate_in_2_1987_FIN-CH-8_01.qcir        OUT OF MEMORY                35.19       35.23        None                False
+chess_solving_mate_in_2_1991_GER-CH-15_01.qcir       OUT OF MEMORY                35.34       35.37        None                False
+chess_solving_mate_in_2_1996_FIN-CH-17_03.qcir       OUT OF MEMORY                35.45       35.46        None                False
+chess_solving_mate_in_2_1997_WCCC-OPEN-40_03.qcir    OUT OF MEMORY                35.23       35.25        None                False
+chess_solving_mate_in_2_1998_GBR-CH-19_01.qcir       OUT OF MEMORY                35.13       35.18        None                False
+chess_solving_mate_in_2_2002_MAC-CH-6_03.qcir        OUT OF MEMORY                35.38       35.42        None                False
+chess_solving_mate_in_2_2002_WCCC-OPEN-45_01.qcir    OUT OF MEMORY                35.54       35.56        None                False
+chess_solving_mate_in_2_2005_POLTAVA-OPEN_01.qcir    OUT OF MEMORY                35.33       35.34        None                False
+chess_solving_mate_in_2_2008_BEL-CH-16B_08.qcir      OUT OF MEMORY                35.28       35.31        None                False
+chess_solving_mate_in_2_2009_BEL-CH-17B_01.qcir      OUT OF MEMORY                35.40       35.43        None                False
+chess_solving_mate_in_2_2009_POL-CH-33_01.qcir       OUT OF MEMORY                35.50       35.53        None                False
+chess_solving_mate_in_2_2011_GBR-CH-32_03.qcir       OUT OF MEMORY                35.29       35.32        None                False
+chess_solving_mate_in_2_2011_ISC-7B_01.qcir          OUT OF MEMORY                35.29       35.32        None                False
+chess_solving_mate_in_2_2011_ROM-CH-W_02.qcir        OUT OF MEMORY                35.36       35.40        None                False
+chess_solving_mate_in_2_2011_WCCC-OPEN-54_01.qcir    OUT OF MEMORY                35.28       35.32        None                False
+chess_solving_mate_in_2_2012_GER-CH-36-19_03.qcir    OUT OF MEMORY                35.47       35.48        None                False
+chess_solving_mate_in_2_2014_NED-CH-20B_09.qcir      OUT OF MEMORY                35.49       35.51        None                False
+chess_solving_mate_in_2_2015_GBR-CH-36_02.qcir       OUT OF MEMORY                35.21       35.26        None                False
+chess_solving_mate_in_3_1978_WCSC-2_05.qcir          OUT OF MEMORY                35.44       35.47        None                False
+chess_solving_mate_in_3_1991_WCSC-15_05.qcir         OUT OF MEMORY                35.54       35.58        None                False
+chess_solving_mate_in_3_2000_CZE-CH_04.qcir          OUT OF MEMORY                35.52       35.55        None                False
+chess_solving_mate_in_3_2001_UKR-CH_06.qcir          OUT OF MEMORY                35.63       35.64        None                False
+chess_solving_mate_in_3_2003_UKR-CH_04.qcir          OUT OF MEMORY                35.70       35.71        None                False
+chess_solving_mate_in_3_2008_ISC-4B_07.qcir          OUT OF MEMORY                35.32       35.43        None                False
+chess_solving_mate_in_3_2010_UKR-CH_04.qcir          OUT OF MEMORY                35.46       35.49        None                False
+chess_solving_mate_in_3_2011_UKR-OPEN-25_04.qcir     OUT OF MEMORY                35.48       35.50        None                False
+chess_solving_mate_in_3_2012_GRE-CH-11_02.qcir       OUT OF MEMORY                35.44       35.48        None                False
+chess_solving_mate_in_3_2012_NED-CH-18B_04.qcir      OUT OF MEMORY                35.43       35.47        None                False
+chess_solving_mate_in_3_2014_FRA-CH_03.qcir          OUT OF MEMORY                35.59       35.63        None                False
+chess_solving_mate_in_4_2001_UKR-CH_13.qcir          OUT OF MEMORY                35.66       35.68        None                False
+ci.e#1.a#3.E#40.A#60.c#200.w#6.s#6.asp.qcir          TIMEOUT                     901.69      901.08        None                False
+ci.e#1.a#3.E#40.A#60.c#208.w#6.s#8.asp.qcir          TIMEOUT                     901.69      901.07        None                False
+ci.e#1.a#3.E#40.A#60.c#264.w#4.s#2.asp.qcir          TIMEOUT                     901.60      901.06        None                False
+ci.e#1.a#3.E#40.A#60.c#280.w#6.s#7.asp.qcir          TIMEOUT                     901.70      901.11        None                False
+ci.e#1.a#3.E#40.A#60.c#288.w#4.s#8.asp.qcir          TIMEOUT                     901.69      901.08        None                False
+ci.e#1.a#3.E#40.A#60.c#296.w#4.s#7.asp.qcir          TIMEOUT                     901.69      901.07        None                False
+ci.e#1.a#3.E#40.A#60.c#296.w#6.s#7.asp.qcir          TIMEOUT                     901.69      901.07        None                False
+ci.e#1.a#3.E#40.A#60.c#304.w#4.s#7.asp.qcir          TIMEOUT                     901.69      901.07        None                False
+ci.e#1.a#3.E#40.A#60.c#304.w#6.s#8.asp.qcir          TIMEOUT                     901.60      901.06        None                False
+ci.e#1.a#3.E#40.A#60.c#312.w#2.s#3.asp.qcir          TIMEOUT                     901.69      901.09        None                False
+ci.e#1.a#3.E#40.A#60.c#312.w#4.s#3.asp.qcir          TIMEOUT                     901.68      901.08        None                False
+ci.e#1.a#3.E#40.A#60.c#320.w#4.s#8.asp.qcir          TIMEOUT                     901.70      901.09        None                False
+ci.e#1.a#3.E#40.A#60.c#336.w#4.s#5.asp.qcir          TIMEOUT                     901.69      901.07        None                False
+ci.e#1.a#3.E#40.A#60.c#344.w#4.s#5.asp.qcir          TIMEOUT                     901.69      901.07        None                False
+ci.e#1.a#3.E#40.A#60.c#360.w#2.s#8.asp.qcir          TIMEOUT                     901.60      901.06        None                False
+ci.e#1.a#3.E#40.A#60.c#368.w#2.s#7.asp.qcir          TIMEOUT                     901.69      901.07        None                False
+ci.e#1.a#3.E#40.A#60.c#368.w#6.s#7.asp.qcir          TIMEOUT                     901.69      901.06        None                False
+ci.e#1.a#3.E#40.A#60.c#376.w#2.s#4.asp.qcir          TIMEOUT                     901.69      901.07        None                False
+ci.e#1.a#3.E#40.A#60.c#376.w#4.s#6.asp.qcir          TIMEOUT                     901.69      901.08        None                False
+ci.e#1.a#3.E#40.A#60.c#376.w#6.s#6.asp.qcir          TIMEOUT                     901.70      901.07        None                False
+ci.e#1.a#3.E#40.A#60.c#376.w#6.s#7.asp.qcir          TIMEOUT                     901.60      901.06        None                False
+ci.e#1.a#3.E#40.A#60.c#384.w#6.s#3.asp.qcir          TIMEOUT                     901.69      901.06        None                False
+ci.e#1.a#3.E#40.A#60.c#384.w#6.s#8.asp.qcir          TIMEOUT                     901.69      901.07        None                False
+ci.e#1.a#3.E#40.A#60.c#392.w#6.s#4.asp.qcir          TIMEOUT                     901.70      901.08        None                False
+ci.e#1.a#3.E#40.A#60.c#400.w#2.s#1.asp.qcir          TIMEOUT                     901.69      901.08        None                False
+ci.e#1.a#3.E#40.A#60.c#400.w#2.s#4.asp.qcir          TIMEOUT                     901.70      901.07        None                False
+ci.e#1.a#3.E#40.A#60.c#400.w#4.s#5.asp.qcir          TIMEOUT                     901.60      901.07        None                False
+ci.e#1.a#3.E#40.A#60.c#416.w#2.s#3.asp.qcir          TIMEOUT                     901.69      901.07        None                False
+ci.e#1.a#3.E#40.A#60.c#424.w#2.s#1.asp.qcir          TIMEOUT                     901.69      901.07        None                False
+ci.e#1.a#3.E#40.A#60.c#432.w#2.s#8.asp.qcir          TIMEOUT                     901.69      901.07        None                False
+cycle_sched_12_2_1.sat.qcir                          OUT OF MEMORY                25.25       25.35        None                False
+cycle_sched_2_10_1.sat.qcir                          OUT OF MEMORY                58.52       58.52        None                False
+cycle_sched_4_4_2.sat.qcir                           OUT OF MEMORY                26.36       26.39        None                False
+cycle_sched_4_7_1.sat.qcir                           OUT OF MEMORY                21.33       21.37        None                False
+cycle_sched_4_7_1.unsat.qcir                         unsat                       167.13      167.06        None                False
+cycle_sched_6_6_2.sat.qcir                           OUT OF MEMORY                24.77       24.81        None                False
+cycle_sched_6_7_1.sat.qcir                           OUT OF MEMORY                27.36       27.40        None                False
+driver_a10y.sat.qcir                                 OUT OF MEMORY               204.64      204.55        None                False
+driver_a9n.sat.qcir                                  OUT OF MEMORY               444.79      444.57        None                False
+driver_b8n.sat.qcir                                  OUT OF MEMORY               166.37      166.29        None                False
+driver_c9n.sat.qcir                                  OUT OF MEMORY                31.30       31.32        None                False
+driver_c9y.sat.qcir                                  OUT OF MEMORY                27.54       27.57        None                False
+driver_d9y.sat.qcir                                  OUT OF MEMORY                13.83       13.87        None                False
+eequery_query42_1133.qcir                            unsat                         0.65        0.71        None                False
+eequery_query42_1344.qcir                            OUT OF MEMORY                29.65       29.69        None                False
+eequery_query64_1133.qcir                            unsat                         0.26        0.31        None                False
+eequery_query64_1344.qcir                            TIMEOUT                     901.74      901.13        None                False
+eequery_query71_1133.qcir                            sat                           0.25        0.30        None                False
+exquery_query42_1133.qcir                            unsat                         0.23        0.28        None                False
+exquery_query64_1133.qcir                            sat                           0.09        0.14        None                False
+exquery_query64_1344.qcir                            TIMEOUT                     901.70      901.07        None                False
+exquery_query71_1133.qcir                            sat                           0.09        0.14        None                False
+exquery_query71_1344.qcir                            sat                         192.07      191.95        None                False
+falsequ_query60_1133.qcir                            sat                           0.04        0.09        None                False
+falsequ_query64_1133.qcir                            sat                           0.04        0.09        None                False
+falsequ_query64_1344.qcir                            TIMEOUT                     901.69      901.09        None                False
+falsequ_query71_1133.qcir                            sat                           0.05        0.09        None                False
+falsequ_query71_1344.qcir                            sat                         132.19      132.14        None                False
+genbuf10b4n.unsat.qcir                               TIMEOUT                     901.69      901.07        None                False
+genbuf9b4n.unsat.qcir                                TIMEOUT                     901.69      901.07        None                False
+jctc1-pass.qcir                                      OUT OF MEMORY                99.02       99.00        None                False
+jctc10-fail.qcir                                     OUT OF MEMORY               130.56      130.52        None                False
+jctc13-fail.qcir                                     unsat                        49.76       49.79        None                False
+jctc14-unrolled-fail.qcir                            OUT OF MEMORY                32.15       32.19        None                False
+jctc16-vals-0,2-pass.qcir                            OUT OF MEMORY               153.08      153.03        None                False
+jctc17-vals-0,2-pass.qcir                            OUT OF MEMORY                32.14       32.17        None                False
+jctc18-vals-0,2-pass.qcir                            OUT OF MEMORY                32.79       32.81        None                False
+jctc2-pass.qcir                                      OUT OF MEMORY               214.37      214.27        None                False
+jctc4-fail.qcir                                      OUT OF MEMORY                99.43       99.42        None                False
+jctc5-fail.qcir                                      OUT OF MEMORY                33.78       33.79        None                False
+jctc6-pass.qcir                                      OUT OF MEMORY                98.91       98.87        None                False
+jctc8-pass.qcir                                      OUT OF MEMORY                99.56       99.54        None                False
+jctc9-pass.qcir                                      OUT OF MEMORY               104.85      104.84        None                False
+k0026150.c.oe.qcir                                   sat                           0.05        0.10        None                False
+k0026150.h.oe.qcir                                   sat                           0.05        0.11        None                False
+k0201058.c.oe.qcir                                   sat                           0.05        0.11        None                False
+k0201058.connected.oe.qcir                           sat                           0.15        0.20        None                False
+k0201058.h.oe.qcir                                   sat                           0.05        0.09        None                False
+k0201058.v.oe.qcir                                   sat                           0.05        0.09        None                False
+k0206272.c.oe.qcir                                   sat                           0.05        0.10        None                False
+k0206272.h.oe.qcir                                   sat                           0.05        0.08        None                False
+k0206272.s.oe.qcir                                   sat                           0.04        0.09        None                False
+k0206272.v.oe.qcir                                   sat                           0.05        0.09        None                False
+k0225418.connected.oe.qcir                           sat                           0.10        0.17        None                False
+k0225418.v.oe.qcir                                   sat                           0.05        0.11        None                False
+k0225682.v.oe.qcir                                   sat                           0.05        0.09        None                False
+k0225744.s.oe.qcir                                   sat                           0.05        0.11        None                False
+k0226271.connected.oe.qcir                           sat                           0.13        0.19        None                False
+k0226271.s.oe.qcir                                   sat                           0.05        0.10        None                False
+k0248814.c.oe.qcir                                   sat                           0.05        0.11        None                False
+k0248814.h.oe.qcir                                   sat                           0.05        0.11        None                False
+k0248814.v.oe.qcir                                   sat                           0.05        0.11        None                False
+k0300663.c.oe.qcir                                   sat                           0.05        0.12        None                False
+k0300663.s.oe.qcir                                   sat                           0.05        0.11        None                False
+k0300663.v.oe.qcir                                   sat                           0.05        0.11        None                False
+k0302060.connected.oe.qcir                           sat                           0.11        0.15        None                False
+k0302060.h.oe.qcir                                   sat                           0.05        0.11        None                False
+k0302060.s.oe.qcir                                   sat                           0.05        0.11        None                False
+k0325261.connected.oe.qcir                           sat                           0.11        0.17        None                False
+k0325261.h.oe.qcir                                   sat                           0.05        0.11        None                False
+k0325261.s.oe.qcir                                   sat                           0.05        0.11        None                False
+k0325624.connected.oe.qcir                           sat                           0.11        0.15        None                False
+k0325624.s.oe.qcir                                   sat                           0.05        0.12        None                False
+k0325624.v.oe.qcir                                   sat                           0.05        0.12        None                False
+k0325715.c.oe.qcir                                   sat                           0.05        0.10        None                False
+k0325715.connected.oe.qcir                           sat                           0.10        0.15        None                False
+k0325715.s.oe.qcir                                   sat                           0.05        0.09        None                False
+k0326191.connected.oe.qcir                           sat                           0.11        0.15        None                False
+k0326578.connected.oe.qcir                           sat                           0.10        0.15        None                False
+k0327178.c.oe.qcir                                   sat                           0.06        0.09        None                False
+k0327178.connected.oe.qcir                           sat                           0.11        0.17        None                False
+k0327620.h.oe.qcir                                   sat                           0.06        0.11        None                False
+k0327694.v.oe.qcir                                   sat                           0.05        0.12        None                False
+klieber2017q-048-12-eq.qcir                          sat                         118.84      118.81        None                False
+klieber2017q-048-12-t1.qcir                          unsat                        42.33       42.36        None                False
+klieber2017q-052-13-eq.qcir                          TIMEOUT                     901.79      901.19        None                False
+klieber2017q-056-14-eq.qcir                          TIMEOUT                     901.61      901.11        None                False
+klieber2017q-060-15-eq.qcir                          TIMEOUT                     901.74      901.11        None                False
+klieber2017q-060-15-t1.qcir                          OUT OF MEMORY                33.45       33.48        None                False
+klieber2017q-062-15-eq.qcir                          TIMEOUT                     901.72      901.11        None                False
+klieber2017q-062-15-t1.qcir                          TIMEOUT                     901.71      901.08        None                False
+klieber2017q-064-16-eq.qcir                          TIMEOUT                     901.75      901.15        None                False
+klieber2017q-064-16-t1.qcir                          TIMEOUT                     901.78      901.18        None                False
+klieber2017q-066-16-eq.qcir                          OUT OF MEMORY                34.76       34.81        None                False
+klieber2017q-066-16-t1.qcir                          TIMEOUT                     901.88      901.26        None                False
+klieber2017q-068-17-eq.qcir                          TIMEOUT                     901.73      901.21        None                False
+klieber2017q-068-17-t1.qcir                          OUT OF MEMORY                31.20       31.23        None                False
+klieber2017q-070-17-eq.qcir                          OUT OF MEMORY                32.93       32.95        None                False
+klieber2017q-070-17-t1.qcir                          OUT OF MEMORY                33.36       33.37        None                False
+klieber2017q-072-18-eq.qcir                          TIMEOUT                     901.75      901.15        None                False
+klieber2017q-072-18-t1.qcir                          TIMEOUT                     901.82      901.19        None                False
+klieber2017q-074-18-eq.qcir                          TIMEOUT                     901.74      901.13        None                False
+klieber2017q-074-18-t1.qcir                          TIMEOUT                     901.74      901.15        None                False
+klieber2017q-076-19-eq.qcir                          OUT OF MEMORY                29.35       29.39        None                False
+klieber2017q-076-19-t1.qcir                          TIMEOUT                     901.82      901.30        None                False
+klieber2017q-078-19-eq.qcir                          OUT OF MEMORY                32.92       32.96        None                False
+klieber2017q-078-19-t1.qcir                          OUT OF MEMORY                31.44       31.46        None                False
+klieber2017q-080-20-t1.qcir                          OUT OF MEMORY                31.98       32.01        None                False
+klieber2017q-082-20-t1.qcir                          TIMEOUT                     901.78      901.19        None                False
+klieber2017q-084-21-eq.qcir                          OUT OF MEMORY                29.96       29.99        None                False
+klieber2017q-084-21-t1.qcir                          OUT OF MEMORY                33.52       33.55        None                False
+klieber2017q-086-21-t1.qcir                          TIMEOUT                     901.93      901.31        None                False
+klieber2017q-088-22-eq.qcir                          TIMEOUT                     901.85      901.24        None                False
+klieber2017q-088-22-t1.qcir                          TIMEOUT                     901.77      901.16        None                False
+klieber2017q-100-25-t1.qcir                          TIMEOUT                     901.86      901.26        None                False
+klieber2017q-104-26-t1.qcir                          OUT OF MEMORY                30.57       30.61        None                False
+klieber2017q-108-27-t1.qcir                          OUT OF MEMORY                31.67       31.72        None                False
+klieber2017q-112-28-t1.qcir                          OUT OF MEMORY                29.38       29.41        None                False
+load_2c_comp_comp7_REAL.sat.qcir                     OUT OF MEMORY               254.52      254.39        None                False
+load_3c_comp_comp7_REAL.unsat.qcir                   TIMEOUT                     901.61      901.10        None                False
+load_full_4_comp3_REAL.unsat.qcir                    TIMEOUT                     901.87      901.24        None                False
+ltl2dba_C2-6_comp3_REAL.sat.qcir                     OUT OF MEMORY                73.84       73.83        None                False
+ltl2dba_C2-8_comp4_REAL.sat.qcir                     OUT OF MEMORY               306.55      306.38        None                False
+ltl2dpa_C26_comp2_REAL.sat.qcir                      OUT OF MEMORY               111.27      111.24        None                False
+mult9.sat.qcir                                       OUT OF MEMORY                25.69       25.71        None                False
+mult_bool_matrix_10_9_11.sat.qcir                    OUT OF MEMORY                19.39       19.42        None                False
+mult_bool_matrix_10_9_11.unsat.qcir                  OUT OF MEMORY                19.96       19.99        None                False
+mult_bool_matrix_12_13_11.sat.qcir                   OUT OF MEMORY                13.11       13.15        None                False
+mult_bool_matrix_17_17_17.sat.qcir                   OUT OF MEMORY                17.53       17.56        None                False
+mult_bool_matrix_18_18_18.sat.qcir                   OUT OF MEMORY                17.81       17.83        None                False
+mult_bool_matrix_dyn_9_5.sat.qcir                    OUT OF MEMORY               170.43      170.35        None                False
+nreachq_query11_1133.qcir                            unsat                         0.37        0.41        None                False
+nreachq_query54_1133.qcir                            unsat                        17.21       17.24        None                False
+nreachq_query71_1133.qcir                            unsat                         6.65        6.70        None                False
+nreachq_query71_1344.qcir                            OUT OF MEMORY                29.81       29.85        None                False
+ntrivil_query42_1133.qcir                            sat                           1.00        1.03        None                False
+ntrivil_query64_1133.qcir                            sat                           0.37        0.49        None                False
+ntrivil_query64_1344.qcir                            TIMEOUT                     901.80      901.18        None                False
+ntrivil_query71_1133.qcir                            sat                           0.36        0.41        None                False
+ntrivil_query71_1344.qcir                            TIMEOUT                     901.90      901.27        None                False
+nxquery_query42_1133.qcir                            sat                           0.22        0.27        None                False
+nxquery_query50_1133.qcir                            unsat                         0.01        0.04        None                False
+nxquery_query64_1133.qcir                            sat                           0.09        0.14        None                False
+nxquery_query71_1133.qcir                            unsat                         0.08        0.14        None                False
+nxquery_query71_1344.qcir                            sat                          85.87       85.85        None                False
+query64_query11_1133.qcir                            unsat                         0.13        0.19        None                False
+query64_query42_1133.qcir                            unsat                         1.83        1.87        None                False
+query71_query31_1133.qcir                            unsat                         0.75        0.79        None                False
+query71_query34_1133.qcir                            unsat                         1.41        1.45        None                False
+query71_query36_1133.qcir                            unsat                         0.75        0.78        None                False
+reachqu_query60_1133.qcir                            sat                          62.18       62.17        None                False
+reachqu_query60_1344.qcir                            OUT OF MEMORY                29.79       29.80        None                False
+reachqu_query64_1133.qcir                            sat                         410.95      410.70        None                False
+reachqu_query64_1344.qcir                            OUT OF MEMORY                30.64       30.65        None                False
+reachqu_query71_1344.qcir                            OUT OF MEMORY                30.57       30.62        None                False
+stay24n.sat.qcir                                     OUT OF MEMORY                32.22       32.25        None                False
+trivial_query60_1133.qcir                            sat                           0.24        0.30        None                False
+trivial_query64_1133.qcir                            sat                           0.41        0.46        None                False
+trivial_query64_1344.qcir                            TIMEOUT                     901.77      901.15        None                False
+trivial_query71_1133.qcir                            sat                           0.37        0.46        None                False
+trivial_query71_1344.qcir                            TIMEOUT                     901.80      901.26        None                False
+trueque_query60_1133.qcir                            sat                           0.05        0.09        None                False
+trueque_query64_1133.qcir                            sat                           0.06        0.09        None                False
+trueque_query64_1344.qcir                            TIMEOUT                     901.70      901.07        None                False
+trueque_query71_1133.qcir                            sat                           0.05        0.11        None                False
+trueque_query71_1344.qcir                            sat                         267.21      267.05        None                False
+------------------------------------------------------------------------------------------------------------------------------------
+Run set 7                                            done                      79422.62    13560.32           -
+
+
+tree-simpleelimination-continuous.qbf20PNCNF
+Run set 8 of 15: skipped 
+
+
+tree-simpleelimination-varsinconjuncts.qbf20PNCNF
+Run set 9 of 15: skipped 
+
+
+nodynreorder-tree-simpleelimination-atbeginning.qbf20PNCNF
+Run set 10 of 15: skipped 
+
+
+nodynreorder-tree-simpleelimination-continuous.qbf20PNCNF
+Run set 11 of 15: skipped 
+
+
+nodynreorder-tree-simpleelimination-varsinconjuncts.qbf20PNCNF
+Run set 12 of 15: skipped 
+
+
+tree-fullelimination-atbeginning.qbf20PNCNF
+Run set 13 of 15: skipped 
+
+
+tree-fullelimination-continuous.qbf20PNCNF
+Run set 14 of 15: skipped 
+
+
+tree-fullelimination-varsinconjuncts.qbf20PNCNF
+Run set 15 of 15: skipped 
+
+Statistics:            678 Files
+  correct:               0
+    correct true:        0
+    correct false:       0
+  incorrect:             0
+    incorrect true:      0
+    incorrect false:     0
+  unknown:             498
