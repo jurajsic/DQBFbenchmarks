@@ -1,5 +1,5 @@
 # DQBFbenchmarks
-Benchmarks of different DQBF solvers using [BenchExec](https://github.com/sosy-lab/benchexec) framework
+Benchmarks of different DQBF solvers using [BenchExec](https://github.com/sosy-lab/benchexec) framework used for my [master's thesis](https://is.muni.cz/th/prexv/) and DQBDD tool paper.
 
 ## Structure
 ```
@@ -10,7 +10,12 @@ contains all benchmark sets. See the files `explanation.txt` inside this folder 
 ```
 results/
 ```
-contains the results of all solvers on all benchmarks.
+contains the raw results of all solvers on all benchmarks where
+
+```
+results/combinedresults
+```
+contains Microsoft Excel files with nicely summarised comparison of solvers for each benchmark (as used in my [master's thesis](https://is.muni.cz/th/prexv/) and DQBDD tool paper).
 
 ```
 solvers/
