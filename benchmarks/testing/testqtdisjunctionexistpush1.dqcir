@@ -1,0 +1,8 @@
+# ∀x∃y(∅) : ((x ∧ y) ∨ (¬x ∧ ¬y))
+# UNSAT
+forall(1)
+henkin(2)
+output(5)
+3 = and(1, 2)
+4 = and(-1, -2)
+5 = or(3,4)
