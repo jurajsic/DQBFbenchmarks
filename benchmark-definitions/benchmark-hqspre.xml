@@ -10,6 +10,16 @@
     <option name="--pipe"/>
   </rundefinition>
   
+  <rundefinition name="pipebetteroptions">
+    <option name="--pipe"/>
+    <option name="--bla">false</option>
+    <option name="--ble">false</option>
+    <option name="--ic">3</option>
+    <option name="--max_substitution_cost">250</option>
+    <option name="--max_resolution_cost">100</option>
+    <option name="--vivify_fp">true</option>
+  </rundefinition>
+  
   <!-- test benchmarks -->
   <tasks name="test">
     <include>../benchmarks/testing/*.dqdimacs</include>
