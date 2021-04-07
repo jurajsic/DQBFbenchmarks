@@ -1,8 +1,13 @@
-Benchmarks created by running HQSpre on original benchmarks. Each benchmark was created by unzipping the corresponding .zip file of benchexec log files and then running the script ./cleanresults.sh on the directory.
+Benchmarks created by running HQSpre (version used in HQS downloaded from https://abs.informatik.uni-freiburg.de/src/projects_view.php?projectID=21 at 18-03-2021, with the same options as used in DQBDD v1.2) on original benchmarks.
+See 'results/benchmark-hqspre.2021-03-31_0736.logfiles.zip', these were unzipped into this directory, divided into benchmark sets and for each benchmark set
+./cleanresults.sh -p DIRNAME > DIRNAME.set
+was run, which created proper DQDIMACS files (and left only those, which were not solved by HQSpre) and a task set file DIRNAME.set, which contains paths to original DQDIMACS files (only those which were not solved by HQSpre).
 
-dqbf19 - benchmarks used for DQBF track of QBF Evaluation 2019 competition
-PEC - DQBFs  resulting  from  equivalence  checking  of  incomplete  circuits (Scholl, Biere, Finkbeiner benchmarks from original)
-SAT - instances obtained from converting SATinstances into DQBFs that depend only on a logarithmic number of variables (Balabanov benchmarks from original)
+The benchmark sets are these:
+PEC1 - DQBFs  resulting  from  equivalence  checking  of  incomplete  circuits (Biere benchmarks from original)
+PEC2 - DQBFs  resulting  from  equivalence  checking  of  incomplete  circuits (Finkbeiner benchmarks from original)
+PEC3 - DQBFs  resulting  from  equivalence  checking  of  incomplete  circuits (Scholl benchmarks from original)
+SAT - instances obtained from converting SAT instances into DQBFs that depend only on a logarithmic number of variables (Balabanov benchmarks from original)
 CSP - DQBFs  resulting  from  controller synthesis problems (Bloem benchmarks from original)
 
 See explanation.txt in 'original/' for more info about the original benchmarks

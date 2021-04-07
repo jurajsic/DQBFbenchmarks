@@ -1,5 +1,4 @@
 testing - some test benchmarks + in testing/dcaqebug/dcaqebugsimple.dqdimacs is a simple DQBF which dCAQE 4.0.1 solves wrong (it determines satisfiability even though it is not satisfiable)
 
 original - all benchmarks without any changes
-afterhqspre - results from HQSpre on original (only those which were not solved by HQSpre or did not timeout)
-originalhqspreunsolved - those from original which were not solved by HQSpre
+afterhqspre - results from HQSpre on original (only those which were not solved by HQSpre or did not timeout/memout)

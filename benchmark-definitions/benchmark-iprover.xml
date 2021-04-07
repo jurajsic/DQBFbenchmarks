@@ -34,8 +34,14 @@
   </tasks>
   
   <!-- benchmarks from equivalence  checking  of  incomplete  circuits -->
-  <tasks name="PEC">
-    <include>../benchmarks/afterhqspre/PEC/*.dqdimacs</include>
+  <tasks name="PEC1">
+    <include>../benchmarks/afterhqspre/PEC1/*.dqdimacs</include>
+  </tasks>
+  <tasks name="PEC2">
+    <include>../benchmarks/afterhqspre/PEC2/*.dqdimacs</include>
+  </tasks>
+  <tasks name="PEC3">
+    <include>../benchmarks/afterhqspre/PEC3/*.dqdimacs</include>
   </tasks>
   
   <!-- benchmarks from converting SATinstances into DQBFs -->

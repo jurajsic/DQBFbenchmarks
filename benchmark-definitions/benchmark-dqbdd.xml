@@ -144,18 +144,24 @@
   </tasks>
   
   <!-- benchmarks from equivalence  checking  of  incomplete  circuits -->
-  <tasks name="PEC">
-    <include>../benchmarks/originalhqspreunsolved/PEC/*.dqdimacs</include>
+  <tasks name="PEC1">
+    <includesfile>../benchmarks/afterhqspre/PEC1.set</includesfile>
+  </tasks>
+  <tasks name="PEC2">
+    <includesfile>../benchmarks/afterhqspre/PEC2.set</includesfile>
+  </tasks>
+  <tasks name="PEC3">
+    <includesfile>../benchmarks/afterhqspre/PEC3.set</includesfile>
   </tasks>
   
   <!-- benchmarks from converting SATinstances into DQBFs -->
   <tasks name="SAT">
-    <include>../benchmarks/originalhqspreunsolved/SAT/*.dqdimacs</include>
+    <includesfile>../benchmarks/afterhqspre/SAT.set</includesfile>
   </tasks>
   
   <!-- benchmarks from controller synthesis problems -->
   <tasks name="CSP">
-    <include>../benchmarks/originalhqspreunsolved/CSP/*.dqdimacs</include>
+    <includesfile>../benchmarks/afterhqspre/CSP.set</includesfile>
   </tasks>
 
   <!-- QBF benchmark sets -->
@@ -175,7 +181,19 @@
   </tasks>
 
   <columns>
-    <column title="Preprocessor solved">Solved by preprocessor</column>
+    <column title="HQSpre solved">Solved by preprocessor</column>
+  </columns>
+
+  <columns>
+    <column title="QT created">Quantifier tree created</column>
+  </columns>
+
+  <columns>
+    <column title="quantifiers pushed">Quantifiers pushed inside</column>
+  </columns>
+
+  <columns>
+    <column title="BDD created">BDD formula created</column>
   </columns>
 
 </benchmark>
