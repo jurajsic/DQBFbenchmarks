@@ -52,9 +52,6 @@
   
   <columns>
     <column title="HQSpre solved">Solved by preprocessor.</column>
-  </columns>
-
-  <columns>
     <column title="QBF filter solved">Solved by QBF filter.</column>
   </columns>
 

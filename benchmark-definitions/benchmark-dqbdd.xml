@@ -182,17 +182,8 @@
 
   <columns>
     <column title="HQSpre solved">Solved by preprocessor</column>
-  </columns>
-
-  <columns>
     <column title="QT created">Quantifier tree created</column>
-  </columns>
-
-  <columns>
     <column title="quantifiers pushed">Quantifiers pushed inside</column>
-  </columns>
-
-  <columns>
     <column title="BDD created">BDD formula created</column>
   </columns>
 
