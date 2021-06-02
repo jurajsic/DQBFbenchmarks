@@ -6,3 +6,5 @@
 /nohup.out
 /results/*.html
 /results/*.csv
+.DS_Store
+
