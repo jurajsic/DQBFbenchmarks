@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE benchmark PUBLIC "+//IDN sosy-lab.org//DTD BenchExec benchmark 1.18//EN" "https://www.sosy-lab.org/benchexec/benchmark-1.18.dtd">
+<benchmark tool="dqbftoolinfos.pedant"
+           timelimit="15min"
+           memlimit="4000 MB"
+           cpuCores="1"
+           threads="6">
+    
+  <rundefinition/>
+           
+  <tasks name="testing">
+    <include>../benchmarks/testing/*.dqdimacs</include>
+  </tasks>
+  
+  <!-- benchmarks from equivalence  checking  of  incomplete  circuits -->
+  <tasks name="PEC1">
+    <include>../benchmarks/afterhqspre/PEC1/*.dqdimacs</include>
+  </tasks>
+  <tasks name="PEC2">
+    <include>../benchmarks/afterhqspre/PEC2/*.dqdimacs</include>
+  </tasks>
+  <tasks name="PEC3">
+    <include>../benchmarks/afterhqspre/PEC3/*.dqdimacs</include>
+  </tasks>
+  
+  <!-- benchmarks from converting SATinstances into DQBFs -->
+  <tasks name="SAT">
+    <include>../benchmarks/afterhqspre/SAT/*.dqdimacs</include>
+  </tasks>
+  
+  <!-- benchmarks from controller synthesis problems -->
+  <tasks name="CSP">
+    <include>../benchmarks/afterhqspre/CSP/*.dqdimacs</include>
+  </tasks>
+
+</benchmark>

@@ -1,5 +1,5 @@
 # DQBFbenchmarks
-Benchmarks of different DQBF solvers using [BenchExec](https://github.com/sosy-lab/benchexec) framework used for my [master's thesis](https://is.muni.cz/th/prexv/) and DQBDD tool paper.
+Benchmarks of different DQBF solvers using [BenchExec](https://github.com/sosy-lab/benchexec) framework used for my [master's thesis](https://is.muni.cz/th/prexv/) and DQBDD tool paper. See the [tagged](https://github.com/jurajsic/DQBFbenchmarks/tags) versions for the exact commit used for these.
 
 ## Structure
 ```
