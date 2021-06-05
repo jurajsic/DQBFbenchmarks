@@ -11,22 +11,6 @@
   <tasks name="testing">
     <include>../benchmarks/testing/*.dqdimacs</include>
   </tasks>
-
-
-  <!-- benchmarks from QBFeval18 -->
-  <tasks name="dqbf18">
-    <include>../benchmarks/originalhqspreunsolved/dqbf18/*.dqdimacs</include>
-  </tasks>
-  
-  <!-- benchmarks from QBFeval19 -->
-  <tasks name="dqbf19">
-    <include>../benchmarks/originalhqspreunsolved/dqbf19/*.dqdimacs</include>
-  </tasks>
-  
-  <!-- benchmarks from QBFeval20 -->
-  <tasks name="dqbf20">
-    <include>../benchmarks/original/dqbf20/*.dqdimacs</include>
-  </tasks>
   
   <!-- benchmarks from equivalence  checking  of  incomplete  circuits -->
   <tasks name="PEC1">
