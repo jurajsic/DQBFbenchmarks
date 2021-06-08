@@ -14,23 +14,23 @@
   
   <!-- benchmarks from equivalence  checking  of  incomplete  circuits -->
   <tasks name="PEC1">
-    <include>../benchmarks/afterhqspre/PEC1/*.dqdimacs</include>
+    <includesfile>../benchmarks/afterhqspre/PEC1.set</includesfile>
   </tasks>
   <tasks name="PEC2">
-    <include>../benchmarks/afterhqspre/PEC2/*.dqdimacs</include>
+    <includesfile>../benchmarks/afterhqspre/PEC2.set</includesfile>
   </tasks>
   <tasks name="PEC3">
-    <include>../benchmarks/afterhqspre/PEC3/*.dqdimacs</include>
+    <includesfile>../benchmarks/afterhqspre/PEC3.set</includesfile>
   </tasks>
   
   <!-- benchmarks from converting SATinstances into DQBFs -->
   <tasks name="SAT">
-    <include>../benchmarks/afterhqspre/SAT/*.dqdimacs</include>
+    <includesfile>../benchmarks/afterhqspre/SAT.set</includesfile>
   </tasks>
   
   <!-- benchmarks from controller synthesis problems -->
   <tasks name="CSP">
-    <include>../benchmarks/afterhqspre/CSP/*.dqdimacs</include>
+    <includesfile>../benchmarks/afterhqspre/CSP.set</includesfile>
   </tasks>
 
 </benchmark>
