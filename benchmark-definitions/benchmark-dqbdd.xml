@@ -57,6 +57,8 @@
     <option name="--localise">1</option>
     <option name="--elimination-choice">1</option>
     <option name="--uvar-choice">0</option>
+    <option name="--initial-ordering">1</option>
+    <option name="--verbose=9"></option>
   </rundefinition>
   
   <rundefinition name="tree-simpleelimination-continuous">
